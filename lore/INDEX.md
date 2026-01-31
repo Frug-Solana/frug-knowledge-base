@@ -7,12 +7,17 @@
 > - `confidence`: known | inferred | uncertain
 
 ## Start here
-- **World overview:** [lore/pages/world_overview.md](pages/world_overview.md)
-- **Timeline:** [lore/pages/timeline.md](pages/timeline.md)
-- **Characters & entities:** [lore/pages/characters/README.md](pages/characters/README.md)
-- **Locations & sectors:** [lore/pages/locations/README.md](pages/locations/README.md)
-- **Systems / Terminal:** [lore/pages/systems/terminal.md](pages/systems/terminal.md)
-- **Glossary (in-universe terms):** [lore/pages/glossary.md](pages/glossary.md)
+- **World overview (Section A):**
+  - Overview: [lore/pages/world_overview.md](pages/world_overview.md)
+  - Index: [lore/pages/world/INDEX.md](pages/world/INDEX.md)
+  - Core premise: [lore/pages/world/core_premise.md](pages/world/core_premise.md)
+  - Tone & style: [lore/pages/world/tone_and_style.md](pages/world/tone_and_style.md)
+  - Truth model: [lore/pages/world/truth_model.md](pages/world/truth_model.md)
+- **Timeline (Section B):** [lore/pages/timeline.md](pages/timeline.md)
+- **Locations & sectors (Section C):** [lore/pages/locations/README.md](pages/locations/README.md)
+- **Characters & entities (Section D):** [lore/pages/characters/README.md](pages/characters/README.md)
+- **Systems / Terminal (Section E):** [lore/pages/systems/terminal.md](pages/systems/terminal.md)
+- **Glossary (Section F):** [lore/pages/glossary.md](pages/glossary.md)
 
 ## Canon chunks (stable IDs)
 Canon is stored as small chunks in [`lore/chunks/`](chunks/).
