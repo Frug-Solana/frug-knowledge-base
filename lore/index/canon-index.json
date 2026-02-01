@@ -1,5 +1,5 @@
 {
-  "chunk_count": 23,
+  "chunk_count": 25,
   "chunks": [
     {
       "confidence": "uncertain",
@@ -128,6 +128,58 @@
         "autonomous"
       ],
       "title": "KERMIT - Island AI System",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "the_observer",
+        "frug"
+      ],
+      "excerpt": "Big Frugowski The Observer Designation: The Observer / FRUG / Big Frugowski Status: Active Stable multi variant hybrid Classification: The only documented stable transformation Current Location: Observation House 04, rotating to Terminal 7 ",
+      "id": "LORE.CHAR.0003",
+      "kind": "canon_chunk",
+      "locations": [
+        "degenora_island",
+        "observation_house_04",
+        "terminal_7b"
+      ],
+      "path": "lore/chunks/CHARACTERS/big-frugowski-profile.md",
+      "sha1": "20e9ea03b7016bcdd2f301c89a0b8067341f7709",
+      "status": "active",
+      "tags": [
+        "character",
+        "protagonist",
+        "observer",
+        "stable_hybrid"
+      ],
+      "title": "Big Frugowski - The Observer",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "frog_coin",
+        "frug_token",
+        "flog",
+        "airdrop"
+      ],
+      "excerpt": "The Rug From FLOG to FRUG Date: Year 1 (Pre FRUG Era) Event: Token transformation via airdrop Classification: Origin event Status: Historical record Verified The FLOG Era Before FRUG, there was FLOG. FLOG was launched as a standard meme coi",
+      "id": "LORE.HIST.0001",
+      "kind": "canon_chunk",
+      "locations": [],
+      "path": "lore/chunks/HISTORY/the-rug-origin.md",
+      "sha1": "4fe4bc9a64964fa56c631edd84730fedcc9d3626",
+      "status": "active",
+      "tags": [
+        "history",
+        "origin",
+        "token",
+        "rugged",
+        "rebirth"
+      ],
+      "title": "The Rug - From FLOG to FRUG",
       "truth_level": "canon"
     },
     {
@@ -538,5 +590,5 @@
       "truth_level": "canon"
     }
   ],
-  "generated_at": "2026-02-01T14:48:33.166689+00:00"
+  "generated_at": "2026-02-01T15:11:33.794571+00:00"
 }
