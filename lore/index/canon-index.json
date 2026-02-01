@@ -1,6 +1,321 @@
 {
-  "chunk_count": 1,
+  "chunk_count": 23,
   "chunks": [
+    {
+      "confidence": "uncertain",
+      "entities": [],
+      "excerpt": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\" Recovered from an unindexed spool. Header checksum does not match body. Excerpt: `` They told us it was a key. But it doesn\u2019t open anything. It only convinces the Terminal that it already has.",
+      "id": "ARCHIVE.FRAGMENT.0001",
+      "kind": "archive_fragment",
+      "locations": [],
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0001.md",
+      "sha1": "14f58c1e3f91bba21c3d3d5afbce711afdcf61c8",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "recovered"
+      ],
+      "title": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\"",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "ARCHIVE FRAGMENT 0002: Partial Transcript Audio transcript reconstruction; speaker labels inferred. [VOICE A] : \"If the map updates itself, who\u2019s drawing it?\" [VOICE B] : \"No one. That\u2019s the problem.\" [VOICE A] : \"Then why does it keep poin",
+      "id": "ARCHIVE.FRAGMENT.0002",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0002.md",
+      "sha1": "cecbf60533ac446b008d824e8b7a78ed87685cfa",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "transcript"
+      ],
+      "title": "ARCHIVE FRAGMENT 0002: Partial Transcript",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "ARCHIVE FRAGMENT 0003: Redacted Memo Document is visibly retyped. Original ink impressions missing. TO: Operations SUBJECT: \"Do not acknowledge the second prompt\" BODY: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \"If it asks twice, end the session.\" \u2588\u2588\u2588\u2588",
+      "id": "ARCHIVE.FRAGMENT.0003",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0003.md",
+      "sha1": "5f3eb4a778eafe8e557ba8e4a97053e3613876c0",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "memo"
+      ],
+      "title": "ARCHIVE FRAGMENT 0003: Redacted Memo",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "CORRUPTED LOG 0001: Terminal Session `` CONNECT \u2026 AUTH \u2588\u2588\u2588\u2588 ACCESS: GRANTED QUERY: origin RESPONSE: [REDACTED] QUERY: origin RESPONSE: DO NOT REPEAT THE QUESTION QUERY: ori\u2014 SESSION TERMINATED `` Integrity: 62% (estimated).",
+      "id": "CORRUPTED.LOG.0001",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/CORRUPTED.LOG.0001.md",
+      "sha1": "1f3dc68d4366aa5b1c501754d76d981e50f0651f",
+      "status": "active",
+      "tags": [
+        "corrupted_log",
+        "terminal"
+      ],
+      "title": "CORRUPTED LOG 0001: Terminal Session",
+      "truth_level": "corrupted"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "CORRUPTED LOG 0002: Sector Index Drift The same sector appears under three names in the same minute. `` INDEX[07]: terminal 7b INDEX[07]: terminal 7B INDEX[07]: t3rm1n4l 7b WARNING: canonicalization failure WARNING: canonicalization failure",
+      "id": "CORRUPTED.LOG.0002",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/CORRUPTED.LOG.0002.md",
+      "sha1": "86290f509fabf0315a8fcfa22488285669fb5a30",
+      "status": "active",
+      "tags": [
+        "corrupted_log",
+        "navigation"
+      ],
+      "title": "CORRUPTED LOG 0002: Sector Index Drift",
+      "truth_level": "corrupted"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "ramirez",
+        "dr_chen"
+      ],
+      "excerpt": "Big Frugowski ID: bf 04 Clearance: Level 6 (Emergency post incident) Status: ACTIVE \u2022 TRANSFORMED \u2022 NEUTRALIZED \u2022 ESSENTIAL PERSONNEL Title: Chief Documentation Officer Transformation Big Frugowski was exposed to ALL SIX pharmaceutical vari",
+      "id": "LORE.CHAR.0001",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04",
+        "residential_zone"
+      ],
+      "path": "lore/chunks/CHARACTERS/frugowski-profile.md",
+      "sha1": "a29f6e990805e8c178a3077092232de3b8dad5c9",
+      "status": "active",
+      "tags": [
+        "character",
+        "protagonist",
+        "documentarian",
+        "transformed",
+        "pumpstan"
+      ],
+      "title": "Big Frugowski",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "kermit",
+        "big_frugowski"
+      ],
+      "excerpt": "KERMIT Island AI System Designation: PSCL Autonomous Monitoring System ID: sys kermit Status: ACTIVE \u2022 SELF SUSTAINING \u2022 INDEPENDENT Full Name: Knowledge & Environmental Resource Monitoring Intelligence Terminal Nickname: The island calls i",
+      "id": "LORE.CHAR.0002",
+      "kind": "canon_chunk",
+      "locations": [
+        "terminal_7b",
+        "main_facility"
+      ],
+      "path": "lore/chunks/CHARACTERS/kermit-system.md",
+      "sha1": "174592e1474d9ea877b4cd1c7d298113b32eea9b",
+      "status": "active",
+      "tags": [
+        "character",
+        "ai_system",
+        "monitoring",
+        "autonomous"
+      ],
+      "title": "KERMIT - Island AI System",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "kermit",
+        "big_frugowski",
+        "unknown_founders"
+      ],
+      "excerpt": "Terminal 7 B Location: Main Facility Terminal 7 B Station Status: Only remaining external connection to the island Uptime: 15 years continuous operation Purpose Terminal 7 B serves as the interface left active for unknown founders to monito",
+      "id": "LORE.LOC.0001",
+      "kind": "canon_chunk",
+      "locations": [
+        "terminal_7b",
+        "main_facility"
+      ],
+      "path": "lore/chunks/LOCATIONS/terminal-7b.md",
+      "sha1": "fe75cb01b5d572932a1088ed996dc613d4db7277",
+      "status": "active",
+      "tags": [
+        "location",
+        "interface",
+        "technology",
+        "communication"
+      ],
+      "title": "Terminal 7-B",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski"
+      ],
+      "excerpt": "Observation House 04 (OH 04) Designation: Observation House 04 Coordinates: x: 32, y: 60 Distance: 3.2km from main facility Status: Permanent residence since Year 1 Description Observation House 04 serves as Big Frugowski's permanent reside",
+      "id": "LORE.LOC.0002",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04"
+      ],
+      "path": "lore/chunks/LOCATIONS/observation-house-04.md",
+      "sha1": "6f9fab0e609900fab1b399380b442f2dc058f2aa",
+      "status": "active",
+      "tags": [
+        "location",
+        "residence",
+        "observation_post",
+        "frugowski"
+      ],
+      "title": "Observation House 04 (OH-04)",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "dr_chen",
+        "ramirez",
+        "kermit"
+      ],
+      "excerpt": "Degenora Island Overview Designation: Degenora Island Status: Active quarantine zone pharmaceutical contamination Population: Transformed specimens (former PSCL personnel and wildlife) Current Era: Year 15 post incident Geography Degenora i",
+      "id": "LORE.LOC.0003",
+      "kind": "canon_chunk",
+      "locations": [
+        "degenora_island",
+        "main_facility",
+        "observation_house_04",
+        "terminal_7b",
+        "residential_zone",
+        "wetlands",
+        "coastal_sector",
+        "northern_sector",
+        "underground_labs"
+      ],
+      "path": "lore/chunks/LOCATIONS/island-overview.md",
+      "sha1": "8301d5cbf614819d5e35e19e29967abc75c40eab",
+      "status": "active",
+      "tags": [
+        "location",
+        "island",
+        "ecosystem",
+        "pharmaceutical",
+        "quarantine"
+      ],
+      "title": "Degenora Island - Overview",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows"
+      ],
+      "excerpt": "Field Report FR 003: The Queen Appears Report ID: FR 003 Title: The Queen Appears Classification: LEVEL 5 Type: DISCOVERY Date: Year 1, Month 6, Day 8 Time: 19:45 Location: OH 04 Perimeter Coordinates: x: 35, y: 58 Report Something new toni",
+      "id": "LORE.REPT.0001",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04"
+      ],
+      "path": "lore/chunks/FIELD_REPORTS/report-queen-first-sighting.md",
+      "sha1": "b0cba5af1d38d90a22549ebc7459975e7d67e756",
+      "status": "active",
+      "tags": [
+        "field_report",
+        "discovery",
+        "year_1",
+        "queen_of_shadows",
+        "c47"
+      ],
+      "title": "Field Report FR-003: The Queen Appears",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "ramirez"
+      ],
+      "excerpt": "Field Report FR 012: Ramirez Sighting Report ID: FR 012 Title: Ramirez Sighting Classification: LEVEL 5 Type: PERSONAL NOTE Date: Year 2, Month 1, Day 22 Time: 11:30 Location: Residential Zone Border Coordinates: x: 60, y: 42 Report I saw R",
+      "id": "LORE.REPT.0002",
+      "kind": "canon_chunk",
+      "locations": [
+        "residential_zone"
+      ],
+      "path": "lore/chunks/FIELD_REPORTS/report-ramirez-sighting.md",
+      "sha1": "e9777fcfa41ab68c657ba91ea14b7a834f955af8",
+      "status": "active",
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_2",
+        "ramirez",
+        "patient_zero"
+      ],
+      "title": "Field Report FR-012: Ramirez Sighting",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "excerpt": "Field Report FR 045: Dr. Chen's Final Visit Report ID: FR 045 Title: Dr. Chen's Final Visit Classification: PUBLIC Type: PERSONAL NOTE Date: Year 5, Month 8, Day 14 Time: 16:00 Location: OH 04 Coordinates: x: 32, y: 60 Report Dr. Chen visit",
+      "id": "LORE.REPT.0003",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04"
+      ],
+      "path": "lore/chunks/FIELD_REPORTS/report-chen-final-visit.md",
+      "sha1": "2c3dd3ef5af678829094dcd543a02ca714bb206a",
+      "status": "active",
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_5",
+        "protocol_r23",
+        "final_visit"
+      ],
+      "title": "Field Report FR-045: Dr. Chen's Final Visit",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows",
+        "ramirez",
+        "dr_chen"
+      ],
+      "excerpt": "Field Report FR 301: Fifteen Years Report ID: FR 301 Title: Fifteen Years Classification: PUBLIC Type: PERSONAL NOTE Date: Year 15, Month 1, Day 1 Time: 00:00 (Midnight) Location: OH 04 Coordinates: x: 32, y: 60 Report Year 15 begins. 40+ s",
+      "id": "LORE.REPT.0004",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04"
+      ],
+      "path": "lore/chunks/FIELD_REPORTS/report-fifteen-years.md",
+      "sha1": "5e2713867ad7e4e9ed7a4e1796583145055a5586",
+      "status": "active",
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_15",
+        "fifteen_years",
+        "tradition"
+      ],
+      "title": "Field Report FR-301: Fifteen Years",
+      "truth_level": "canon"
+    },
     {
       "confidence": "known",
       "entities": [],
@@ -16,7 +331,212 @@
       ],
       "title": "Lore seed chunk (placeholder)",
       "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "apex_glimmer"
+      ],
+      "excerpt": "Specimens: Apex Predators Shadow Stalker Relationship: EC 001 Active Predation of Bog Hoppers Shadow Stalkers are highly coordinated pack hunters that primarily target Bog Hoppers during twilight hours. Their chase patterns reveal sophistic",
+      "id": "LORE.SPEC.0001",
+      "kind": "canon_chunk",
+      "locations": [
+        "degenora_island"
+      ],
+      "path": "lore/chunks/SPECIMENS/specimens-apex.md",
+      "sha1": "fc97c55adb120e41d49cb3127b367066a35efd5c",
+      "status": "active",
+      "tags": [
+        "specimen",
+        "apex_predator",
+        "predator",
+        "threat_high"
+      ],
+      "title": "Specimens: Apex Predators",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "deep_dweller"
+      ],
+      "excerpt": "Specimens: Wetlands Bog Hoppers ID: bog hopper Variant: B 12X (Green) + L 19 (Yellow) First Documented: Year 1, Month 2 (Fr 001) Population: 1,000+ Threat Level: MODERATE Territory: x: 35, y: 72, range: 10 Observations: 89 documented Last S",
+      "id": "LORE.SPEC.0002",
+      "kind": "canon_chunk",
+      "locations": [
+        "wetlands",
+        "coastal_sector",
+        "green_pond"
+      ],
+      "path": "lore/chunks/SPECIMENS/specimens-wetlands.md",
+      "sha1": "ce71c19c1ce40ae6b74a6806ebb4e7f9df953432",
+      "status": "active",
+      "tags": [
+        "specimen",
+        "wetlands",
+        "amphibious",
+        "aquatic"
+      ],
+      "title": "Specimens: Wetlands",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows"
+      ],
+      "excerpt": "Specimens: Forest Queen of Shadows (Sable Fox) ID: sable fox Name: Queen of Shadows Variant: C 47 (Red) pure First Documented: Year 1, Month 6 (FR 003) Population: 1 documented Threat Level: UNKNOWN Territory: x: 42, y: 58, range: 8 Observa",
+      "id": "LORE.SPEC.0003",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04",
+        "forest",
+        "degenora_island"
+      ],
+      "path": "lore/chunks/SPECIMENS/specimens-forest.md",
+      "sha1": "0f37e4b4453f12c2c985f7de2c726bf6e74b9f52",
+      "status": "active",
+      "tags": [
+        "specimen",
+        "forest",
+        "apex_predator",
+        "cognitive_enhanced"
+      ],
+      "title": "Specimens: Forest",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski"
+      ],
+      "excerpt": "Specimens: Wildlife, Livestock, Relics & Tech Island Wildlife Island Serpent ID: wild snake Variant: Unknown (Green dominant) First Documented: Year 4 Population: High Threat Level: MODERATE Notes: Venom toxicity has increased 300% since Ye",
+      "id": "LORE.SPEC.0004",
+      "kind": "canon_chunk",
+      "locations": [
+        "degenora_island",
+        "residential_zone",
+        "underground_labs"
+      ],
+      "path": "lore/chunks/SPECIMENS/specimens-wildlife.md",
+      "sha1": "e8a2669f35d2eb23ee3f1390e4119b205c99b66c",
+      "status": "active",
+      "tags": [
+        "specimen",
+        "wildlife",
+        "livestock",
+        "hybrid",
+        "relics"
+      ],
+      "title": "Specimens: Wildlife, Livestock, Relics & Tech",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "ramirez",
+        "dr_chen"
+      ],
+      "excerpt": "Year 0: The Incident Date: Year 0 (Contamination Event) Classification: Catastrophic Pharmaceutical Exposure Casualties: 15,000+ personnel transformed Status: Island wide quarantine initiated The Rupture All six pharmaceutical variant tanks",
+      "id": "LORE.TIME.0001",
+      "kind": "canon_chunk",
+      "locations": [
+        "main_facility",
+        "degenora_island"
+      ],
+      "path": "lore/chunks/TIMELINE/year-0-incident.md",
+      "sha1": "f58c84b0ae2ea17517f18b3fb4ae3de725b1311c",
+      "status": "active",
+      "tags": [
+        "timeline",
+        "incident",
+        "origin",
+        "pharmaceutical",
+        "contamination"
+      ],
+      "title": "Year 0: The Incident",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "excerpt": "Year 1: Establishment Period: Months 1 12 post incident Focus: Assignment of Chief Documentation Officer Key Development: Frugowski's permanent posting at OH 04 Initial Assignment Dr. Chen assigned Big Frugowski to Observation House 04 duri",
+      "id": "LORE.TIME.0002",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04",
+        "terminal_7b"
+      ],
+      "path": "lore/chunks/TIMELINE/year-1-establishment.md",
+      "sha1": "2e661bad0fdb14af0379c847be187505770d4869",
+      "status": "active",
+      "tags": [
+        "timeline",
+        "establishment",
+        "documentation",
+        "frugowski"
+      ],
+      "title": "Year 1: Establishment",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "excerpt": "Year 5: Reversal Fails Date: Year 5, Month 8, Day 14 Event: Protocol R 23 failure confirmed Significance: Official acceptance of irreversible transformation Key Figure: Dr. Chen's final visit to OH 04 The Last Reversal Attempt Protocol R 23",
+      "id": "LORE.TIME.0003",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04"
+      ],
+      "path": "lore/chunks/TIMELINE/year-5-reversal-fails.md",
+      "sha1": "d30376c466d472cdac88b9f54bfa96cbed0db22e",
+      "status": "active",
+      "tags": [
+        "timeline",
+        "protocol_r23",
+        "failure",
+        "acceptance",
+        "dr_chen"
+      ],
+      "title": "Year 5: Reversal Fails",
+      "truth_level": "canon"
+    },
+    {
+      "confidence": "known",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows",
+        "ramirez",
+        "dr_chen"
+      ],
+      "excerpt": "Year 15: Present Day Date: Year 15, Month 1, Day 1 (Current Era) Status: Active documentation mission continues Uptime: 15 years continuous operation Fifteen Years (FR 301) \"Year 15 begins. 40+ specimens cataloged. Weekly uploads maintained",
+      "id": "LORE.TIME.0004",
+      "kind": "canon_chunk",
+      "locations": [
+        "observation_house_04",
+        "terminal_7b"
+      ],
+      "path": "lore/chunks/TIMELINE/year-15-current.md",
+      "sha1": "fde6e1e79fd63f4dd8f133fd954665b019a4f670",
+      "status": "active",
+      "tags": [
+        "timeline",
+        "present_day",
+        "year_15",
+        "documentation"
+      ],
+      "title": "Year 15: Present Day",
+      "truth_level": "canon"
     }
   ],
-  "generated_at": "2026-02-01T06:44:58.071158+00:00"
+  "generated_at": "2026-02-01T14:48:33.166689+00:00"
 }

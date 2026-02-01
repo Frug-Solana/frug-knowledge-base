@@ -121,7 +121,7 @@ def main() -> int:
         raise SystemExit(f"Missing chunks dir: {chunks_dir}")
 
     chunks: List[LoreChunk] = []
-    for p in sorted(chunks_dir.glob("*.md")):
+    for p in sorted(chunks_dir.rglob("*.md")):
         chunks.append(load_chunk(p, repo_root))
 
     # deterministic order
