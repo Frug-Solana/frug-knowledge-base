@@ -1,0 +1,22 @@
+{
+  "chunk_count": 1,
+  "chunks": [
+    {
+      "confidence": "known",
+      "entities": [],
+      "excerpt": "Lore seed chunk (placeholder) This is a placeholder chunk to establish the directory + metadata conventions. Replace/delete once real canon chunks are added.",
+      "id": "LORE.SEED.0001",
+      "kind": "canon_chunk",
+      "locations": [],
+      "path": "lore/chunks/LORE.SEED.0001.md",
+      "sha1": "75040e2d315cb6784bc4f3c5df15a5fe89f0e71f",
+      "status": "active",
+      "tags": [
+        "seed"
+      ],
+      "title": "Lore seed chunk (placeholder)",
+      "truth_level": "canon"
+    }
+  ],
+  "generated_at": "2026-02-01T06:44:58.071158+00:00"
+}

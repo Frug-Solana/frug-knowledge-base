@@ -15,6 +15,17 @@ This folder is the **canonical** home for FRUG/Degenora lore chunks.
 - `lore/index/` — generated artifacts (JSON) *not edited by hand*
 - `lore/reports/` — contradiction scan outputs (weekly)
 
+## Canon index (build step)
+
+Generate a machine-readable index (for the website/build scripts/etc):
+
+```bash
+python3 lore/scripts/build_index.py
+```
+
+This writes:
+- `lore/index/canon-index.json`
+
 ## Chunk format
 Each chunk should begin with YAML frontmatter per `lore/schema.md`.
 
