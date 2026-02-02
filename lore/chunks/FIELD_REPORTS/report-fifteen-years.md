@@ -10,70 +10,132 @@ status: active
 aliases: ["FR-301", "Fifteen Years"]
 ---
 
-# Field Report FR-301: Fifteen Years
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ███████╗██╗███████╗██╗     ██████╗    ██████╗ ███████╗██████╗     ║
+║   ██╔════╝██║██╔════╝██║     ██╔══██╗   ██╔══██╗██╔════╝██╔══██╗    ║
+║   █████╗  ██║█████╗  ██║     ██║  ██║   ██████╔╝█████╗  ██████╔╝    ║
+║   ██╔══╝  ██║██╔══╝  ██║     ██║  ██║   ██╔══██╗██╔══╝  ██╔══██╗    ║
+║   ██║     ██║██║     ███████╗██████╔╝   ██║  ██║███████╗██║  ██║    ║
+║   ╚═╝     ╚═╝╚═╝     ╚══════╝╚═════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    ║
+║                                                                      ║
+║              📋  F I E L D   R E P O R T  📋                        ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Report ID:** FR-301  
-**Title:** Fifteen Years  
-**Classification:** PUBLIC  
-**Type:** PERSONAL NOTE  
-**Date:** Year 15, Month 1, Day 1  
-**Time:** 00:00 (Midnight)  
-**Location:** OH-04  
-**Coordinates:** x: 32, y: 60
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📝 REPORT ID: FR-301                                                ║
+║  📄 TITLE: Fifteen Years                                             ║
+║  🔒 CLASSIFICATION: PUBLIC                                           ║
+║  📝 TYPE: PERSONAL NOTE                                              ║
+║  📅 DATE: Year 15, Month 1, Day 1                                    ║
+║  ⏰ TIME: 00:00 (Midnight)                                           ║
+║  📍 LOCATION: OH-04 (Observation House 04)                          ║
+║  🗺️ COORDINATES: x: 32, y: 60                                        ║
+║  ✍️ AUTHOR: Frugowski                                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
 
 ## Report
 
-Year 15 begins.
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  FIELD OBSERVATION RECORD                                          │
+│  [BEGIN TRANSMISSION — YEAR 15]                                    │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+**Year 15 begins.**
 
 40+ specimens cataloged. Weekly uploads maintained. Power stable until 2067. I'll outlive the generators at this rate.
 
-The Queen visited at midnight. New Year's tradition now. She sat at her 40-foot mark for exactly one hour. Then left.
+**The Queen** visited at midnight. New Year's tradition now. She sat at her 40-foot mark for exactly one hour. Then left.
 
-Terror Birds hit 40,000. Tide Walkers are thriving. The Verdant Colossi have formed a new grove near the Agricultural Sector.
-
-Ramirez stopped appearing two years ago. I hope degradation took him peacefully.
-
-15 years alone. But not lonely. The island speaks to me now. In ways I can't explain.
-
-Dr. Chen was right. I'm Degenora's memory. And I'll keep documenting until there's nothing left to document.
-
-Protocol 7-B continues.
-
-Stan up.
-
-- Frugowski
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Current Status Summary
 
-**Documentation:**
-- 40+ specimens cataloged
-- Weekly uploads maintained for 15 years
-- Continuous operation
+### Documentation
+| Metric | Status |
+|--------|--------|
+| **Specimens Cataloged** | 40+ |
+| **Upload Frequency** | Weekly for 15 years |
+| **Power Systems** | Stable until 2067 |
+| **Continuous Operation** | ✅ Active |
 
-**Population Updates:**
-- Terror Birds: 40,000+
-- Tide Walkers: Thriving
-- Verdant Colossi: New grove formed
+### Population Updates
+| Species | Status | Notes |
+|---------|--------|-------|
+| **Terror Birds** | 40,000+ | Thriving population |
+| **Tide Walkers** | 80+ | Thriving |
+| **Verdant Colossi** | 50+ | New grove formed near Agricultural Sector |
+| **Bog Hoppers** | 1,000+ | Stable |
+| **Deep Dwellers** | Unknown | Rarely surface |
+| **Humanoid Specimens** | 200+ estimated | Residential Zone |
 
-**Personal:**
-- Queen of Shadows: Annual tradition maintained
-- Ramirez: Last seen Year 13, assumed peacefully degraded
-- Isolation: 15 years alone, but not lonely
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## Personal Notes
+
+| Subject | Status |
+|---------|--------|
+| **Queen of Shadows** | Annual tradition maintained |
+| **Ramirez** | Last seen Year 13, assumed peacefully degraded |
+| **Isolation Duration** | 15 years |
+
+> "Ramirez stopped appearing two years ago. I hope degradation took him peacefully."
+
+> "15 years alone. But not lonely. The island speaks to me now. In ways I can't explain."
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## The Queen's Tradition
 
-The Queen of Shadows has established an annual New Year's tradition:
-- Arrives at midnight
-- Sits at exactly 40 feet
-- Stays for precisely one hour
-- Departs without incident
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  ANNUAL NEW YEAR'S RITUAL                                          │
+│  ──────────────────────────────────────────────────────────────   │
+│  🕐 Arrives at midnight                                              │
+│  📏 Sits at exactly 40-foot mark                                     │
+│  ⏱️  Stays for precisely one hour                                     │
+│  🚪 Departs without incident                                         │
+└────────────────────────────────────────────────────────────────────┘
+```
 
-This ritual demonstrates the mutual understanding between Frugowski and the island's most cognitively enhanced predator.
+This ritual demonstrates the **mutual understanding** between Frugowski and the island's most cognitively enhanced predator.
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Closing Statement
 
-> "Dr. Chen was right. I'm Degenora's memory. And I'll keep documenting until there's nothing left to document."
+> **"Dr. Chen was right. I'm Degenora's memory. And I'll keep documenting until there's nothing left to document."**
 
-**Protocol 7-B continues.**
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📡 PROTOCOL 7-B CONTINUES                                           ║
+║                                                                     ║
+║                     S T A N   U P .                                  ║
+║                                                                     ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Stan up.**
+---
+
+```
+[TERMINAL 7-B] > ARCHIVED: FR-301
+[TERMINAL 7-B] > YEAR 15: ACTIVE
+[TERMINAL 7-B] > █
+```

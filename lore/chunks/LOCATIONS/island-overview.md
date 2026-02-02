@@ -10,67 +10,212 @@ status: active
 aliases: ["Degenora", "PSCL Facility Island", "The Island"]
 ---
 
-# Degenora Island - Overview
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ██████╗ ███████╗ ██████╗ ███████╗███╗   ██╗ ██████╗ █████╗        ║
+║   ██╔══██╗██╔════╝██╔════╝ ██╔════╝████╗  ██║██╔═══██╗██╔══██╗       ║
+║   ██║  ██║█████╗  ██║  ███╗█████╗  ██╔██╗ ██║██║   ██║███████║       ║
+║   ██║  ██║██╔══╝  ██║   ██║██╔══╝  ██║╚██╗██║██║   ██║██╔══██║       ║
+║   ██████╔╝███████╗╚██████╔╝███████╗██║ ╚████║╚██████╔╝██║  ██║       ║
+║   ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝       ║
+║                                                                      ║
+║              🗺️  I S L A N D   O V E R V I E W  🗺️                 ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Designation:** Degenora Island  
-**Status:** Active quarantine zone - pharmaceutical contamination  
-**Population:** Transformed specimens (former PSCL personnel and wildlife)  
-**Current Era:** Year 15 post-incident
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📍 LOCATION: Degenora Island                                        ║
+║  ⚠️  STATUS: Active Quarantine Zone — Pharmaceutical Contamination  ║
+║  👥 POPULATION: Transformed Specimens (Former PSCL Personnel)       ║
+║  📅 CURRENT ERA: Year 15 Post-Incident                              ║
+║  🔒 QUARANTINE: Permanent — Protocol R-23 FAILED                    ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+<!-- IMAGE: degenora-island-map-overview.png -->
+<!-- DESC: Topographic map of Degenora Island showing all sectors and key locations -->
+<!-- SIZE: 1600x1200px -->
+<!-- STYLE: Military/topographic with grid overlay -->
 
 ## Geography
 
-Degenora is an isolated island ecosystem that has undergone radical transformation following a pharmaceutical contamination event. The island features diverse biomes including:
+Degenora is an **isolated island ecosystem** that has undergone radical transformation following a pharmaceutical contamination event.
 
-- **Wetlands:** Home to Bog Hoppers, Deep Dwellers, and Sludge Crawlers
-- **Coastal Sector:** Territory of Tide Walkers and Deep Dweller surfacing events
-- **Northern Sector:** Unconfirmed Mammoth Hybrid territory
-- **Residential Zone:** Former PSCL living quarters, now home to humanoid specimens
-- **Agricultural Sector:** Overgrown and reclaimed by Verdant Colossi
-- **Deep Woods:** Shadow Jaguar territory
-- **Obsidian Ridge:** Magnetic anomaly zone
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  ISLAND BIOMES                                                     │
+├────────────────────────────────────────────────────────────────────┤
+│  🌿 Wetlands        │ Bog Hoppers, Deep Dwellers, Sludge Crawlers  │
+│  🌊 Coastal Sector  │ Tide Walkers, Deep Dweller surfacing         │
+│  ❄️  Northern Sector │ Mammoth Hybrid territory (unconfirmed)        │
+│  🏠 Residential Zone│ Humanoid specimens                           │
+│  🌾 Agricultural    │ Overgrown, reclaimed by Verdant Colossi      │
+│  🌲 Deep Woods      │ Shadow Jaguar territory                      │
+│  🏔️ Obsidian Ridge  │ Magnetic anomaly zone                        │
+└────────────────────────────────────────────────────────────────────┘
+```
 
-## The Incident (Year 0)
+```
+──────────────────────────────────────────────────────────────────────
+```
 
-All six pharmaceutical variant tanks ruptured simultaneously, exposing the entire island population to transformative compounds:
+## ☠️ The Incident (Year 0)
 
-- C-47 (Red) - Cognitive enhancement
-- E-01 (Orange) - Emotional modulation
-- B-12X (Green) - Biological adaptation
-- L-19 (Yellow) - Physical enhancement/endurance
-- A-02 (Blue) - Aquatic adaptation
-- P-?? (Unknown) - Stabilizing agent (trace amounts)
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  ⚠️  CATASTROPHIC CONTAINMENT FAILURE                               ║
+║  ═════════════════════════════════════════════════════════════════  ║
+║  All six pharmaceutical variant tanks ruptured simultaneously,      ║
+║  exposing the entire island population to transformative compounds. ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Casualties:** 15,000+ personnel transformed
-**Stable Case:** 1 (Big Frugowski)
+### Pharmaceutical Variants Released
 
-## Current Ecosystem
+| Variant | Color | Effect | Status |
+|---------|-------|--------|--------|
+| **C-47** | 🔴 Red | Cognitive enhancement | Widespread |
+| **E-01** | 🟠 Orange | Emotional modulation | Detected |
+| **B-12X** | 🟢 Green | Biological adaptation | Endemic |
+| **L-19** | 🟡 Yellow | Physical enhancement/endurance | Extreme cases |
+| **A-02** | 🔵 Blue | Aquatic adaptation | Coastal concentration |
+| **P-??** | ⚪ Unknown | Stabilizing agent (trace) | Rare |
 
-**Documented Specimens:** 40+ cataloged species
-**Population Highlights:**
-- Terror Birds: 40,000+
-- Bog Hoppers: 1,000+
-- Tide Walkers: 80+
-- Verdant Colossi: 50+
-- Deep Dwellers: Unknown (rarely surface)
-- Humanoid Specimens: 200+ estimated
+### Impact Statistics
 
-## Infrastructure
+| Metric | Value |
+|--------|-------|
+| **Personnel Transformed** | 15,000+ |
+| **Stable Cases** | 1 (Big Frugowski) |
+| **Reversal Success** | 0% (Protocol R-23 failed Year 5) |
 
-**Main Facility:** Original PSCL headquarters, now partially abandoned
-**Terminal 7-B:** Only functioning external connection
-**Observation House 04:** Active documentation station
-**Underground Labs:** Classified, possibly containing undocumented specimens
+```
+──────────────────────────────────────────────────────────────────────
+```
 
-## Quarantine Status
+## 🦎 Current Ecosystem
 
-The island remains under permanent quarantine. Protocol R-23 (reversal attempt) failed in Year 5. Transformation is now understood to be irreversible.
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  📊 DOCUMENTED SPECIMENS: 40+ Cataloged Species                    │
+└────────────────────────────────────────────────────────────────────┘
+```
 
-**Power Systems:** Self-sustaining until estimated 2067
-**Monitoring:** Continuous via KERMIT AI and Frugowski documentation
-**External Contact:** None since Year 6
+### Population Highlights
 
-## Notable Locations
+| Species | Population | Status | Location |
+|---------|------------|--------|----------|
+| **Terror Birds** | 40,000+ | Thriving | Island-wide |
+| **Bog Hoppers** | 1,000+ | Stable | Wetlands |
+| **Tide Walkers** | 80+ | Thriving | Coastal Sector |
+| **Verdant Colossi** | 50+ | Growing | Agricultural Sector |
+| **Deep Dwellers** | Unknown | Rarely surface | Deep waters |
+| **Humanoid Specimens** | 200+ est. | Residential Zone | Former PSCL quarters |
 
-- **Green Pond:** Pharmaceutical concentration site, Bog Hopper feeding ground
-- **40-Foot Perimeter:** The Queen of Shadows' observation distance from OH-04
-- **Founders Symbol Location:** x: 54, y: 47 (encrypted transmission site)
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## 🏢 Infrastructure
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  🏛️ MAIN FACILITY                                                    ║
+║  Original PSCL headquarters — now partially abandoned               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  💻 TERMINAL 7-B                                                     ║
+║  Only functioning external connection — KERMIT AI maintained        ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  🔭 OBSERVATION HOUSE 04                                             ║
+║  Active documentation station — Frugowski's base of operations      ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  🔬 UNDERGROUND LABS                                                 ║
+║  Classified — possibly containing undocumented specimens            ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## 🚫 Quarantine Status
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  ☠️  PERMANENT QUARANTINE ACTIVE                                     ║
+║                                                                     ║
+║  Protocol R-23 (Reversal Attempt): FAILED — Year 5                ║
+║  Transformation Status: IRREVERSIBLE                                ║
+║  External Contact: NONE since Year 6                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+### System Status
+
+| System | Status | Notes |
+|--------|--------|-------|
+| **Power** | ✅ Self-sustaining | Estimated until 2067 |
+| **Monitoring** | ✅ Active | KERMIT AI + Frugowski documentation |
+| **External Contact** | ❌ None | Since Year 6 |
+| **Containment** | ⚠️ Compromised | Island-wide exposure |
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## 📍 Notable Locations
+
+| Location | Coordinates | Significance |
+|----------|-------------|--------------|
+| **Green Pond** | — | Pharmaceutical concentration site, Bog Hopper feeding ground |
+| **40-Foot Perimeter** | x: 32, y: 60 | Queen of Shadows' observation distance |
+| **Founders Symbol** | x: 54, y: 47 | Encrypted transmission site |
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## 🗺️ Sector Map
+
+```
+                    [NORTH]
+                      │
+           ┌──────────┴──────────┐
+           │   Northern Sector   │
+           │  (Mammoth Territory)│
+           └──────────┬──────────┘
+                      │
+    ┌─────────────────┼─────────────────┐
+    │                 │                 │
+┌───▼───┐      ┌──────▼──────┐      ┌──▼────┐
+│ Deep  │      │  Main       │      │Agricul-│
+│ Woods │      │  Facility   │      │tural   │
+│       │      │             │      │Sector  │
+└───┬───┘      └──────┬──────┘      └───┬────┘
+    │                 │                 │
+    │     ┌───────────┼───────────┐     │
+    │     │           │           │     │
+┌───▼─────▼───┐  ┌────▼────┐  ┌───▼─────▼───┐
+│ Residential │  │   OH-04 │  │   Coastal   │
+│    Zone     │  │(Terminal)│  │   Sector    │
+└─────────────┘  └─────────┘  └─────────────┘
+                      │
+           ┌──────────┴──────────┐
+           │     Wetlands        │
+           │   (Green Pond)      │
+           └─────────────────────┘
+                    [SOUTH]
+```
+
+---
+
+```
+[TERMINAL 7-B] > ISLAND DATA LOADED
+[TERMINAL 7-B] > QUARANTINE: ACTIVE
+[TERMINAL 7-B] > █
+```

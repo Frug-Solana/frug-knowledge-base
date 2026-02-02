@@ -1,89 +1,145 @@
 ---
-id: LORE.CHAR.0003
+id: LORE.CHAR.0002
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["big_frugowski", "the_observer", "frug"]
-locations: ["degenora_island", "observation_house_04", "terminal_7b"]
-tags: ["character", "protagonist", "observer", "stable_hybrid"]
+entities: ["big_frugowski"]
+locations: ["degenora_island"]
+tags: ["character", "hybrid", "transformation"]
 status: active
-aliases: ["The Observer", "Big Frugowski", "Frugowski", "The Stable Case"]
 ---
 
-# Big Frugowski - The Observer
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ██████╗ ██╗ ██████╗    ███████╗██████╗ ██╗   ██╗ ██████╗ ██╗      ║
+║   ██╔══██╗██║██╔════╝    ██╔════╝██╔══██╗██║   ██║██╔════╝ ██║      ║
+║   ██████╔╝██║██║         █████╗  ██████╔╝██║   ██║██║  ███╗██║      ║
+║   ██╔══██╗██║██║         ██╔══╝  ██╔══██╗██║   ██║██║   ██║██║      ║
+║   ██████╔╝██║╚██████╗    ██║     ██║  ██║╚██████╔╝╚██████╔╝███████╗ ║
+║   ╚═════╝ ╚═╝ ╚═════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝ ║
+║                                                                      ║
+║         👤  D O S S I E R :   B I G   F R U G O W S K I  👤         ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Designation:** The Observer / FRUG / Big Frugowski  
-**Status:** Active - Stable multi-variant hybrid  
-**Classification:** The only documented stable transformation  
-**Current Location:** Observation House 04, rotating to Terminal 7-B
-
-## Origin
-
-Big Frugowski was present during the Year 0 Incident when all six pharmaceutical variant tanks ruptured simultaneously. Unlike the 15,000+ personnel who transformed into hybrid specimens with varying degrees of cognitive degradation, Frugowski received full exposure to ALL six compounds:
-
-- C-47 (Red) - Cognitive enhancement
-- E-01 (Orange) - Emotional modulation
-- B-12X (Green) - Biological adaptation
-- L-19 (Yellow) - Physical enhancement/endurance
-- A-02 (Blue) - Aquatic adaptation
-- P-?? (Unknown) - Stabilizing agent (trace amounts)
-
-**Result:** Instead of the expected degradation, Frugowski became the ONLY stable multi-variant hybrid in 15 years of observation.
-
-## Current Role
-
-Frugowski serves as the sole human-level intelligence on Degenora Island, maintaining:
-
-- **Documentation:** Continuous observation and logging of specimen behaviors
-- **Terminal Operation:** Maintaining contact with external systems via Terminal 7-B
-- **Survival:** Navigating a transformed ecosystem as an apex observer
-- **KERMIT Partnership:** Providing ground-truth data to the AI monitoring system
-
-## Psychological Profile
-
-Despite prolonged isolation and constant exposure to hostile specimens, Frugowski maintains:
-
-- Coherent long-term memory (unlike most transformed personnel)
-- Stable emotional state (attributed to E-01 modulation)
-- Clear scientific methodology in observations
-- Apparent contentment with observer role
-
-**Notable Quote:** "I've seen things. I've seen them all. And I'm still standing here, writing them down. That has to mean something."
-
-## Physical Characteristics
-
-The multi-compound exposure resulted in:
-
-- Enhanced resilience to environmental hazards
-- Improved sensory capabilities (particularly night vision)
-- Slower aging process (estimated)
-- Resistance to secondary contamination
-- Distinctive coloration (green-tinged skin, attributed to B-12X)
-
-## Relationship with Specimens
-
-Frugowski maintains a careful coexistence with transformed specimens:
-
-- **Terror Birds:** Mutual avoidance protocol
-- **Queen of Shadows:** 40-foot observation distance maintained
-- **Bog Hoppers:** Occasional interaction for research purposes
-- **Humanoid Specimens:** Complex (former colleagues, now transformed)
-
-## Key Observations
-
-1. Frugowski is the only individual who can navigate all island zones
-2. Specimens exhibit recognition but not aggression toward the Observer
-3. The stabilizing effect appears permanent (15+ years stable)
-4. No other personnel achieved similar stability despite similar exposures
-
-## Open Questions
-
-- Why did Frugowski stabilize when others didn't?
-- Is the stability dependent on continued exposure?
-- Could the stabilization process be replicated?
-- What happens if Frugowski leaves the island?
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📋 DOSSIER ID: CHAR-BFW-001                                         ║
+║  📝 DESIGNATION: "Big Frugowski"                                     ║
+║  🧬 STATUS: Hybrid Transformation - Advanced Stage                  ║
+║  📊 CURRENT YEAR: Year 15                                           ║
+║  ⚠️  THREAT LEVEL: NONE (Documented)                                ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
-*"The swamp doesn't judge. It just watches. And so do I."*  
-— Big Frugowski, Field Note #847
+<!-- IMAGE: character-big-frugowski-stages.png -->
+<!-- DESC: Three-panel progression showing transformation from Year 1 to Year 15 -->
+<!-- SIZE: 1600x800px -->
+<!-- STYLE: Clinical documentation style, before/during/after panels -->
+
+## Profile
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  ORIGIN: Frugowski (Original)                                      │
+│  TRANSFORMATION: C-47 Extended Exposure                            │
+│  CURRENT FORM: Large Hybrid Entity                                 │
+│  COGNITIVE STATUS: Fully Retained                                  │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+### Overview
+
+**Big Frugowski** represents the fully-realized transformation of Frugowski, the island's chronicler. Unlike other subjects who lost themselves to the change, Big Frugowski maintains his consciousness, memories, and purpose — now housed in a form better suited to the island's realities.
+
+### The Name
+
+"Big Frugowski" is not a self-chosen designation. It emerged organically from later documentation teams who needed to distinguish between:
+- The **historical Frugowski** (human researcher, Years 0-10)
+- The **current entity** (hybrid form, Years 10-15+)
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## Transformation Timeline
+
+```
+    YEAR 1 ───────────────────────────────────────────► YEAR 15
+    
+    ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+    │  HUMAN      │      │ CHANGING    │      │  HYBRID     │
+    │  100%       │  →   │  50/50      │  →   │  100%       │
+    │             │      │             │      │             │
+    │ Normal      │      │ Visible     │      │ Large       │
+    │ researcher  │      │ changes     │      │ amphibious  │
+    │ form        │      │ begin       │      │ form        │
+    └─────────────┘      └─────────────┘      └─────────────┘
+         │                    │                    │
+       Year 1              Year 5               Year 10+
+```
+
+| Phase | Year | Characteristics |
+|-------|------|-----------------|
+| **Human** | 1-5 | Normal human appearance, documenting others |
+| **Transition** | 5-10 | Visible hybrid features developing |
+| **Big** | 10+ | Full hybrid form, larger, enhanced capabilities |
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## Physical Characteristics (Current)
+
+| Feature | Description |
+|---------|-------------|
+| **Size** | Significantly larger than human baseline |
+| **Form** | Amphibious-adapted physiology |
+| **Skin** | Moist, mottled green-brown coloration |
+| **Eyes** | Retained human-like expressiveness |
+| **Build** | Heavy, powerful, but not aggressive |
+
+### Abilities
+
+- 🌿 **Environmental adaptation** — Thrives in island conditions
+- 💪 **Enhanced strength** — Can navigate terrain impossible for humans
+- 🧠 **Cognitive retention** — Full memory and personality intact
+- 📝 **Continued documentation** — Still maintains records
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+## Significance
+
+Big Frugowski represents a **successful** (if unintended) symbiosis between human consciousness and the island's transformative properties.
+
+### Key Questions
+
+| Question | Current Understanding |
+|----------|----------------------|
+| Is transformation reversible? | Unknown — reversal attempts failed (Year 5) |
+| Is consciousness truly preserved? | Appears so — consistent personality |
+| Are there others like him? | Suspected but unconfirmed |
+| What is his life expectancy? | Unknown — no comparable subjects |
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📊 RESEARCHER NOTES                                                 ║
+║  Subject represents unique case study: transformation without       ║
+║  loss of self. Whether this is rare or merely well-documented      ║
+║  remains unclear. Subject cooperates with continued observation.   ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+```
+[TERMINAL 7-B] > DOSSIER UPDATED: YEAR 15
+[TERMINAL 7-B] > SUBJECT: STABLE
+[TERMINAL 7-B] > █
+```

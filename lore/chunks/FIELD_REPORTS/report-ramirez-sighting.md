@@ -10,24 +10,57 @@ status: active
 aliases: ["FR-012", "Ramirez Sighting"]
 ---
 
-# Field Report FR-012: Ramirez Sighting
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ███████╗██╗███████╗██╗     ██████╗    ██████╗ ███████╗██████╗     ║
+║   ██╔════╝██║██╔════╝██║     ██╔══██╗   ██╔══██╗██╔════╝██╔══██╗    ║
+║   █████╗  ██║█████╗  ██║     ██║  ██║   ██████╔╝█████╗  ██████╔╝    ║
+║   ██╔══╝  ██║██╔══╝  ██║     ██║  ██║   ██╔══██╗██╔══╝  ██╔══██╗    ║
+║   ██║     ██║██║     ███████╗██████╔╝   ██║  ██║███████╗██║  ██║    ║
+║   ╚═╝     ╚═╝╚═╝     ╚══════╝╚═════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    ║
+║                                                                      ║
+║              📋  F I E L D   R E P O R T  📋                        ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**Report ID:** FR-012  
-**Title:** Ramirez Sighting  
-**Classification:** LEVEL 5  
-**Type:** PERSONAL NOTE  
-**Date:** Year 2, Month 1, Day 22  
-**Time:** 11:30  
-**Location:** Residential Zone Border  
-**Coordinates:** x: 60, y: 42
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📝 REPORT ID: FR-012                                                ║
+║  📄 TITLE: Ramirez Sighting                                          ║
+║  🔒 CLASSIFICATION: LEVEL 5                                          ║
+║  📅 DATE: Year 2, Month 1, Day 22                                    ║
+║  ⏰ TIME: 11:30                                                       ║
+║  📍 LOCATION: Residential Zone Border                                ║
+║  🗺️ COORDINATES: x: 60, y: 42                                        ║
+║  ✍️ AUTHOR: Frugowski                                                ║
+║  📝 TYPE: PERSONAL NOTE                                              ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+<!-- IMAGE: character-ramirez-patient-zero.png -->
+<!-- DESC: Patient Zero at Residential Zone border, Year 2 status, humanoid form -->
+<!-- SIZE: 800x1000px -->
 
 ## Report
 
-I saw Ramirez today. Patient Zero.
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  FIELD OBSERVATION RECORD                                          │
+│  [BEGIN TRANSMISSION]                                              │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+I saw Ramirez today. **Patient Zero.**
 
 He was standing at the edge of the Residential Zone. Still mostly human-shaped. He looked at me. I think he recognized me.
 
-He tried to speak. The sounds were... wrong. But I understood one word: "Sorry."
+He tried to speak. The sounds were... wrong. But I understood one word:
+
+> **"Sorry."**
 
 Year 1, he could still talk normally. Now, partial speech. Hybrid degradation is taking his voice.
 
@@ -35,29 +68,86 @@ He walked back into the zone. Slowly. Like he remembered how humans walk but had
 
 I didn't follow. Some things shouldn't be documented up close.
 
-- Frugowski
+```
+— Frugowski
+```
+
+```
+[END TRANSMISSION]
+```
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Specimens Documented
 
-- **humanoid-ramirez** - Patient Zero, Year 2 status
+| ID | Name | Status | Notes |
+|----|------|--------|-------|
+| humanoid-ramirez | Patient Zero | Year 2 | Partial speech, motor degradation |
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Analysis
 
 This report documents the progressive nature of hybrid degradation:
 
-**Year 1:** Normal speech capability  
-**Year 2:** Partial speech, degraded vocalization  
-**Key Word:** "Sorry" - possible recognition of transformation's impact
+| Timeline | Speech Capability | Status |
+|----------|------------------|--------|
+| **Year 1** | Normal speech | Early stage |
+| **Year 2** | Partial speech, degraded vocalization | Degradation evident |
+
+### Key Word Analysis
+**"Sorry"** — possible recognition of transformation's impact, remorse for what was lost, or apology for what he might become.
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Observations
 
-1. **Cognitive Retention:** Ramirez recognized Frugowski
-2. **Motor Function:** Movement became deliberate rather than natural
-3. **Communication:** One-word speech suggests limited but present language capacity
-4. **Boundaries:** Frugowski chose not to pursue documentation
+```
+┌────┬──────────────────────────────────────────────────────────────┐
+│ 1  │ COGNITIVE RETENTION                                          │
+│    │ Ramirez recognized Frugowski — memories and identity persist │
+├────┼──────────────────────────────────────────────────────────────┤
+│ 2  │ MOTOR FUNCTION                                                │
+│    │ Movement became deliberate rather than natural               │
+├────┼──────────────────────────────────────────────────────────────┤
+│ 3  │ COMMUNICATION                                                 │
+│    │ One-word speech suggests limited but present language        │
+├────┼──────────────────────────────────────────────────────────────┤
+│ 4  │ BOUNDARIES                                                    │
+│    │ Frugowski chose not to pursue documentation                  │
+└────┴──────────────────────────────────────────────────────────────┘
+```
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Significance
 
-FR-012 humanizes the transformation process. Ramirez, the first affected, demonstrates that consciousness persists even as physical form degrades. His apology suggests awareness of what was lost.
+FR-012 humanizes the transformation process. Ramirez, the first affected, demonstrates that consciousness persists even as physical form degrades.
 
-Ramirez was last seen in Year 13.
+His apology suggests awareness of what was lost.
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  ⚠️  FINAL NOTE                                                      ║
+║  Ramirez was last seen in Year 13.                                   ║
+║  Current status: UNKNOWN                                            ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+```
+[TERMINAL 7-B] > ARCHIVED: FR-012
+[TERMINAL 7-B] > INTEGRITY: 100%
+[TERMINAL 7-B] > █
+```
+
+*"Some things shouldn't be documented up close."* — Frugowski

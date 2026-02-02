@@ -3,82 +3,119 @@ id: LORE.CHAR.0001
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["big_frugowski", "ramirez", "dr_chen"]
-locations: ["observation_house_04", "residential_zone"]
-tags: ["character", "protagonist", "documentarian", "transformed", "pumpstan"]
+entities: ["frugowski"]
+locations: ["observation_house_04"]
+tags: ["character", "researcher", "chronicler"]
 status: active
-aliases: ["$FRUG", "Chief Documentation Officer", "bf-04"]
 ---
 
-# Big Frugowski
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║    ██████╗ ███████╗██████╗ ███████╗ ██████╗ ███╗   ██╗ █████╗ ██╗    ║
+║    ██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗  ██║██╔══██╗██║    ║
+║    ██████╔╝█████╗  ██████╔╝███████╗██║   ██║██╔██╗ ██║███████║██║    ║
+║    ██╔══██╗██╔══╝  ██╔══██╗╚════██║██║   ██║██║╚██╗██║██╔══██║██║    ║
+║    ██║  ██║██║     ██║  ██║███████║╚██████╔╝██║ ╚████║██║  ██║██║    ║
+║    ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝    ║
+║                                                                      ║
+║              👤  D O S S I E R :   F R U G O W S K I  👤            ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-**ID:** bf-04  
-**Clearance:** Level 6 (Emergency post-incident)  
-**Status:** ACTIVE • TRANSFORMED • NEUTRALIZED • ESSENTIAL PERSONNEL  
-**Title:** Chief Documentation Officer
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📋 DOSSIER ID: CHAR-FRW-001                                         ║
+║  📝 CODENAME: "The Chronicler"                                       ║
+║  📍 BASE: Observation House 04                                       ║
+║  📊 STATUS: Active (Year 15)                                        ║
+║  🔒 CLEARANCE: Level 5                                               ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-## Transformation
+---
 
-Big Frugowski was exposed to ALL SIX pharmaceutical variants during Year 0 - the sole stable case in 15 years. He is the ONLY stable multi-variant hybrid documented.
+<!-- IMAGE: character-frugowski-portrait.png -->
+<!-- DESC: Portrait of Frugowski - tired scientist in worn lab coat, field journal in hand -->
+<!-- SIZE: 800x800px -->
+<!-- STYLE: Character portrait, weathered appearance, determined eyes -->
 
-**Compounds absorbed:**
-- C-47 (Red)
-- E-01 (Orange)
-- B-12X (Green)
-- L-19 (Yellow)
-- A-02 (Blue)
-- P-?? (trace - the unknown compound)
+## Profile
 
-**Unique Property:** Emits ALL SIX pheromones, creating a neutral spectrum. PumpStans perceive him as one of them, which enables his survival and documentation work.
+```
+┌────────────────────────────────────────────────────────────────────┐
+│  ROLE: Primary Documentarian                                       │
+│  AFFILIATION: Terminal 7-B / Degenora Research Initiative         │
+│  SPECIALIZATION: Field observation, specimen cataloging           │
+└────────────────────────────────────────────────────────────────────┘
+```
 
-## Physical State
+### Overview
 
-- **Appearance:** Minimal external mutation - appears mostly human
-- **Cognitive Enhancement:** 340% above baseline (C-47 Red)
-- **Emotional Stability:** E-01/A-02 neutralize perfectly
-- **Endurance:** Superhuman (L-19 Yellow)
-- **Aging Rate:** 40% slower - may live 200+ years
-- **Blood Composition:** Universal hybrid marker
+Frugowski serves as the **primary narrator and documentarian** of the Degenora Island phenomenon. Operating from Observation House 04, he has spent 15 years documenting the transformations, mutations, and ecosystem changes that define the island.
 
-## Location
+### Characteristics
 
-**Station:** Observation House 04 (OH-04)  
-**Coordinates:** x: 32, y: 60  
-**Distance:** 3.2km from main facility  
-**Status:** Permanent residence since Year 1
+| Trait | Description |
+|-------|-------------|
+| **Appearance** | Worn lab coat, weathered features, perpetual stubble |
+| **Demeanor** | Tired, methodical, quietly determined |
+| **Method** | Detailed field notes, personal observations |
+| **Philosophy** | "Conviction over heroics" |
 
-## Role and Mandate
+```
+──────────────────────────────────────────────────────────────────────
+```
 
-**Protocol 7-B:** Document ALL transformations for unknown founders.
+## Timeline
 
-**Method:** Hand-drawn field sketches combined with digital records
+| Year | Status | Notes |
+|------|--------|-------|
+| **Year 0** | Arrival | Present during initial incident |
+| **Year 1** | Establishment | Begins formal documentation |
+| **Year 2** | Active | Reports Ramirez sighting (FR-012) |
+| **Year 5** | Continues | Documents reversal failure |
+| **Year 10** | Evolving | Begins own transformation |
+| **Year 15** | Current | "Big Frugowski" - hybrid form |
 
-**Upload Schedule:** Weekly to Terminal 7-B (the last active connection to the island)
+```
+──────────────────────────────────────────────────────────────────────
+```
 
-**Collaboration:** Works with the island AI system (KERMIT) to maintain comprehensive documentation
+## Key Documents
 
-**Purpose:** Terminal 7-B was left active for founders to monitor remotely - Frugowski keeps it updated with his observations.
+| Document | Year | Significance |
+|----------|------|--------------|
+| [FR-012: Ramirez Sighting](../FIELD_REPORTS/report-ramirez-sighting.md) | 2 | First Patient Zero observation |
+| [FR-015: Queen First Sighting](../FIELD_REPORTS/report-queen-first-sighting.md) | TBD | Apex specimen documentation |
+| [FR-027: Chen Final Visit](../FIELD_REPORTS/report-chen-final-visit.md) | TBD | Colleague departure |
 
-**Total Specimens Cataloged:** 40+ over 15 years
-
-## Identity and Symbolism
-
-**Alias:** $FRUG
-
-Big Frugowski represents the mascot and symbol of hope emerging from transformation. He embodies the possibility of consciousness surviving radical change.
-
-**Associated Token:** EBnA9HbJkhRTP1n1ZCkZzNCGjLssRWTetBFL9nzPpump
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ## Notable Quotes
 
-> "I can't help you. I can only remember you."
+> **"Some things shouldn't be documented up close."**
+> — Field Report FR-012
 
-> "They're not birds anymore. They're something that remembers being prey and chose to be predator."
+> **"The files don't care if they're pretty. But they should be true."**
+> — Terminal Note 047
 
-> "I know she's watching me. Same fox. Stays exactly 40 feet away."
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  📝 OBSERVER NOTES                                                   ║
+║  Subject demonstrates exceptional resilience in deteriorating       ║
+║  conditions. Continues documentation despite personal exposure.     ║
+║  Classification: RELIABLE but COMPROMISED                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-> "P-?? is the key. It's why I'm stable. It's the silence between all sounds."
+---
 
-## Notes
-
-Frugowski's real name is redacted and his identity protected. He is Patient Zero's colleague and the island's only functioning historian. His stability remains unexplained by Dr. Chen and the PSCL research teams.
+```
+[TERMINAL 7-B] > DOSSIER COMPLETE
+[TERMINAL 7-B] > SUBJECT: UNDER OBSERVATION
+[TERMINAL 7-B] > █
+```
