@@ -1,0 +1,20 @@
+{
+  "name": "frug-knowledge-base",
+  "version": "1.0.0",
+  "description": "Canonical lore and documentation archive for Degenora Island",
+  "scripts": {
+    "sync": "node scripts/sync-canon.js",
+    "scan": "node scripts/scan-contradictions.js",
+    "build": "npm run sync && npm run scan",
+    "validate": "node scripts/validate-chunks.js"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frug-Solana/frug-knowledge-base.git"
+  },
+  "license": "MIT"
+}
