@@ -123,8 +123,10 @@ Geographic documentation of Degenora Island.
 
 **Key Locations:**
 - [Island Overview](chunks/LOCATIONS/island-overview.md)
-- [Terminal 7-B](chunks/LOCATIONS/terminal-7b.md)
+- [Main Facility](chunks/LOCATIONS/main-facility.md)
 - [Observation House 04](chunks/LOCATIONS/observation-house-04.md)
+- [Terminal 7-B](chunks/LOCATIONS/terminal-7b.md)
+- [Wetlands Sector](chunks/LOCATIONS/wetlands.md) 🆕
 
 <!-- IMAGE: degenora-island-map-overview.png -->
 <!-- DESC: Topographic map of Degenora Island with labeled sectors -->
