@@ -1,12 +1,17 @@
 ---
-id: LORE.CHAR.0001
+id: ENTITY.BIG_FRUG.0001.HISTORICAL
+name: "Frugowski (Historical)"
+aliases: ["The Chronicler", "Dr. Frugowski", "frugowski"]
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["frugowski"]
-locations: ["observation_house_04"]
-tags: ["character", "researcher", "chronicler"]
-status: active
+status: superseded
+documentation_date: "Year 0-10"
+entities: ["big_frug", "frug", "terminal_7b"]
+locations: ["observation_house_04", "degenora_island"]
+tags: ["character", "researcher", "chronicler", "historical"]
+note: "This profile covers Frugowski Years 0-10. For current status, see Big Frug profile."
+last_reviewed: "2026-02-04"
 ---
 
 ```

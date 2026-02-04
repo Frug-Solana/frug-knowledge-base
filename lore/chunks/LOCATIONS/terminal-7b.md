@@ -1,14 +1,16 @@
 ---
-id: LORE.LOC.0001
+id: ENTITY.TERMINAL_7B.0001
+name: "Terminal 7-B"
+aliases: ["The Outpost", "Seven-Bee", "The Hub", "terminal_7b"]
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["terminal_7b", "frugowski", "kermit", "frug"]
-locations: ["terminal_7b", "sector_zero"]
+entities: ["terminal_7b", "big_frug", "kermit", "frug"]
+locations: ["terminal_7b", "sector_zero", "degenora_island"]
 tags: ["location", "facility", "headquarters", "terminal", "social_hub"]
 status: active
 documentation_date: "Year 15"
-aliases: ["The Outpost", "Seven-Bee", "The Hub"]
+last_reviewed: "2026-02-04"
 ---
 
 ```

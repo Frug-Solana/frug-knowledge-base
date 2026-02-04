@@ -1,12 +1,15 @@
 ---
-id: LORE.CHAR.0002
+id: ENTITY.BIG_FRUG.0001
+name: "Big Frugowski"
+aliases: ["Big Frug", "Frugowski", "big_frugowski"]
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["big_frugowski"]
-locations: ["degenora_island"]
-tags: ["character", "hybrid", "transformation"]
 status: active
+entities: ["big_frug", "frug"]
+locations: ["degenora_island", "terminal_7b", "observation_house_04"]
+tags: ["character", "hybrid", "transformation", "founder"]
+last_reviewed: "2026-02-04"
 ---
 
 ```

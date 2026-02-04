@@ -1,12 +1,20 @@
 ---
-id: "char_big_frug"
+id: "ENTITY.BIG_FRUG.0001"
 name: "Big Frug"
+aliases: ["Big Frugowski", "Dr. Frugowski", "Frugowski"]
 title: "ISLAND FOUNDER • LORE KEEPER"
 role: "Field Observer"
 location: "Observation House 04 (OH-04)"
 coordinates: "x: 32, y: 60"
 status: "Active"
 posting_since: "Year 1, Month 1"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+entities: ["big_frug", "frug", "terminal_7b", "kermit"]
+locations: ["observation_house_04", "terminal_7b", "degenora_island"]
+tags: ["character", "founder", "researcher", "administrator"]
+last_reviewed: "2026-02-04"
 ---
 
 # Big Frug

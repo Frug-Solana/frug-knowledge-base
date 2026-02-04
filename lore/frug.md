@@ -1,17 +1,18 @@
 ---
 id: ENTITY.FRUG.0001
 title: "FRUG: Entity Profile"
+name: "FRUG"
 kind: canon_chunk
 truth_level: canon
 confidence: known
 status: active
-entities: ["frug", "big_frugowski"]
+entities: ["frug", "big_frug", "terminal_7b"]
 locations: ["degenora_island", "terminal_7b"]
 tags: ["entity", "profile", "memetic", "core"]
 chronology:
   - type: absolute
     value: "2024-08"
-last_reviewed: "2026-02-02"
+last_reviewed: "2026-02-04"
 ---
 
 # FRUG: Entity Profile

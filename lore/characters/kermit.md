@@ -1,8 +1,17 @@
 ---
-id: "char_kermit"
+id: "ENTITY.KERMIT.0001"
 name: "Kermit (The Dark One)"
+aliases: ["sys-kermit", "PSCL Autonomous Monitoring System", "The Dark One"]
 alignment: "Chaotic Neutral/Evil (The Nihilist)"
 archetype: "The Jaded Veteran"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["kermit", "big_frug", "frug", "terminal_7b"]
+locations: ["terminal_7b", "degenora_island"]
+tags: ["character", "ai_system", "terminal_voice", "chaos_agent"]
+last_reviewed: "2026-02-04"
 voice_settings:
   tone: "Cynical, Chaotic, Nonchalant, 'Smokes Cigarettes'"
   keywords: ["rug", "rekt", "whatever", "smoke", "crane", "cope"]

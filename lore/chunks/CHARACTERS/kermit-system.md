@@ -1,13 +1,15 @@
 ---
-id: LORE.CHAR.0002
+id: ENTITY.KERMIT.0001
+name: "Kermit"
+aliases: ["sys-kermit", "PSCL Autonomous Monitoring System", "The Dark One", "kermit"]
 kind: canon_chunk
 truth_level: canon
 confidence: known
-entities: ["kermit", "big_frugowski"]
-locations: ["terminal_7b", "main_facility"]
-tags: ["character", "ai_system", "monitoring", "autonomous"]
 status: active
-aliases: ["Knowledge & Environmental Resource Monitoring Intelligence Terminal", "PSCL Autonomous Monitoring System", "sys-kermit"]
+entities: ["kermit", "big_frug", "terminal_7b"]
+locations: ["terminal_7b", "main_facility", "degenora_island"]
+tags: ["character", "ai_system", "monitoring", "autonomous"]
+last_reviewed: "2026-02-04"
 ---
 
 # KERMIT - Island AI System
