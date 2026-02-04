@@ -52,6 +52,7 @@
       ],
       "chunks": [
         "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.DROP.0002",
         "LOC.DEGENORA.0001",
         "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
@@ -64,6 +65,8 @@
       ],
       "chunks": [
         "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
         "LORE.LOC.0001",
         "TRANSMISSION.001"
       ]
@@ -85,6 +88,8 @@
       "chunks": [
         "INDEX.CHARACTERS.0001",
         "LORE.CHAR.0002",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
         "LORE.LOC.0003",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
@@ -117,6 +122,44 @@
       "chunks": [
         "LORE.CHAR.0001",
         "LORE.PROTOCOL.0001"
+      ]
+    },
+    "observer": {
+      "canonical_name": "observer",
+      "variants": [
+        "observer"
+      ],
+      "chunks": [
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.DROP.0004"
+      ]
+    },
+    "greenhouse_3": {
+      "canonical_name": "greenhouse_3",
+      "variants": [
+        "greenhouse_3"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "specimen": {
+      "canonical_name": "specimen",
+      "variants": [
+        "specimen"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "cafeteria_b": {
+      "canonical_name": "cafeteria_b",
+      "variants": [
+        "cafeteria_b"
+      ],
+      "chunks": [
+        "LORE.DROP.0004"
       ]
     },
     "dr_chen": {
@@ -349,6 +392,9 @@
         "INDEX.LORE.0001",
         "CHAR.BIG_FRUGOWSKI.0001",
         "LORE.CHAR.0002",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.DROP.0004",
         "LORE.LOC.0003",
         "LORE.LOC.0001",
         "LORE.TIME.0002",
@@ -386,6 +432,42 @@
         "LORE.CHAR.0002",
         "LORE.LOC.0003",
         "LORE.TIME.0001"
+      ]
+    },
+    "degenora": {
+      "canonical_name": "degenora",
+      "variants": [
+        "degenora"
+      ],
+      "chunks": [
+        "LORE.DROP.0001"
+      ]
+    },
+    "greenhouse_3": {
+      "canonical_name": "greenhouse_3",
+      "variants": [
+        "greenhouse_3"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "sector_7": {
+      "canonical_name": "sector_7",
+      "variants": [
+        "sector_7"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "cafeteria_b": {
+      "canonical_name": "cafeteria_b",
+      "variants": [
+        "cafeteria_b"
+      ],
+      "chunks": [
+        "LORE.DROP.0004"
       ]
     },
     "residential_zone": {

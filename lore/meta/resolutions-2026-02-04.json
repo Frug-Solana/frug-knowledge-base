@@ -1,6 +1,6 @@
 [
   {
-    "id": "RES-1770196113996-m3xn",
+    "id": "RES-1770199052677-1qdj",
     "priority": "high",
     "type": "temporal_conflict",
     "issue": "Temporal conflict on 2024-08",
@@ -27,12 +27,14 @@
     "kermit_note": "[KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities."
   },
   {
-    "id": "RES-1770196113997-trn6",
+    "id": "RES-1770199052678-j55r",
     "priority": "low",
     "type": "orphan_entities",
-    "issue": "14 entities mentioned only once",
+    "issue": "17 entities mentioned only once",
     "affected_chunks": [
       "SPECIMEN.001",
+      "LORE.DROP.0002",
+      "LORE.DROP.0004",
       "LORE.HIST.0001",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
@@ -43,6 +45,9 @@
     "entities": [
       "origin_pill",
       "chili_root",
+      "greenhouse_3",
+      "specimen",
+      "cafeteria_b",
       "frog_coin",
       "frug_token",
       "flog",
@@ -71,6 +76,6 @@
         "description": "If variant spelling, merge with existing entity"
       }
     ],
-    "kermit_note": "[KERMIT // UNPROMPTED] 14 unlinked entities detected in archive. Recommend profile creation."
+    "kermit_note": "[KERMIT // UNPROMPTED] 17 unlinked entities detected in archive. Recommend profile creation."
   }
 ]

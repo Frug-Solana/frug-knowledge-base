@@ -67,6 +67,9 @@ function buildCanonIndex() {
       locations: metadata.locations || [],
       tags: metadata.tags || [],
       last_reviewed: metadata.last_reviewed || null,
+      // Unlock system metadata
+      unlock: metadata.unlock || null,
+      visibility: metadata.visibility || 'public',
       content_preview: content.replace(/^---[\s\S]*?---/, '').slice(0, 500).trim()
     };
 

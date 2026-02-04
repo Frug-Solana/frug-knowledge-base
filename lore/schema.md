@@ -108,6 +108,48 @@ chronology:
     value: "year-5"
 ```
 
+### Unlock System (Phase 1-3)
+
+```yaml
+# Phase 1: Time-based drops (no login required)
+unlock:
+  kind: time
+  value: "2026-02-05T00:00:00Z"  # ISO timestamp when unlocked
+  # Optional: time window for limited drops
+  # window_end: "2026-02-12T00:00:00Z"
+
+# Phase 2: Clearance-gated (requires wallet connection)
+unlock:
+  kind: clearance
+  value: 3  # Minimum observer class/rank required
+
+# Phase 3: Coordinate ARG (user discovers tokens)
+unlock:
+  kind: coord
+  value: "SECTOR-7B-ALPHA"  # Token user must enter/click
+
+# Event-based (community milestones)
+unlock:
+  kind: event
+  value: "milestone-100-holders"  # Event key to trigger
+```
+
+#### Unlock Kind Values
+```yaml
+- time       # Timestamp-based, no auth needed
+- clearance  # Requires wallet + minimum rank
+- coord      # ARG-style token discovery
+- event      # Tied to community milestones
+```
+
+#### Visibility Levels
+```yaml
+visibility: public      # Always visible
+visibility: time_gated  # Hidden until unlock time
+visibility: clearance   # Hidden until wallet connected + rank verified
+visibility: hidden      # Only appears when coord token entered
+```
+
 ### Source & Audit
 
 ```yaml
@@ -146,6 +188,14 @@ tags: ["tag1", "tag2"]
 chronology:
   - type: relative
     value: "year-5"
+
+# Unlock system (Phase 1+): omit for always-visible
+unlock:
+  kind: time                    # time | clearance | coord | event
+  value: "2026-02-05T00:00:00Z" # timestamp | rank | token | event_key
+  # window_end: "..."           # Optional: for limited-time drops
+
+visibility: public              # public | time_gated | clearance | hidden
     
 sources:
   - type: website

@@ -1,18 +1,18 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T09:08:33.996Z  
-**Total Chunks:** 52  
-**Entities:** 28  
-**Locations:** 17  
+**Generated:** 2026-02-04T09:57:32.676Z  
+**Total Chunks:** 56  
+**Entities:** 32  
+**Locations:** 21  
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
 | Temporal Conflicts | 1 |
-| Entity Conflicts | 5 |
+| Entity Conflicts | 7 |
 | Naming Inconsistencies | 0 |
-| Orphan References | 14 |
+| Orphan References | 17 |
 | Missing Metadata | 2 |
 | **Total Resolutions Proposed** | **2** |
 
@@ -40,6 +40,10 @@
   - Same entity documented with different truth levels
   - Truth levels: record, canon
 
+- **frug** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, rumor
+
 - **terminal_7b** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, record
@@ -47,6 +51,10 @@
 - **kermit** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, record
+
+- **observer** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
 
 - **the_signal** (truth_level_mismatch)
   - Same entity documented with different truth levels
@@ -62,6 +70,9 @@
 
 - **origin_pill** → SPECIMEN.001
 - **chili_root** → SPECIMEN.001
+- **greenhouse_3** → LORE.DROP.0002
+- **specimen** → LORE.DROP.0002
+- **cafeteria_b** → LORE.DROP.0004
 - **frog_coin** → LORE.HIST.0001
 - **frug_token** → LORE.HIST.0001
 - **flog** → LORE.HIST.0001
@@ -72,8 +83,7 @@
 - **ancient** → ORIGIN.SPEC.003
 - **shadow_stalker** → ORIGIN.SPEC.002
 - **the_void** → ORIGIN.SPEC.002
-- **apex_predator** → ORIGIN.SPEC.002
-- **apex_glimmer** → LORE.SPEC.0001
+- *... and 2 more*
 
 ## Missing Metadata
 

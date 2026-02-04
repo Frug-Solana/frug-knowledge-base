@@ -1,8 +1,8 @@
 {
-  "scanned_at": "2026-02-04T09:08:33.996Z",
-  "total_chunks": 52,
-  "total_entities": 28,
-  "total_locations": 17,
+  "scanned_at": "2026-02-04T09:57:32.676Z",
+  "total_chunks": 56,
+  "total_entities": 32,
+  "total_locations": 21,
   "findings": {
     "temporal_conflicts": [
       {
@@ -54,9 +54,27 @@
       },
       {
         "type": "truth_level_mismatch",
+        "entity": "frug",
+        "chunks": [
+          "CHAR.BIG_FRUGOWSKI.0001",
+          "LORE.DROP.0002",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001",
+          "SYS.TERMINAL_7B.0001"
+        ],
+        "truth_levels": [
+          "canon",
+          "rumor"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
         "entity": "terminal_7b",
         "chunks": [
           "CHAR.BIG_FRUGOWSKI.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
           "LORE.LOC.0001",
           "TRANSMISSION.001"
         ],
@@ -73,6 +91,8 @@
           "INDEX.CHARACTERS.0001",
           "LORE.CHAR.0002",
           "LORE.CHAR.0002",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
           "LORE.LOC.0003",
           "LORE.PROTOCOL.0001",
           "TRANSMISSION.001",
@@ -81,6 +101,20 @@
         "truth_levels": [
           "canon",
           "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "observer",
+        "chunks": [
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
         ],
         "description": "Same entity documented with different truth levels"
       },
@@ -125,6 +159,24 @@
         "ref": "chili_root",
         "source": "SPECIMEN.001",
         "file": "001-origin-pill.md"
+      },
+      {
+        "type": "entity",
+        "ref": "greenhouse_3",
+        "source": "LORE.DROP.0002",
+        "file": "chunks/DROPS/drop-0002-greenhouse.md"
+      },
+      {
+        "type": "entity",
+        "ref": "specimen",
+        "source": "LORE.DROP.0002",
+        "file": "chunks/DROPS/drop-0002-greenhouse.md"
+      },
+      {
+        "type": "entity",
+        "ref": "cafeteria_b",
+        "source": "LORE.DROP.0004",
+        "file": "chunks/DROPS/drop-0004-cafeteria-menu.md"
       },
       {
         "type": "entity",
@@ -267,6 +319,7 @@
         ],
         "chunks": [
           "CHAR.BIG_FRUGOWSKI.0001",
+          "LORE.DROP.0002",
           "LOC.DEGENORA.0001",
           "ENTITY.FRUG.0001",
           "SYS.TERMINAL_7B.0001"
@@ -279,6 +332,8 @@
         ],
         "chunks": [
           "CHAR.BIG_FRUGOWSKI.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
           "LORE.LOC.0001",
           "TRANSMISSION.001"
         ]
@@ -300,6 +355,8 @@
         "chunks": [
           "INDEX.CHARACTERS.0001",
           "LORE.CHAR.0002",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
           "LORE.LOC.0003",
           "LORE.PROTOCOL.0001",
           "TRANSMISSION.001",
@@ -332,6 +389,44 @@
         "chunks": [
           "LORE.CHAR.0001",
           "LORE.PROTOCOL.0001"
+        ]
+      },
+      "observer": {
+        "canonical_name": "observer",
+        "variants": [
+          "observer"
+        ],
+        "chunks": [
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004"
+        ]
+      },
+      "greenhouse_3": {
+        "canonical_name": "greenhouse_3",
+        "variants": [
+          "greenhouse_3"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "specimen": {
+        "canonical_name": "specimen",
+        "variants": [
+          "specimen"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "cafeteria_b": {
+        "canonical_name": "cafeteria_b",
+        "variants": [
+          "cafeteria_b"
+        ],
+        "chunks": [
+          "LORE.DROP.0004"
         ]
       },
       "dr_chen": {
@@ -564,6 +659,9 @@
           "INDEX.LORE.0001",
           "CHAR.BIG_FRUGOWSKI.0001",
           "LORE.CHAR.0002",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004",
           "LORE.LOC.0003",
           "LORE.LOC.0001",
           "LORE.TIME.0002",
@@ -601,6 +699,42 @@
           "LORE.CHAR.0002",
           "LORE.LOC.0003",
           "LORE.TIME.0001"
+        ]
+      },
+      "degenora": {
+        "canonical_name": "degenora",
+        "variants": [
+          "degenora"
+        ],
+        "chunks": [
+          "LORE.DROP.0001"
+        ]
+      },
+      "greenhouse_3": {
+        "canonical_name": "greenhouse_3",
+        "variants": [
+          "greenhouse_3"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "sector_7": {
+        "canonical_name": "sector_7",
+        "variants": [
+          "sector_7"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "cafeteria_b": {
+        "canonical_name": "cafeteria_b",
+        "variants": [
+          "cafeteria_b"
+        ],
+        "chunks": [
+          "LORE.DROP.0004"
         ]
       },
       "residential_zone": {
@@ -743,9 +877,9 @@
   },
   "summary": {
     "temporal_conflicts": 1,
-    "entity_conflicts": 5,
+    "entity_conflicts": 7,
     "location_conflicts": 0,
-    "orphan_refs": 14,
+    "orphan_refs": 17,
     "missing_metadata": 2,
     "cross_ref_issues": 0,
     "naming_inconsistencies": 0,
