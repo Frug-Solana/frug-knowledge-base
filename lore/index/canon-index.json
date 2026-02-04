@@ -1,6 +1,83 @@
 {
-  "chunk_count": 1,
+  "chunk_count": 6,
   "chunks": [
+    {
+      "confidence": "uncertain",
+      "entities": [],
+      "excerpt": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\" Recovered from an unindexed spool. Header checksum does not match body. Excerpt: `` They told us it was a key. But it doesn\u2019t open anything. It only convinces the Terminal that it already has.",
+      "id": "ARCHIVE.FRAGMENT.0001",
+      "kind": "archive_fragment",
+      "locations": [],
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0001.md",
+      "sha1": "14f58c1e3f91bba21c3d3d5afbce711afdcf61c8",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "recovered"
+      ],
+      "title": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\"",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "ARCHIVE FRAGMENT 0002: Partial Transcript Audio transcript reconstruction; speaker labels inferred. [VOICE A] : \"If the map updates itself, who\u2019s drawing it?\" [VOICE B] : \"No one. That\u2019s the problem.\" [VOICE A] : \"Then why does it keep poin",
+      "id": "ARCHIVE.FRAGMENT.0002",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0002.md",
+      "sha1": "cecbf60533ac446b008d824e8b7a78ed87685cfa",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "transcript"
+      ],
+      "title": "ARCHIVE FRAGMENT 0002: Partial Transcript",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "ARCHIVE FRAGMENT 0003: Redacted Memo Document is visibly retyped. Original ink impressions missing. TO: Operations SUBJECT: \"Do not acknowledge the second prompt\" BODY: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \"If it asks twice, end the session.\" \u2588\u2588\u2588\u2588",
+      "id": "ARCHIVE.FRAGMENT.0003",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/ARCHIVE.FRAGMENT.0003.md",
+      "sha1": "5f3eb4a778eafe8e557ba8e4a97053e3613876c0",
+      "status": "active",
+      "tags": [
+        "archive_fragment",
+        "memo"
+      ],
+      "title": "ARCHIVE FRAGMENT 0003: Redacted Memo",
+      "truth_level": "record"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "CORRUPTED LOG 0001: Terminal Session `` CONNECT \u2026 AUTH \u2588\u2588\u2588\u2588 ACCESS: GRANTED QUERY: origin RESPONSE: [REDACTED] QUERY: origin RESPONSE: DO NOT REPEAT THE QUESTION QUERY: ori\u2014 SESSION TERMINATED `` Integrity: 62% (estimated).",
+      "id": "CORRUPTED.LOG.0001",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/CORRUPTED.LOG.0001.md",
+      "sha1": "1f3dc68d4366aa5b1c501754d76d981e50f0651f",
+      "status": "active",
+      "tags": [
+        "corrupted_log",
+        "terminal"
+      ],
+      "title": "CORRUPTED LOG 0001: Terminal Session",
+      "truth_level": "corrupted"
+    },
+    {
+      "confidence": "uncertain",
+      "excerpt": "CORRUPTED LOG 0002: Sector Index Drift The same sector appears under three names in the same minute. `` INDEX[07]: terminal 7b INDEX[07]: terminal 7B INDEX[07]: t3rm1n4l 7b WARNING: canonicalization failure WARNING: canonicalization failure",
+      "id": "CORRUPTED.LOG.0002",
+      "kind": "archive_fragment",
+      "path": "lore/chunks/CORRUPTED.LOG.0002.md",
+      "sha1": "86290f509fabf0315a8fcfa22488285669fb5a30",
+      "status": "active",
+      "tags": [
+        "corrupted_log",
+        "navigation"
+      ],
+      "title": "CORRUPTED LOG 0002: Sector Index Drift",
+      "truth_level": "corrupted"
+    },
     {
       "confidence": "known",
       "entities": [],
@@ -18,5 +95,5 @@
       "truth_level": "canon"
     }
   ],
-  "generated_at": "2026-02-01T06:44:58.071158+00:00"
+  "generated_at": "2026-02-01T07:08:08.606977+00:00"
 }
