@@ -1,6 +1,6 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T16:11:45.344Z  
+**Generated:** 2026-02-04T16:33:40.701Z  
 **Total Chunks:** 63  
 **Entities:** 37  
 **Locations:** 23  
