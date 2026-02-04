@@ -1,187 +1,171 @@
+# Kermit Thought Loop — Terminal Transmissions Pipeline
 
-```
-███████████████████████████████████████████████████████████████████████
-█                                                                       █
-█   ███████╗██████╗ ██╗   ██╗ ██████╗     ████████╗ ██████╗ ██╗   ██╗   █
-█   ██╔════╝██╔══██╗██║   ██║██╔════╝     ╚══██╔══╝██╔═══██╗██║   ██║   █
-█   █████╗  ██████╔╝██║   ██║██║  ███╗       ██║   ██║   ██║██║   ██║   █
-█   ██╔══╝  ██╔══██╗██║   ██║██║   ██║       ██║   ██║   ██║╚██╗ ██╔╝   █
-█   ██║     ██║  ██║╚██████╔╝╚██████╔╝       ██║   ╚██████╔╝ ╚████╔╝    █
-█   ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝        ╚═╝    ╚═════╝   ╚═══╝     █
-█                                                                       █
-█              🐸  D E G E N O R A   I S L A N D   A R C H I V E  🐸    █
-█                                                                       █
-███████████████████████████████████████████████████████████████████████
-```
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TERMINAL-7--B-00ff41?style=for-the-badge&logo=windows-terminal&logoColor=white&labelColor=0a0a0a" alt="Terminal 7-B">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00ff41?style=for-the-badge&labelColor=0a0a0a" alt="Status: Active">
-  <img src="https://img.shields.io/badge/YEAR-15-ffb000?style=for-the-badge&labelColor=0a0a0a" alt="Year 15">
-</p>
-
-<p align="center">
-  <em>"Some things shouldn't be documented up close."</em><br>
-  <strong>— Frugowski, Field Report FR-012</strong>
-</p>
+**Issue:** #43  
+**Status:** Ready for Review → Deploy  
+**Estimated Effort:** 8 hours (complete)
 
 ---
 
+## Overview
+
+Implements a background AI system that generates in-universe terminal transmissions for Terminal 7-B. KERMIT (Knowledge Extraction and Research Monitoring Intelligence Terminal) generates atmospheric lore drops that keep the terminal feeling alive.
+
+## Components
+
+### 1. Database Schema (`terminal-transmissions-schema.sql`)
+
+**Table:** `terminal_transmissions`
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `id` | uuid | Primary key |
+| `kind` | text | Type: `kermit_thought`, `system_event`, `curated_comm`, `archive_fragment`, `transmission` |
+| `content` | text | The transmission content |
+| `title` | text | Optional title |
+| `source` | text | Origin: `kermit`, `system`, `observer`, `community` |
+| `priority` | text | `low`, `normal`, `high`, `urgent` |
+| `clearance_level` | int | 1-5, for future gating |
+| `canon_refs` | text[] | References to lore chunks |
+| `generation_prompt` | text | AI prompt used (for Kermit thoughts) |
+| `is_visible` | boolean | Display control |
+| `display_from/until` | timestamptz | Scheduling |
+
+**Features:**
+- Full RLS protection
+- Optimized indexes for feed queries
+- Seed data included (5 initial transmissions)
+
+### 2. Edge Functions
+
+#### `POST /terminal-transmit`
+Service-role only. Creates new transmissions.
+
+```json
+{
+  "kind": "kermit_thought",
+  "content": "The wetlands whisper today...",
+  "source": "kermit",
+  "priority": "normal",
+  "clearance_level": 1
+}
 ```
-[TERMINAL 7-B] > INITIALIZING CONNECTION...
-[TERMINAL 7-B] > ACCESSING DEGENORA ARCHIVE...
-[TERMINAL 7-B] > ████████████████████ 100%
-[TERMINAL 7-B] > READY
+
+#### `GET /terminal-feed`
+Public read. Returns paginated feed.
+
+```bash
+GET /functions/v1/terminal-feed?limit=20&offset=0&clearance=1
 ```
 
-## 📡 About This Repository
+Response:
+```json
+{
+  "transmissions": [...],
+  "pagination": { "total": 150, "limit": 20, "offset": 0, "hasMore": true },
+  "meta": { "available_kinds": [...], "clearance_level": 1 }
+}
+```
 
-Welcome to the **FRUG Knowledge Base** — the canonical documentation archive for the Degenora Island ecosystem and the FRUG narrative universe.
+### 3. Cron Job (`kermit-thought-generator.js`)
 
-This repository serves as the **single source of truth** for:
-- 🗺️ **World-building** — The Degenora Island setting and lore
-- 🐸 **Specimen documentation** — Catalogued creatures and mutations
-- 📋 **Field reports** — First-hand observations from ground zero
-- 🖥️ **Terminal records** — System logs, corrupted data, and transmissions
-- 🧬 **Character dossiers** — Profiles of key entities and individuals
+Runs every 30-60 minutes, generates 1-3 AI thoughts.
 
-> **Reading Note:** Many documents are written **in-universe** as archival records from Terminal 7-B. Check metadata for `truth_level` and `confidence` ratings.
+**Features:**
+- Reads recent transmissions for context (avoids repetition)
+- Uses OpenAI API (GPT-4o-mini) for generation
+- Maintains consistent in-universe voice
+- Tracks generation prompts for auditability
+
+**Environment Variables:**
+```bash
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+OPENAI_API_KEY=
+```
+
+## Deployment Checklist
+
+- [ ] Run `terminal-transmissions-schema.sql` in Supabase SQL Editor
+- [ ] Deploy `terminal-transmit` edge function
+- [ ] Deploy `terminal-feed` edge function
+- [ ] Set up cron job (see below)
+- [ ] Verify seed data appears in feed
+- [ ] Update website to consume `/terminal-feed`
+
+### Cron Setup
+
+Using OpenClaw cron (recommended):
+```bash
+openclaw cron add \
+  --name "kermit-thoughts" \
+  --schedule "every 45m" \
+  --command "node /path/to/kermit-thought-generator.js"
+```
+
+Or system cron:
+```cron
+# Every 45 minutes
+*/45 * * * * cd /path/to/scripts && node kermit-thought-generator.js
+```
+
+## Integration with Website
+
+The Terminal 7-B website should:
+
+1. Poll `/terminal-feed` every 60 seconds for new content
+2. Mix transmissions by `kind` for visual variety:
+   - `kermit_thought` — subtle glow, typing animation
+   - `system_event` — neutral styling
+   - `archive_fragment` — corrupted/glitch effect
+   - `curated_comm` — community badge
+3. Respect `clearance_level` (filter client-side until auth ready)
+4. Call `increment_transmission_views(id)` on visibility
+
+## Transmission Types
+
+| Type | Description | Example |
+|------|-------------|---------|
+| `kermit_thought` | AI musings | "The Signal pulses differently today..." |
+| `system_event` | System notifications | "Field report received from Sector F11" |
+| `curated_comm` | Approved community | Observer-submitted content |
+| `archive_fragment` | Corrupted data | "[RECOVERED] ...subject displayed... [DATA CORRUPTED]" |
+| `transmission` | Direct broadcasts | "Welcome to Degenora..." |
+
+## Acceptance Criteria
+
+- [x] Create `terminal_transmissions` table with RLS
+- [x] Create `terminal-transmit` edge function (service-role insert)
+- [x] Create `terminal-feed` edge function (public read, paginated)
+- [x] Implement Kermit thought generation script
+- [x] Seed initial transmissions so feed isn't empty
+- [x] Document transmission types and generation prompts
+- [ ] Deploy to Supabase (requires approval)
+- [ ] Configure cron job (requires approval)
+
+## File Structure
+
+```
+lore-work/
+├── terminal-transmissions-schema.sql      # Database schema
+├── edge-functions/
+│   ├── terminal-transmit/
+│   │   └── index.ts                       # POST edge function
+│   └── terminal-feed/
+│       └── index.ts                       # GET edge function
+├── scripts/
+│   ├── kermit-thought-generator.js        # Cron job script
+│   └── package.json                       # Dependencies
+└── README.md                              # This file
+```
+
+## Next Steps
+
+1. **Review** this implementation with Big Frug
+2. **Deploy** schema and edge functions to Supabase
+3. **Configure** environment variables for cron job
+4. **Integrate** feed endpoint into Terminal 7-B website
+5. **Monitor** first few generated thoughts for quality
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ☠️  CLEARANCE LEVEL: PUBLIC  ☠️                                     ║
-║  ⚠️  CAUTION: Some files contain corrupted or uncertain data       ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-## 🗂️ Quick Navigation
-
-### 🏛️ Project Documentation
-| Document | Description |
-|----------|-------------|
-| 📄 [Project Overview](project/overview.md) | FRUG project introduction and goals |
-| 🔗 [Official Links](project/links.md) | Website, socials, and external resources |
-| ❓ [FAQ](project/faq.md) | Frequently asked questions |
-| 📖 [Glossary](project/glossary.md) | Project terminology and definitions |
-| 💰 [Tokenomics](https://github.com/Frug-Solana/frug-tokenomics) | Token specifications |
-
-### 📚 Lore Archives (Canonical)
-
-```
-┌────────────────────────────────────────────────────────────────────┐
-│  📖 LORE INDEX — START HERE                                         │
-└────────────────────────────────────────────────────────────────────┘
-```
-
-| Section | Document | Description |
-|---------|----------|-------------|
-| **A** | [World Overview](lore/pages/world_overview.md) | The setting, tone, and core premise |
-| **B** | [Timeline](lore/pages/timeline.md) | Chronological events from Year 0 to present |
-| **C** | [Locations](lore/pages/locations/README.md) | Sectors, outposts, and points of interest |
-| **D** | [Characters](lore/pages/characters/README.md) | Entities, profiles, and dossiers |
-| **E** | [Systems/Terminal](lore/pages/systems/terminal.md) | Terminal 7-B documentation |
-| **F** | [Glossary](lore/pages/glossary.md) | In-universe terminology |
-
-### 🗃️ Archive Chunks
-
-Raw canon documents stored in [`lore/chunks/`](lore/chunks/):
-
-```
-lore/chunks/
-├── 📦 ARCHIVE.FRAGMENT.0001.md    # Found documents
-├── 💾 CORRUPTED.LOG.0001.md       # Damaged data
-├── 🌱 LORE.SEED.0001.md           # Origin story
-├── 📁 SPECIMENS/                  # Creature documentation
-├── 📁 FIELD_REPORTS/              # First-hand accounts
-├── 📁 LOCATIONS/                  # Place documentation
-├── 📁 CHARACTERS/                 # Entity profiles
-├── 📁 TIMELINE/                   # Historical records
-└── 📁 HISTORY/                    # Major events
-```
-
-### 🎨 Visual Assets
-
-| Document | Purpose |
-|----------|---------|
-| [🎨 Style Guide](.assets/style-guide.md) | Art direction and aesthetic standards |
-| [🖼️ Image Inventory](.assets/image-inventory.md) | Planned and needed visual assets |
-
----
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  📡 EXTERNAL ARCHIVE ACCESS                                         ║
-║  ═════════════════════════════════════════════════════════════════  ║
-║  Legacy documentation available at:                                  ║
-║  https://github.com/Frug-Solana/degenora-codex                     ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-## 📝 Contributing to Lore
-
-We welcome contributions that expand the Degenora Archive. Please follow these guidelines:
-
-```
-┌────────────────────────────────────────────────────────────────────┐
-│  ⚠️  CONTRIBUTION PROTOCOL                                         │
-└────────────────────────────────────────────────────────────────────┘
-```
-
-1. **Prefer small, linkable chunks** with stable IDs in `lore/chunks/`
-2. **Include YAML frontmatter** per [lore/schema.md](lore/schema.md)
-3. **Use relative links** for internal references
-4. **Maintain the tone** — terminal-lit mystery, field-science documentation
-5. **Check truth levels** — canon | record | rumor | corrupted | redacted
-
-### Metadata Template
-
-```yaml
----
-id: LORE.SECTION.0001
-kind: canon_chunk | archive_fragment | transmission
-truth_level: canon | record | rumor | corrupted | redacted
-confidence: known | inferred | uncertain
-status: active | superseded | deprecated
-entities: ["entity_key"]
-locations: ["location_key"]
-tags: ["tag1", "tag2"]
----
-```
-
----
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  🔐 SECURITY NOTICE                                                  ║
-║  ═════════════════════════════════════════════════════════════════  ║
-║  Some files may contain ████████████ or ████████████████████████   ║
-║  Exercise caution when accessing corrupted or redacted documents.   ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-## 🔗 Quick Links
-
-<p align="center">
-  <a href="https://frugsolana.xyz/">🌐 Website</a> •
-  <a href="https://frugsolana.xyz/lore">📖 Lore Page</a> •
-  <a href="https://frugsolana.xyz/degenora">🗺️ Degenora Map</a> •
-  <a href="https://github.com/Frug-Solana/degenora-codex">📚 Legacy Archive</a>
-</p>
-
----
-
-```
-[TERMINAL 7-B] > SESSION MAINTAINED
-[TERMINAL 7-B] > AWAITING INPUT...
-[TERMINAL 7-B] > █
-```
-
-<p align="center">
-  <sub>🐸 <em>The jungle takes back what was taken.</em> 🐸</sub>
-</p>
-
----
-
-*This is a work of fiction. Any resemblance to actual amphibians, living or mutated, is purely coincidental.*
+*"The Terminal never sleeps. Neither do I." — KERMIT*

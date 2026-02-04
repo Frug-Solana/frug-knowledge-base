@@ -1,0 +1,13 @@
+{
+  "name": "kermit-thought-generator",
+  "version": "1.0.0",
+  "description": "Generates AI-powered Kermit transmissions for Terminal 7-B",
+  "type": "module",
+  "main": "scripts/kermit-thought-generator.js",
+  "scripts": {
+    "generate": "node scripts/kermit-thought-generator.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
