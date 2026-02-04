@@ -1,3 +1,16 @@
+---
+id: INDEX.LORE.0001
+title: "Lore Archive Index"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: []
+locations: ["degenora_island", "terminal_7b"]
+tags: ["index", "navigation", "archive"]
+last_reviewed: "2026-02-02"
+---
+
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║

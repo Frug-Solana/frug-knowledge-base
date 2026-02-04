@@ -1,3 +1,19 @@
+---
+id: LOC.DEGENORA.0001
+title: "Degenora Island - World Overview"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["big_frugowski", "frug"]
+locations: ["degenora_island", "terminal_7b", "the_swamp", "the_rise", "the_shore", "the_depths", "signal_tower"]
+tags: ["location", "world", "overview", "quarantine"]
+chronology:
+  - type: absolute
+    value: "2024-08"
+last_reviewed: "2026-02-02"
+---
+
 # Degenora Island
 
 ## Overview

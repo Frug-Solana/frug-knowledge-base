@@ -1,3 +1,16 @@
+---
+id: INDEX.CHARACTERS.0001
+title: "Characters Index"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["big_frug", "kermit", "pondwatcher", "toaddy"]
+locations: []
+tags: ["index", "characters", "overview"]
+last_reviewed: "2026-02-02"
+---
+
 # Characters
 
 Canonical character definitions for the FRUG ecosystem.

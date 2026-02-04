@@ -1,3 +1,16 @@
+---
+id: SYS.TERMINAL_7B.0001
+title: "Terminal 7-B - System Documentation"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["big_frugowski", "frug", "kermit"]
+locations: ["terminal_7b", "degenora_island", "the_swamp"]
+tags: ["system", "terminal", "infrastructure", "signal"]
+last_reviewed: "2026-02-02"
+---
+
 # Terminal 7-B
 
 ## Overview
