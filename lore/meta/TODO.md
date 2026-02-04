@@ -14,7 +14,8 @@ tags: ["meta", "todo"]
 - [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors
 
 ## Priority (next)
-- [ ] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
+- [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
+  - ✅ wetlands.md — COMPLETE (Year 15, Month 1)
 - [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
 - [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
 

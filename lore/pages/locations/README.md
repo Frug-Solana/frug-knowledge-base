@@ -58,7 +58,7 @@ Geographic regions referenced in lore (awaiting detailed documentation).
 
 | Sector | Key | Description | Documentation |
 |--------|-----|-------------|---------------|
-| 🌿 Wetlands | `wetlands` | Bog Hoppers, Deep Dwellers habitat | 📋 Referenced |
+| 🌿 [Wetlands](../../chunks/LOCATIONS/wetlands.md) | `wetlands` | Bog Hoppers, Deep Dwellers habitat | ✅ Documented |
 | 🌊 Coastal Sector | `coastal_sector` | Tide Walker territory, shoreline | 📋 Referenced |
 | 🏘️ Residential Zone | `residential_zone` | Former personnel housing | 📋 Referenced |
 | 🔬 Underground Labs | `underground_labs` | Classified research levels | 📋 Referenced |
