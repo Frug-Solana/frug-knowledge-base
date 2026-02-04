@@ -10,6 +10,7 @@
     "kermit-report": "cat lore/reports/contradictions-$(date +%Y-%m-%d).md"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "yaml": "^2.3.4"
   },
   "repository": {
