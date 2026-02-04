@@ -1,16 +1,26 @@
-# Official links
+# Official Links
 
-Website:
-- https://frugsolana.xyz
+## Website
+- **Terminal 7-B:** https://frugsolana.xyz
 
-X:
-- https://x.com/FrugSolana
+## Social
+- **X/Twitter:** https://x.com/FrugSolana
+- **Telegram:** https://t.me/frugsolana
+- **Discord:** https://discord.gg/md74jUqgVX
 
-Telegram:
-- https://t.me/frugsolana
+## Token
+- **CA:** `EBnA9HbJkhRTP1n1ZCkZzNCGjssRWTetBFL9nzPpump`
 
-Discord:
-- https://discord.gg/md74jUqgVX
+## GitHub Repos
+- **Website:** https://github.com/AddySiz/frugAI_web
+- **Knowledge Base (this repo):** https://github.com/Frug-Solana/frug-knowledge-base
+- **Degenora Codex (Terminal):** https://github.com/Frug-Solana/degenora-codex
+- **Tokenomics:** https://github.com/Frug-Solana/frug-tokenomics
 
-CA (Solana):
-`EBnA9HbJkhRTP1n1ZCkZzNCGjLssRWTetBFL9nzPpump`
+## Documentation
+- **Lore Index:** https://github.com/Frug-Solana/frug-knowledge-base/blob/main/lore/INDEX.md
+- **FAQ:** ./faq.md
+- **Glossary:** ./glossary.md
+
+## External
+- **pump.fun:** Search for FRUG or use CA above
