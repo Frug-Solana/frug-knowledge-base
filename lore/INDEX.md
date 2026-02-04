@@ -19,7 +19,7 @@
 
 ```
 [TERMINAL 7-B] > INDEXING ARCHIVE...
-[TERMINAL 7-B] > 47 DOCUMENTS FOUND
+[TERMINAL 7-B] > 52 DOCUMENTS FOUND
 [TERMINAL 7-B] > READY FOR BROWSING
 ```
 
@@ -54,6 +54,19 @@
 ```
 
 ## 🚀 Start Here
+
+### 🆕 New to Degenora?
+Start with these essential documents.
+
+| Document | Description | For |
+|----------|-------------|-----|
+| 🎙️ [Kermit's Welcome Transmission](chunks/TRANSMISSION.001.md) | Your introduction to Terminal 7-B | New Observers |
+| 📡 [The Absentee Protocol](chunks/LORE.PROTOCOL.0001.md) | How AI plays while you're away | All players |
+| 🧬 [Specimen Origins](chunks/ORIGINS/) | How creatures came to be | Lore enthusiasts |
+
+```
+──────────────────────────────────────────────────────────────────────
+```
 
 ### Section A: World Overview
 The foundation of the Degenora setting.
@@ -167,11 +180,14 @@ Canonical lore is stored as small, linkable chunks in [`lore/chunks/`](chunks/).
 | Category | Path | Contents |
 |----------|------|----------|
 | 🧬 Specimens | `chunks/SPECIMENS/` | Creature documentation |
+| 🌱 Origins | `chunks/ORIGINS/` | Specimen origin stories (Signal/Void/Swamp) |
+| 📡 Transmissions | `chunks/TRANSMISSION.*.md` | Kermit's Terminal broadcasts |
 | 📋 Field Reports | `chunks/FIELD_REPORTS/` | First-hand observations |
 | 🏢 Locations | `chunks/LOCATIONS/` | Place documentation |
 | 👥 Characters | `chunks/CHARACTERS/` | Entity profiles |
 | 📅 Timeline | `chunks/TIMELINE/` | Historical records |
 | 📜 History | `chunks/HISTORY/` | Major event documentation |
+| ⚙️ Protocols | `chunks/LORE.PROTOCOL.*.md` | Core game mechanic lore |
 
 ---
 

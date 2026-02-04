@@ -1,0 +1,398 @@
+{
+  "generated_at": "2026-02-04T05:12:00+02:00",
+  "scan_version": "1.0",
+  "total_chunks": 25,
+  "entity_count": 26,
+  "location_count": 12,
+  "contradictions_found": 5,
+  "entities": {
+    "big_frugowski": {
+      "type": "character",
+      "aliases": ["frugowski", "the_observer", "frug"],
+      "chunks": [
+        "LORE.CHAR.0001",
+        "LORE.CHAR.0002",
+        "LORE.CHAR.0003",
+        "LORE.LOC.0002",
+        "LORE.LOC.0003",
+        "LORE.REPT.0001",
+        "LORE.REPT.0002",
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.SPEC.0002",
+        "LORE.SPEC.0003",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0003",
+        "LORE.TIME.0004"
+      ],
+      "attributes_by_chunk": {
+        "LORE.CHAR.0001": {
+          "status": "ACTIVE • TRANSFORMED • NEUTRALIZED • ESSENTIAL PERSONNEL",
+          "clearance": "Level 6",
+          "title": "Chief Documentation Officer",
+          "exposure": "All six pharmaceutical variants"
+        },
+        "LORE.CHAR.0003": {
+          "status": "Active Stable multi-variant hybrid",
+          "designation": "The Observer / FRUG / Big Frugowski",
+          "classification": "The only documented stable transformation",
+          "current_location": "Observation House 04, rotating to Terminal 7"
+        },
+        "LORE.TIME.0004": {
+          "cognitive_enhancement": "340%",
+          "aging_rate": "40% slower",
+          "life_expectancy": "200+ years"
+        }
+      },
+      "contradictions": ["CONFLICT-001", "CONFLICT-002", "CONFLICT-003"]
+    },
+    "frugowski": {
+      "type": "character",
+      "aliases": ["big_frugowski"],
+      "chunks": ["LORE.CHAR.0001"],
+      "attributes_by_chunk": {
+        "LORE.CHAR.0001": {
+          "role": "Primary Documentarian",
+          "base": "Observation House 04",
+          "clearance": "Level 5",
+          "status": "Active (Year 15)"
+        }
+      },
+      "contradictions": ["CONFLICT-003"]
+    },
+    "ramirez": {
+      "type": "character",
+      "aliases": ["patient_zero", "humanoid-ramirez"],
+      "chunks": [
+        "LORE.CHAR.0001",
+        "LORE.REPT.0002",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001",
+        "LORE.TIME.0004"
+      ],
+      "attributes_by_chunk": {
+        "LORE.CHAR.0001": {
+          "designation": "Patient Zero",
+          "status": "First transformation"
+        },
+        "LORE.REPT.0002": {
+          "speech_year_1": "normal",
+          "speech_year_2": "partial",
+          "last_seen": "Year 2"
+        },
+        "LORE.SPEC.0004": {
+          "last_seen": "Year 13",
+          "population": "200+ humanoid specimens estimated"
+        },
+        "LORE.TIME.0004": {
+          "final_status": "stopped appearing two years ago (Year 13)",
+          "assumed": "peaceful degradation"
+        }
+      },
+      "contradictions": [],
+      "notes": "Timeline consistent across sources"
+    },
+    "dr_chen": {
+      "type": "character",
+      "aliases": [],
+      "chunks": [
+        "LORE.CHAR.0001",
+        "LORE.LOC.0003",
+        "LORE.REPT.0003",
+        "LORE.TIME.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0003",
+        "LORE.TIME.0004"
+      ],
+      "attributes_by_chunk": {
+        "LORE.CHAR.0001": {
+          "role": "Emergency response leader"
+        },
+        "LORE.TIME.0002": {
+          "action": "Assigned Frugowski to OH-04",
+          "date": "Year 1, Month 1"
+        },
+        "LORE.TIME.0003": {
+          "action": "Final visit, announced Protocol R-23 failure",
+          "date": "Year 5, Month 8, Day 14",
+          "time": "16:00",
+          "departure": "sunset"
+        }
+      },
+      "contradictions": ["CONFLICT-005"]
+    },
+    "kermit": {
+      "type": "ai_system",
+      "aliases": ["sys-kermit", "Knowledge & Environmental Resource Monitoring Intelligence Terminal", "PSCL Autonomous Monitoring System"],
+      "chunks": ["LORE.CHAR.0002", "LORE.LOC.0001", "LORE.LOC.0003"],
+      "attributes_by_chunk": {
+        "LORE.CHAR.0002": {
+          "status": "ACTIVE • SELF-SUSTAINING • INDEPENDENT",
+          "built": "Pre-contamination",
+          "power": "Self-generating (geothermal + solar)",
+          "last_external_contact": "Year 6"
+        },
+        "LORE.LOC.0001": {
+          "uptime": "15 years continuous operation",
+          "location": "Main facility Terminal 7-B station"
+        }
+      },
+      "contradictions": []
+    },
+    "queen_of_shadows": {
+      "type": "specimen",
+      "aliases": ["sable-fox", "c47"],
+      "chunks": ["LORE.REPT.0001", "LORE.SPEC.0003", "LORE.TIME.0004", "LORE.REPT.0004"],
+      "attributes_by_chunk": {
+        "LORE.REPT.0001": {
+          "first_documented": "Year 1, Month 6, Day 8",
+          "variant": "C-47 (Red) pure",
+          "behavior": "40-foot perimeter from Frugowski"
+        },
+        "LORE.SPEC.0003": {
+          "territory": "x: 42, y: 58, range: 8",
+          "observations": "365 documented",
+          "last_sighting": "Year 15, Month 1 (nightly visits)"
+        },
+        "LORE.TIME.0004": {
+          "tradition": "Annual midnight visit on New Year's Day",
+          "duration": "exactly one hour"
+        }
+      },
+      "contradictions": []
+    },
+    "the_observer": {
+      "type": "character",
+      "aliases": ["big_frugowski"],
+      "chunks": ["LORE.CHAR.0003"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "frog_coin": {
+      "type": "token",
+      "aliases": [],
+      "chunks": ["LORE.HIST.0001"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "frug_token": {
+      "type": "token",
+      "aliases": [],
+      "chunks": ["LORE.HIST.0001"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "flog": {
+      "type": "token",
+      "aliases": [],
+      "chunks": ["LORE.HIST.0001"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "airdrop": {
+      "type": "event",
+      "aliases": [],
+      "chunks": ["LORE.HIST.0001"],
+      "attributes_by_chunk": {
+        "LORE.HIST.0001": {
+          "ratio": "1:1 for FLOG holders",
+          "date": "Year 0"
+        }
+      },
+      "contradictions": []
+    },
+    "unknown_founders": {
+      "type": "group",
+      "aliases": [],
+      "chunks": ["LORE.LOC.0001"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "deep_dweller": {
+      "type": "specimen",
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0002", "LORE.TIME.0004"],
+      "attributes_by_chunk": {
+        "LORE.SPEC.0002": {
+          "variant": "A-02 (Blue) PURE",
+          "first_documented": "Year 3, Month 5",
+          "population": "Unknown (rarely surface)",
+          "territory": "x: 85, y: 70, range: 15"
+        }
+      },
+      "contradictions": []
+    },
+    "apex_glimmer": {
+      "type": "specimen",
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0001"],
+      "attributes_by_chunk": {},
+      "contradictions": []
+    },
+    "bog_hopper": {
+      "type": "specimen",
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0002"],
+      "attributes_by_chunk": {
+        "LORE.SPEC.0002": {
+          "population": "1000+",
+          "variant": "B-12X (Green) + L-19 (Yellow)"
+        }
+      },
+      "contradictions": []
+    },
+    "tide_walker": {
+      "type": "specimen",
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0002"],
+      "attributes_by_chunk": {
+        "LORE.SPEC.0002": {
+          "population": "80+",
+          "variant": "A-02 (Blue) + B-12X (Green)"
+        }
+      },
+      "contradictions": []
+    }
+  },
+  "locations": {
+    "observation_house_04": {
+      "aliases": ["OH-04", "OH-04", "Frugowski's Station"],
+      "chunks": [
+        "LORE.CHAR.0001",
+        "LORE.CHAR.0003",
+        "LORE.LOC.0002",
+        "LORE.LOC.0003",
+        "LORE.REPT.0001",
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.TIME.0002",
+        "LORE.TIME.0003",
+        "LORE.TIME.0004"
+      ],
+      "coordinates_by_chunk": {
+        "LORE.LOC.0002": { "x": 32, "y": 60 },
+        "LORE.REPT.0001": { "x": 35, "y": 58, "note": "OH-04 Perimeter" },
+        "LORE.REPT.0003": { "x": 32, "y": 60 },
+        "LORE.REPT.0004": { "x": 32, "y": 60 }
+      },
+      "contradictions": ["CONFLICT-004"]
+    },
+    "terminal_7b": {
+      "aliases": ["terminal_7B", "t3rm1n4l_7b", "Terminal 7-B"],
+      "chunks": [
+        "LORE.CHAR.0002",
+        "LORE.CHAR.0003",
+        "LORE.LOC.0001",
+        "LORE.LOC.0003",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004"
+      ],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "degenora_island": {
+      "aliases": ["Degenora", "PSCL Facility Island", "The Island"],
+      "chunks": [
+        "LORE.CHAR.0003",
+        "LORE.LOC.0003",
+        "LORE.SPEC.0001",
+        "LORE.SPEC.0003",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001"
+      ],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "main_facility": {
+      "aliases": [],
+      "chunks": [
+        "LORE.LOC.0003",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001"
+      ],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "wetlands": {
+      "aliases": [],
+      "chunks": ["LORE.LOC.0003", "LORE.SPEC.0002", "LORE.TIME.0003"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "coastal_sector": {
+      "aliases": [],
+      "chunks": ["LORE.LOC.0003", "LORE.SPEC.0002"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "residential_zone": {
+      "aliases": [],
+      "chunks": ["LORE.CHAR.0001", "LORE.LOC.0003", "LORE.REPT.0002", "LORE.SPEC.0004"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "northern_sector": {
+      "aliases": [],
+      "chunks": ["LORE.LOC.0003"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "underground_labs": {
+      "aliases": [],
+      "chunks": ["LORE.LOC.0003", "LORE.SPEC.0004"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "forest": {
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0003"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    },
+    "green_pond": {
+      "aliases": [],
+      "chunks": ["LORE.SPEC.0002"],
+      "coordinates_by_chunk": {},
+      "contradictions": []
+    }
+  },
+  "contradictions": {
+    "CONFLICT-001": {
+      "type": "entity_attribute",
+      "entity": "big_frugowski",
+      "issue": "Status field contains conflicting descriptors: NEUTRALIZED vs Stable",
+      "chunks": ["LORE.CHAR.0001", "LORE.CHAR.0003"],
+      "confidence": "high"
+    },
+    "CONFLICT-002": {
+      "type": "entity_location",
+      "entity": "big_frugowski",
+      "issue": "Location attribution varies - 'rotating to Terminal 7' vs 'permanent residence'",
+      "chunks": ["LORE.CHAR.0003", "LORE.LOC.0002"],
+      "confidence": "medium"
+    },
+    "CONFLICT-003": {
+      "type": "entity_identity",
+      "entity": "big_frugowski/frugowski",
+      "issue": "Identity ambiguity - naming convention inconsistent across timeline",
+      "chunks": ["LORE.CHAR.0001", "LORE.CHAR.0003", "LORE.REPT.0002"],
+      "confidence": "medium"
+    },
+    "CONFLICT-004": {
+      "type": "location_coordinate",
+      "location": "observation_house_04",
+      "issue": "Coordinate variance: x:32,y:60 vs x:35,y:58",
+      "chunks": ["LORE.LOC.0002", "LORE.REPT.0001"],
+      "confidence": "medium"
+    },
+    "CONFLICT-005": {
+      "type": "timeline",
+      "event": "dr_chen_final_visit",
+      "issue": "Departure time inconsistency - 16:00 vs 'sunset' (~19:30 in Month 8)",
+      "chunks": ["LORE.TIME.0003", "LORE.REPT.0003"],
+      "confidence": "low"
+    }
+  }
+}
