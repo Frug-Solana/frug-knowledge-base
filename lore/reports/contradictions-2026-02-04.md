@@ -1,8 +1,8 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T07:57:01.749Z
-**Total Chunks:** 50
-**Entities:** 19
+**Generated:** 2026-02-04T08:28:46.059Z
+**Total Chunks:** 55
+**Entities:** 28
 **Locations:** 17
 
 ## Summary
@@ -12,7 +12,7 @@
 | Temporal Conflicts | 3 |
 | Entity Conflicts | 5 |
 | Location Conflicts | 0 |
-| Orphan References | 12 |
+| Orphan References | 17 |
 | Missing Metadata | 2 |
 | Cross-Reference Issues | 0 |
 
@@ -42,13 +42,18 @@ Entities/locations mentioned only once (may need cross-linking):
 - **big_frug** (in INDEX.CHARACTERS.0001)
 - **pondwatcher** (in INDEX.CHARACTERS.0001)
 - **toaddy** (in INDEX.CHARACTERS.0001)
-- **frugowski** (in LORE.CHAR.0001)
 - **frog_coin** (in LORE.HIST.0001)
 - **frug_token** (in LORE.HIST.0001)
 - **flog** (in LORE.HIST.0001)
 - **airdrop** (in LORE.HIST.0001)
+- **absentee_protocol** (in LORE.PROTOCOL.0001)
+- **bog_hopper** (in ORIGIN.SPEC.001)
+- **the_swamp** (in ORIGIN.SPEC.003)
+- **ancient** (in ORIGIN.SPEC.003)
+- **shadow_stalker** (in ORIGIN.SPEC.002)
+- **the_void** (in ORIGIN.SPEC.002)
+- **apex_predator** (in ORIGIN.SPEC.002)
 - **apex_glimmer** (in LORE.SPEC.0001)
-- **deep_dweller** (in LORE.SPEC.0002)
 
 ## Missing Metadata
 

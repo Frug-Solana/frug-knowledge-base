@@ -1,7 +1,7 @@
 {
-  "scanned_at": "2026-02-04T07:57:01.749Z",
-  "total_chunks": 50,
-  "total_entities": 19,
+  "scanned_at": "2026-02-04T08:28:46.059Z",
+  "total_chunks": 55,
+  "total_entities": 28,
   "total_locations": 17,
   "findings": {
     "temporal_conflicts": [
@@ -99,12 +99,6 @@
       },
       {
         "type": "entity",
-        "ref": "frugowski",
-        "source": "LORE.CHAR.0001",
-        "file": "chunks/CHARACTERS/frugowski-profile.md"
-      },
-      {
-        "type": "entity",
         "ref": "frog_coin",
         "source": "LORE.HIST.0001",
         "file": "chunks/HISTORY/the-rug-origin.md"
@@ -129,15 +123,51 @@
       },
       {
         "type": "entity",
-        "ref": "apex_glimmer",
-        "source": "LORE.SPEC.0001",
-        "file": "chunks/SPECIMENS/specimens-apex.md"
+        "ref": "absentee_protocol",
+        "source": "LORE.PROTOCOL.0001",
+        "file": "chunks/LORE.PROTOCOL.0001.md"
       },
       {
         "type": "entity",
-        "ref": "deep_dweller",
-        "source": "LORE.SPEC.0002",
-        "file": "chunks/SPECIMENS/specimens-wetlands.md"
+        "ref": "bog_hopper",
+        "source": "ORIGIN.SPEC.001",
+        "file": "chunks/ORIGINS/bog-hopper-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "the_swamp",
+        "source": "ORIGIN.SPEC.003",
+        "file": "chunks/ORIGINS/deep-dweller-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "ancient",
+        "source": "ORIGIN.SPEC.003",
+        "file": "chunks/ORIGINS/deep-dweller-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "shadow_stalker",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "the_void",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "apex_predator",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "apex_glimmer",
+        "source": "LORE.SPEC.0001",
+        "file": "chunks/SPECIMENS/specimens-apex.md"
       }
     ],
     "missing_metadata": [
@@ -156,7 +186,7 @@
     "temporal_conflicts": 3,
     "entity_conflicts": 5,
     "location_conflicts": 0,
-    "orphan_refs": 12,
+    "orphan_refs": 17,
     "missing_metadata": 2,
     "cross_ref_issues": 0
   }
