@@ -1,0 +1,90 @@
+name: Canon Contradiction Scanner
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'lore/**'
+      - 'scripts/**'
+  pull_request:
+    paths:
+      - 'lore/**'
+      - 'scripts/**'
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Run contradiction scan
+      run: npm run scan
+    
+    - name: Run canon sync
+      run: npm run sync
+    
+    - name: Commit scan results (on main)
+      if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add lore/reports/ lore/meta/ dist/
+        git diff --quiet && git diff --staged --quiet || git commit -m "chore: update canon scan reports [skip ci]"
+        git push
+    
+    - name: Comment PR with scan summary
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const reportPath = `lore/reports/contradictions-${new Date().toISOString().split('T')[0]}.json`;
+          
+          if (!fs.existsSync(reportPath)) {
+            console.log('Report not found, skipping comment');
+            return;
+          }
+          
+          const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+          const totalIssues = Object.values(report.summary).reduce((a, b) => a + b, 0);
+          
+          let body = `## 📊 Canon Contradiction Scan Results\n\n`;
+          body += `**Chunks analyzed:** ${report.total_chunks}  \n`;
+          body += `**Total findings:** ${totalIssues}  \n\n`;
+          body += `| Category | Count |\n`;
+          body += `|----------|-------|\n`;
+          body += `| Temporal Conflicts | ${report.summary.temporal_conflicts} |\n`;
+          body += `| Entity Conflicts | ${report.summary.entity_conflicts} |\n`;
+          body += `| Orphan References | ${report.summary.orphan_refs} |\n`;
+          body += `| Missing Metadata | ${report.summary.missing_metadata} |\n\n`;
+          
+          if (totalIssues > 0) {
+            body += `⚠️ **${totalIssues} issues detected.** Review the [full report](lore/reports/contradictions-${new Date().toISOString().split('T')[0]}.md) for details.\n`;
+          } else {
+            body += `✅ No contradictions detected. Canon integrity confirmed.\n`;
+          }
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: body
+          });

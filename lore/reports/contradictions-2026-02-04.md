@@ -1,94 +1,98 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T08:37:08.958Z
-**Total Chunks:** 55
-**Entities:** 28
-**Locations:** 17
+**Generated:** 2026-02-04T08:53:29.315Z  
+**Total Chunks:** 52  
+**Entities:** 28  
+**Locations:** 17  
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
-| Temporal Conflicts | 3 |
+| Temporal Conflicts | 1 |
 | Entity Conflicts | 5 |
-| Location Conflicts | 0 |
-| Orphan References | 17 |
+| Naming Inconsistencies | 0 |
+| Orphan References | 14 |
 | Missing Metadata | 2 |
-| Cross-Reference Issues | 0 |
+| **Total Resolutions Proposed** | **2** |
+
+---
+
+## [KERMIT // UNPROMPTED] Canon Integrity Analysis
+
+> *"The archive speaks, but sometimes it stutters. I've flagged 2 items for review."*
+
+### Priority Breakdown
+
+🔴 **1** critical contradictions require immediate attention
+🟢 **1** orphan references for profile creation
 
 ## Temporal Conflicts
 
-- **2024-08**: Same temporal reference with potentially conflicting narratives
+- **2024-08** (absolute)
   - Chunks: SPECIMEN.001, LOC.DEGENORA.0001, ENTITY.FRUG.0001
-- **2024-08**: Same temporal reference with potentially conflicting narratives
-  - Chunks: LOC.DEGENORA.0001, SPECIMEN.001, ENTITY.FRUG.0001
-- **2024-08**: Same temporal reference with potentially conflicting narratives
-  - Chunks: ENTITY.FRUG.0001, SPECIMEN.001, LOC.DEGENORA.0001
+  - Shared entities: big_frugowski, frug
+  - Same date reference with shared entities - potential narrative conflict
 
 ## Entity Conflicts
 
-- **LORE.CHARACTERS.INDEX.0001** (canon_uncertain): Canon truth level but confidence is not "known"
-- **LORE.GLOSSARY.0001** (canon_uncertain): Canon truth level but confidence is not "known"
-- **LORE.LOCATIONS.INDEX.0001** (canon_uncertain): Canon truth level but confidence is not "known"
-- **LORE.SYSTEM.TERMINAL.0001** (canon_uncertain): Canon truth level but confidence is not "known"
-- **LORE.TIMELINE.0001** (canon_uncertain): Canon truth level but confidence is not "known"
+- **big_frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **terminal_7b** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **kermit** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **the_signal** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **deep_dweller** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
 
 ## Orphan References
 
-Entities/locations mentioned only once (may need cross-linking):
+> *Entities mentioned only once (may need profiles):*
 
-- **origin_pill** (in SPECIMEN.001)
-- **chili_root** (in SPECIMEN.001)
-- **big_frug** (in INDEX.CHARACTERS.0001)
-- **pondwatcher** (in INDEX.CHARACTERS.0001)
-- **toaddy** (in INDEX.CHARACTERS.0001)
-- **frog_coin** (in LORE.HIST.0001)
-- **frug_token** (in LORE.HIST.0001)
-- **flog** (in LORE.HIST.0001)
-- **airdrop** (in LORE.HIST.0001)
-- **absentee_protocol** (in LORE.PROTOCOL.0001)
-- **bog_hopper** (in ORIGIN.SPEC.001)
-- **the_swamp** (in ORIGIN.SPEC.003)
-- **ancient** (in ORIGIN.SPEC.003)
-- **shadow_stalker** (in ORIGIN.SPEC.002)
-- **the_void** (in ORIGIN.SPEC.002)
-- **apex_predator** (in ORIGIN.SPEC.002)
-- **apex_glimmer** (in LORE.SPEC.0001)
+- **origin_pill** → SPECIMEN.001
+- **chili_root** → SPECIMEN.001
+- **frog_coin** → LORE.HIST.0001
+- **frug_token** → LORE.HIST.0001
+- **flog** → LORE.HIST.0001
+- **airdrop** → LORE.HIST.0001
+- **absentee_protocol** → LORE.PROTOCOL.0001
+- **bog_hopper** → ORIGIN.SPEC.001
+- **the_swamp** → ORIGIN.SPEC.003
+- **ancient** → ORIGIN.SPEC.003
+- **shadow_stalker** → ORIGIN.SPEC.002
+- **the_void** → ORIGIN.SPEC.002
+- **apex_predator** → ORIGIN.SPEC.002
+- **apex_glimmer** → LORE.SPEC.0001
 
 ## Missing Metadata
 
 - **README.md**: No frontmatter found
 - **schema.md**: No frontmatter found
 
-## Suggested Resolutions
+---
+
+## Proposed Resolutions
+
+*See `meta/reconciliation-patch.md` for detailed patch instructions.*
 
 ### 🔴 High Priority
 
-- **SPECIMEN.001, LOC.DEGENORA.0001, ENTITY.FRUG.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
-  - Issue: Temporal conflict: 2024-08
-- **LOC.DEGENORA.0001, SPECIMEN.001, ENTITY.FRUG.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
-  - Issue: Temporal conflict: 2024-08
-- **ENTITY.FRUG.0001, SPECIMEN.001, LOC.DEGENORA.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
-  - Issue: Temporal conflict: 2024-08
-
-### 🟡 Medium Priority
-
-- **LORE.CHARACTERS.INDEX.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
-  - Issue: Canon chunk has uncertain confidence
-- **LORE.GLOSSARY.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
-  - Issue: Canon chunk has uncertain confidence
-- **LORE.LOCATIONS.INDEX.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
-  - Issue: Canon chunk has uncertain confidence
-- **LORE.SYSTEM.TERMINAL.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
-  - Issue: Canon chunk has uncertain confidence
-- **LORE.TIMELINE.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
-  - Issue: Canon chunk has uncertain confidence
-
-### 🟢 Low Priority
-
-- **MULTIPLE**: Create canonical entity definitions in lore/characters/ or lore/chunks/ENTITIES/ directory
-  - Issue: 17 entities mentioned only once
+- **Temporal conflict on 2024-08**
+  - Action: review_temporal_consistency
+  - [KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities.
 
 ---
 
-*This report is generated automatically. Review flagged items and resolve or dismiss with annotations.*
+*Report generated by Canon Reconciler v2.0*  
+*Manual review required before applying patches*
