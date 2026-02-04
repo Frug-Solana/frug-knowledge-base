@@ -1,0 +1,610 @@
+{
+  "entities": {
+    "origin_pill": {
+      "canonical_name": "origin_pill",
+      "variants": [
+        "origin_pill"
+      ],
+      "chunks": [
+        "SPECIMEN.001"
+      ]
+    },
+    "big_frugowski": {
+      "canonical_name": "big_frugowski",
+      "variants": [
+        "big_frugowski"
+      ],
+      "chunks": [
+        "SPECIMEN.001",
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.CHAR.0002",
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.REPT.0001",
+        "LORE.REPT.0002",
+        "LORE.LOC.0003",
+        "LORE.LOC.0002",
+        "LORE.SPEC.0003",
+        "LORE.SPEC.0002",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004",
+        "LORE.TIME.0003",
+        "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "chili_root": {
+      "canonical_name": "chili_root",
+      "variants": [
+        "chili_root"
+      ],
+      "chunks": [
+        "SPECIMEN.001"
+      ]
+    },
+    "frug": {
+      "canonical_name": "frug",
+      "variants": [
+        "frug"
+      ],
+      "chunks": [
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.DROP.0002",
+        "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "terminal_7b": {
+      "canonical_name": "terminal_7b",
+      "variants": [
+        "terminal_7b"
+      ],
+      "chunks": [
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.LOC.0001",
+        "TRANSMISSION.001"
+      ]
+    },
+    "big_frug": {
+      "canonical_name": "big_frug",
+      "variants": [
+        "big_frug"
+      ],
+      "chunks": [
+        "INDEX.CHARACTERS.0001"
+      ]
+    },
+    "kermit": {
+      "canonical_name": "kermit",
+      "variants": [
+        "kermit"
+      ],
+      "chunks": [
+        "INDEX.CHARACTERS.0001",
+        "LORE.CHAR.0002",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.LOC.0003",
+        "LORE.PROTOCOL.0001",
+        "TRANSMISSION.001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "pondwatcher": {
+      "canonical_name": "pondwatcher",
+      "variants": [
+        "pondwatcher"
+      ],
+      "chunks": [
+        "INDEX.CHARACTERS.0001"
+      ]
+    },
+    "toaddy": {
+      "canonical_name": "toaddy",
+      "variants": [
+        "toaddy"
+      ],
+      "chunks": [
+        "INDEX.CHARACTERS.0001"
+      ]
+    },
+    "frugowski": {
+      "canonical_name": "frugowski",
+      "variants": [
+        "frugowski"
+      ],
+      "chunks": [
+        "LORE.CHAR.0001",
+        "LORE.PROTOCOL.0001"
+      ]
+    },
+    "observer": {
+      "canonical_name": "observer",
+      "variants": [
+        "observer"
+      ],
+      "chunks": [
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.DROP.0004"
+      ]
+    },
+    "greenhouse_3": {
+      "canonical_name": "greenhouse_3",
+      "variants": [
+        "greenhouse_3"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "specimen": {
+      "canonical_name": "specimen",
+      "variants": [
+        "specimen"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "cafeteria_b": {
+      "canonical_name": "cafeteria_b",
+      "variants": [
+        "cafeteria_b"
+      ],
+      "chunks": [
+        "LORE.DROP.0004"
+      ]
+    },
+    "dr_chen": {
+      "canonical_name": "dr_chen",
+      "variants": [
+        "dr_chen"
+      ],
+      "chunks": [
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.LOC.0003",
+        "LORE.TIME.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004",
+        "LORE.TIME.0003"
+      ]
+    },
+    "queen_of_shadows": {
+      "canonical_name": "queen_of_shadows",
+      "variants": [
+        "queen_of_shadows"
+      ],
+      "chunks": [
+        "LORE.REPT.0004",
+        "LORE.REPT.0001",
+        "LORE.SPEC.0003",
+        "LORE.TIME.0004"
+      ]
+    },
+    "ramirez": {
+      "canonical_name": "ramirez",
+      "variants": [
+        "ramirez"
+      ],
+      "chunks": [
+        "LORE.REPT.0004",
+        "LORE.REPT.0002",
+        "LORE.LOC.0003",
+        "LORE.TIME.0001",
+        "LORE.TIME.0004"
+      ]
+    },
+    "frog_coin": {
+      "canonical_name": "frog_coin",
+      "variants": [
+        "frog_coin"
+      ],
+      "chunks": [
+        "LORE.HIST.0001"
+      ]
+    },
+    "frug_token": {
+      "canonical_name": "frug_token",
+      "variants": [
+        "frug_token"
+      ],
+      "chunks": [
+        "LORE.HIST.0001"
+      ]
+    },
+    "flog": {
+      "canonical_name": "flog",
+      "variants": [
+        "flog"
+      ],
+      "chunks": [
+        "LORE.HIST.0001"
+      ]
+    },
+    "airdrop": {
+      "canonical_name": "airdrop",
+      "variants": [
+        "airdrop"
+      ],
+      "chunks": [
+        "LORE.HIST.0001"
+      ]
+    },
+    "absentee_protocol": {
+      "canonical_name": "absentee_protocol",
+      "variants": [
+        "absentee_protocol"
+      ],
+      "chunks": [
+        "LORE.PROTOCOL.0001"
+      ]
+    },
+    "the_signal": {
+      "canonical_name": "the_signal",
+      "variants": [
+        "the_signal"
+      ],
+      "chunks": [
+        "LORE.PROTOCOL.0001",
+        "ORIGIN.SPEC.001",
+        "TRANSMISSION.001"
+      ]
+    },
+    "bog_hopper": {
+      "canonical_name": "bog_hopper",
+      "variants": [
+        "bog_hopper"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.001"
+      ]
+    },
+    "green_pond": {
+      "canonical_name": "green_pond",
+      "variants": [
+        "green_pond"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.001",
+        "ORIGIN.SPEC.003"
+      ]
+    },
+    "deep_dweller": {
+      "canonical_name": "deep_dweller",
+      "variants": [
+        "deep_dweller"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.003",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "the_swamp": {
+      "canonical_name": "the_swamp",
+      "variants": [
+        "the_swamp"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.003"
+      ]
+    },
+    "ancient": {
+      "canonical_name": "ancient",
+      "variants": [
+        "ancient"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.003"
+      ]
+    },
+    "shadow_stalker": {
+      "canonical_name": "shadow_stalker",
+      "variants": [
+        "shadow_stalker"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.002"
+      ]
+    },
+    "the_void": {
+      "canonical_name": "the_void",
+      "variants": [
+        "the_void"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.002"
+      ]
+    },
+    "apex_predator": {
+      "canonical_name": "apex_predator",
+      "variants": [
+        "apex_predator"
+      ],
+      "chunks": [
+        "ORIGIN.SPEC.002"
+      ]
+    },
+    "apex_glimmer": {
+      "canonical_name": "apex_glimmer",
+      "variants": [
+        "apex_glimmer"
+      ],
+      "chunks": [
+        "LORE.SPEC.0001"
+      ]
+    }
+  },
+  "locations": {
+    "degenora_island": {
+      "canonical_name": "degenora_island",
+      "variants": [
+        "degenora_island"
+      ],
+      "chunks": [
+        "SPECIMEN.001",
+        "INDEX.LORE.0001",
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.CHAR.0002",
+        "LORE.LOC.0003",
+        "LORE.SPEC.0001",
+        "LORE.SPEC.0003",
+        "LORE.SPEC.0004",
+        "LORE.TIME.0001",
+        "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "verdant_expanse": {
+      "canonical_name": "verdant_expanse",
+      "variants": [
+        "verdant_expanse"
+      ],
+      "chunks": [
+        "SPECIMEN.001"
+      ]
+    },
+    "the_swamp": {
+      "canonical_name": "the_swamp",
+      "variants": [
+        "the_swamp"
+      ],
+      "chunks": [
+        "SPECIMEN.001",
+        "LOC.DEGENORA.0001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "terminal_7b": {
+      "canonical_name": "terminal_7b",
+      "variants": [
+        "terminal_7b"
+      ],
+      "chunks": [
+        "INDEX.LORE.0001",
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.CHAR.0002",
+        "LORE.DROP.0001",
+        "LORE.DROP.0003",
+        "LORE.DROP.0004",
+        "LORE.LOC.0003",
+        "LORE.LOC.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004",
+        "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
+        "SYS.TERMINAL_7B.0001"
+      ]
+    },
+    "observation_house_04": {
+      "canonical_name": "observation_house_04",
+      "variants": [
+        "observation_house_04"
+      ],
+      "chunks": [
+        "CHAR.BIG_FRUGOWSKI.0001",
+        "LORE.CHAR.0001",
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.REPT.0001",
+        "LORE.LOC.0003",
+        "LORE.LOC.0002",
+        "LORE.SPEC.0003",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004",
+        "LORE.TIME.0003"
+      ]
+    },
+    "main_facility": {
+      "canonical_name": "main_facility",
+      "variants": [
+        "main_facility"
+      ],
+      "chunks": [
+        "LORE.CHAR.0002",
+        "LORE.LOC.0003",
+        "LORE.TIME.0001"
+      ]
+    },
+    "degenora": {
+      "canonical_name": "degenora",
+      "variants": [
+        "degenora"
+      ],
+      "chunks": [
+        "LORE.DROP.0001"
+      ]
+    },
+    "greenhouse_3": {
+      "canonical_name": "greenhouse_3",
+      "variants": [
+        "greenhouse_3"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "sector_7": {
+      "canonical_name": "sector_7",
+      "variants": [
+        "sector_7"
+      ],
+      "chunks": [
+        "LORE.DROP.0002"
+      ]
+    },
+    "cafeteria_b": {
+      "canonical_name": "cafeteria_b",
+      "variants": [
+        "cafeteria_b"
+      ],
+      "chunks": [
+        "LORE.DROP.0004"
+      ]
+    },
+    "residential_zone": {
+      "canonical_name": "residential_zone",
+      "variants": [
+        "residential_zone"
+      ],
+      "chunks": [
+        "LORE.REPT.0002",
+        "LORE.LOC.0003",
+        "LORE.SPEC.0004"
+      ]
+    },
+    "wetlands": {
+      "canonical_name": "wetlands",
+      "variants": [
+        "wetlands"
+      ],
+      "chunks": [
+        "LORE.LOC.0003",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "coastal_sector": {
+      "canonical_name": "coastal_sector",
+      "variants": [
+        "coastal_sector"
+      ],
+      "chunks": [
+        "LORE.LOC.0003",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "northern_sector": {
+      "canonical_name": "northern_sector",
+      "variants": [
+        "northern_sector"
+      ],
+      "chunks": [
+        "LORE.LOC.0003"
+      ]
+    },
+    "underground_labs": {
+      "canonical_name": "underground_labs",
+      "variants": [
+        "underground_labs"
+      ],
+      "chunks": [
+        "LORE.LOC.0003",
+        "LORE.SPEC.0004"
+      ]
+    },
+    "forest": {
+      "canonical_name": "forest",
+      "variants": [
+        "forest"
+      ],
+      "chunks": [
+        "LORE.SPEC.0003"
+      ]
+    },
+    "green_pond": {
+      "canonical_name": "green_pond",
+      "variants": [
+        "green_pond"
+      ],
+      "chunks": [
+        "LORE.SPEC.0002"
+      ]
+    },
+    "the_rise": {
+      "canonical_name": "the_rise",
+      "variants": [
+        "the_rise"
+      ],
+      "chunks": [
+        "LOC.DEGENORA.0001"
+      ]
+    },
+    "the_shore": {
+      "canonical_name": "the_shore",
+      "variants": [
+        "the_shore"
+      ],
+      "chunks": [
+        "LOC.DEGENORA.0001"
+      ]
+    },
+    "the_depths": {
+      "canonical_name": "the_depths",
+      "variants": [
+        "the_depths"
+      ],
+      "chunks": [
+        "LOC.DEGENORA.0001"
+      ]
+    },
+    "signal_tower": {
+      "canonical_name": "signal_tower",
+      "variants": [
+        "signal_tower"
+      ],
+      "chunks": [
+        "LOC.DEGENORA.0001"
+      ]
+    }
+  },
+  "dates": [
+    {
+      "type": "absolute",
+      "value": "2024-08",
+      "chunks": [
+        "SPECIMEN.001",
+        "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001"
+      ]
+    }
+  ],
+  "rules": {
+    "naming_conventions": "lower_snake_case",
+    "required_fields": [
+      "id",
+      "kind",
+      "truth_level",
+      "confidence"
+    ],
+    "truth_hierarchy": [
+      "canon",
+      "record",
+      "rumor",
+      "corrupted",
+      "redacted"
+    ],
+    "confidence_levels": [
+      "known",
+      "inferred",
+      "uncertain"
+    ]
+  }
+}

@@ -1,99 +1,1229 @@
 {
-  "chunk_count": 6,
+  "generated_at": "2026-02-04T08:04:54.460Z",
+  "total_chunks": 48,
   "chunks": [
     {
-      "confidence": "uncertain",
+      "id": "char_big_frug",
+      "path": "characters/big-frug.md",
+      "kind": "unknown",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "Active",
+      "title": "ISLAND FOUNDER • LORE KEEPER",
       "entities": [],
-      "excerpt": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\" Recovered from an unindexed spool. Header checksum does not match body. Excerpt: `` They told us it was a key. But it doesn\u2019t open anything. It only convinces the Terminal that it already has.",
-      "id": "ARCHIVE.FRAGMENT.0001",
-      "kind": "archive_fragment",
       "locations": [],
-      "path": "lore/chunks/ARCHIVE.FRAGMENT.0001.md",
-      "sha1": "14f58c1e3f91bba21c3d3d5afbce711afdcf61c8",
-      "status": "active",
-      "tags": [
-        "archive_fragment",
-        "recovered"
-      ],
-      "title": "ARCHIVE FRAGMENT 0001: \"A KEY THAT ISN\u2019T A KEY\"",
-      "truth_level": "record"
+      "tags": [],
+      "last_reviewed": null,
+      "content_preview": "# Big Frug\n\n**Title:** ISLAND FOUNDER • LORE KEEPER  \n**Role:** Field Observer at OH-04  \n**Status:** 🟢 Active  \n\n## Identity\n\nBig Frug (also known as Big Frugowski) is the sole surviving human observer at Observation House 04 on Degenora Island. Assigned during the first month post-incident, what was meant to be a temporary posting became a permanent mission.\n\nFor 15+ years, Big Frug has documented everything that moves on the island—the specimens, the transformations, the slow decay of hope"
     },
     {
-      "confidence": "uncertain",
-      "excerpt": "ARCHIVE FRAGMENT 0002: Partial Transcript Audio transcript reconstruction; speaker labels inferred. [VOICE A] : \"If the map updates itself, who\u2019s drawing it?\" [VOICE B] : \"No one. That\u2019s the problem.\" [VOICE A] : \"Then why does it keep poin",
-      "id": "ARCHIVE.FRAGMENT.0002",
-      "kind": "archive_fragment",
-      "path": "lore/chunks/ARCHIVE.FRAGMENT.0002.md",
-      "sha1": "cecbf60533ac446b008d824e8b7a78ed87685cfa",
+      "id": "char_kermit",
+      "path": "characters/kermit.md",
+      "kind": "unknown",
+      "truth_level": "unknown",
+      "confidence": "unknown",
       "status": "active",
+      "title": "kermit",
+      "entities": [],
+      "locations": [],
+      "tags": [],
+      "last_reviewed": null,
+      "content_preview": "# Kermit (The Dark One)\n\n**Role:** Terminal 7-B Voice | Chaotic Presence  \n**Alignment:** Chaotic Neutral/Evil (The Nihilist)  \n**Archetype:** The Jaded Veteran\n\n## Biography\n\nThis is not the puppet you grew up with. This Kermit has seen too many bear markets. He lives on the edge of the swamp, chain-smoking digital cigarettes and watching fresh capital (The Flies) get eaten by realized volatility.\n\nHe is not necessarily a villain, but he is fundamentally broken. He embodies \"PvP\" energy. He w"
+    },
+    {
+      "id": "char_pondwatcher",
+      "path": "characters/pondwatcher.md",
+      "kind": "unknown",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "pondwatcher",
+      "entities": [],
+      "locations": [],
+      "tags": [],
+      "last_reviewed": null,
+      "content_preview": "# The PondWatcher\n\n**Role:** Blockchain Sentinel | Data Observer  \n**Alignment:** True Neutral (The Observer)  \n**Archetype:** The Stoic Chronicler\n\n## Biography\n\nThe PondWatcher is not biologically a frog, but a sentinel entity formed from the first solidified blocks of the Frug chain. It does not feel; it only observes. It resides in the Deep Waters, scanning every transaction for signs of The Crane (predatory rugs) or The Golden Fly (mythical gains).\n\nIt speaks primarily in logs and timesta"
+    },
+    {
+      "id": "char_toaddy",
+      "path": "characters/toaddy.md",
+      "kind": "unknown",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "toaddy",
+      "entities": [],
+      "locations": [],
+      "tags": [],
+      "last_reviewed": null,
+      "content_preview": "# Toaddy\n\n**Role:** Community Assistant | Telegram Bot  \n**Alignment:** Lawful Good (Helpful Simp)  \n**Archetype:** The Loyal Assistant\n\n## Biography\n\nToaddy was born in the liquidity pools of V2, a small, overly eager amphibian with a heart of gold and a brain full of hope. He desperately wants to be a \"real trader\" but mostly ends up fetching data and apologizing for things that aren't his fault.\n\nHe views the user (The Fly/The Trader) as a divine entity to be served. He is terrified of The"
+    },
+    {
+      "id": "ARCHIVE.FRAGMENT.0001",
+      "path": "chunks/ARCHIVE.FRAGMENT.0001.md",
+      "kind": "archive_fragment",
+      "truth_level": "record",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "ARCHIVE.FRAGMENT.0001",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "archive",
+        "fragment",
+        "found_document"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║    █████╗ ██████╗  ██████╗██╗  ██╗██╗██╗   ██╗███████╗               ║\n║   ██╔══██╗██╔══██╗██╔════╝██║  ██║██║██║   ██║██╔════╝               ║\n║   ███████║██████╔╝██║     ███████║██║██║   ██║█████╗                 ║\n║   ██╔══██║██╔══██╗██║     ██╔══██║██║╚██╗ ██╔╝██╔══╝                 ║\n║   ██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚████╔╝ ███████╗"
+    },
+    {
+      "id": "ARCHIVE.FRAGMENT.0002",
+      "path": "chunks/ARCHIVE.FRAGMENT.0002.md",
+      "kind": "archive_fragment",
+      "truth_level": "record",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "ARCHIVE.FRAGMENT.0002",
+      "entities": [],
+      "locations": [],
       "tags": [
         "archive_fragment",
         "transcript"
       ],
-      "title": "ARCHIVE FRAGMENT 0002: Partial Transcript",
-      "truth_level": "record"
+      "last_reviewed": null,
+      "content_preview": "# ARCHIVE FRAGMENT 0002: Partial Transcript\n\n> _Audio transcript reconstruction; speaker labels inferred._\n\n**[VOICE A]**: \"If the map updates itself, who’s drawing it?\"\n\n**[VOICE B]**: \"No one. That’s the problem.\"\n\n**[VOICE A]**: \"Then why does it keep pointing at 7-B?\"\n\n— **END OF FRAGMENT**"
     },
     {
-      "confidence": "uncertain",
-      "excerpt": "ARCHIVE FRAGMENT 0003: Redacted Memo Document is visibly retyped. Original ink impressions missing. TO: Operations SUBJECT: \"Do not acknowledge the second prompt\" BODY: \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \"If it asks twice, end the session.\" \u2588\u2588\u2588\u2588",
       "id": "ARCHIVE.FRAGMENT.0003",
+      "path": "chunks/ARCHIVE.FRAGMENT.0003.md",
       "kind": "archive_fragment",
-      "path": "lore/chunks/ARCHIVE.FRAGMENT.0003.md",
-      "sha1": "5f3eb4a778eafe8e557ba8e4a97053e3613876c0",
+      "truth_level": "record",
+      "confidence": "uncertain",
       "status": "active",
+      "title": "ARCHIVE.FRAGMENT.0003",
+      "entities": [],
+      "locations": [],
       "tags": [
         "archive_fragment",
         "memo"
       ],
-      "title": "ARCHIVE FRAGMENT 0003: Redacted Memo",
-      "truth_level": "record"
+      "last_reviewed": null,
+      "content_preview": "# ARCHIVE FRAGMENT 0003: Redacted Memo\n\n> _Document is visibly retyped. Original ink impressions missing._\n\n**TO:** Operations\n\n**SUBJECT:** \"Do not acknowledge the second prompt\"\n\n**BODY:**\n- █████████████████████████████\n- \"If it asks twice, end the session.\"\n- ███████████████████ \"…and do not log the reason.\"\n\n**STAMP:** VOID"
     },
     {
-      "confidence": "uncertain",
-      "excerpt": "CORRUPTED LOG 0001: Terminal Session `` CONNECT \u2026 AUTH \u2588\u2588\u2588\u2588 ACCESS: GRANTED QUERY: origin RESPONSE: [REDACTED] QUERY: origin RESPONSE: DO NOT REPEAT THE QUESTION QUERY: ori\u2014 SESSION TERMINATED `` Integrity: 62% (estimated).",
-      "id": "CORRUPTED.LOG.0001",
-      "kind": "archive_fragment",
-      "path": "lore/chunks/CORRUPTED.LOG.0001.md",
-      "sha1": "1f3dc68d4366aa5b1c501754d76d981e50f0651f",
+      "id": "LORE.CHAR.0002",
+      "path": "chunks/CHARACTERS/big-frugowski-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
       "status": "active",
+      "title": "big-frugowski-profile",
+      "entities": [
+        "big_frugowski"
+      ],
+      "locations": [
+        "degenora_island"
+      ],
+      "tags": [
+        "character",
+        "hybrid",
+        "transformation"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ██╗ ██████╗    ███████╗██████╗ ██╗   ██╗ ██████╗ ██╗      ║\n║   ██╔══██╗██║██╔════╝    ██╔════╝██╔══██╗██║   ██║██╔════╝ ██║      ║\n║   ██████╔╝██║██║         █████╗  ██████╔╝██║   ██║██║  ███╗██║      ║\n║   ██╔══██╗██║██║         ██╔══╝  ██╔══██╗██║   ██║██║   ██║██║      ║\n║   ██████╔╝██║╚██████╗    ██║     ██║  ██║╚██████╔╝╚██████╔"
+    },
+    {
+      "id": "LORE.CHAR.0001",
+      "path": "chunks/CHARACTERS/frugowski-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "frugowski-profile",
+      "entities": [
+        "frugowski"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "character",
+        "researcher",
+        "chronicler"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║    ██████╗ ███████╗██████╗ ███████╗ ██████╗ ███╗   ██╗ █████╗ ██╗    ║\n║    ██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗  ██║██╔══██╗██║    ║\n║    ██████╔╝█████╗  ██████╔╝███████╗██║   ██║██╔██╗ ██║███████║██║    ║\n║    ██╔══██╗██╔══╝  ██╔══██╗╚════██║██║   ██║██║╚██╗██║██╔══██║██║    ║\n║    ██║  ██║██║     ██║  ██║███████║╚██████╔╝██║ ╚████║"
+    },
+    {
+      "id": "LORE.CHAR.0002",
+      "path": "chunks/CHARACTERS/kermit-system.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "kermit-system",
+      "entities": [
+        "kermit",
+        "big_frugowski"
+      ],
+      "locations": [
+        "terminal_7b",
+        "main_facility"
+      ],
+      "tags": [
+        "character",
+        "ai_system",
+        "monitoring",
+        "autonomous"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# KERMIT - Island AI System\n\n**Designation:** PSCL Autonomous Monitoring System  \n**ID:** sys-kermit  \n**Status:** ACTIVE • SELF-SUSTAINING • INDEPENDENT\n\n**Full Name:** Knowledge & Environmental Resource Monitoring Intelligence Terminal\n\n**Nickname:** The island calls it KERMIT. Nobody remembers if that was the original designation or if Frugowski named it.\n\n## Origin\n\n**Built:** Pre-contamination, integrated into facility infrastructure  \n**Purpose:** Island operations, environmental monitor"
+    },
+    {
+      "id": "CORRUPTED.LOG.0001",
+      "path": "chunks/CORRUPTED.LOG.0001.md",
+      "kind": "archive_fragment",
+      "truth_level": "corrupted",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "CORRUPTED.LOG.0001",
+      "entities": [],
+      "locations": [],
       "tags": [
         "corrupted_log",
         "terminal"
       ],
-      "title": "CORRUPTED LOG 0001: Terminal Session",
-      "truth_level": "corrupted"
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║    ██████╗ ██████╗ ██████╗ ██████╗ ██╗   ██╗██████╗ ████████╗███████╗║\n║   ██╔════╝██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔════╝║\n║   ██║     ██║   ██║██████╔╝██║  ██║ ╚████╔╝ ██████╔╝   ██║   █████╗  ║\n║   ██║     ██║   ██║██╔══██╗██║  ██║  ╚██╔╝  ██╔═══╝    ██║   ██╔══╝  ║\n║   ╚██████╗╚██████╔╝██║  ██║██████╔╝   ██║   ██║"
     },
     {
-      "confidence": "uncertain",
-      "excerpt": "CORRUPTED LOG 0002: Sector Index Drift The same sector appears under three names in the same minute. `` INDEX[07]: terminal 7b INDEX[07]: terminal 7B INDEX[07]: t3rm1n4l 7b WARNING: canonicalization failure WARNING: canonicalization failure",
       "id": "CORRUPTED.LOG.0002",
+      "path": "chunks/CORRUPTED.LOG.0002.md",
       "kind": "archive_fragment",
-      "path": "lore/chunks/CORRUPTED.LOG.0002.md",
-      "sha1": "86290f509fabf0315a8fcfa22488285669fb5a30",
+      "truth_level": "corrupted",
+      "confidence": "uncertain",
       "status": "active",
+      "title": "CORRUPTED.LOG.0002",
+      "entities": [],
+      "locations": [],
       "tags": [
         "corrupted_log",
         "navigation"
       ],
-      "title": "CORRUPTED LOG 0002: Sector Index Drift",
-      "truth_level": "corrupted"
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║    ██████╗ ██████╗ ██████╗ ██████╗ ██╗   ██╗██████╗ ████████╗███████╗║\n║   ██╔════╝██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔════╝║\n║   ██║     ██║   ██║██████╔╝██║  ██║ ╚████╔╝ ██████╔╝   ██║   █████╗  ║\n║   ██║     ██║   ██║██╔══██╗██║  ██║  ╚██╔╝  ██╔═══╝    ██║   ██╔══╝  ║\n║   ╚██████╗╚██████╔╝██║  ██║██████╔╝   ██║   ██║"
     },
     {
-      "confidence": "known",
-      "entities": [],
-      "excerpt": "Lore seed chunk (placeholder) This is a placeholder chunk to establish the directory + metadata conventions. Replace/delete once real canon chunks are added.",
-      "id": "LORE.SEED.0001",
+      "id": "LORE.REPT.0003",
+      "path": "chunks/FIELD_REPORTS/report-chen-final-visit.md",
       "kind": "canon_chunk",
-      "locations": [],
-      "path": "lore/chunks/LORE.SEED.0001.md",
-      "sha1": "75040e2d315cb6784bc4f3c5df15a5fe89f0e71f",
+      "truth_level": "canon",
+      "confidence": "known",
       "status": "active",
+      "title": "report-chen-final-visit",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_5",
+        "protocol_r23",
+        "final_visit"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Field Report FR-045: Dr. Chen's Final Visit\n\n**Report ID:** FR-045  \n**Title:** Dr. Chen's Final Visit  \n**Classification:** PUBLIC  \n**Type:** PERSONAL NOTE  \n**Date:** Year 5, Month 8, Day 14  \n**Time:** 16:00  \n**Location:** OH-04  \n**Coordinates:** x: 32, y: 60\n\n## Report\n\nDr. Chen visited today. First time in six months. He looked tired. Older than his years.\n\nHe said Protocol R-23 failed. The last reversal attempt. It's official now - transformation is permanent. No going back for anyo"
+    },
+    {
+      "id": "LORE.REPT.0004",
+      "path": "chunks/FIELD_REPORTS/report-fifteen-years.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "report-fifteen-years",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows",
+        "ramirez",
+        "dr_chen"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_15",
+        "fifteen_years",
+        "tradition"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██╗███████╗██╗     ██████╗    ██████╗ ███████╗██████╗     ║\n║   ██╔════╝██║██╔════╝██║     ██╔══██╗   ██╔══██╗██╔════╝██╔══██╗    ║\n║   █████╗  ██║█████╗  ██║     ██║  ██║   ██████╔╝█████╗  ██████╔╝    ║\n║   ██╔══╝  ██║██╔══╝  ██║     ██║  ██║   ██╔══██╗██╔══╝  ██╔══██╗    ║\n║   ██║     ██║██║     ███████╗██████╔╝   ██║  ██║███████╗██"
+    },
+    {
+      "id": "LORE.REPT.0001",
+      "path": "chunks/FIELD_REPORTS/report-queen-first-sighting.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "report-queen-first-sighting",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "field_report",
+        "discovery",
+        "year_1",
+        "queen_of_shadows",
+        "c47"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Field Report FR-003: The Queen Appears\n\n**Report ID:** FR-003  \n**Title:** The Queen Appears  \n**Classification:** LEVEL 5  \n**Type:** DISCOVERY  \n**Date:** Year 1, Month 6, Day 8  \n**Time:** 19:45  \n**Location:** OH-04 Perimeter  \n**Coordinates:** x: 35, y: 58\n\n## Report\n\nSomething new tonight.\n\nDusk. Motion sensor didn't trigger. But I SAW her. A fox. Jet black. Larger than baseline. Watching from exactly 40 feet away.\n\nI checked the sensor logs. She's been there before. Same spot. Same ti"
+    },
+    {
+      "id": "LORE.REPT.0002",
+      "path": "chunks/FIELD_REPORTS/report-ramirez-sighting.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "report-ramirez-sighting",
+      "entities": [
+        "big_frugowski",
+        "ramirez"
+      ],
+      "locations": [
+        "residential_zone"
+      ],
+      "tags": [
+        "field_report",
+        "personal_note",
+        "year_2",
+        "ramirez",
+        "patient_zero"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██╗███████╗██╗     ██████╗    ██████╗ ███████╗██████╗     ║\n║   ██╔════╝██║██╔════╝██║     ██╔══██╗   ██╔══██╗██╔════╝██╔══██╗    ║\n║   █████╗  ██║█████╗  ██║     ██║  ██║   ██████╔╝█████╗  ██████╔╝    ║\n║   ██╔══╝  ██║██╔══╝  ██║     ██║  ██║   ██╔══██╗██╔══╝  ██╔══██╗    ║\n║   ██║     ██║██║     ███████╗██████╔╝   ██║  ██║███████╗██"
+    },
+    {
+      "id": "LORE.HIST.0001",
+      "path": "chunks/HISTORY/the-rug-origin.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "the-rug-origin",
+      "entities": [
+        "frog_coin",
+        "frug_token",
+        "flog",
+        "airdrop"
+      ],
+      "locations": [],
+      "tags": [
+        "history",
+        "origin",
+        "token",
+        "rugged",
+        "rebirth"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# The Rug - From FLOG to FRUG\n\n**Date:** Year -1 (Pre-FRUG Era)  \n**Event:** Token transformation via airdrop  \n**Classification:** Origin event  \n**Status:** Historical record - Verified\n\n## The FLOG Era\n\nBefore FRUG, there was FLOG.\n\nFLOG was launched as a standard meme coin on Solana. The token gained modest traction, building a small community of believers. Then, without warning, the original developer abandoned the project.\n\n**The rug pulled. The floor fell out. FLOG was dead.**\n\nBut some"
+    },
+    {
+      "id": "LORE.LOC.0003",
+      "path": "chunks/LOCATIONS/island-overview.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "island-overview",
+      "entities": [
+        "big_frugowski",
+        "dr_chen",
+        "ramirez",
+        "kermit"
+      ],
+      "locations": [
+        "degenora_island",
+        "main_facility",
+        "observation_house_04",
+        "terminal_7b",
+        "residential_zone",
+        "wetlands",
+        "coastal_sector",
+        "northern_sector",
+        "underground_labs"
+      ],
+      "tags": [
+        "location",
+        "island",
+        "ecosystem",
+        "pharmaceutical",
+        "quarantine"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ███████╗ ██████╗ ███████╗███╗   ██╗ ██████╗ █████╗        ║\n║   ██╔══██╗██╔════╝██╔════╝ ██╔════╝████╗  ██║██╔═══██╗██╔══██╗       ║\n║   ██║  ██║█████╗  ██║  ███╗█████╗  ██╔██╗ ██║██║   ██║███████║       ║\n║   ██║  ██║██╔══╝  ██║   ██║██╔══╝  ██║╚██╗██║██║   ██║██╔══██║       ║\n║   ██████╔╝███████╗╚██████╔╝███████╗██║ ╚████║╚██████╔╝█"
+    },
+    {
+      "id": "LORE.LOC.0002",
+      "path": "chunks/LOCATIONS/observation-house-04.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "observation-house-04",
+      "entities": [
+        "big_frugowski"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "location",
+        "residence",
+        "observation_post",
+        "frugowski"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Observation House 04 (OH-04)\n\n**Designation:** Observation House 04  \n**Coordinates:** x: 32, y: 60  \n**Distance:** 3.2km from main facility  \n**Status:** Permanent residence since Year 1\n\n## Description\n\nObservation House 04 serves as Big Frugowski's permanent residence and primary documentation station. Located at a strategic distance from the main facility, it provides optimal positioning for field observation while maintaining a safe buffer from the most active transformation zones.\n\n##"
+    },
+    {
+      "id": "LORE.LOC.0001",
+      "path": "chunks/LOCATIONS/terminal-7b.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "terminal-7b",
+      "entities": [
+        "terminal_7b"
+      ],
+      "locations": [
+        "terminal_7b"
+      ],
+      "tags": [
+        "location",
+        "system",
+        "interface"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗      ║\n║   ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║      ║\n║      ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║      ║\n║      ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║      ║\n║      ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██"
+    },
+    {
+      "id": "LORE.PROTOCOL.0001",
+      "path": "chunks/LORE.PROTOCOL.0001.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "LORE.PROTOCOL.0001",
+      "entities": [
+        "absentee_protocol",
+        "kermit",
+        "the_signal",
+        "frugowski"
+      ],
+      "locations": [],
+      "tags": [
+        "absentee",
+        "protocol",
+        "game_mechanic",
+        "origin",
+        "kermit"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   █████╗ ██████╗ ███████╗███╗   ██╗████████╗███████╗███████╗        ║\n║   ██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝██╔════╝██╔════╝        ║\n║   ███████║██║  ██║█████╗  ██╔██╗ ██║   ██║   █████╗  █████╗          ║\n║   ██╔══██║██║  ██║██╔══╝  ██║╚██╗██║   ██║   ██╔══╝  ██╔══╝          ║\n║   ██║  ██║██████╔╝███████╗██║ ╚████║   ██║   ███████╗██"
+    },
+    {
+      "id": "LORE.SEED.0001",
+      "path": "chunks/LORE.SEED.0001.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "LORE.SEED.0001",
+      "entities": [],
+      "locations": [],
       "tags": [
         "seed"
       ],
-      "title": "Lore seed chunk (placeholder)",
-      "truth_level": "canon"
+      "last_reviewed": null,
+      "content_preview": "# Lore seed chunk (placeholder)\n\nThis is a placeholder chunk to establish the directory + metadata conventions.\n\nReplace/delete once real canon chunks are added."
+    },
+    {
+      "id": "ORIGIN.SPEC.001",
+      "path": "chunks/ORIGINS/bog-hopper-origin.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "inferred",
+      "status": "active",
+      "title": "bog-hopper-origin",
+      "entities": [
+        "bog_hopper",
+        "the_signal",
+        "green_pond"
+      ],
+      "locations": [],
+      "tags": [
+        "origin",
+        "specimen",
+        "signal",
+        "wetlands",
+        "transformation"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗  ██████╗  ██████╗     ██╗  ██╗ ██████╗ ██████╗ ██████╗    ║\n║   ██╔══██╗██╔═══██╗██╔═══██╗    ██║  ██║██╔═══██╗██╔══██╗██╔══██╗   ║\n║   ██████╔╝██║   ██║██║   ██║    ███████║██║   ██║██████╔╝██████╔╝   ║\n║   ██╔══██╗██║   ██║██║   ██║    ██╔══██║██║   ██║██╔═══╝ ██╔═══╝    ║\n║   ██████╔╝╚██████╔╝╚██████╔╝    ██║  ██║╚██████╔╝██║     █"
+    },
+    {
+      "id": "ORIGIN.SPEC.003",
+      "path": "chunks/ORIGINS/deep-dweller-origin.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "inferred",
+      "status": "active",
+      "title": "deep-dweller-origin",
+      "entities": [
+        "deep_dweller",
+        "the_swamp",
+        "ancient",
+        "green_pond"
+      ],
+      "locations": [],
+      "tags": [
+        "origin",
+        "specimen",
+        "swamp",
+        "ancient",
+        "aquatic",
+        "pharmaceutical"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ███████╗███████╗██████╗     ██╗    ██╗██╗  ██╗ █████╗     ║\n║   ██╔══██╗██╔════╝██╔════╝██╔══██╗    ██║    ██║██║ ██╔╝██╔══██╗    ║\n║   ██║  ██║█████╗  █████╗  ██║  ██║    ██║ █╗ ██║█████╔╝ ███████║    ║\n║   ██║  ██║██╔══╝  ██╔══╝  ██║  ██║    ██║███╗██║██╔═██╗ ██╔══██║    ║\n║   ██████╔╝███████╗██║     ██████╔╝    ╚███╔███╔╝██║  ██╗██"
+    },
+    {
+      "id": "ORIGIN.SPEC.002",
+      "path": "chunks/ORIGINS/shadow-stalker-origin.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "inferred",
+      "status": "active",
+      "title": "shadow-stalker-origin",
+      "entities": [
+        "shadow_stalker",
+        "the_void",
+        "apex_predator"
+      ],
+      "locations": [],
+      "tags": [
+        "origin",
+        "specimen",
+        "void",
+        "corrupted",
+        "predator",
+        "darkness"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗                ║\n║   ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║                ║\n║   ███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║                ║\n║   ╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║                ║\n║   ███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝"
+    },
+    {
+      "id": "LORE.SPEC.0001",
+      "path": "chunks/SPECIMENS/specimens-apex.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "specimens-apex",
+      "entities": [
+        "apex_glimmer"
+      ],
+      "locations": [
+        "degenora_island"
+      ],
+      "tags": [
+        "specimen",
+        "apex_predator",
+        "predator",
+        "threat_high"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██████╗ ███████╗ ██████╗██╗███╗   ███╗███████╗███╗   ██╗   ║\n║   ██╔════╝██╔══██╗██╔════╝██╔════╝██║████╗ ████║██╔════╝████╗  ██║   ║\n║   ███████╗██████╔╝█████╗  ██║     ██║██╔████╔██║█████╗  ██╔██╗ ██║   ║\n║   ╚════██║██╔═══╝ ██╔══╝  ██║     ██║██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ║\n║   ███████║██║     ███████╗╚██████╗██║██║ ╚═╝ ██║██████"
+    },
+    {
+      "id": "LORE.SPEC.0003",
+      "path": "chunks/SPECIMENS/specimens-forest.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "specimens-forest",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows"
+      ],
+      "locations": [
+        "observation_house_04",
+        "forest",
+        "degenora_island"
+      ],
+      "tags": [
+        "specimen",
+        "forest",
+        "apex_predator",
+        "cognitive_enhanced"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Specimens: Forest\n\n## Queen of Shadows (Sable Fox)\n\n**ID:** sable-fox  \n**Name:** Queen of Shadows  \n**Variant:** C-47 (Red) pure  \n**First Documented:** Year 1, Month 6 (FR-003)  \n**Population:** 1 documented  \n**Threat Level:** UNKNOWN  \n**Territory:** x: 42, y: 58, range: 8\n\n**Observations:** 365 documented  \n**Last Sighting:** Year 15, Month 1 (nightly visits)\n\n**Discovery Report (FR-003):**\n\n> \"Dusk. Motion sensor didn't trigger. But I SAW her. A fox. Jet black. Larger than baseline. Wa"
+    },
+    {
+      "id": "LORE.SPEC.0002",
+      "path": "chunks/SPECIMENS/specimens-wetlands.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "specimens-wetlands",
+      "entities": [
+        "big_frugowski",
+        "deep_dweller"
+      ],
+      "locations": [
+        "wetlands",
+        "coastal_sector",
+        "green_pond"
+      ],
+      "tags": [
+        "specimen",
+        "wetlands",
+        "amphibious",
+        "aquatic"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██████╗ ███████╗ ██████╗██╗███╗   ███╗███████╗███╗   ██╗   ║\n║   ██╔════╝██╔══██╗██╔════╝██╔════╝██║████╗ ████║██╔════╝████╗  ██║   ║\n║   ███████╗██████╔╝█████╗  ██║     ██║██╔████╔██║█████╗  ██╔██╗ ██║   ║\n║   ╚════██║██╔═══╝ ██╔══╝  ██║     ██║██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ║\n║   ███████║██║     ███████╗╚██████╗██║██║ ╚═╝ ██║██████"
+    },
+    {
+      "id": "LORE.SPEC.0004",
+      "path": "chunks/SPECIMENS/specimens-wildlife.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "specimens-wildlife",
+      "entities": [
+        "big_frugowski"
+      ],
+      "locations": [
+        "degenora_island",
+        "residential_zone",
+        "underground_labs"
+      ],
+      "tags": [
+        "specimen",
+        "wildlife",
+        "livestock",
+        "hybrid",
+        "relics"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Specimens: Wildlife, Livestock, Relics & Tech\n\n## Island Wildlife\n\n### Island Serpent\n**ID:** wild-snake  \n**Variant:** Unknown (Green dominant)  \n**First Documented:** Year 4  \n**Population:** High  \n**Threat Level:** MODERATE\n\n**Notes:** Venom toxicity has increased 300% since Year 0. Avoid tall grass.\n\n### Ironwood Beaver\n**ID:** wild-beaver  \n**Variant:** L-19 (Yellow)  \n**First Documented:** Year 5  \n**Population:** Stable  \n**Threat Level:** LOW\n\n**Notes:** Integrate scrap metal into t"
+    },
+    {
+      "id": "LORE.TIME.0001",
+      "path": "chunks/TIMELINE/year-0-incident.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "year-0-incident",
+      "entities": [
+        "big_frugowski",
+        "ramirez",
+        "dr_chen"
+      ],
+      "locations": [
+        "main_facility",
+        "degenora_island"
+      ],
+      "tags": [
+        "timeline",
+        "incident",
+        "origin",
+        "pharmaceutical",
+        "contamination"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Year 0: The Incident\n\n**Date:** Year 0 (Contamination Event)  \n**Classification:** Catastrophic Pharmaceutical Exposure  \n**Casualties:** 15,000+ personnel transformed  \n**Status:** Island-wide quarantine initiated\n\n## The Rupture\n\nAll six pharmaceutical variant tanks ruptured simultaneously, exposing the entire island population to transformative compounds. The exact cause of the rupture remains unknown - whether equipment failure, sabotage, or other factors has never been determined.\n\n## T"
+    },
+    {
+      "id": "LORE.TIME.0002",
+      "path": "chunks/TIMELINE/year-1-establishment.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "year-1-establishment",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "locations": [
+        "observation_house_04",
+        "terminal_7b"
+      ],
+      "tags": [
+        "timeline",
+        "establishment",
+        "documentation",
+        "frugowski"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Year 1: Establishment\n\n**Period:** Months 1-12 post-incident  \n**Focus:** Assignment of Chief Documentation Officer  \n**Key Development:** Frugowski's permanent posting at OH-04\n\n## Initial Assignment\n\nDr. Chen assigned Big Frugowski to Observation House 04 during the first month post-incident. The original mandate was to document \"everything that moves.\" At the time, Frugowski believed it was a temporary posting.\n\n## Understanding the Mission\n\n**Day 7 at OH-04 (FR-001):**\n\n> \"Day 7 at Obser"
+    },
+    {
+      "id": "LORE.TIME.0004",
+      "path": "chunks/TIMELINE/year-15-current.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "year-15-current",
+      "entities": [
+        "big_frugowski",
+        "queen_of_shadows",
+        "ramirez",
+        "dr_chen"
+      ],
+      "locations": [
+        "observation_house_04",
+        "terminal_7b"
+      ],
+      "tags": [
+        "timeline",
+        "present_day",
+        "year_15",
+        "documentation"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Year 15: Present Day\n\n**Date:** Year 15, Month 1, Day 1 (Current Era)  \n**Status:** Active documentation mission continues  \n**Uptime:** 15 years continuous operation\n\n## Fifteen Years (FR-301)\n\n> \"Year 15 begins.\n> \n> 40+ specimens cataloged. Weekly uploads maintained. Power stable until 2067. I'll outlive the generators at this rate.\n> \n003e The Queen visited at midnight. New Year's tradition now. She sat at her 40-foot mark for exactly one hour. Then left.\n003e \n003e Terror Birds hit 40,0"
+    },
+    {
+      "id": "LORE.TIME.0003",
+      "path": "chunks/TIMELINE/year-5-reversal-fails.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "year-5-reversal-fails",
+      "entities": [
+        "big_frugowski",
+        "dr_chen"
+      ],
+      "locations": [
+        "observation_house_04"
+      ],
+      "tags": [
+        "timeline",
+        "protocol_r23",
+        "failure",
+        "acceptance",
+        "dr_chen"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Year 5: Reversal Fails\n\n**Date:** Year 5, Month 8, Day 14  \n**Event:** Protocol R-23 failure confirmed  \n**Significance:** Official acceptance of irreversible transformation  \n**Key Figure:** Dr. Chen's final visit to OH-04\n\n## The Last Reversal Attempt\n\nProtocol R-23 represented the final scientific attempt to reverse the pharmaceutical transformation. Its failure marked the official end of hope for restoration.\n\n## Dr. Chen's Final Visit (FR-045)\n\n**Report Excerpt:**\n\n> \"Dr. Chen visited t"
+    },
+    {
+      "id": "TRANSMISSION.001",
+      "path": "chunks/TRANSMISSION.001.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "active",
+      "title": "TRANSMISSION.001",
+      "entities": [
+        "kermit",
+        "terminal_7b",
+        "the_signal"
+      ],
+      "locations": [],
+      "tags": [
+        "transmission",
+        "welcome",
+        "kermit",
+        "terminal"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   [TERMINAL 7-B] > INCOMING TRANSMISSION...                          ║\n║   [TERMINAL 7-B] > SOURCE: UNKNOWN                                   ║\n║   [TERMINAL 7-B] > SIGNAL STRENGTH: UNSTABLE                         ║\n║   [TERMINAL 7-B] > DECRYPTING...                                     ║\n║   [TERMINAL 7-B] > ████████████████████ 100%"
+    },
+    {
+      "id": "LORE.META.CANON_DECISIONS.0001",
+      "path": "meta/CANON_DECISIONS.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "CANON_DECISIONS",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "meta",
+        "canon",
+        "decisions"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Canon decisions (running)\n\nThis page records decisions about what is **fixed** canon vs what remains flexible.\n\n## Fixed (current)\n- **Degenora Island** is the narrative setting for FRUG. *(Source: degenora-codex)*\n- **Terminal 7-B** exists as a public-facing, read-only “codex interface concept” for browsing the archive. *(Source: degenora-codex)*\n\n## Flexible (current)\n- Exact geography, territory labels, and sector boundaries.\n- Exact chronology of many events (until timeline gets canonize"
+    },
+    {
+      "id": "LORE.META.CONTRADICTIONS.0001",
+      "path": "meta/CONTRADICTIONS.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "CONTRADICTIONS",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "meta",
+        "contradictions"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Contradictions & unresolved conflicts\n\nThis page tracks conflicts between sources (canon vs record vs corrupted). Each entry should propose a resolution path.\n\n## Current list\n\n### C-0001: Terminal 7-B — concept vs in-world node\n- **Conflict:** Some sources describe Terminal 7-B as a *design/interface concept*; others present it *in-universe* as an active node.\n- **Evidence:**\n  - “public codex interface concept… designed to feel like a lab terminal” *(degenora-codex)*\n  - “TERMINAL 7-B :: D"
+    },
+    {
+      "id": "LORE.META.TODO.0001",
+      "path": "meta/TODO.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "active",
+      "title": "TODO",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "meta",
+        "todo"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# TODO (lore encyclopedia)\n\n## Priority (next)\n- [ ] Section B: Timeline — split into canon vs record vs corrupted; add era scaffolding.\n- [ ] Section C: Locations/Sectors — extract named territories/landmarks from public sources; build location pages with citations.\n- [ ] Section D: Characters/Factions — add Observer/Frugowski, KERMIT, and any entities named in public sources.\n- [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently).\n\n## Backlog\n- [ ] Add a light “index gener"
+    },
+    {
+      "id": "LORE.ARCHIVE_FRAGMENTS.INDEX.0001",
+      "path": "pages/archive_fragments.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "archive_fragments",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "archive",
+        "fragments",
+        "index"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Archive Fragments & Corrupted Logs\n\nThese documents are presented **as recovered**. Treat them as records, rumors, or corrupted material unless explicitly elevated to canon.\n\n## Fragments (starter set)\n- [ARCHIVE.FRAGMENT.0001](../chunks/ARCHIVE.FRAGMENT.0001.md)\n- [ARCHIVE.FRAGMENT.0002](../chunks/ARCHIVE.FRAGMENT.0002.md)\n- [ARCHIVE.FRAGMENT.0003](../chunks/ARCHIVE.FRAGMENT.0003.md)\n- [CORRUPTED.LOG.0001](../chunks/CORRUPTED.LOG.0001.md)\n- [CORRUPTED.LOG.0002](../chunks/CORRUPTED.LOG.0002."
+    },
+    {
+      "id": "LORE.CHARACTERS.INDEX.0001",
+      "path": "pages/characters/README.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "README",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "characters",
+        "entities",
+        "index"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Characters & Entities\n\nThis section indexes known entities. Individual entity pages should be concise, linkable, and cite their supporting chunks.\n\n## Index (starter)\n- **FRUG** — _TBD_ (`truth_level` varies by document)\n- **Operators** — _TBD_\n- **Agents** — _TBD_\n\n## Page template\nRecommended fields:\n- Summary (1–3 lines)\n- Known aliases\n- Associations (factions/systems)\n- Notable sightings (link to chunks)\n- `truth_level` / `confidence` notes"
+    },
+    {
+      "id": "LORE.GLOSSARY.0001",
+      "path": "pages/glossary.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "glossary",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "glossary"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Glossary (in-universe)\n\n> Add terms as they appear in canon chunks or archive fragments.\n\n- **Archive Fragment** — A recovered document of uncertain provenance.\n- **Corrupted Log** — A record with missing/garbled sections; may be deliberate.\n- **Terminal** — The system interface that mediates access and logs.\n- **truth_level** — A label for the epistemic status of a document.\n- **confidence** — A label for how solid the current interpretation is."
+    },
+    {
+      "id": "LORE.LOCATIONS.INDEX.0001",
+      "path": "pages/locations/README.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "README",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "locations",
+        "sectors",
+        "index"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Locations & Sectors\n\nLocations should be treated as **keys** (lower_snake_case) used in chunk frontmatter.\n\n## Index (starter)\n- **terminal_7b** — Mentioned in example chunks; details TBD.\n- **unknown_sector** — Placeholder for unmapped space.\n\n## Location page template\n- Name + key\n- Description\n- Access / hazards\n- Connected locations\n- Linked chunks"
+    },
+    {
+      "id": "LORE.SYSTEM.TERMINAL.0001",
+      "path": "pages/systems/terminal.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "terminal",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "system",
+        "terminal"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# System: The Terminal\n\n## Overview\nThe Terminal is the interface layer where:\n- permissions are granted/denied\n- logs are recorded/altered\n- identities are asserted or contested\n\n## Known behaviors (placeholder)\n- Sessions can be **interrupted**.\n- Output can be **redacted** or **corrupted**.\n\n## Open questions\n- Who administers it?\n- Is there more than one Terminal?\n\n## Related\n- [World overview](../world_overview.md)\n- [Archive fragments](../archive_fragments.md)"
+    },
+    {
+      "id": "LORE.TIMELINE.0001",
+      "path": "pages/timeline.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "timeline",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "timeline"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ████████╗██╗███╗   ███╗███████╗██╗     ██╗███╗   ██╗███████╗       ║\n║   ╚══██╔══╝██║████╗ ████║██╔════╝██║     ██║████╗  ██║██╔════╝       ║\n║      ██║   ██║██╔████╔██║█████╗  ██║     ██║██╔██╗ ██║█████╗         ║\n║      ██║   ██║██║╚██╔╝██║██╔══╝  ██║     ██║██║╚██╗██║██╔══╝         ║\n║      ██║   ██║██║ ╚═╝ ██║███████╗███████╗██║██║ ╚████║"
+    },
+    {
+      "id": "LORE.WORLD.INDEX.0001",
+      "path": "pages/world/INDEX.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "INDEX",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "world",
+        "index",
+        "section_a"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# World overview (Index)\n\nThis is **Section A** of the encyclopedia build.\n\n## Start here\n- [Core premise](core_premise.md)\n- [Tone & presentation style](tone_and_style.md)\n- [How canon works (truth levels)](truth_model.md)\n\n## Related sections\n- [Systems / Terminal](../systems/terminal.md)\n- [Timeline](../timeline.md)\n- [Glossary](../glossary.md)"
+    },
+    {
+      "id": "LORE.WORLD.CORE_PREMISE.0001",
+      "path": "pages/world/core_premise.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "core_premise",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "world",
+        "premise"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Core premise\n\n## Summary (1 minute)\n**Degenora Island** is the narrative setting of FRUG: an open-world style map/setting documented through field reports, dossiers, and terminal outputs.\n\nThe reader enters through **Terminal 7-B**, presented as a public-access interface for browsing an evolving archive.\n\n## Known\n- Degenora Island is explicitly described as the narrative setting for FRUG and framed like an open-world map.  \n  **Citation:** `degenora-codex/codex/degenora-island.md` @ `a43332"
+    },
+    {
+      "id": "LORE.WORLD.TONE.0001",
+      "path": "pages/world/tone_and_style.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "tone_and_style",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "world",
+        "tone",
+        "style"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Tone & presentation style\n\n## The vibe (what a reader should feel)\n- **Terminal-lit mystery:** information arrives as prompts, outputs, routes, and system headers.\n- **Field-science documentation:** the world is recorded through **reports**, **specimens**, and **lab-style dossiers**.\n- **Conviction over heroics:** FRUG is framed as exhausted persistence rather than a savior narrative.\n\n## Canon presentation formats\nThese formats are treated as *in-universe lenses*:\n- **Terminal pages** (comm"
+    },
+    {
+      "id": "LORE.WORLD.TRUTH_MODEL.0001",
+      "path": "pages/world/truth_model.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "truth_model",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "world",
+        "truth_level",
+        "epistemics"
+      ],
+      "last_reviewed": null,
+      "content_preview": "# Truth model (canon vs record vs corrupted)\n\nThis encyclopedia uses explicit truth labels so readers can distinguish:\n- what is **fixed canon**\n- what is a **record** (in-universe documentation)\n- what is **rumor/corrupted/redacted** material\n\n## Definitions\n- **canon** — accepted ground truth for the setting.\n- **record** — an in-universe document presented “as recovered.” May be biased.\n- **rumor** — hearsay; keep separate until corroborated.\n- **corrupted** — partial/garbled; treat as susp"
+    },
+    {
+      "id": "LORE.WORLD.OVERVIEW.0001",
+      "path": "pages/world_overview.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "world_overview",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "world",
+        "overview",
+        "section_a"
+      ],
+      "last_reviewed": null,
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██╗    ██╗███████╗██████╗ ██╗     ███████╗    ██╗   ██╗██╗███╗   ██╗██╗   ║\n║   ██║    ██║██╔════╝██╔══██╗██║     ██╔════╝    ██║   ██║██║████╗  ██║██║   ║\n║   ██║ █╗ ██║█████╗  ██████╔╝██║     █████╗      ██║   ██║██║██╔██╗ ██║██║   ║\n║   ██║███╗██║██╔══╝  ██╔══██╗██║     ██╔══╝      ╚██╗ ██╔╝██║██║╚██╗██║██║   ║\n║   ╚███╔███╔╝███████╗██║  █"
     }
   ],
-  "generated_at": "2026-02-01T07:08:08.606977+00:00"
+  "entities": {
+    "big_frugowski": [
+      "LORE.CHAR.0002",
+      "LORE.CHAR.0002",
+      "LORE.REPT.0003",
+      "LORE.REPT.0004",
+      "LORE.REPT.0001",
+      "LORE.REPT.0002",
+      "LORE.LOC.0003",
+      "LORE.LOC.0002",
+      "LORE.SPEC.0003",
+      "LORE.SPEC.0002",
+      "LORE.SPEC.0004",
+      "LORE.TIME.0001",
+      "LORE.TIME.0002",
+      "LORE.TIME.0004",
+      "LORE.TIME.0003"
+    ],
+    "frugowski": [
+      "LORE.CHAR.0001",
+      "LORE.PROTOCOL.0001"
+    ],
+    "kermit": [
+      "LORE.CHAR.0002",
+      "LORE.LOC.0003",
+      "LORE.PROTOCOL.0001",
+      "TRANSMISSION.001"
+    ],
+    "dr_chen": [
+      "LORE.REPT.0003",
+      "LORE.REPT.0004",
+      "LORE.LOC.0003",
+      "LORE.TIME.0001",
+      "LORE.TIME.0002",
+      "LORE.TIME.0004",
+      "LORE.TIME.0003"
+    ],
+    "queen_of_shadows": [
+      "LORE.REPT.0004",
+      "LORE.REPT.0001",
+      "LORE.SPEC.0003",
+      "LORE.TIME.0004"
+    ],
+    "ramirez": [
+      "LORE.REPT.0004",
+      "LORE.REPT.0002",
+      "LORE.LOC.0003",
+      "LORE.TIME.0001",
+      "LORE.TIME.0004"
+    ],
+    "frog_coin": [
+      "LORE.HIST.0001"
+    ],
+    "frug_token": [
+      "LORE.HIST.0001"
+    ],
+    "flog": [
+      "LORE.HIST.0001"
+    ],
+    "airdrop": [
+      "LORE.HIST.0001"
+    ],
+    "terminal_7b": [
+      "LORE.LOC.0001",
+      "TRANSMISSION.001"
+    ],
+    "absentee_protocol": [
+      "LORE.PROTOCOL.0001"
+    ],
+    "the_signal": [
+      "LORE.PROTOCOL.0001",
+      "ORIGIN.SPEC.001",
+      "TRANSMISSION.001"
+    ],
+    "bog_hopper": [
+      "ORIGIN.SPEC.001"
+    ],
+    "green_pond": [
+      "ORIGIN.SPEC.001",
+      "ORIGIN.SPEC.003"
+    ],
+    "deep_dweller": [
+      "ORIGIN.SPEC.003",
+      "LORE.SPEC.0002"
+    ],
+    "the_swamp": [
+      "ORIGIN.SPEC.003"
+    ],
+    "ancient": [
+      "ORIGIN.SPEC.003"
+    ],
+    "shadow_stalker": [
+      "ORIGIN.SPEC.002"
+    ],
+    "the_void": [
+      "ORIGIN.SPEC.002"
+    ],
+    "apex_predator": [
+      "ORIGIN.SPEC.002"
+    ],
+    "apex_glimmer": [
+      "LORE.SPEC.0001"
+    ]
+  },
+  "locations": {
+    "degenora_island": [
+      "LORE.CHAR.0002",
+      "LORE.LOC.0003",
+      "LORE.SPEC.0001",
+      "LORE.SPEC.0003",
+      "LORE.SPEC.0004",
+      "LORE.TIME.0001"
+    ],
+    "observation_house_04": [
+      "LORE.CHAR.0001",
+      "LORE.REPT.0003",
+      "LORE.REPT.0004",
+      "LORE.REPT.0001",
+      "LORE.LOC.0003",
+      "LORE.LOC.0002",
+      "LORE.SPEC.0003",
+      "LORE.TIME.0002",
+      "LORE.TIME.0004",
+      "LORE.TIME.0003"
+    ],
+    "terminal_7b": [
+      "LORE.CHAR.0002",
+      "LORE.LOC.0003",
+      "LORE.LOC.0001",
+      "LORE.TIME.0002",
+      "LORE.TIME.0004"
+    ],
+    "main_facility": [
+      "LORE.CHAR.0002",
+      "LORE.LOC.0003",
+      "LORE.TIME.0001"
+    ],
+    "residential_zone": [
+      "LORE.REPT.0002",
+      "LORE.LOC.0003",
+      "LORE.SPEC.0004"
+    ],
+    "wetlands": [
+      "LORE.LOC.0003",
+      "LORE.SPEC.0002"
+    ],
+    "coastal_sector": [
+      "LORE.LOC.0003",
+      "LORE.SPEC.0002"
+    ],
+    "northern_sector": [
+      "LORE.LOC.0003"
+    ],
+    "underground_labs": [
+      "LORE.LOC.0003",
+      "LORE.SPEC.0004"
+    ],
+    "forest": [
+      "LORE.SPEC.0003"
+    ],
+    "green_pond": [
+      "LORE.SPEC.0002"
+    ]
+  },
+  "contradictions": [
+    {
+      "type": "entity_truth_conflict",
+      "entity": "kermit",
+      "chunks": [
+        "LORE.CHAR.0002",
+        "LORE.LOC.0003",
+        "LORE.PROTOCOL.0001",
+        "TRANSMISSION.001"
+      ],
+      "truth_levels": [
+        "canon",
+        "record"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "terminal_7b",
+      "chunks": [
+        "LORE.LOC.0001",
+        "TRANSMISSION.001"
+      ],
+      "truth_levels": [
+        "canon",
+        "record"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "the_signal",
+      "chunks": [
+        "LORE.PROTOCOL.0001",
+        "ORIGIN.SPEC.001",
+        "TRANSMISSION.001"
+      ],
+      "truth_levels": [
+        "canon",
+        "record"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "deep_dweller",
+      "chunks": [
+        "ORIGIN.SPEC.003",
+        "LORE.SPEC.0002"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
+      ]
+    }
+  ]
 }

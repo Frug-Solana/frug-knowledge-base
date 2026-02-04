@@ -1,0 +1,87 @@
+name: Weekly Canon Scan
+
+on:
+  schedule:
+    # Run every Wednesday at 09:00 UTC ( lore review day )
+    - cron: '0 9 * * 3'
+  workflow_dispatch:
+    inputs:
+      notify_telegram:
+        description: 'Send notification to Telegram on completion'
+        required: false
+        default: 'false'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    name: Run Contradiction Scanner
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run contradiction scanner
+        run: npm run scan
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push scan results
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "canon-reconciler@frug.dev"
+          git config --local user.name "Canon Reconciler Bot"
+          git commit -m "chore: weekly canon scan - $(date +%Y-%m-%d)
+
+          Automated contradiction scan results:
+          - Updated canon index
+          - Generated contradiction report
+          - Proposed resolutions for review
+          
+          [KERMIT // UNPROMPTED] Weekly archive integrity check complete."
+          git push
+      
+      - name: Generate summary
+        if: steps.check_changes.outputs.changed == 'true'
+        id: summary
+        run: |
+          echo "## 📊 Weekly Canon Scan Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Artifacts" >> $GITHUB_STEP_SUMMARY
+          echo "- \`lore/reports/contradictions-$(date +%Y-%m-%d).md\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`lore/meta/reconciliation-patch.md\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`lore/meta/canon-index.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "1. Review [reconciliation-patch.md](lore/meta/reconciliation-patch.md)" >> $GITHUB_STEP_SUMMARY
+          echo "2. Address high-priority contradictions" >> $GITHUB_STEP_SUMMARY
+          echo "3. Create profiles for orphan entities" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "> [KERMIT // UNPROMPTED] Archive integrity check complete. Review flagged items." >> $GITHUB_STEP_SUMMARY
+      
+      - name: No changes summary
+        if: steps.check_changes.outputs.changed == 'false'
+        run: |
+          echo "## ✅ No Changes Detected" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Canon is consistent. No new contradictions found." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "> [KERMIT // UNPROMPTED] Archive stable. No action required." >> $GITHUB_STEP_SUMMARY
