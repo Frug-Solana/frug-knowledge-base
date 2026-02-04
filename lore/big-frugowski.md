@@ -1,3 +1,16 @@
+---
+id: CHAR.BIG_FRUGOWSKI.0001
+title: "Big Frugowski - Lead Researcher Profile"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["big_frugowski", "frug", "terminal_7b"]
+locations: ["degenora_island", "terminal_7b", "observation_house_04"]
+tags: ["character", "researcher", "founder", "profile"]
+last_reviewed: "2026-02-02"
+---
+
 # Big Frugowski
 
 **Real Name:** [REDACTED - Clearance S Required]  

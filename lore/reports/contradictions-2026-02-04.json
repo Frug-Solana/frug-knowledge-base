@@ -1,0 +1,163 @@
+{
+  "scanned_at": "2026-02-04T07:57:01.749Z",
+  "total_chunks": 50,
+  "total_entities": 19,
+  "total_locations": 17,
+  "findings": {
+    "temporal_conflicts": [
+      {
+        "event": "2024-08",
+        "chunks": [
+          "SPECIMEN.001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001"
+        ],
+        "description": "Same temporal reference with potentially conflicting narratives"
+      },
+      {
+        "event": "2024-08",
+        "chunks": [
+          "LOC.DEGENORA.0001",
+          "SPECIMEN.001",
+          "ENTITY.FRUG.0001"
+        ],
+        "description": "Same temporal reference with potentially conflicting narratives"
+      },
+      {
+        "event": "2024-08",
+        "chunks": [
+          "ENTITY.FRUG.0001",
+          "SPECIMEN.001",
+          "LOC.DEGENORA.0001"
+        ],
+        "description": "Same temporal reference with potentially conflicting narratives"
+      }
+    ],
+    "entity_conflicts": [
+      {
+        "type": "canon_uncertain",
+        "chunk": "LORE.CHARACTERS.INDEX.0001",
+        "file": "pages/characters/README.md",
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "canon_uncertain",
+        "chunk": "LORE.GLOSSARY.0001",
+        "file": "pages/glossary.md",
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "canon_uncertain",
+        "chunk": "LORE.LOCATIONS.INDEX.0001",
+        "file": "pages/locations/README.md",
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "canon_uncertain",
+        "chunk": "LORE.SYSTEM.TERMINAL.0001",
+        "file": "pages/systems/terminal.md",
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "canon_uncertain",
+        "chunk": "LORE.TIMELINE.0001",
+        "file": "pages/timeline.md",
+        "description": "Canon truth level but confidence is not \"known\""
+      }
+    ],
+    "location_conflicts": [],
+    "orphan_refs": [
+      {
+        "type": "entity",
+        "ref": "origin_pill",
+        "source": "SPECIMEN.001",
+        "file": "001-origin-pill.md"
+      },
+      {
+        "type": "entity",
+        "ref": "chili_root",
+        "source": "SPECIMEN.001",
+        "file": "001-origin-pill.md"
+      },
+      {
+        "type": "entity",
+        "ref": "big_frug",
+        "source": "INDEX.CHARACTERS.0001",
+        "file": "characters/README.md"
+      },
+      {
+        "type": "entity",
+        "ref": "pondwatcher",
+        "source": "INDEX.CHARACTERS.0001",
+        "file": "characters/README.md"
+      },
+      {
+        "type": "entity",
+        "ref": "toaddy",
+        "source": "INDEX.CHARACTERS.0001",
+        "file": "characters/README.md"
+      },
+      {
+        "type": "entity",
+        "ref": "frugowski",
+        "source": "LORE.CHAR.0001",
+        "file": "chunks/CHARACTERS/frugowski-profile.md"
+      },
+      {
+        "type": "entity",
+        "ref": "frog_coin",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "frug_token",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "flog",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "airdrop",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "apex_glimmer",
+        "source": "LORE.SPEC.0001",
+        "file": "chunks/SPECIMENS/specimens-apex.md"
+      },
+      {
+        "type": "entity",
+        "ref": "deep_dweller",
+        "source": "LORE.SPEC.0002",
+        "file": "chunks/SPECIMENS/specimens-wetlands.md"
+      }
+    ],
+    "missing_metadata": [
+      {
+        "file": "README.md",
+        "issue": "No frontmatter found"
+      },
+      {
+        "file": "schema.md",
+        "issue": "No frontmatter found"
+      }
+    ],
+    "cross_ref_issues": []
+  },
+  "summary": {
+    "temporal_conflicts": 3,
+    "entity_conflicts": 5,
+    "location_conflicts": 0,
+    "orphan_refs": 12,
+    "missing_metadata": 2,
+    "cross_ref_issues": 0
+  }
+}

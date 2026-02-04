@@ -1,3 +1,19 @@
+---
+id: SPECIMEN.001
+title: "Specimen #001: The Origin Pill"
+kind: archive_fragment
+truth_level: record
+confidence: inferred
+status: active
+entities: ["origin_pill", "big_frugowski", "chili_root"]
+locations: ["degenora_island", "verdant_expanse", "the_swamp"]
+tags: ["specimen", "artifact", "origin", "memetic"]
+chronology:
+  - type: absolute
+    value: "2024-08"
+last_reviewed: "2026-02-02"
+---
+
 # Specimen #001: The Origin Pill
 
 **Classification:** Memetic Artifact  
