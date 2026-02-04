@@ -16,8 +16,8 @@ tags: ["meta", "todo"]
 ## Priority (next)
 - [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
   - ✅ wetlands.md — COMPLETE (Year 15, Month 1)
+- [x] Add a `lore/pages/style_guide.md` (how to write pages consistently) — COMPLETE (2026-02-04)
 - [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
-- [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
 
 ## Backlog
 - [ ] Add a light "index generator" (optional) that validates frontmatter and lists chunks by tags
