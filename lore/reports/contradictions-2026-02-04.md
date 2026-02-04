@@ -1,6 +1,6 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T08:28:46.059Z
+**Generated:** 2026-02-04T08:37:08.958Z
 **Total Chunks:** 55
 **Entities:** 28
 **Locations:** 17
@@ -59,6 +59,35 @@ Entities/locations mentioned only once (may need cross-linking):
 
 - **README.md**: No frontmatter found
 - **schema.md**: No frontmatter found
+
+## Suggested Resolutions
+
+### 🔴 High Priority
+
+- **SPECIMEN.001, LOC.DEGENORA.0001, ENTITY.FRUG.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
+  - Issue: Temporal conflict: 2024-08
+- **LOC.DEGENORA.0001, SPECIMEN.001, ENTITY.FRUG.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
+  - Issue: Temporal conflict: 2024-08
+- **ENTITY.FRUG.0001, SPECIMEN.001, LOC.DEGENORA.0001**: Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"
+  - Issue: Temporal conflict: 2024-08
+
+### 🟡 Medium Priority
+
+- **LORE.CHARACTERS.INDEX.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
+  - Issue: Canon chunk has uncertain confidence
+- **LORE.GLOSSARY.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
+  - Issue: Canon chunk has uncertain confidence
+- **LORE.LOCATIONS.INDEX.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
+  - Issue: Canon chunk has uncertain confidence
+- **LORE.SYSTEM.TERMINAL.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
+  - Issue: Canon chunk has uncertain confidence
+- **LORE.TIMELINE.0001**: Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources
+  - Issue: Canon chunk has uncertain confidence
+
+### 🟢 Low Priority
+
+- **MULTIPLE**: Create canonical entity definitions in lore/characters/ or lore/chunks/ENTITIES/ directory
+  - Issue: 17 entities mentioned only once
 
 ---
 

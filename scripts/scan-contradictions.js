@@ -187,7 +187,46 @@ function scanContradictions() {
   };
 }
 
+function generateResolutionSuggestions(findings) {
+  const suggestions = [];
+  
+  // Suggest resolutions for canon_uncertain conflicts
+  for (const conflict of findings.entity_conflicts.filter(c => c.type === 'canon_uncertain')) {
+    suggestions.push({
+      chunk: conflict.chunk,
+      issue: 'Canon chunk has uncertain confidence',
+      suggestion: 'Either change truth_level to "record" or "rumor", or update confidence to "known" with supporting sources',
+      priority: 'medium'
+    });
+  }
+  
+  // Suggest resolutions for orphan references
+  const orphanEntities = findings.orphan_refs.filter(o => o.type === 'entity');
+  if (orphanEntities.length > 0) {
+    suggestions.push({
+      chunk: 'MULTIPLE',
+      issue: `${orphanEntities.length} entities mentioned only once`,
+      suggestion: 'Create canonical entity definitions in lore/characters/ or lore/chunks/ENTITIES/ directory',
+      priority: 'low'
+    });
+  }
+  
+  // Suggest resolutions for temporal conflicts
+  for (const conflict of findings.temporal_conflicts) {
+    suggestions.push({
+      chunk: conflict.chunks.join(', '),
+      issue: `Temporal conflict: ${conflict.event}`,
+      suggestion: 'Review chunks for consistency; if intentional (unreliable narrator), add metadata flag "intentional_contradiction: true"',
+      priority: 'high'
+    });
+  }
+  
+  return suggestions;
+}
+
 function generateReport(scan) {
+  const suggestions = generateResolutionSuggestions(scan.findings);
+  
   let md = `# Contradiction Scan Report
 
 **Generated:** ${scan.scanned_at}
@@ -253,6 +292,55 @@ Entities/locations mentioned only once (may need cross-linking):
 `;
     }
     md += '\n';
+  }
+
+  // Add suggested resolutions section
+  if (suggestions.length > 0) {
+    md += `## Suggested Resolutions
+
+`;
+    const highPriority = suggestions.filter(s => s.priority === 'high');
+    const mediumPriority = suggestions.filter(s => s.priority === 'medium');
+    const lowPriority = suggestions.filter(s => s.priority === 'low');
+    
+    if (highPriority.length > 0) {
+      md += `### 🔴 High Priority
+
+`;
+      for (const s of highPriority) {
+        md += `- **${s.chunk}**: ${s.suggestion}
+  - Issue: ${s.issue}
+`;
+      }
+      md += '\n';
+    }
+    
+    if (mediumPriority.length > 0) {
+      md += `### 🟡 Medium Priority
+
+`;
+      for (const s of mediumPriority.slice(0, 5)) {
+        md += `- **${s.chunk}**: ${s.suggestion}
+  - Issue: ${s.issue}
+`;
+      }
+      if (mediumPriority.length > 5) {
+        md += `- *... and ${mediumPriority.length - 5} more*\n`;
+      }
+      md += '\n';
+    }
+    
+    if (lowPriority.length > 0) {
+      md += `### 🟢 Low Priority
+
+`;
+      for (const s of lowPriority) {
+        md += `- **${s.chunk}**: ${s.suggestion}
+  - Issue: ${s.issue}
+`;
+      }
+      md += '\n';
+    }
   }
 
   md += `---
