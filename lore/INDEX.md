@@ -145,6 +145,7 @@ Profiles and dossiers of significant individuals.
 - [Frugowski Profile](chunks/CHARACTERS/frugowski-profile.md)
 - [Big Frugowski Profile](chunks/CHARACTERS/big-frugowski-profile.md)
 - [KERMIT System](chunks/CHARACTERS/kermit-system.md)
+- [FRUG / The Observer](chunks/CHARACTERS/frug-observer-profile.md) — The distributed consciousness behind Terminal 7-B
 
 <!-- IMAGE: character-frugowski-portrait.png -->
 <!-- DESC: Portrait of Frugowski, the chronicler -->
