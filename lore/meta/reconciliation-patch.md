@@ -1,6 +1,6 @@
 ---
 # Canon Reconciliation Patch
-# Generated: 2026-02-04T09:57:32.676Z
+# Generated: 2026-02-04T16:33:40.701Z
 # Total Issues: 2
 # High Priority: 1
 # Medium Priority: 0
@@ -9,7 +9,7 @@
 
 ## 🔴 High Priority Fixes
 
-### RES-1770199052677-1qdj: Temporal conflict on 2024-08
+### RES-1770222820702-it8b: Temporal conflict on 2024-08
 - **Type:** temporal_conflict
 - **Affected:** SPECIMEN.001, LOC.DEGENORA.0001, ENTITY.FRUG.0001
 - **Suggested Action:** review_temporal_consistency
@@ -21,6 +21,6 @@
 
 ## 🟢 Low Priority Fixes
 
-### RES-1770199052678-j55r: 17 entities mentioned only once
-- **Kermit Note:** [KERMIT // UNPROMPTED] 17 unlinked entities detected in archive. Recommend profile creation.
+### RES-1770222820702-rnxg: 22 entities mentioned only once
+- **Kermit Note:** [KERMIT // UNPROMPTED] 22 unlinked entities detected in archive. Recommend profile creation.
 

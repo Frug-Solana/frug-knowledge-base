@@ -1,5 +1,5 @@
 ---
-id: "ENTITY.KERMIT.0001"
+id: "CHAR.KERMIT.0001"
 name: "Kermit (The Dark One)"
 aliases: ["sys-kermit", "PSCL Autonomous Monitoring System", "The Dark One"]
 alignment: "Chaotic Neutral/Evil (The Nihilist)"

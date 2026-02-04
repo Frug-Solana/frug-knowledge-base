@@ -8,7 +8,7 @@ status: active
 entities: ["frug", "big_frug", "kermit", "pondwatcher", "toaddy"]
 locations: []
 tags: ["index", "characters", "overview"]
-last_reviewed: "2026-02-02"
+last_reviewed: "2026-02-04"
 ---
 
 # Characters

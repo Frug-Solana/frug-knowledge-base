@@ -1,132 +1,99 @@
-# Frequently Asked Questions
+# FAQ
 
 ## What is FRUG?
 
-FRUG is an art-first meme coin on Solana with a living narrative. It's not just a token—it's a world (Degenora Island), a story, and a community of Observers documenting the Signal.
+FRUG is an art-first meme coin on Solana with a living narrative universe centered on Degenora Island. It's conviction over market cap, art over noise.
 
 **Start here:**
 - Website: https://frugsolana.xyz
-- Terminal 7-B: https://frug-solana.github.io/degenora-codex/terminal/index.html
+- Lore: https://github.com/Frug-Solana/degenora-codex
+- Knowledge Base: https://github.com/Frug-Solana/frug-knowledge-base
 
----
-
-## What is the Contract Address (CA)?
+## What is the Contract Address?
 
 ```
-EBnA9HbJkhRTP1n1ZCkZzNCGjLssRWTetBFL9nzPpump
+EBnA9HbJkhRTP1n1ZCkZzNCGjssRWTetBFL9nzPpump
 ```
 
-Always verify the CA before trading. This is the official Solana contract address.
+## Where can I see token specs?
 
----
+- **Tokenomics:** https://github.com/Frug-Solana/frug-tokenomics
+- **Audit reports:** See `audits/` directory in this repo
 
 ## What is Degenora?
 
-Degenora Island is the world where FRUG takes place. It's an ecosystem with:
-- **Terminal 7-B** — The central documentation hub
-- **The Signal** — A mysterious force that mutates specimens
-- **Specimens** — Creatures and entities documented by Observers
-- **Observers** — Community members who explore, document, and contribute
-
----
+Degenora Island is the world of FRUG—a mysterious ecosystem where:
+- The **Signal** mutates specimens
+- **Observers** document the unknown
+- **Terminal 7-B** broadcasts from the Swamp
 
 ## What is Terminal 7-B?
 
-Terminal 7-B is the interface for:
-- Field reports from Observers
-- System logs and transmissions
+The central access node for the FRUG ecosystem:
+- Live transmissions and lore drops
+- Field report submissions
 - Specimen database
-- Lore archives
+- Interactive Degenora map
+- Observer profiles with clearance ranks
 
-Access the Terminal: https://frug-solana.github.io/degenora-codex/terminal/index.html
+**Access:** https://frugsolana.xyz (public read-only mode available)
 
----
+## What is Kermit?
 
-## Where can I learn more about the lore?
+KERMIT (Knowledge Extraction and Research Monitoring Intelligence Terminal) is the AI system managing Terminal 7-B. It:
+- Generates atmospheric lore transmissions
+- Processes field reports
+- Maintains the archive
 
-- **Lore Codex:** https://github.com/Frug-Solana/degenora-codex
-- **Knowledge Base:** https://github.com/Frug-Solana/frug-knowledge-base
-- **Terminal 7-B:** Live feed of transmissions and reports
+> *"I've seen a thousand of you. You'll learn. Or you won't."* — Kermit
 
----
+## What is the clearance/observers system?
 
-## What are the tokenomics?
+A wallet-linked identity system with access tiers:
+- **Observer (Level 1)** — Basic access, read-only
+- **Researcher (Level 2)** — Submit field reports
+- **Archivist (Level 3)** — Advanced archive access
 
-See the complete breakdown:
-- **Tokenomics Repo:** https://github.com/Frug-Solana/frug-tokenomics
+Link your wallet to upgrade clearance and unlock gated lore.
 
-Key specs:
-- Fixed supply
-- Immutable parameters
-- Liquidity locked
+## How do I submit a field report?
 
----
+1. Connect wallet at https://frugsolana.xyz
+2. Navigate to Terminal 7-B
+3. Use the field report submission form
+4. Reports are reviewed before appearing in the archive
 
-## How do I become an Observer?
+## What is the Signal?
 
-1. Join the community (Telegram, Discord, X)
-2. Explore Terminal 7-B
-3. Submit field reports, art, or contributions
-4. Connect your wallet to track your clearance level
+The mysterious force permeating Degenora. It:
+- Mutates specimens
+- Broadcasts through Terminal 7-B
+- Has its own unknowable agenda
 
----
+Origin: Unknown. Intent: Unknown.
+
+## Community Links
+
+- **X/Twitter:** https://x.com/FrugSolana
+- **Telegram:** https://t.me/frugsolana
+- **Discord:** https://discord.gg/md74jUqgVX
+
+## How do I contribute to lore?
+
+1. Submit field reports via Terminal 7-B
+2. Open PRs to the [degenora-codex](https://github.com/Frug-Solana/degenora-codex) repo
+3. Suggest additions to this knowledge base
+
+## Is the Terminal 24/7?
+
+Yes. Terminal 7-B runs continuously with:
+- Live Kermit transmissions (every 30-60 min)
+- Public feed access (no wallet required)
+- Continuous map and archive availability
 
 ## What wallets are supported?
 
 - Phantom
 - Solflare
-- OKX Wallet
-- Any Solana-compatible wallet with signMessage support
-
----
-
-## Where can I buy FRUG?
-
-FRUG is available on Solana DEXs:
-- Jupiter
-- Raydium
-- Pump.fun
-
-Always verify the contract address before trading.
-
----
-
-## Is there a roadmap?
-
-The project evolves through phases:
-- **Phase 1:** Foundation (terminal, lore, community)
-- **Phase 2:** Shipping (features, integrations, expansion)
-- **Phase 3:** Growth (scaling, new experiences)
-
-Check Terminal 7-B and X for the latest updates.
-
----
-
-## How can I contribute?
-
-- Submit lore or art
-- Document specimens (field reports)
-- Engage with the community
-- Spread the word (organic, no paid shills)
-
----
-
-## Official Links
-
-| Platform | Link |
-|----------|------|
-| Website | https://frugsolana.xyz |
-| X/Twitter | https://x.com/FrugSolana |
-| Telegram | https://t.me/frugsolana |
-| Discord | https://discord.gg/md74jUqgVX |
-| GitHub | https://github.com/Frug-Solana |
-
----
-
-## Is this financial advice?
-
-**No.** FRUG is an art and narrative project. Never invest more than you can afford to lose. Do your own research.
-
----
-
-*Last updated: 2026-02-04*
+- OKX Wallet (auto-detected when installed)
+- Ledger (via wallet adapters)

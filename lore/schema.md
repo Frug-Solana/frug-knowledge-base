@@ -1,3 +1,14 @@
+---
+id: DOCS.SCHEMA.0001
+title: "Lore Metadata Schema Specification"
+kind: documentation
+truth_level: canon
+confidence: known
+status: active
+tags: ["schema", "metadata", "specification", "reference"]
+last_reviewed: "2026-02-04"
+---
+
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║

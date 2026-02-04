@@ -9,12 +9,18 @@ tags: ["meta", "todo"]
 
 # TODO (lore encyclopedia)
 
+## ✅ Recently Completed
+- [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)
+- [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors
+
 ## Priority (next)
-- [ ] Section B: Timeline — split into canon vs record vs corrupted; add era scaffolding.
-- [ ] Section C: Locations/Sectors — extract named territories/landmarks from public sources; build location pages with citations.
-- [ ] Section D: Characters/Factions — add Observer/Frugowski, KERMIT, and any entities named in public sources.
-- [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently).
+- [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
+  - [x] wetlands.md — Created with full location documentation
+  - [x] coastal_sector.md — Created with marine specimen habitat details
+  - [ ] underground_labs.md — Pending
+- [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
+- [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
 
 ## Backlog
-- [ ] Add a light “index generator” (optional) that validates frontmatter and lists chunks by tags.
-- [ ] Convert/ingest degenora-codex entries into chunked canon pages with explicit truth levels.
+- [ ] Add a light "index generator" (optional) that validates frontmatter and lists chunks by tags
+- [ ] Convert/ingest degenora-codex entries into chunked canon pages with explicit truth levels

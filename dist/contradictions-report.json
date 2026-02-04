@@ -1,0 +1,141 @@
+[
+  {
+    "type": "entity_truth_conflict",
+    "entity": "big_frugowski",
+    "chunks": [
+      "SPECIMEN.001",
+      "LORE.REPT.0003",
+      "LORE.REPT.0004",
+      "LORE.REPT.0001",
+      "LORE.REPT.0002",
+      "LORE.LOC.0003",
+      "LORE.LOC.0004",
+      "LORE.LOC.0002",
+      "LORE.SPEC.0003",
+      "LORE.SPEC.0002",
+      "LORE.SPEC.0004",
+      "LORE.TIME.ERA.0001",
+      "LORE.TIME.0001",
+      "LORE.TIME.0002",
+      "LORE.TIME.0004",
+      "LORE.TIME.0003",
+      "LOC.DEGENORA.0001",
+      "SYS.TERMINAL_7B.0001"
+    ],
+    "truth_levels": [
+      "record",
+      "canon"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "frug",
+    "chunks": [
+      "ENTITY.BIG_FRUG.0001",
+      "INDEX.CHARACTERS.0001",
+      "CHAR.BIG_FRUG.0001",
+      "ENTITY.FRUG.0001",
+      "CHAR.KERMIT.0001",
+      "ENTITY.BIG_FRUG.0001",
+      "CHAR.FRUG.0001",
+      "ENTITY.BIG_FRUG.0001.HISTORICAL",
+      "LORE.DROP.0002",
+      "ENTITY.TERMINAL_7B.0001",
+      "LOC.DEGENORA.0001",
+      "ENTITY.FRUG.0001",
+      "SYS.TERMINAL_7B.0001"
+    ],
+    "truth_levels": [
+      "canon",
+      "rumor"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "terminal_7b",
+    "chunks": [
+      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
+      "ENTITY.FRUG.0001",
+      "CHAR.KERMIT.0001",
+      "CHAR.PONDWATCHER.0001",
+      "CHAR.FRUG.0001",
+      "ENTITY.BIG_FRUG.0001.HISTORICAL",
+      "ENTITY.KERMIT.0001",
+      "LORE.DROP.0001",
+      "LORE.DROP.0003",
+      "ENTITY.TERMINAL_7B.0001",
+      "TRANSMISSION.001",
+      "ENTITY.FRUG.0001"
+    ],
+    "truth_levels": [
+      "canon",
+      "record"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "kermit",
+    "chunks": [
+      "ENTITY.BIG_FRUG.0001",
+      "INDEX.CHARACTERS.0001",
+      "CHAR.BIG_FRUG.0001",
+      "CHAR.KERMIT.0001",
+      "CHAR.PONDWATCHER.0001",
+      "CHAR.TOADDY.0001",
+      "CHAR.FRUG.0001",
+      "ENTITY.KERMIT.0001",
+      "LORE.DROP.0001",
+      "LORE.DROP.0003",
+      "LORE.LOC.0003",
+      "ENTITY.TERMINAL_7B.0001",
+      "LORE.PROTOCOL.0001",
+      "TRANSMISSION.001",
+      "SYS.TERMINAL_7B.0001"
+    ],
+    "truth_levels": [
+      "canon",
+      "record"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "the_signal",
+    "chunks": [
+      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
+      "LORE.PROTOCOL.0001",
+      "ORIGIN.SPEC.001",
+      "TRANSMISSION.001"
+    ],
+    "truth_levels": [
+      "canon",
+      "record"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "observer",
+    "chunks": [
+      "LORE.DROP.0001",
+      "LORE.DROP.0003",
+      "LORE.DROP.0004"
+    ],
+    "truth_levels": [
+      "record",
+      "canon"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
+    "entity": "deep_dweller",
+    "chunks": [
+      "ORIGIN.SPEC.003",
+      "LORE.SPEC.0002"
+    ],
+    "truth_levels": [
+      "record",
+      "canon"
+    ]
+  }
+]

@@ -28,17 +28,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-### Added
-- New specimen dossiers in `lore/chunks/SPECIMENS/`
-- Character profiles for key entities
-- Expanded timeline coverage through Year 15
-- Visual style guide documentation
-- Image inventory for planned assets
+### Fixed
+- **Character ID conflicts resolved** — Standardized character dossier IDs to `CHAR.*` namespace to prevent conflicts with entity profiles (`ENTITY.*`)
+  - `frug.md`: Added missing required fields (`kind`, `truth_level`, `confidence`, `status`, `entities`, `locations`, `tags`, `last_reviewed`)
+  - `big-frug.md`: Changed ID from `ENTITY.BIG_FRUG.0001` → `CHAR.BIG_FRUG.0001`
+  - `kermit.md`: Changed ID from `ENTITY.KERMIT.0001` → `CHAR.KERMIT.0001`
+  - `toaddy.md`: Changed ID from `char_toaddy` → `CHAR.TOADDY.0001`, added full schema fields
+  - `pondwatcher.md`: Changed ID from `char_pondwatcher` → `CHAR.PONDWATCHER.0001`, added full schema fields
+- **Schema documentation** — Added YAML frontmatter to `lore/schema.md`
+- **Lore INDEX** — Updated `last_reviewed` to 2026-02-04
+
+---
+
+## [2026-02-04] - Knowledge Base Maintenance
 
 ### Changed
-- Improved README with ASCII art and better navigation
-- Enhanced CONTRIBUTING.md with detailed guidelines
-- Consolidated lore structure for easier discovery
+- **Root README overhaul** — Replaced Kermit Thought Loop implementation doc with proper knowledge base overview
+- Moved Kermit Thought Loop documentation to `operations/kermit-thought-loop.md`
+- **Glossary expansion** — Added missing entries: H, I, J, N, Q, R, U, V, W, X, Z
+- Improved navigation and cross-linking across all project docs
+
+### Fixed
+- Root README now serves as proper entry point for knowledge base
+- Glossary now has complete A-Z coverage
 
 ---
 

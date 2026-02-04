@@ -1,5 +1,5 @@
 ---
-id: "ENTITY.BIG_FRUG.0001"
+id: "CHAR.BIG_FRUG.0001"
 name: "Big Frug"
 aliases: ["Big Frugowski", "Dr. Frugowski", "Frugowski"]
 title: "ISLAND FOUNDER • LORE KEEPER"

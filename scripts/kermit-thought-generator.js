@@ -61,11 +61,13 @@ AVOID:
 
 /**
  * Fetch recent transmissions for context
+ * Uses simplified schema: source, category, text, meta
  */
 async function getRecentTransmissions(limit = 10) {
   const { data, error } = await supabase
     .from('terminal_transmissions')
     .select('*')
+    .eq('visibility', 'public')
     .order('created_at', { ascending: false })
     .limit(limit);
 
@@ -82,7 +84,7 @@ async function getRecentTransmissions(limit = 10) {
  */
 async function generateKermitThought(recentTransmissions) {
   const recentContext = recentTransmissions
-    .map(t => `[${t.kind}] ${t.content.slice(0, 100)}...`)
+    .map(t => `[${t.category || t.source}] ${(t.text || '').slice(0, 100)}...`)
     .join('\n');
 
   const prompt = `${CANON_CONTEXT}
@@ -128,6 +130,7 @@ Respond with ONLY the transmission text, no quotes or formatting.`;
 
 /**
  * Submit transmission to database via edge function
+ * Uses simplified schema: source, category, text, meta, visibility
  */
 async function submitTransmission(content, generationPrompt) {
   try {
@@ -138,14 +141,15 @@ async function submitTransmission(content, generationPrompt) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        kind: 'kermit_thought',
-        content,
         source: 'kermit',
-        priority: 'normal',
-        clearance_level: 1,
-        canon_refs: ['LORE.SEED.0001'],
-        generation_prompt: generationPrompt,
-        generated_at: new Date().toISOString()
+        category: 'KERMIT',
+        text: content,
+        visibility: 'public',
+        meta: {
+          thought_type: 'ai_generated',
+          generation_prompt: generationPrompt.slice(0, 500), // Truncate for storage
+          generated_at: new Date().toISOString()
+        }
       })
     });
 
