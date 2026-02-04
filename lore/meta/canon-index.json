@@ -16,23 +16,22 @@
       ],
       "chunks": [
         "SPECIMEN.001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.REPT.0002",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
         "LORE.LOC.0002",
         "LORE.SPEC.0003",
         "LORE.SPEC.0002",
         "LORE.SPEC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LORE.TIME.0003",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -45,16 +44,40 @@
         "SPECIMEN.001"
       ]
     },
+    "big_frug": {
+      "canonical_name": "big_frug",
+      "variants": [
+        "big_frug"
+      ],
+      "chunks": [
+        "ENTITY.BIG_FRUG.0001",
+        "INDEX.CHARACTERS.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
+        "ENTITY.TERMINAL_7B.0001"
+      ]
+    },
     "frug": {
       "canonical_name": "frug",
       "variants": [
         "frug"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.DROP.0002",
-        "LOC.DEGENORA.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "INDEX.CHARACTERS.0001",
+        "CHAR.BIG_FRUG.0001",
         "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "LORE.DROP.0002",
+        "ENTITY.TERMINAL_7B.0001",
+        "LOC.DEGENORA.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -64,20 +87,18 @@
         "terminal_7b"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
-        "LORE.LOC.0001",
+        "ENTITY.TERMINAL_7B.0001",
         "TRANSMISSION.001"
-      ]
-    },
-    "big_frug": {
-      "canonical_name": "big_frug",
-      "variants": [
-        "big_frug"
-      ],
-      "chunks": [
-        "INDEX.CHARACTERS.0001"
       ]
     },
     "kermit": {
@@ -86,11 +107,18 @@
         "kermit"
       ],
       "chunks": [
+        "ENTITY.BIG_FRUG.0001",
         "INDEX.CHARACTERS.0001",
-        "LORE.CHAR.0002",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
         "LORE.LOC.0003",
+        "ENTITY.TERMINAL_7B.0001",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
         "SYS.TERMINAL_7B.0001"
@@ -102,7 +130,9 @@
         "pondwatcher"
       ],
       "chunks": [
-        "INDEX.CHARACTERS.0001"
+        "INDEX.CHARACTERS.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001"
       ]
     },
     "toaddy": {
@@ -111,17 +141,31 @@
         "toaddy"
       ],
       "chunks": [
-        "INDEX.CHARACTERS.0001"
+        "INDEX.CHARACTERS.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001"
       ]
     },
-    "frugowski": {
-      "canonical_name": "frugowski",
+    "the_signal": {
+      "canonical_name": "the_signal",
       "variants": [
-        "frugowski"
+        "the_signal"
       ],
       "chunks": [
-        "LORE.CHAR.0001",
-        "LORE.PROTOCOL.0001"
+        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
+        "LORE.PROTOCOL.0001",
+        "ORIGIN.SPEC.001",
+        "TRANSMISSION.001"
+      ]
+    },
+    "the_observer": {
+      "canonical_name": "the_observer",
+      "variants": [
+        "the_observer"
+      ],
+      "chunks": [
+        "CHAR.FRUG.0001"
       ]
     },
     "observer": {
@@ -171,6 +215,8 @@
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
@@ -198,6 +244,8 @@
         "LORE.REPT.0004",
         "LORE.REPT.0002",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LORE.TIME.0004"
       ]
@@ -238,6 +286,16 @@
         "LORE.HIST.0001"
       ]
     },
+    "unknown_founders": {
+      "canonical_name": "unknown_founders",
+      "variants": [
+        "unknown_founders"
+      ],
+      "chunks": [
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001"
+      ]
+    },
     "absentee_protocol": {
       "canonical_name": "absentee_protocol",
       "variants": [
@@ -247,15 +305,13 @@
         "LORE.PROTOCOL.0001"
       ]
     },
-    "the_signal": {
-      "canonical_name": "the_signal",
+    "frugowski": {
+      "canonical_name": "frugowski",
       "variants": [
-        "the_signal"
+        "frugowski"
       ],
       "chunks": [
-        "LORE.PROTOCOL.0001",
-        "ORIGIN.SPEC.001",
-        "TRANSMISSION.001"
+        "LORE.PROTOCOL.0001"
       ]
     },
     "bog_hopper": {
@@ -340,6 +396,33 @@
       "chunks": [
         "LORE.SPEC.0001"
       ]
+    },
+    "unknown_signal": {
+      "canonical_name": "unknown_signal",
+      "variants": [
+        "unknown_signal"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
+    },
+    "": {
+      "canonical_name": "",
+      "variants": [
+        "???"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
+    },
+    "fragment": {
+      "canonical_name": "fragment",
+      "variants": [
+        "fragment"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
     }
   },
   "locations": {
@@ -351,15 +434,25 @@
       "chunks": [
         "SPECIMEN.001",
         "INDEX.LORE.0001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "ENTITY.TERMINAL_7B.0001",
         "LORE.SPEC.0001",
         "LORE.SPEC.0003",
         "LORE.SPEC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
+        "GLOSSARY.0001",
+        "LORE.LOCATIONS.INDEX.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -390,17 +483,23 @@
       ],
       "chunks": [
         "INDEX.LORE.0001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
         "LORE.DROP.0004",
         "LORE.LOC.0003",
-        "LORE.LOC.0001",
+        "LORE.LOC.0004",
+        "ENTITY.TERMINAL_7B.0001",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -410,14 +509,17 @@
         "observation_house_04"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
         "LORE.LOC.0002",
         "LORE.SPEC.0003",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LORE.TIME.0003"
@@ -429,8 +531,10 @@
         "main_facility"
       ],
       "chunks": [
-        "LORE.CHAR.0002",
+        "ENTITY.KERMIT.0001",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001"
       ]
     },
@@ -517,7 +621,17 @@
       ],
       "chunks": [
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
         "LORE.SPEC.0004"
+      ]
+    },
+    "sector_zero": {
+      "canonical_name": "sector_zero",
+      "variants": [
+        "sector_zero"
+      ],
+      "chunks": [
+        "ENTITY.TERMINAL_7B.0001"
       ]
     },
     "forest": {
@@ -536,6 +650,15 @@
       ],
       "chunks": [
         "LORE.SPEC.0002"
+      ]
+    },
+    "signal_origin_unknown": {
+      "canonical_name": "signal_origin_unknown",
+      "variants": [
+        "signal_origin_unknown"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
       ]
     },
     "the_rise": {

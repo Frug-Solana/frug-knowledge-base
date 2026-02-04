@@ -8,9 +8,13 @@
  * Issue #31: Lore consistency - contradiction scanner + canon reconciler
  */
 
-const fs = require('fs');
-const path = require('path');
-const yaml = require('yaml');
+import fs from 'fs';
+import path from 'path';
+import yaml from 'yaml';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const LORE_DIR = path.join(__dirname, '../lore');
 const REPORTS_DIR = path.join(__dirname, '../lore/reports');
