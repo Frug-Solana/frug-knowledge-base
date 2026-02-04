@@ -1,5 +1,5 @@
 ---
-id: "char_frug"
+id: "ENTITY.FRUG.0001"
 name: "FRUG"
 title: "THE OBSERVER • MEMETIC ENTITY"
 role: "Mascot Spirit / Community Avatar"
@@ -7,6 +7,13 @@ location: "Degenora Island (ubiquitous)"
 coordinates: "Variable"
 status: "Active"
 aliases: ["The Observer", "The Signal", "FROG-F-001"]
+kind: canon_chunk
+truth_level: canon
+confidence: known
+entities: ["frug", "big_frug", "terminal_7b", "the_signal"]
+locations: ["degenora_island", "terminal_7b"]
+tags: ["character", "entity", "memetic", "observer"]
+last_reviewed: "2026-02-04"
 ---
 
 # FRUG / The Observer

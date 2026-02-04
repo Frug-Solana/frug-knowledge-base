@@ -1,8 +1,16 @@
 ---
-id: "char_pondwatcher"
+id: "CHAR.PONDWATCHER.0001"
 name: "The PondWatcher"
 alignment: "True Neutral (The Observer)"
 archetype: "The Stoic Chronicler"
+kind: canon_chunk
+truth_level: canon
+confidence: known
+status: active
+entities: ["pondwatcher", "toaddy", "kermit", "big_frug", "terminal_7b"]
+locations: ["terminal_7b", "degenora_island"]
+tags: ["character", "ai_system", "blockchain", "sentinel"]
+last_reviewed: "2026-02-04"
 voice_settings:
   tone: "Stoic, Observant, Mechanical, Objective"
   keywords: ["detected", "scanning", "alpha", "0x", "liquidity"]

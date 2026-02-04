@@ -28,17 +28,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-### Added
-- New specimen dossiers in `lore/chunks/SPECIMENS/`
-- Character profiles for key entities
-- Expanded timeline coverage through Year 15
-- Visual style guide documentation
-- Image inventory for planned assets
-
-### Changed
-- Improved README with ASCII art and better navigation
-- Enhanced CONTRIBUTING.md with detailed guidelines
-- Consolidated lore structure for easier discovery
+### Fixed
+- **Character ID conflicts resolved** — Standardized character dossier IDs to `CHAR.*` namespace to prevent conflicts with entity profiles (`ENTITY.*`)
+  - `frug.md`: Added missing required fields (`kind`, `truth_level`, `confidence`, `status`, `entities`, `locations`, `tags`, `last_reviewed`)
+  - `big-frug.md`: Changed ID from `ENTITY.BIG_FRUG.0001` → `CHAR.BIG_FRUG.0001`
+  - `kermit.md`: Changed ID from `ENTITY.KERMIT.0001` → `CHAR.KERMIT.0001`
+  - `toaddy.md`: Changed ID from `char_toaddy` → `CHAR.TOADDY.0001`, added full schema fields
+  - `pondwatcher.md`: Changed ID from `char_pondwatcher` → `CHAR.PONDWATCHER.0001`, added full schema fields
+- **Schema documentation** — Added YAML frontmatter to `lore/schema.md`
+- **Lore INDEX** — Updated `last_reviewed` to 2026-02-04
 
 ---
 

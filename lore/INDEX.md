@@ -8,7 +8,7 @@ status: active
 entities: []
 locations: ["degenora_island", "terminal_7b"]
 tags: ["index", "navigation", "archive"]
-last_reviewed: "2026-02-02"
+last_reviewed: "2026-02-04"
 ---
 
 ```
