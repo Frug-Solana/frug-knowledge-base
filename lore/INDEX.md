@@ -103,10 +103,12 @@ Chronological record of events from Year 0 to present (Year 15).
 | 📅 [Timeline Overview](timeline.md) | Master timeline container and contribution guide |
 
 **Timeline Chunks:**
-- [Year 0: The Incident](chunks/TIMELINE/year-0-incident.md)
-- [Year 1: Establishment](chunks/TIMELINE/year-1-establishment.md)
-- [Year 5: Reversal Fails](chunks/TIMELINE/year-5-reversal-fails.md)
-- [Year 15: Current](chunks/TIMELINE/year-15-current.md)
+- [Era Scaffolding](chunks/TIMELINE/ERA-SCAFFOLD.md) — Organizational framework for all eras
+- [Year 0: The Incident](chunks/TIMELINE/year-0-incident.md) — Canon
+- [Year 1: Establishment](chunks/TIMELINE/year-1-establishment.md) — Canon
+- [Year 5: Reversal Fails](chunks/TIMELINE/year-5-reversal-fails.md) — Record
+- [Year 15: Current](chunks/TIMELINE/year-15-current.md) — Record
+- ⚠️ [Corrupted Fragment](chunks/TIMELINE/year-corrupted-fragment.md) — Corrupted (unverified)
 
 ```
 ──────────────────────────────────────────────────────────────────────
