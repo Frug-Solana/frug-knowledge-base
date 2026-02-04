@@ -26,6 +26,8 @@ Quick reference for FRUG/Degenora terminology.
 
 **Degenora** — The island ecosystem, setting of the FRUG universe.
 
+**Deep Dweller** — Specimen type inhabiting deeper waters around Degenora.
+
 ## E
 
 **Echo** — Signal phenomenon mimicking voices or events. Not the original—something else wearing a familiar shape.
@@ -42,6 +44,18 @@ Quick reference for FRUG/Degenora terminology.
 
 **Grafting** — Process of specimens incorporating Signal energy.
 
+## H
+
+**Hazard Zone** — Area of Degenora with dangerous Signal activity. Access restricted above Clearance Level 2.
+
+## I
+
+**Incident, The** — Year 0 event that brought the Signal to Degenora. Exact details remain classified.
+
+## J
+
+**Junction** — Connection point between Observation Houses and Terminal 7-B.
+
 ## K
 
 **Kermit** — AI system managing Terminal 7-B communications. Prone to sarcasm.
@@ -54,6 +68,10 @@ Quick reference for FRUG/Degenora terminology.
 
 **Mutation** — Biological changes from Signal exposure.
 
+## N
+
+**Null Sector** — Region where the Signal cannot be detected. Purpose and cause unknown.
+
 ## O
 
 **Observer** — A participant who documents and studies Degenora.
@@ -63,6 +81,18 @@ Quick reference for FRUG/Degenora terminology.
 ## P
 
 **PILL** — Mysterious substance found on Degenora. Primary in-game currency.
+
+## Q
+
+**Quiet Hours** — Periods of low Signal activity, often used for archive maintenance.
+
+## R
+
+**Rank Score** — Metric measuring Observer participation and contributions.
+
+**Record** — Documentation that is factual but not yet verified as canon.
+
+**Redacted** — Content intentionally removed or hidden by archivists.
 
 ## S
 
@@ -80,11 +110,35 @@ Quick reference for FRUG/Degenora terminology.
 
 **Truth Level** — Metadata indicating reliability: `canon`, `record`, `rumor`, `corrupted`, `redacted`.
 
+## U
+
+**Unstable Zone** — Area where Signal effects are unpredictable and dangerous.
+
+## V
+
+**Void, The** — Term used by early Observers for unknown/unmapped regions of Degenora.
+
+**Void-Touched** — Specimens showing extreme Signal mutation patterns.
+
+## W
+
+**Watcher** — Specimen type known for observing Observers without approaching.
+
+**Wetlands** — Marshy regions of Degenora with high biodiversity.
+
+## X
+
+**XP (Experience)** — Points earned through participation and contributions.
+
 ## Y
 
 **Year 0** — The year of the Incident that brought the Signal to Degenora.
 
 **Year 15** — Current year. The Signal has been broadcasting for 15 years.
+
+## Z
+
+**Zone Lock** — Temporary restriction on area access due to hazardous conditions.
 
 ---
 
