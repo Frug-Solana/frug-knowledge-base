@@ -1,6 +1,6 @@
 [
   {
-    "id": "RES-1770195209316-ot9f",
+    "id": "RES-1770196113996-m3xn",
     "priority": "high",
     "type": "temporal_conflict",
     "issue": "Temporal conflict on 2024-08",
@@ -27,7 +27,7 @@
     "kermit_note": "[KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities."
   },
   {
-    "id": "RES-1770195209316-eur0",
+    "id": "RES-1770196113997-trn6",
     "priority": "low",
     "type": "orphan_entities",
     "issue": "14 entities mentioned only once",
