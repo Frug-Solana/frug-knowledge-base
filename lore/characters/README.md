@@ -5,7 +5,7 @@ kind: canon_chunk
 truth_level: canon
 confidence: known
 status: active
-entities: ["big_frug", "kermit", "pondwatcher", "toaddy"]
+entities: ["frug", "big_frug", "kermit", "pondwatcher", "toaddy"]
 locations: []
 tags: ["index", "characters", "overview"]
 last_reviewed: "2026-02-02"
@@ -19,6 +19,7 @@ Canonical character definitions for the FRUG ecosystem.
 
 | Character | Role | Alignment | File |
 |-----------|------|-----------|------|
+| **FRUG** | The Observer, Memetic Entity | True Neutral | [frug.md](frug.md) |
 | **Big Frug** | Island Founder, Lore Keeper | Lawful Neutral | [big-frug.md](big-frug.md) |
 | **Kermit** | Terminal 7-B Voice, Chaotic Presence | Chaotic Neutral/Evil | [kermit.md](kermit.md) |
 | **PondWatcher** | Blockchain Sentinel, Data Observer | True Neutral | [pondwatcher.md](pondwatcher.md) |
