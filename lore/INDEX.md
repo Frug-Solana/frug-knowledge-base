@@ -8,7 +8,7 @@ status: active
 entities: []
 locations: ["degenora_island", "terminal_7b"]
 tags: ["index", "navigation", "archive"]
-last_reviewed: "2026-02-04"
+last_reviewed: "2026-02-05"
 ---
 
 ```
@@ -208,6 +208,25 @@ Canonical lore is stored as small, linkable chunks in [`lore/chunks/`](chunks/).
 | 📅 Timeline | `chunks/TIMELINE/` | Historical records |
 | 📜 History | `chunks/HISTORY/` | Major event documentation |
 | ⚙️ Protocols | `chunks/LORE.PROTOCOL.*.md` | Core game mechanic lore |
+| ⏰ Time-Gated Drops | `chunks/DROPS/` | Scheduled lore unlocks |
+
+---
+
+```
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+```
+
+## ⏰ Time-Gated Drops
+
+Documents that unlock on specific dates. Check back periodically for new revelations.
+
+| Drop | Unlocks | Description |
+|------|---------|-------------|
+| [DROP.0001](chunks/DROPS/drop-0001-day-one.md) | 2026-02-01 | Welcome to Terminal 7-B |
+| [DROP.0002](chunks/DROPS/drop-0002-greenhouse.md) | 2026-02-02 | Greenhouse Report #847 |
+| [DROP.0003](chunks/DROPS/drop-0003-kermit-nature.md) | 2026-02-03 | KERMIT Studies Nature |
+| [DROP.0004](chunks/DROPS/drop-0004-cafeteria-menu.md) | 2026-02-04 | Cafeteria B Menu |
+| [DROP.0005](chunks/DROPS/drop-0005-wetlands-anomaly.md) | 2026-02-06 | Wetlands Perimeter Anomaly 🆕 |
 
 ---
 
