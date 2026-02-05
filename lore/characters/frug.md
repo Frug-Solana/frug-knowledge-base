@@ -1,5 +1,5 @@
 ---
-id: "ENTITY.FRUG.0001"
+id: "CHAR.FRUG.0001"
 name: "FRUG"
 title: "THE OBSERVER • MEMETIC ENTITY"
 role: "Mascot Spirit / Community Avatar"

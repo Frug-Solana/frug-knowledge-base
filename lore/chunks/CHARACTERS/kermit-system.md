@@ -1,5 +1,5 @@
 ---
-id: ENTITY.KERMIT.0001
+id: CHAR.KERMIT.0001
 name: "Kermit"
 aliases: ["sys-kermit", "PSCL Autonomous Monitoring System", "The Dark One", "kermit"]
 kind: canon_chunk

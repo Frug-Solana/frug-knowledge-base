@@ -1,5 +1,5 @@
 ---
-id: ENTITY.BIG_FRUG.0001
+id: CHAR.BIG_FRUG.0001
 name: "Big Frugowski"
 aliases: ["Big Frug", "Frugowski", "big_frugowski"]
 kind: canon_chunk
