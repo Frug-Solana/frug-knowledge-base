@@ -29,6 +29,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 
 ### Added
+- **Style Guide** — Comprehensive writing standards for Terminal 7-B documentation (`lore/pages/style_guide.md`)
+  - YAML frontmatter specifications
+  - Voice, tone, and formatting conventions
+  - Truth levels and ID naming patterns
+  - Pre-submission checklist for contributors
 - **Coastal Sector location** — New location documentation (`lore/chunks/LOCATIONS/coastal_sector.md`)
   - Complete sector profile with geography, inhabitants, and Terminal 7-B presence
   - Ramirez territory documentation and behavioral notes

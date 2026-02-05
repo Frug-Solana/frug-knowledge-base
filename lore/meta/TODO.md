@@ -23,7 +23,7 @@ tags: ["meta", "todo"]
   - [x] ramirez.md — Patient Zero, first transformed, Year 2 sighting documented in FR-012
   - [x] queen-of-shadows.md — C-47 enhanced sable fox, apex predator, maintains 40-foot observation boundary
   - [x] the-signal.md — Anomalous broadcast phenomenon, transformative agent, island-wide intelligence
-- [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
+- [x] Add a `lore/pages/style_guide.md` (how to write pages consistently)
 
 ## Backlog
 - [ ] Add a light "index generator" (optional) that validates frontmatter and lists chunks by tags

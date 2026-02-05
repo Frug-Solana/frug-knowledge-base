@@ -90,6 +90,7 @@ The foundation of the Degenora setting.
 | 🌍 [Core Premise](world/core_premise.md) | The fundamental setup and elevator pitch | ✅ Active |
 | 🎭 [Tone & Style](world/tone_and_style.md) | Writing guidelines and aesthetic pillars | ✅ Active |
 | 🔍 [Truth Model](world/truth_model.md) | Canon vs record vs corrupted documentation | ✅ Active |
+| 📝 [Style Guide](pages/style_guide.md) | Terminal 7-B writing standards | ✅ Active |
 
 ```
 ──────────────────────────────────────────────────────────────────────
