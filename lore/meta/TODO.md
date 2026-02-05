@@ -20,7 +20,7 @@ tags: ["meta", "todo"]
   - [x] underground_labs.md — Created with sealed facility documentation
 - [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
   - [x] dr-chen.md — Senior researcher, Reversal Project lead, mentor to Big Frug (departed Year 5)
-  - [ ] ramirez.md — Pending
+  - [x] ramirez.md — Patient Zero, first transformed, Year 2 sighting documented in FR-012
   - [ ] queen-of-shadows.md — Pending
   - [ ] the-signal.md — Pending
 - [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
