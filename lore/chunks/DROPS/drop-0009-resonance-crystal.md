@@ -1,5 +1,5 @@
 ---
-id: DROP.005
+id: DROP.009
 name: "Resonance Crystal Shard"
 kind: canon_chunk
 category: drop
