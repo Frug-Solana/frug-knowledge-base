@@ -10,6 +10,7 @@
     "kermit-report": "cat lore/reports/contradictions-$(date +%Y-%m-%d).md"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
     "glob": "^13.0.1",
     "gray-matter": "^4.0.3",
     "yaml": "^2.3.4"
