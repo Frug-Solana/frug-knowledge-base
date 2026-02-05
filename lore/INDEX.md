@@ -32,7 +32,7 @@ last_reviewed: "2026-02-04"
 
 ```
 [TERMINAL 7-B] > INDEXING ARCHIVE...
-[TERMINAL 7-B] > 52 DOCUMENTS FOUND
+[TERMINAL 7-B] > 53 DOCUMENTS FOUND
 [TERMINAL 7-B] > READY FOR BROWSING
 ```
 
@@ -74,6 +74,7 @@ Start with these essential documents.
 | Document | Description | For |
 |----------|-------------|-----|
 | 🎙️ [Kermit's Welcome Transmission](chunks/TRANSMISSION.001.md) | Your introduction to Terminal 7-B | New Observers |
+| 📡 [The Signal Shifts](chunks/TRANSMISSION.002.md) | Kermit on frequency changes and Resonance Points | All Observers |
 | 📡 [The Absentee Protocol](chunks/LORE.PROTOCOL.0001.md) | How AI plays while you're away | All players |
 | 🧬 [Specimen Origins](chunks/ORIGINS/) | How creatures came to be | Lore enthusiasts |
 
