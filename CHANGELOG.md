@@ -28,6 +28,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- **Coastal Sector location** — New location documentation (`lore/chunks/LOCATIONS/coastal_sector.md`)
+  - Complete sector profile with geography, inhabitants, and Terminal 7-B presence
+  - Ramirez territory documentation and behavioral notes
+  - Cross-references to related lore documents
+
 ### Fixed
 - **Character ID conflicts resolved** — Standardized character dossier IDs to `CHAR.*` namespace to prevent conflicts with entity profiles (`ENTITY.*`)
   - `frug.md`: Added missing required fields (`kind`, `truth_level`, `confidence`, `status`, `entities`, `locations`, `tags`, `last_reviewed`)
