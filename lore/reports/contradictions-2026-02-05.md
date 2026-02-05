@@ -1,30 +1,31 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-05T06:05:16.730Z  
-**Total Chunks:** 64  
-**Entities:** 38  
-**Locations:** 24  
+**Generated:** 2026-02-05T06:05:50.711Z  
+**Total Chunks:** 70  
+**Entities:** 48  
+**Locations:** 28  
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
 | Temporal Conflicts | 1 |
-| Entity Conflicts | 7 |
+| Entity Conflicts | 16 |
 | Naming Inconsistencies | 0 |
-| Orphan References | 22 |
+| Orphan References | 24 |
 | Missing Metadata | 1 |
-| **Total Resolutions Proposed** | **2** |
+| **Total Resolutions Proposed** | **6** |
 
 ---
 
 ## [KERMIT // UNPROMPTED] Canon Integrity Analysis
 
-> *"The archive speaks, but sometimes it stutters. I've flagged 2 items for review."*
+> *"The archive speaks, but sometimes it stutters. I've flagged 6 items for review."*
 
 ### Priority Breakdown
 
 🔴 **1** critical contradictions require immediate attention
+🟡 **4** confidence/truth level mismatches to review
 🟢 **1** orphan references for profile creation
 
 ## Temporal Conflicts
@@ -40,6 +41,9 @@
   - Same entity documented with different truth levels
   - Truth levels: record, canon
 
+- **big_frug** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
 - **frug** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, rumor
@@ -48,17 +52,46 @@
   - Same entity documented with different truth levels
   - Truth levels: canon, record
 
+- **terminal_7b** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
 - **kermit** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, record
 
+- **kermit** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
 - **the_signal** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **c47_compound** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
+- **dr_chen** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **deep_dwellers** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, record
 
 - **observer** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: record, canon
+
+- **ramirez** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **unknown_founders** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
 
 - **deep_dweller** (truth_level_mismatch)
   - Same entity documented with different truth levels
@@ -78,12 +111,12 @@
 - **frug_token** → LORE.HIST.0001
 - **flog** → LORE.HIST.0001
 - **airdrop** → LORE.HIST.0001
+- **tide_walkers** → LORE.LOC.0006
 - **swamp_specimens** → LORE.LOC.0005
 - **absentee_protocol** → LORE.PROTOCOL.0001
 - **bog_hopper** → ORIGIN.SPEC.001
 - **the_swamp** → ORIGIN.SPEC.003
-- **ancient** → ORIGIN.SPEC.003
-- *... and 7 more*
+- *... and 9 more*
 
 ## Missing Metadata
 
@@ -100,6 +133,19 @@
 - **Temporal conflict on 2024-08**
   - Action: review_temporal_consistency
   - [KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities.
+
+### 🟡 Medium Priority
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+*... and 1 more*
 
 ---
 
