@@ -1,19 +1,19 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-05T06:56:42.114Z  
-**Total Chunks:** 70  
-**Entities:** 48  
-**Locations:** 28  
+**Generated:** 2026-02-05T19:03:55.039Z  
+**Total Chunks:** 86  
+**Entities:** 75  
+**Locations:** 56  
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
 | Temporal Conflicts | 1 |
-| Entity Conflicts | 16 |
+| Entity Conflicts | 18 |
 | Naming Inconsistencies | 0 |
-| Orphan References | 24 |
-| Missing Metadata | 1 |
+| Orphan References | 50 |
+| Missing Metadata | 2 |
 | **Total Resolutions Proposed** | **6** |
 
 ---
@@ -39,7 +39,7 @@
 
 - **big_frugowski** (truth_level_mismatch)
   - Same entity documented with different truth levels
-  - Truth levels: record, canon
+  - Truth levels: record, rumor, canon
 
 - **big_frug** (canon_uncertain)
   - Canon truth level but confidence is not "known"
@@ -57,14 +57,14 @@
 
 - **kermit** (truth_level_mismatch)
   - Same entity documented with different truth levels
-  - Truth levels: canon, record
+  - Truth levels: canon, rumor, record
 
 - **kermit** (canon_uncertain)
   - Canon truth level but confidence is not "known"
 
 - **the_signal** (truth_level_mismatch)
   - Same entity documented with different truth levels
-  - Truth levels: canon, record
+  - Truth levels: canon, rumor, record
 
 - **c47_compound** (canon_uncertain)
   - Canon truth level but confidence is not "known"
@@ -77,21 +77,29 @@
   - Same entity documented with different truth levels
   - Truth levels: canon, record
 
-- **observer** (truth_level_mismatch)
+- **frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **queen_of_shadows** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: record, canon
 
 - **ramirez** (truth_level_mismatch)
   - Same entity documented with different truth levels
-  - Truth levels: canon, record
+  - Truth levels: record, canon
 
-- **frugowski** (truth_level_mismatch)
+- **observer** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: record, canon
 
 - **unknown_founders** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: canon, record
+
+- **bog_hopper** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
 
 - **deep_dweller** (truth_level_mismatch)
   - Same entity documented with different truth levels
@@ -112,15 +120,16 @@
 - **flog** → LORE.HIST.0001
 - **airdrop** → LORE.HIST.0001
 - **tide_walkers** → LORE.LOC.0006
-- **swamp_specimens** → LORE.LOC.0005
+- **bog_hoppers** → LORE.LOC.0005
+- **sludge_crawlers** → LORE.LOC.0005
 - **absentee_protocol** → LORE.PROTOCOL.0001
-- **bog_hopper** → ORIGIN.SPEC.001
 - **the_swamp** → ORIGIN.SPEC.003
-- *... and 9 more*
+- *... and 35 more*
 
 ## Missing Metadata
 
 - **README.md**: No frontmatter found
+- **chunks/SPECIMENS/dossier-015-crystal-memory.md**: No frontmatter found
 
 ---
 

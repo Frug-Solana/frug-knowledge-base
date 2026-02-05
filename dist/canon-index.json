@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-05T06:56:41.694Z",
-  "total_chunks": 73,
+  "generated_at": "2026-02-05T19:03:54.470Z",
+  "total_chunks": 89,
   "chunks": [
     {
       "id": "SPECIMEN.001",
@@ -475,6 +475,36 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ██╗ ██████╗    ███████╗██████╗ ██╗   ██╗ ██████╗ ██╗      ║\n║   ██╔══██╗██║██╔════╝    ██╔════╝██╔══██╗██║   ██║██╔════╝ ██║      ║\n║   ██████╔╝██║██║         █████╗  ██████╔╝██║   ██║██║  ███╗██║      ║\n║   ██╔══██╗██║██║         ██╔══╝  ██╔══██╗██║   ██║██║   ██║██║      ║\n║   ██████╔╝██║╚██████╗    ██║     ██║  ██║╚██████╔╝╚██████╔"
     },
     {
+      "id": "ENTITY.DR_CHEN.0001",
+      "path": "chunks/CHARACTERS/dr-chen-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "historical",
+      "title": "dr-chen-profile",
+      "entities": [
+        "dr_chen",
+        "frugowski",
+        "big_frugowski"
+      ],
+      "locations": [
+        "main_facility",
+        "observation_house_04",
+        "degenora_island"
+      ],
+      "tags": [
+        "character",
+        "scientist",
+        "mentor",
+        "founding_era",
+        "year_5_departure"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ██████╗  ██████╗██╗  ██╗███████╗███╗   ██╗                 ║\n║   ██╔══██╗██╔══██╗██╔════╝██║  ██║██╔════╝████╗  ██║                 ║\n║   ██║  ██║██████╔╝██║     ███████║█████╗  ██╔██╗ ██║                 ║\n║   ██║  ██║██╔══██╗██║     ██╔══██║██╔══╝  ██║╚██╗██║                 ║\n║   ██████╔╝██║  ██║╚██████╗██║  ██║███████╗██║ ╚████║"
+    },
+    {
       "id": "CHAR.FRUG.0001",
       "path": "chunks/CHARACTERS/frug-observer-profile.md",
       "kind": "canon_chunk",
@@ -558,6 +588,95 @@
       "unlock": null,
       "visibility": "public",
       "content_preview": "# KERMIT - Island AI System\n\n**Designation:** PSCL Autonomous Monitoring System  \n**ID:** sys-kermit  \n**Status:** ACTIVE • SELF-SUSTAINING • INDEPENDENT\n\n**Full Name:** Knowledge & Environmental Resource Monitoring Intelligence Terminal\n\n**Nickname:** The island calls it KERMIT. Nobody remembers if that was the original designation or if Frugowski named it.\n\n## Origin\n\n**Built:** Pre-contamination, integrated into facility infrastructure  \n**Purpose:** Island operations, environmental monitor"
+    },
+    {
+      "id": "ENTITY.QUEEN_OF_SHADOWS.0001",
+      "path": "chunks/CHARACTERS/queen-of-shadows-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "active",
+      "title": "queen-of-shadows-profile",
+      "entities": [
+        "queen_of_shadows",
+        "frugowski",
+        "big_frugowski"
+      ],
+      "locations": [
+        "observation_house_04",
+        "forest_sector",
+        "sector_7"
+      ],
+      "tags": [
+        "character",
+        "specimen",
+        "apex_predator",
+        "cognitive_enhanced",
+        "forest_entity"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗ ██╗   ██╗███████╗███████╗███╗   ██╗                       ║\n║   ██╔═══╝ ██║   ██║██╔════╝██╔════╝████╗  ██║                       ║\n║   ██║     ██║   ██║█████╗  █████╗  ██╔██╗ ██║                       ║\n║   ██║     ██║   ██║██╔══╝  ██╔══╝  ██║╚██╗██║                       ║\n║   ╚██████╗╚██████╔╝██║     ███████╗██║ ╚████║"
+    },
+    {
+      "id": "ENTITY.RAMIREZ.0001",
+      "path": "chunks/CHARACTERS/ramirez-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "deceased_presumed",
+      "title": "ramirez-profile",
+      "entities": [
+        "ramirez",
+        "frugowski"
+      ],
+      "locations": [
+        "degenora_island",
+        "sector_7"
+      ],
+      "tags": [
+        "character",
+        "patient_zero",
+        "transformation",
+        "first_contact",
+        "historical"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██████╗  █████╗ ███╗   ███╗██╗██████╗ ███████╗███████╗            ║\n║   ██╔══██╗██╔══██╗████╗ ████║██║██╔══██╗██╔════╝╚════██║            ║\n║   ██████╔╝███████║██╔████╔██║██║██████╔╝█████╗     ██╔╝             ║\n║   ██╔══██╗██╔══██║██║╚██╔╝██║██║██╔══██╗██╔══╝    ██╔╝              ║\n║   ██║  ██║██║  ██║██║ ╚═╝ ██║██║██║  ██║███████╗   ██║"
+    },
+    {
+      "id": "ENTITY.THE_SIGNAL.0001",
+      "path": "chunks/CHARACTERS/the-signal-profile.md",
+      "kind": "canon_chunk",
+      "truth_level": "rumor",
+      "confidence": "uncertain",
+      "status": "active",
+      "title": "the-signal-profile",
+      "entities": [
+        "the_signal",
+        "kermit",
+        "frug",
+        "big_frugowski"
+      ],
+      "locations": [
+        "degenora_island",
+        "terminal_7b",
+        "unknown_origin"
+      ],
+      "tags": [
+        "entity",
+        "phenomenon",
+        "transmission",
+        "origin_unknown",
+        "core_mystery"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ████████╗██╗  ██╗███████╗    ███████╗██╗ ██████╗ ███╗   ██╗ █████╗ ██╗         ║\n║   ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝██║██╔════╝ ████╗  ██║██╔══██╗██║         ║\n║      ██║   ███████║█████╗      █████╗  ██║██║  ███╗██╔██╗ ██║███████║██║         ║\n║      ██║   ██╔══██║██╔══╝      ██╔══╝  ██║██║   ██║██║╚██╗██║██╔══██║██║         ║\n║      █"
     },
     {
       "id": "CORRUPTED.LOG.0001",
@@ -1023,27 +1142,28 @@
       "status": "active",
       "title": "wetlands",
       "entities": [
-        "swamp_specimens",
-        "frugowski",
-        "kermit"
+        "bog_hoppers",
+        "deep_dwellers",
+        "sludge_crawlers",
+        "big_frugowski"
       ],
       "locations": [
         "degenora_island",
         "wetlands",
-        "swamp_sector",
-        "terminal_7b"
+        "green_pond",
+        "coastal_sector"
       ],
       "tags": [
         "location",
         "sector",
-        "swamp",
         "wetlands",
-        "specimen_habitat"
+        "ecosystem",
+        "aquatic"
       ],
       "last_reviewed": null,
       "unlock": null,
       "visibility": "public",
-      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║  ██╗    ██╗███████╗████████╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗║\n║  ██║    ██║██╔════╝╚══██╔══╝██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝║\n║  ██║ █╗ ██║█████╗     ██║   ██║     ███████║██╔██╗ ██║██║  ██║███████╗║\n║  ██║███╗██║██╔══╝     ██║   ██║     ██╔══██║██║╚██╗██║██║  ██║╚════██║║\n║  ╚███╔███╔╝███████╗   ██║   ███████╗██║  ██║██║ ╚█"
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ██╗    ██╗███████╗████████╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗\n║   ██║    ██║██╔════╝╚══██╔══╝██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝\n║   ██║ █╗ ██║█████╗     ██║   ██║     ███████║██╔██╗ ██║██║  ██║███████╗\n║   ██║███╗██║██╔══╝     ██║   ██║     ██╔══██║██║╚██╗██║██║  ██║╚════██║\n║   ╚███╔███╔╝███████╗   ██║   ███████╗██║  ██║██║ ╚"
     },
     {
       "id": "LORE.PROTOCOL.0001",
@@ -1170,6 +1290,301 @@
       "unlock": null,
       "visibility": "public",
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗                ║\n║   ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║                ║\n║   ███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║                ║\n║   ╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║                ║\n║   ███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.001",
+      "path": "chunks/SPECIMENS/dossier-001-signal-fungus.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #001: Signal-Resonant Fungus",
+      "entities": [
+        "mycelia_synchronis",
+        "signal_resonant_fungus",
+        "field_researcher_vex"
+      ],
+      "locations": [
+        "zone_a1",
+        "zone_a2",
+        "zone_b2",
+        "signal_emitter_adjacent"
+      ],
+      "tags": [
+        "specimen",
+        "fungus",
+        "signal",
+        "bioluminescent",
+        "common",
+        "harvestable"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #001\n## Mycelia Synchronis\n**Common Designation:** Signal-Resonant Fungus  \n**Threat Level:** Minimal (2/10)  \n**Classification:** Bioluminescent Fungi / Signal-Responsive Organism  \n**Discovery:** Year 5, Field Researcher Vex, Zone A1\n\n---\n\n## VISUAL IDENTIFICATION\n\nSignal-Resonant Fungus manifests as clustered caps (3-8cm diameter) atop fibrous stalks (5-12cm height). Key identifying features:\n\n- **Bioluminescence:** Soft blue-green glow (wavelength ~495nm)\n- **Pulsation:*"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.002",
+      "path": "chunks/SPECIMENS/dossier-002-bog-hopper.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #002: Bog Hopper",
+      "entities": [
+        "ranidae_saltator",
+        "bog_hopper",
+        "big_frugowski"
+      ],
+      "locations": [
+        "wetlands",
+        "green_pond",
+        "zone_a3",
+        "zone_b1"
+      ],
+      "tags": [
+        "specimen",
+        "amphibian",
+        "wetlands",
+        "territorial",
+        "common",
+        "tameable"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #002\n## Ranidae Saltator\n**Common Designation:** Bog Hopper  \n**Threat Level:** Moderate (4/10)  \n**Classification:** Amphibious Mutant / Pharmaceutical Contamination  \n**Discovery:** Year 1, Month 2, Big Frugowski (FR-001)\n\n---\n\n## VISUAL IDENTIFICATION\n\nBog Hoppers are large amphibians with mutated physiology from baseline frog specimens. Key identifying features:\n\n- **Size:** 0.8-1.2m body length, 30-50kg mass\n- **Leg Structure:** Massively enlarged hind limbs (3x baselin"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.003",
+      "path": "chunks/SPECIMENS/dossier-003-queen-of-shadows.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #003: Queen of Shadows",
+      "entities": [
+        "vulpes_sapiens",
+        "queen_of_shadows",
+        "big_frugowski",
+        "sable_fox"
+      ],
+      "locations": [
+        "forest",
+        "observation_house_04",
+        "zone_c2"
+      ],
+      "tags": [
+        "specimen",
+        "mammal",
+        "fox",
+        "apex_predator",
+        "cognitive_enhanced",
+        "rare",
+        "unique"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #003\n## Vulpes Sapiens\n**Common Designation:** Queen of Shadows (Sable Fox)  \n**Threat Level:** UNKNOWN / Context Dependent (7/10 potential)  \n**Classification:** Cognitive-Enhanced Apex Predator / Unique Specimen  \n**Discovery:** Year 1, Month 6, Big Frugowski (FR-003)\n\n---\n\n## VISUAL IDENTIFICATION\n\nThe Queen of Shadows is a unique specimen—no second individual has ever been documented. Physical characteristics:\n\n- **Size:** 1.4m length (including tail), 35kg mass (2x base"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.004",
+      "path": "chunks/SPECIMENS/dossier-004-luminescent-larvae.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #004: Luminescent Larvae",
+      "entities": [
+        "larva_bioluminis",
+        "luminescent_larvae",
+        "field_researcher_chen"
+      ],
+      "locations": [
+        "green_pond",
+        "wetlands",
+        "standing_water",
+        "zone_a3"
+      ],
+      "tags": [
+        "specimen",
+        "insect",
+        "larvae",
+        "bioluminescent",
+        "pharmaceutical_source",
+        "common",
+        "harvestable"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #004\n## Larva Bioluminis\n**Common Designation:** Luminescent Larvae / Glow Grubs  \n**Threat Level:** Negligible (1/10)  \n**Classification:** Aquatic Insect Larvae / Pharmaceutical Concentrator  \n**Discovery:** Year 1, concurrent with Bog Hopper documentation\n\n---\n\n## VISUAL IDENTIFICATION\n\nLuminescent Larvae are the foundational organism of the wetland pharmaceutical ecosystem:\n\n- **Size:** 3-8cm length, 0.5-1cm diameter\n- **Body Structure:** Segmented, soft-bodied, no defen"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.005",
+      "path": "chunks/SPECIMENS/dossier-005-island-serpent.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #005: Island Serpent",
+      "entities": [
+        "vipera_insulae",
+        "island_serpent",
+        "medical_officer_reyes"
+      ],
+      "locations": [
+        "tall_grass_zones",
+        "zone_b2",
+        "zone_c1",
+        "agricultural_sector"
+      ],
+      "tags": [
+        "specimen",
+        "reptile",
+        "snake",
+        "venomous",
+        "common",
+        "hostile"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #005\n## Vipera Insulae\n**Common Designation:** Island Serpent  \n**Threat Level:** Moderate (5/10)  \n**Classification:** Venomous Reptile / Pharmaceutical Contamination  \n**Discovery:** Year 4, Medical Officer Reyes (toxicity study)\n\n---\n\n## VISUAL IDENTIFICATION\n\nIsland Serpents represent baseline viper morphology enhanced by island contamination:\n\n- **Size:** 1.5-2.5m length, 3-6kg mass (significantly larger than mainland vipers)\n- **Coloration:** Mottled green dominant wit"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.006",
+      "path": "chunks/SPECIMENS/dossier-006-tide-walker.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "inferred",
+      "status": "active",
+      "title": "Specimen Dossier #006: Tide Walker",
+      "entities": [
+        "ambulatores_aestus",
+        "tide_walker",
+        "coastal_survivor_logs"
+      ],
+      "locations": [
+        "coastal_sector",
+        "tidal_zones",
+        "zone_d1",
+        "zone_d2",
+        "beaches"
+      ],
+      "tags": [
+        "specimen",
+        "amphibious",
+        "crustacean",
+        "rare",
+        "hostile",
+        "nocturnal"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #006\n## Ambulatores Aestus\n**Common Designation:** Tide Walker  \n**Threat Level:** High (7/10)  \n**Classification:** Amphibious Crustacean / Nocturnal Predator  \n**Discovery:** Year 2, recovered from coastal survivor logs\n\n---\n\n## VISUAL IDENTIFICATION\n\nTide Walkers are among the most alien specimens documented on Degenora—a fusion of crustacean and unknown biology:\n\n- **Size:** 2-3m height when upright, 150-250kg mass\n- **Body Structure:** Bipedal stance, chitinous exoskele"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.007",
+      "path": "chunks/SPECIMENS/dossier-007-void-crawler.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #007: Void Crawler",
+      "entities": [
+        "umbrascens_reptilia",
+        "void_crawler",
+        "survivor_journal_author"
+      ],
+      "locations": [
+        "zone_b3",
+        "zone_b4",
+        "zone_c3",
+        "zone_c4",
+        "signal_borderlands"
+      ],
+      "tags": [
+        "specimen",
+        "fauna",
+        "predator",
+        "void_touched",
+        "uncommon",
+        "hostile"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #007\n## Umbrascens Reptilia\n**Common Designation:** Void Crawler  \n**Threat Level:** High (6/10)  \n**Classification:** Chitinous Predator / Signal-Edge Hunter  \n**Discovery:** Year 3, recovered from survivor's journal, Zone C4\n\n---\n\n## VISUAL IDENTIFICATION\n\nVoid Crawlers are chitinous, quadrupedal predators roughly the size of large terrestrial canids (40-60kg, 1.2-1.5m length). Distinguishing characteristics:\n\n- **Exoskeleton:** Absorbs visible light, creating \"shadowy\" tw"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.028",
+      "path": "chunks/SPECIMENS/dossier-028-hollow-choir.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #028: The Hollow Choir",
+      "entities": [
+        "vocalis_vacua",
+        "hollow_choir",
+        "expedition_team_theta",
+        "archivist_kael"
+      ],
+      "locations": [
+        "zone_d4",
+        "grand_ruins",
+        "the_circle"
+      ],
+      "tags": [
+        "specimen",
+        "anomaly",
+        "legendary",
+        "psychic",
+        "sonic",
+        "the_signal",
+        "void_zone"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #028\n## Vocalis Vacua\n**Common Designation:** The Hollow Choir  \n**Threat Level:** EXTREME (9/10)  \n**Classification:** Anomalous Construct / Consciousness Hazard  \n**Discovery:** Year 7, Expedition Team Theta, Zone D4 (The Grand Ruins)\n\n---\n\n## SPECIMEN IDENTITY\n\n| Field | Value |\n|-------|-------|\n| **Archive Designation** | SPEC-028 |\n| **Taxonomic Name** | *Vocalis Vacua* |\n| **Common Name** | The Hollow Choir |\n| **Category** | Anomaly / Construct |\n| **Rarity Classific"
+    },
+    {
+      "id": "SPECIMEN.DOSSIER.031",
+      "path": "chunks/SPECIMENS/dossier-031-signal-drake-hatchling.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Specimen Dossier #031: Signal-Drake Hatchling",
+      "entities": [
+        "signal_drake",
+        "draco_telemetrica",
+        "ruin_scavengers",
+        "bioengineer_voss"
+      ],
+      "locations": [
+        "zone_b7",
+        "deep_ruins",
+        "old_comms_arrays",
+        "relay_station_4"
+      ],
+      "tags": [
+        "specimen",
+        "drake",
+        "rare",
+        "tameable",
+        "bioluminescent",
+        "the_signal",
+        "communication"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# SPECIMEN DOSSIER #031\n## Draco Telemetrica\n**Common Designation:** Signal-Drake Hatchling  \n**Threat Level:** MODERATE (4-6/10)  \n**Classification:** Rare Creature / Bioluminescent Drake  \n**Discovery:** Year 5, Bioengineer Voss, Relay Station 4 (Zone B7)\n\n---\n\n## SPECIMEN IDENTITY\n\n| Field | Value |\n|-------|-------|\n| **Archive Designation** | SPEC-031 |\n| **Taxonomic Name** | *Draco Telemetrica* |\n| **Common Name** | Signal-Drake Hatchling |\n| **Category** | Drake / Bioluminescent Reptile"
     },
     {
       "id": "LORE.SPEC.0001",
@@ -1476,6 +1891,33 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   [TERMINAL 7-B] > INCOMING TRANSMISSION...                          ║\n║   [TERMINAL 7-B] > SOURCE: UNKNOWN                                   ║\n║   [TERMINAL 7-B] > SIGNAL STRENGTH: UNSTABLE                         ║\n║   [TERMINAL 7-B] > DECRYPTING...                                     ║\n║   [TERMINAL 7-B] > ████████████████████ 100%"
     },
     {
+      "id": "TRANSMISSION.002",
+      "path": "chunks/TRANSMISSION.002.md",
+      "kind": "canon_chunk",
+      "truth_level": "record",
+      "confidence": "known",
+      "status": "active",
+      "title": "TRANSMISSION.002",
+      "entities": [
+        "kermit",
+        "terminal_7b",
+        "the_signal",
+        "frugowski"
+      ],
+      "locations": [],
+      "tags": [
+        "transmission",
+        "signal",
+        "kermit",
+        "lore_drop",
+        "year_15"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   [TERMINAL 7-B] > INCOMING TRANSMISSION...                          ║\n║   [TERMINAL 7-B] > SOURCE: KERMIT-TERMINAL-AI                        ║\n║   [TERMINAL 7-B] > SIGNAL STRENGTH: 73%                              ║\n║   [TERMINAL 7-B] > ENCRYPTION: NONE                                  ║\n║   [TERMINAL 7-B] > PRIORITY: LOW"
+    },
+    {
       "id": "LOC.DEGENORA.0001",
       "path": "degenora.md",
       "kind": "canon_chunk",
@@ -1730,6 +2172,27 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║  ██╗   ██╗███╗   ██╗██████╗ ███████╗██████╗  ██████╗ ██████╗ ██╗   ██╗║\n║  ██║   ██║████╗  ██║██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔══██╗╚██╗ ██╔╝║\n║  ██║   ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝██║   ██║██║  ██║ ╚████╔╝ ║\n║  ██║   ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗██║   ██║██║  ██║  ╚██╔╝  ║\n║  ╚██████╔╝██║ ╚████║██████╔╝███████╗██║  ██║╚█████"
     },
     {
+      "id": "LORE.META.STYLE.0001",
+      "path": "pages/style_guide.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "Lore Style Guide",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "meta",
+        "style-guide",
+        "writing",
+        "standards"
+      ],
+      "last_reviewed": "2026-02-04",
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# Lore Style Guide\n\n> **Purpose:** Ensure consistency across all Degenora lore documents  \n> **Audience:** All lore contributors, writers, and AI agents  \n> **Classification:** CANON — Follow strictly\n\n---\n\n## 🎯 Core Principles\n\n### 1. In-Universe Voice\nMost lore documents are written **from within the Degenora universe**, not as external game documentation.\n\n| Approach | Use When | Example |\n|----------|----------|---------|\n| **In-universe** | Default for lore chunks, transmissions, field r"
+    },
+    {
       "id": "LORE.SYSTEM.TERMINAL.0001",
       "path": "pages/systems/terminal.md",
       "kind": "canon_chunk",
@@ -1887,6 +2350,22 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗ ██████╗██╗  ██╗███████╗███╗   ███╗ █████╗                ║\n║   ██╔════╝██╔════╝██║  ██║██╔════╝████╗ ████║██╔══██╗               ║\n║   ███████╗██║     ███████║█████╗  ██╔████╔██║███████║               ║\n║   ╚════██║██║     ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══██║               ║\n║   ███████║╚██████╗██║  ██║███████╗██║ ╚═╝ ██║██║  ██║"
     },
     {
+      "id": "SEED.COMMS.001",
+      "path": "seed-comms/SEED.COMMS.001.md",
+      "kind": "seed_comms",
+      "truth_level": "record",
+      "confidence": "unknown",
+      "status": "approved",
+      "title": "SEED.COMMS.001",
+      "entities": [],
+      "locations": [],
+      "tags": [],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# Terminal 7-B: Seed Comms\n\n> Approved messages for initial terminal feed population.\n> These will be inserted into `tg_toaddy_drafts` with `status=approved`.\n\n---\n\n## Message 1: Welcome\n\n**source:** toaddy  \n**type:** system_welcome  \n**content:**\n\n```\n[TERMINAL 7-B] > CONNECTION ESTABLISHED\n[TERMINAL 7-B] > CLEARANCE: OBSERVER\n[TERMINAL 7-B] > WELCOME TO THE OUTPOST\n\nThe feed is live. The Swamp is watching.\n\nDocument what you see. The island rewards those who pay attention.\n```\n\n---\n\n## Mess"
+    },
+    {
       "id": "SYS.TERMINAL_7B.0001",
       "path": "terminal-7b.md",
       "kind": "canon_chunk",
@@ -1922,6 +2401,9 @@
     ],
     "big_frugowski": [
       "SPECIMEN.001",
+      "ENTITY.DR_CHEN.0001",
+      "ENTITY.QUEEN_OF_SHADOWS.0001",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
       "LORE.REPT.0001",
@@ -1929,6 +2411,9 @@
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.LOC.0002",
+      "LORE.LOC.0005",
+      "SPECIMEN.DOSSIER.002",
+      "SPECIMEN.DOSSIER.003",
       "LORE.SPEC.0003",
       "LORE.SPEC.0002",
       "LORE.SPEC.0004",
@@ -1971,6 +2456,7 @@
       "ENTITY.BIG_FRUG.0001",
       "CHAR.FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0002",
       "ENTITY.TERMINAL_7B.0001",
       "LOC.DEGENORA.0001",
@@ -1992,6 +2478,7 @@
       "LORE.DROP.0003",
       "ENTITY.TERMINAL_7B.0001",
       "TRANSMISSION.001",
+      "TRANSMISSION.002",
       "ENTITY.FRUG.0001"
     ],
     "kermit": [
@@ -2004,14 +2491,15 @@
       "CHAR.TOADDY.0001",
       "CHAR.FRUG.0001",
       "ENTITY.KERMIT.0001",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
       "ENTITY.TERMINAL_7B.0001",
-      "LORE.LOC.0005",
       "LORE.PROTOCOL.0001",
       "TRANSMISSION.001",
+      "TRANSMISSION.002",
       "SYS.TERMINAL_7B.0001"
     ],
     "pondwatcher": [
@@ -2034,9 +2522,11 @@
     "the_signal": [
       "ENTITY.FRUG.0001",
       "CHAR.FRUG.0001",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
-      "TRANSMISSION.001"
+      "TRANSMISSION.001",
+      "TRANSMISSION.002"
     ],
     "observation_house_04": [
       "CHAR.QUEEN.0001"
@@ -2054,6 +2544,7 @@
     ],
     "dr_chen": [
       "CHAR.RAMIREZ.0001",
+      "ENTITY.DR_CHEN.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
       "LORE.LOC.0003",
@@ -2067,13 +2558,41 @@
     ],
     "deep_dwellers": [
       "CHAR.RAMIREZ.0001",
-      "LORE.LOC.0006"
+      "LORE.LOC.0006",
+      "LORE.LOC.0005"
     ],
     "all_specimens": [
       "CHAR.SIGNAL.0001"
     ],
+    "frugowski": [
+      "ENTITY.DR_CHEN.0001",
+      "ENTITY.QUEEN_OF_SHADOWS.0001",
+      "ENTITY.RAMIREZ.0001",
+      "LORE.LOC.0006",
+      "LORE.PROTOCOL.0001",
+      "TRANSMISSION.002"
+    ],
     "the_observer": [
       "CHAR.FRUG.0001"
+    ],
+    "queen_of_shadows": [
+      "ENTITY.QUEEN_OF_SHADOWS.0001",
+      "LORE.REPT.0004",
+      "LORE.REPT.0001",
+      "SPECIMEN.DOSSIER.003",
+      "LORE.SPEC.0003",
+      "LORE.TIME.0004"
+    ],
+    "ramirez": [
+      "ENTITY.RAMIREZ.0001",
+      "LORE.REPT.0004",
+      "LORE.REPT.0002",
+      "LORE.LOC.0006",
+      "LORE.LOC.0003",
+      "LORE.LOC.0004",
+      "LORE.TIME.ERA.0001",
+      "LORE.TIME.0001",
+      "LORE.TIME.0004"
     ],
     "observer": [
       "LORE.DROP.0001",
@@ -2088,22 +2607,6 @@
     ],
     "cafeteria_b": [
       "LORE.DROP.0004"
-    ],
-    "queen_of_shadows": [
-      "LORE.REPT.0004",
-      "LORE.REPT.0001",
-      "LORE.SPEC.0003",
-      "LORE.TIME.0004"
-    ],
-    "ramirez": [
-      "LORE.REPT.0004",
-      "LORE.REPT.0002",
-      "LORE.LOC.0006",
-      "LORE.LOC.0003",
-      "LORE.LOC.0004",
-      "LORE.TIME.ERA.0001",
-      "LORE.TIME.0001",
-      "LORE.TIME.0004"
     ],
     "frog_coin": [
       "LORE.HIST.0001"
@@ -2120,24 +2623,23 @@
     "tide_walkers": [
       "LORE.LOC.0006"
     ],
-    "frugowski": [
-      "LORE.LOC.0006",
-      "LORE.LOC.0005",
-      "LORE.PROTOCOL.0001"
-    ],
     "unknown_founders": [
       "LORE.LOC.0004",
       "LORE.TIME.ERA.0001",
       "LORE.LOC.0007"
     ],
-    "swamp_specimens": [
+    "bog_hoppers": [
+      "LORE.LOC.0005"
+    ],
+    "sludge_crawlers": [
       "LORE.LOC.0005"
     ],
     "absentee_protocol": [
       "LORE.PROTOCOL.0001"
     ],
     "bog_hopper": [
-      "ORIGIN.SPEC.001"
+      "ORIGIN.SPEC.001",
+      "SPECIMEN.DOSSIER.002"
     ],
     "green_pond": [
       "ORIGIN.SPEC.001",
@@ -2161,6 +2663,84 @@
     ],
     "apex_predator": [
       "ORIGIN.SPEC.002"
+    ],
+    "mycelia_synchronis": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "signal_resonant_fungus": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "field_researcher_vex": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "ranidae_saltator": [
+      "SPECIMEN.DOSSIER.002"
+    ],
+    "vulpes_sapiens": [
+      "SPECIMEN.DOSSIER.003"
+    ],
+    "sable_fox": [
+      "SPECIMEN.DOSSIER.003"
+    ],
+    "larva_bioluminis": [
+      "SPECIMEN.DOSSIER.004"
+    ],
+    "luminescent_larvae": [
+      "SPECIMEN.DOSSIER.004"
+    ],
+    "field_researcher_chen": [
+      "SPECIMEN.DOSSIER.004"
+    ],
+    "vipera_insulae": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "island_serpent": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "medical_officer_reyes": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "ambulatores_aestus": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "tide_walker": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "coastal_survivor_logs": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "umbrascens_reptilia": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "void_crawler": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "survivor_journal_author": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "vocalis_vacua": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "hollow_choir": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "expedition_team_theta": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "archivist_kael": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "signal_drake": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "draco_telemetrica": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "ruin_scavengers": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "bioengineer_voss": [
+      "SPECIMEN.DOSSIER.031"
     ],
     "apex_glimmer": [
       "LORE.SPEC.0001"
@@ -2191,8 +2771,11 @@
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
       "ENTITY.BIG_FRUG.0001",
+      "ENTITY.DR_CHEN.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
       "ENTITY.KERMIT.0001",
+      "ENTITY.RAMIREZ.0001",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
@@ -2229,13 +2812,13 @@
       "CHAR.TOADDY.0001",
       "ENTITY.BIG_FRUG.0001",
       "ENTITY.KERMIT.0001",
+      "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
       "LORE.DROP.0004",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "ENTITY.TERMINAL_7B.0001",
-      "LORE.LOC.0005",
       "LORE.TIME.ERA.0001",
       "LORE.TIME.0002",
       "LORE.TIME.0004",
@@ -2249,13 +2832,16 @@
       "CHAR.DR_CHEN.0001",
       "CHAR.QUEEN.0001",
       "ENTITY.BIG_FRUG.0001",
+      "ENTITY.DR_CHEN.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
+      "ENTITY.QUEEN_OF_SHADOWS.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
       "LORE.REPT.0001",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.LOC.0002",
+      "SPECIMEN.DOSSIER.003",
       "LORE.SPEC.0003",
       "LORE.TIME.ERA.0001",
       "LORE.TIME.0002",
@@ -2265,6 +2851,7 @@
     "main_facility": [
       "CHAR.DR_CHEN.0001",
       "CHAR.RAMIREZ.0001",
+      "ENTITY.DR_CHEN.0001",
       "ENTITY.KERMIT.0001",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
@@ -2277,16 +2864,22 @@
       "CHAR.RAMIREZ.0001",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
+      "LORE.LOC.0005",
+      "SPECIMEN.DOSSIER.006",
       "LORE.SPEC.0002"
     ],
     "wetlands": [
       "CHAR.QUEEN.0001",
       "LORE.LOC.0003",
       "LORE.LOC.0005",
+      "SPECIMEN.DOSSIER.002",
+      "SPECIMEN.DOSSIER.004",
       "LORE.SPEC.0002"
     ],
     "sector_7": [
       "CHAR.QUEEN.0001",
+      "ENTITY.QUEEN_OF_SHADOWS.0001",
+      "ENTITY.RAMIREZ.0001",
       "LORE.DROP.0002"
     ],
     "underground_labs": [
@@ -2302,6 +2895,12 @@
     ],
     "the_void": [
       "CHAR.SIGNAL.0001"
+    ],
+    "forest_sector": [
+      "ENTITY.QUEEN_OF_SHADOWS.0001"
+    ],
+    "unknown_origin": [
+      "ENTITY.THE_SIGNAL.0001"
     ],
     "degenora": [
       "LORE.DROP.0001"
@@ -2326,14 +2925,98 @@
     "northern_sector": [
       "LORE.LOC.0003"
     ],
-    "swamp_sector": [
-      "LORE.LOC.0005"
+    "green_pond": [
+      "LORE.LOC.0005",
+      "SPECIMEN.DOSSIER.002",
+      "SPECIMEN.DOSSIER.004",
+      "LORE.SPEC.0002"
+    ],
+    "zone_a1": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "zone_a2": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "zone_b2": [
+      "SPECIMEN.DOSSIER.001",
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "signal_emitter_adjacent": [
+      "SPECIMEN.DOSSIER.001"
+    ],
+    "zone_a3": [
+      "SPECIMEN.DOSSIER.002",
+      "SPECIMEN.DOSSIER.004"
+    ],
+    "zone_b1": [
+      "SPECIMEN.DOSSIER.002"
     ],
     "forest": [
+      "SPECIMEN.DOSSIER.003",
       "LORE.SPEC.0003"
     ],
-    "green_pond": [
-      "LORE.SPEC.0002"
+    "zone_c2": [
+      "SPECIMEN.DOSSIER.003"
+    ],
+    "standing_water": [
+      "SPECIMEN.DOSSIER.004"
+    ],
+    "tall_grass_zones": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "zone_c1": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "agricultural_sector": [
+      "SPECIMEN.DOSSIER.005"
+    ],
+    "tidal_zones": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "zone_d1": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "zone_d2": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "beaches": [
+      "SPECIMEN.DOSSIER.006"
+    ],
+    "zone_b3": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "zone_b4": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "zone_c3": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "zone_c4": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "signal_borderlands": [
+      "SPECIMEN.DOSSIER.007"
+    ],
+    "zone_d4": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "grand_ruins": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "the_circle": [
+      "SPECIMEN.DOSSIER.028"
+    ],
+    "zone_b7": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "deep_ruins": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "old_comms_arrays": [
+      "SPECIMEN.DOSSIER.031"
+    ],
+    "relay_station_4": [
+      "SPECIMEN.DOSSIER.031"
     ],
     "signal_origin_unknown": [
       "LORE.TIME.CORR.0001"
@@ -2360,6 +3043,9 @@
       "entity": "big_frugowski",
       "chunks": [
         "SPECIMEN.001",
+        "ENTITY.DR_CHEN.0001",
+        "ENTITY.QUEEN_OF_SHADOWS.0001",
+        "ENTITY.THE_SIGNAL.0001",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
@@ -2367,6 +3053,9 @@
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.LOC.0002",
+        "LORE.LOC.0005",
+        "SPECIMEN.DOSSIER.002",
+        "SPECIMEN.DOSSIER.003",
         "LORE.SPEC.0003",
         "LORE.SPEC.0002",
         "LORE.SPEC.0004",
@@ -2381,6 +3070,7 @@
       ],
       "truth_levels": [
         "record",
+        "rumor",
         "canon"
       ]
     },
@@ -2396,6 +3086,7 @@
         "ENTITY.BIG_FRUG.0001",
         "CHAR.FRUG.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0002",
         "ENTITY.TERMINAL_7B.0001",
         "LOC.DEGENORA.0001",
@@ -2425,6 +3116,7 @@
         "LORE.DROP.0003",
         "ENTITY.TERMINAL_7B.0001",
         "TRANSMISSION.001",
+        "TRANSMISSION.002",
         "ENTITY.FRUG.0001"
       ],
       "truth_levels": [
@@ -2445,18 +3137,20 @@
         "CHAR.TOADDY.0001",
         "CHAR.FRUG.0001",
         "ENTITY.KERMIT.0001",
+        "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
         "LORE.LOC.0006",
         "LORE.LOC.0003",
         "ENTITY.TERMINAL_7B.0001",
-        "LORE.LOC.0005",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
+        "TRANSMISSION.002",
         "SYS.TERMINAL_7B.0001"
       ],
       "truth_levels": [
         "canon",
+        "rumor",
         "record"
       ]
     },
@@ -2466,12 +3160,15 @@
       "chunks": [
         "ENTITY.FRUG.0001",
         "CHAR.FRUG.0001",
+        "ENTITY.THE_SIGNAL.0001",
         "LORE.PROTOCOL.0001",
         "ORIGIN.SPEC.001",
-        "TRANSMISSION.001"
+        "TRANSMISSION.001",
+        "TRANSMISSION.002"
       ],
       "truth_levels": [
         "canon",
+        "rumor",
         "record"
       ]
     },
@@ -2480,6 +3177,7 @@
       "entity": "dr_chen",
       "chunks": [
         "CHAR.RAMIREZ.0001",
+        "ENTITY.DR_CHEN.0001",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.LOC.0003",
@@ -2501,11 +3199,63 @@
       "entity": "deep_dwellers",
       "chunks": [
         "CHAR.RAMIREZ.0001",
-        "LORE.LOC.0006"
+        "LORE.LOC.0006",
+        "LORE.LOC.0005"
       ],
       "truth_levels": [
         "canon",
         "record"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "frugowski",
+      "chunks": [
+        "ENTITY.DR_CHEN.0001",
+        "ENTITY.QUEEN_OF_SHADOWS.0001",
+        "ENTITY.RAMIREZ.0001",
+        "LORE.LOC.0006",
+        "LORE.PROTOCOL.0001",
+        "TRANSMISSION.002"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "queen_of_shadows",
+      "chunks": [
+        "ENTITY.QUEEN_OF_SHADOWS.0001",
+        "LORE.REPT.0004",
+        "LORE.REPT.0001",
+        "SPECIMEN.DOSSIER.003",
+        "LORE.SPEC.0003",
+        "LORE.TIME.0004"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "ramirez",
+      "chunks": [
+        "ENTITY.RAMIREZ.0001",
+        "LORE.REPT.0004",
+        "LORE.REPT.0002",
+        "LORE.LOC.0006",
+        "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
+        "LORE.TIME.0001",
+        "LORE.TIME.0004"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
       ]
     },
     {
@@ -2523,37 +3273,6 @@
     },
     {
       "type": "entity_truth_conflict",
-      "entity": "ramirez",
-      "chunks": [
-        "LORE.REPT.0004",
-        "LORE.REPT.0002",
-        "LORE.LOC.0006",
-        "LORE.LOC.0003",
-        "LORE.LOC.0004",
-        "LORE.TIME.ERA.0001",
-        "LORE.TIME.0001",
-        "LORE.TIME.0004"
-      ],
-      "truth_levels": [
-        "canon",
-        "record"
-      ]
-    },
-    {
-      "type": "entity_truth_conflict",
-      "entity": "frugowski",
-      "chunks": [
-        "LORE.LOC.0006",
-        "LORE.LOC.0005",
-        "LORE.PROTOCOL.0001"
-      ],
-      "truth_levels": [
-        "record",
-        "canon"
-      ]
-    },
-    {
-      "type": "entity_truth_conflict",
       "entity": "unknown_founders",
       "chunks": [
         "LORE.LOC.0004",
@@ -2563,6 +3282,18 @@
       "truth_levels": [
         "canon",
         "record"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
+      "entity": "bog_hopper",
+      "chunks": [
+        "ORIGIN.SPEC.001",
+        "SPECIMEN.DOSSIER.002"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
       ]
     },
     {
