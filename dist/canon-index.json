@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-04T16:33:40.220Z",
-  "total_chunks": 66,
+  "generated_at": "2026-02-05T06:05:16.261Z",
+  "total_chunks": 67,
   "chunks": [
     {
       "id": "SPECIMEN.001",
@@ -851,6 +851,37 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗      ║\n║   ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║      ║\n║      ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║      ║\n║      ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║      ║\n║      ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██"
     },
     {
+      "id": "LORE.LOC.0005",
+      "path": "chunks/LOCATIONS/wetlands.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "wetlands",
+      "entities": [
+        "swamp_specimens",
+        "frugowski",
+        "kermit"
+      ],
+      "locations": [
+        "degenora_island",
+        "wetlands",
+        "swamp_sector",
+        "terminal_7b"
+      ],
+      "tags": [
+        "location",
+        "sector",
+        "swamp",
+        "wetlands",
+        "specimen_habitat"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║  ██╗    ██╗███████╗████████╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗║\n║  ██║    ██║██╔════╝╚══██╔══╝██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝║\n║  ██║ █╗ ██║█████╗     ██║   ██║     ███████║██╔██╗ ██║██║  ██║███████╗║\n║  ██║███╗██║██╔══╝     ██║   ██║     ██╔══██║██║╚██╗██║██║  ██║╚════██║║\n║  ╚███╔███╔╝███████╗   ██║   ███████╗██║  ██║██║ ╚█"
+    },
+    {
       "id": "LORE.PROTOCOL.0001",
       "path": "chunks/LORE.PROTOCOL.0001.md",
       "kind": "canon_chunk",
@@ -1418,7 +1449,7 @@
       "last_reviewed": null,
       "unlock": null,
       "visibility": "public",
-      "content_preview": "# TODO (lore encyclopedia)\n\n## ✅ Recently Completed\n- [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)\n- [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors\n\n## Priority (next)\n- [ ] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)\n- [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez"
+      "content_preview": "# TODO (lore encyclopedia)\n\n## ✅ Recently Completed\n- [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)\n- [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors\n\n## Priority (next)\n- [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)\n  - [x] wetlands.md — Created with full location documentation\n  - [ ] coast"
     },
     {
       "id": "LORE.ARCHIVE_FRAGMENTS.INDEX.0001",
@@ -1772,6 +1803,7 @@
       "LORE.DROP.0003",
       "LORE.LOC.0003",
       "ENTITY.TERMINAL_7B.0001",
+      "LORE.LOC.0005",
       "LORE.PROTOCOL.0001",
       "TRANSMISSION.001",
       "SYS.TERMINAL_7B.0001"
@@ -1852,10 +1884,14 @@
       "LORE.LOC.0004",
       "LORE.TIME.ERA.0001"
     ],
-    "absentee_protocol": [
-      "LORE.PROTOCOL.0001"
+    "swamp_specimens": [
+      "LORE.LOC.0005"
     ],
     "frugowski": [
+      "LORE.LOC.0005",
+      "LORE.PROTOCOL.0001"
+    ],
+    "absentee_protocol": [
       "LORE.PROTOCOL.0001"
     ],
     "bog_hopper": [
@@ -1913,6 +1949,7 @@
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "ENTITY.TERMINAL_7B.0001",
+      "LORE.LOC.0005",
       "LORE.SPEC.0001",
       "LORE.SPEC.0003",
       "LORE.SPEC.0004",
@@ -1948,6 +1985,7 @@
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "ENTITY.TERMINAL_7B.0001",
+      "LORE.LOC.0005",
       "LORE.TIME.ERA.0001",
       "LORE.TIME.0002",
       "LORE.TIME.0004",
@@ -1998,6 +2036,7 @@
     ],
     "wetlands": [
       "LORE.LOC.0003",
+      "LORE.LOC.0005",
       "LORE.SPEC.0002"
     ],
     "coastal_sector": [
@@ -2014,6 +2053,9 @@
     ],
     "sector_zero": [
       "ENTITY.TERMINAL_7B.0001"
+    ],
+    "swamp_sector": [
+      "LORE.LOC.0005"
     ],
     "forest": [
       "LORE.SPEC.0003"
@@ -2128,6 +2170,7 @@
         "LORE.DROP.0003",
         "LORE.LOC.0003",
         "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
         "SYS.TERMINAL_7B.0001"

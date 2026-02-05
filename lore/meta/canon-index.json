@@ -119,6 +119,7 @@
         "LORE.DROP.0003",
         "LORE.LOC.0003",
         "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
         "SYS.TERMINAL_7B.0001"
@@ -296,19 +297,29 @@
         "LORE.TIME.ERA.0001"
       ]
     },
-    "absentee_protocol": {
-      "canonical_name": "absentee_protocol",
+    "swamp_specimens": {
+      "canonical_name": "swamp_specimens",
       "variants": [
-        "absentee_protocol"
+        "swamp_specimens"
       ],
       "chunks": [
-        "LORE.PROTOCOL.0001"
+        "LORE.LOC.0005"
       ]
     },
     "frugowski": {
       "canonical_name": "frugowski",
       "variants": [
         "frugowski"
+      ],
+      "chunks": [
+        "LORE.LOC.0005",
+        "LORE.PROTOCOL.0001"
+      ]
+    },
+    "absentee_protocol": {
+      "canonical_name": "absentee_protocol",
+      "variants": [
+        "absentee_protocol"
       ],
       "chunks": [
         "LORE.PROTOCOL.0001"
@@ -445,6 +456,7 @@
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.SPEC.0001",
         "LORE.SPEC.0003",
         "LORE.SPEC.0004",
@@ -496,6 +508,7 @@
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.TIME.ERA.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
@@ -592,6 +605,7 @@
       ],
       "chunks": [
         "LORE.LOC.0003",
+        "LORE.LOC.0005",
         "LORE.SPEC.0002"
       ]
     },
@@ -632,6 +646,15 @@
       ],
       "chunks": [
         "ENTITY.TERMINAL_7B.0001"
+      ]
+    },
+    "swamp_sector": {
+      "canonical_name": "swamp_sector",
+      "variants": [
+        "swamp_sector"
+      ],
+      "chunks": [
+        "LORE.LOC.0005"
       ]
     },
     "forest": {
