@@ -1,327 +1,277 @@
 ---
-id: LORE.PAGES.STYLE.0001
+id: LORE.META.STYLE.0001
+title: "Lore Style Guide"
 kind: canon_chunk
 truth_level: canon
 confidence: known
 status: active
-tags: ["meta", "style", "guide", "writing"]
+tags: ["meta", "style-guide", "writing", "standards"]
+last_reviewed: "2026-02-04"
 ---
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   ███████╗████████╗██╗   ██╗██╗     ███████╗    ██╗   ██╗██╗███╗   ██╗██╗   ║
-║   ██╔════╝╚══██╔══╝██║   ██║██║     ██╔════╝    ██║   ██║██║████╗  ██║██║   ║
-║   ███████╗   ██║   ██║   ██║██║     █████╗      ██║   ██║██║██╔██╗ ██║██║   ║
-║   ╚════██║   ██║   ██║   ██║██║     ██╔══╝      ╚██╗ ██╔╝██║██║╚██╗██║██║   ║
-║   ███████║   ██║   ╚██████╔╝███████╗███████╗     ╚████╔╝ ██║██║ ╚████║██║   ║
-║   ╚══════╝   ╚═╝    ╚═════╝ ╚══════╝╚══════╝      ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝   ║
-║                                                                      ║
-║              📝  T E R M I N A L   7 - B   S T Y L E   G U I D E  📝  ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+# Lore Style Guide
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  📋 DOCUMENT: Writing Standards for Degenora Archives                ║
-║  🔒 CLASSIFICATION: PUBLIC — Required Reading for Contributors       ║
-║  📊 STATUS: ACTIVE                                                   ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+> **Purpose:** Ensure consistency across all Degenora lore documents  
+> **Audience:** All lore contributors, writers, and AI agents  
+> **Classification:** CANON — Follow strictly
 
 ---
 
-## 🎯 Purpose
+## 🎯 Core Principles
 
-This guide ensures consistency across all Terminal 7-B documentation. Follow these standards when creating or editing lore chunks, field reports, and archive entries.
+### 1. In-Universe Voice
+Most lore documents are written **from within the Degenora universe**, not as external game documentation.
+
+| Approach | Use When | Example |
+|----------|----------|---------|
+| **In-universe** | Default for lore chunks, transmissions, field reports | "The wetlands have grown unstable since the Surge." |
+| **Out-of-universe** | Technical docs, contributor guidelines, meta files | "This species was designed for early-game encounters." |
+
+### 2. Truth Levels (Mandatory Frontmatter)
+
+Every lore document MUST declare its `truth_level`:
+
+| Level | Meaning | Use For |
+|-------|---------|---------|
+| `canon` | Official, immutable truth | Timeline anchors, established facts |
+| `record` | Documented observations | Field reports, character accounts |
+| `rumor` | Unverified, possibly false | Speculation, hearsay, theories |
+| `corrupted` | Damaged or altered data | Redacted files, glitchy transmissions |
+| `redacted` | Intentionally obscured | Classified information, hidden truths |
+
+### 3. Confidence Levels
+
+Pair `truth_level` with `confidence`:
+
+| Level | Meaning |
+|-------|---------|
+| `known` | Directly observed or verified |
+| `inferred` | Reasonable deduction from evidence |
+| `speculated` | Possible but unconfirmed |
+| `uncertain` | Conflicting or insufficient data |
 
 ---
 
-## 📐 Document Structure
+## 📝 Document Structure
 
-### Required YAML Frontmatter
-
-Every document must begin with:
+### Required Frontmatter
 
 ```yaml
 ---
-id: LORE.CATEGORY.####
-kind: canon_chunk | archive_fragment | field_report | transmission | character_profile
+id: {CATEGORY}.{NAME}.{4_DIGIT_SEQ}
+title: "Document Title"
+kind: canon_chunk
 truth_level: canon | record | rumor | corrupted | redacted
-confidence: known | inferred | uncertain
-status: active | superseded | deprecated
-entities: ["entity_key_1", "entity_key_2"]
-locations: ["location_key_1", "location_key_2"]
-tags: ["tag1", "tag2", "tag3"]
-aliases: ["Alt Name 1", "Alt Name 2"]  # Optional
+confidence: known | inferred | speculated | uncertain
+status: active | deprecated | superseded
+tags: ["tag1", "tag2"]
+last_reviewed: "YYYY-MM-DD"
+entities: ["entity_id_1", "entity_id_2"]  # Optional: referenced entities
+locations: ["loc_id_1"]                   # Optional: referenced locations
 ---
 ```
 
-### Document Header Template
+### ID Format
+
+| Category | Format | Example |
+|----------|--------|---------|
+| Lore chunks | `LORE.{TOPIC}.{SEQ}` | `LORE.PROTOCOL.0001` |
+| Characters | `CHAR.{NAME}.{SEQ}` | `CHAR.KERMIT.0001` |
+| Locations | `LOC.{NAME}.{SEQ}` | `LOC.TERMINAL_7B.0001` |
+| Timeline | `TIME.{YEAR}.{SEQ}` | `TIME.Y15.0001` |
+| Transmissions | `TRANS.{SEQ}` | `TRANS.001` |
+| Field reports | `REPORT.{SEQ}` | `REPORT.0042` |
+
+---
+
+## ✍️ Writing Style
+
+### Tone Guidelines
+
+**For Kermit transmissions:**
+- Cynical, weary, chain-smoking archivist
+- Uses terminal formatting, all-caps headers
+- Mixes bureaucratic language with dry humor
+- Signature: `*crushes cigarette*` or `*lights another cigarette*`
+
+**For field reports:**
+- Clinical, observational, scientific
+- First-person accounts from Observers
+- Include specific details (time, location, conditions)
+- End with observer ID and clearance level
+
+**For corrupted logs:**
+- Glitchy formatting: `▓▓▓`, `[REDACTED]`, `[DATA CORRUPTED]`
+- Incomplete sentences, missing words
+- Inconsistent timestamps
+- Percentage integrity markers (e.g., "[INTEGRITY: 45%]")
+
+### Formatting Conventions
+
+```markdown
+# Use H1 for document title only
+
+## Use H2 for major sections
+
+### Use H3 for subsections
+
+**Bold** for emphasis and UI elements
+`code` for terminal commands, IDs, technical terms
+
+> Blockquotes for in-universe notices, warnings, or flavor text
+
+---
+
+Use horizontal rules to separate major sections
+```
+
+### Terminal Formatting (Kermit)
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   [ASCII ART TITLE — max 70 chars wide]                              ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+╔════════════════════════════════════════════════════════╗
+║  [KERMIT // ARCHIVE DIVISION]                          ║
+╚════════════════════════════════════════════════════════╝
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  📍 FIELD: Document Type/Name                                        ║
-║  ⚠️  STATUS: Active/Deprecated/etc                                   ║
-║  👥 RELEVANT: Key entities                                           ║
-║  📅 DOCUMENTED: Time period                                          ║
-║  🔒 ACCESS: Clearance level                                          ║
-╚══════════════════════════════════════════════════════════════════════╝
+[TERMINAL 7-B] > Processing request...
+[TERMINAL 7-B] > Access granted
+
+💬 "Quote from Kermit"
+*crushes cigarette*
 ```
 
 ---
 
-## 🎭 Voice and Tone
+## 🏷️ Tagging System
 
-### The Terminal 7-B Perspective
+Use consistent tags for discoverability:
 
-Write from the perspective of **Frugowski** or the **Terminal 7-B archival system**:
-
-| ✅ DO | ❌ DON'T |
-|-------|----------|
-| "Subject was observed..." | "I saw the frog..." |
-| "Readings suggest..." | "I think that..." |
-| "The entity exhibits..." | "This monster is..." |
-| "Partial data recovery..." | "I don't have all the info..." |
-
-### Tone Pillars
-
-```
-┌────────────────────────────────────────────────────────────────────┐
-║  1. TERMINAL-LIT MYSTERY                                            ║
-║     — Clearance headers, partial records, redacted sections        ║
-├────────────────────────────────────────────────────────────────────┤
-║  2. FIELD-SCIENCE DOCUMENTATION                                     ║
-║     — World "known" through reports, not omniscient narration      ║
-├────────────────────────────────────────────────────────────────────┤
-║  3. CONVICTION OVER HEROICS                                         ║
-║     — Tired persistence, not savior arcs                           ║
-└────────────────────────────────────────────────────────────────────┘
-```
+| Category | Tags |
+|----------|------|
+| Content type | `lore`, `transmission`, `field-report`, `character`, `location` |
+| Truth level | `canon`, `record`, `rumor`, `corrupted`, `redacted` |
+| Era | `year-0`, `year-1`, `year-5`, `year-15` |
+| Location | `terminal-7b`, `wetlands`, `observation-house` |
+| Entity | `kermit`, `frug`, `big-frug`, `queen` |
 
 ---
 
-## 🏷️ Naming Conventions
+## 🔗 Cross-Referencing
 
-### ID Patterns
+### Linking to Other Chunks
 
-| Type | Pattern | Example |
-|------|---------|---------|
-| Lore Seeds | `LORE.SEED.####` | LORE.SEED.0001 |
-| Archive Fragments | `ARCHIVE.FRAGMENT.####` | ARCHIVE.FRAGMENT.0001 |
-| Corrupted Logs | `CORRUPTED.LOG.####` | CORRUPTED.LOG.0001 |
-| Locations | `LORE.LOC.####` | LORE.LOC.0001 |
-| Characters | `CHAR.NAME.####` | CHAR.FRUGOWSKI.0001 |
-| Field Reports | `FIELD.REPORT.####` | FIELD.REPORT.0001 |
-| Specimens | `SPECIMEN.TYPE.####` | SPECIMEN.APEX.0001 |
-| Transmissions | `TRANSMISSION.###` | TRANSMISSION.001 |
+```markdown
+See [LORE.PROTOCOL.0001](./LORE.PROTOCOL.0001.md) for the full protocol.
+
+As documented in [Frugowski's profile](../CHARACTERS/frugowski-profile.md)...
+```
 
 ### Entity References
 
-- **Entity keys**: lowercase_with_underscores (e.g., `frugowski`, `kermit`, `ramirez`)
-- **Location keys**: lowercase_with_underscores (e.g., `terminal_7b`, `wetlands_sector`)
-- **Names in text**: Use standard capitalization (e.g., "Frugowski", "Terminal 7-B")
-
----
-
-## 🎨 Visual Formatting
-
-### ASCII Art Usage
-
-Use for:
-- Document headers (required)
-- Section breaks (optional, use sparingly)
-- Terminal output blocks
-
-Maximum width: **72 characters**
-
-```
-Good: ╔══════════════════════════════════════════════════════════════════════╗
-Bad:  ╔════════════════════════════════════════════════════════════════════════════════════════╗ (too wide)
-```
-
-### Section Breaks
-
-```
-──────────────────────────────────────────────────────────────────────
-```
-
-Or for major sections:
-
-```
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
-
-### Classification Boxes
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ☠️  CLEARANCE LEVEL: RESTRICTED  ☠️                                ║
-║  ⚠️  UNAUTHORIZED ACCESS WILL BE LOGGED                            ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-### Terminal Prompts
-
-```
-[TERMINAL 7-B] > CONNECTING...
-[TERMINAL 7-B] > SIGNAL STRENGTH: ████████░░ 80%
-[TERMINAL 7-B] > ACCESS GRANTED
-[TERMINAL 7-B] > █
-```
-
-### Character Tables
-
-```
-┌────────────────────────────────────────────────────────────────────┐
-║  SECTOR CHARACTERISTICS                                            ║
-├────────────────────────────────────────────────────────────────────┤
-║  🌾 Terrain           │ Description here                           ║
-║  💧 Water Table       │ Description here                           ║
-└────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📝 Truth Levels
-
-| Level | Usage | Confidence |
-|-------|-------|------------|
-| **canon** | Established facts, multiple sources | known |
-| **record** | First-hand accounts, observations | known/inferred |
-| **rumor** | Unconfirmed information, theories | inferred/uncertain |
-| **corrupted** | Damaged/partial data | uncertain |
-| **redacted** | Intentionally obscured | N/A |
-
-### Example Applications
-
-- **canon**: "Degenora Island is the setting for FRUG" (established fact)
-- **record**: "Frugowski observed Ramirez at 0600 hours" (eyewitness account)
-- **rumor**: "Some observers claim specimens can communicate telepathically" (unconfirmed)
-- **corrupted**: "Specimen ████ exhibits [DATA CORRUPTED] behavior" (damaged log)
-
----
-
-## 🔗 Cross-Reference Format
-
-Link to related documents:
+When mentioning entities, use their canonical ID in parentheses on first reference:
 
 ```markdown
-## Cross-References
-
-- [Related Document](path/to/file.md) — Brief description
-- [Character Profile](../CHARACTERS/name.md) — Relationship context
+Frugowski (ENT.FRUGOWSKI.0001) first arrived at Terminal 7-B in Year 3.
 ```
-
-Use relative paths from the current file location.
-
----
-
-## 📅 Date Format
-
-Use the **Year-Day** system:
-
-- "Year 0, Day 0" — The Incident
-- "Year 15, Day 34" — Present day (current timeline)
-- "Year ~10" — Approximate date
-
-In frontmatter, use relative chronology:
-
-```yaml
-chronology:
-  - type: relative
-    value: "year-5-post-incident"
-```
-
----
-
-## 🐸 Specimen Documentation
-
-When documenting creatures:
-
-### Required Sections
-
-1. **Designation** — Official ID (e.g., SPECIMEN.APEX.0001)
-2. **First Observed** — Date and observer
-3. **Habitat** — Primary location(s)
-4. **Physical Description** — Observable traits
-5. **Behavioral Notes** — Documented actions
-6. **Threat Assessment** — Encounter risk level
-
-### Threat Levels
-
-| Level | Description |
-|-------|-------------|
-| **None** | No threat observed |
-| **Low** — 🟢 | Avoid contact, generally passive |
-| **Medium** — 🟡 | Territorial, may respond aggressively |
-| **High** — 🔴 | Active threat, avoid encounters |
-| **Unknown** — ⚪ | Insufficient data |
 
 ---
 
 ## ✅ Pre-Submission Checklist
 
-Before submitting a lore document:
+Before submitting lore:
 
-- [ ] YAML frontmatter is complete and valid
+- [ ] Frontmatter is complete with all required fields
+- [ ] `truth_level` and `confidence` are appropriate
 - [ ] ID follows naming convention
-- [ ] ASCII header is ≤72 chars wide
-- [ ] No modern internet slang or out-of-character references
-- [ ] Cross-references use correct relative paths
-- [ ] Truth level is appropriate for content
-- [ ] Document closes with Terminal 7-B signature block
-- [ ] Dates use Year-Day format
+- [ ] Document uses in-universe voice (unless meta)
+- [ ] Cross-references use relative paths
+- [ ] Tags are consistent with existing documents
+- [ ] No external URLs or references to out-of-universe concepts
+- [ ] Spell-checked and proofread
 
 ---
 
-## 📚 Quick Reference
+## 🚫 Forbidden Elements
 
-### Common Emoji Tags
+Never include:
 
-| Emoji | Meaning |
-|-------|---------|
-| 📍 | Location |
-| 👤 | Character |
-| 🐸 | Specimen |
-| 📡 | Transmission |
-| 📋 | Report/Document |
-| ⚠️ | Warning/Caution |
-| 🔒 | Security/Clearance |
-| ✅ | Confirmed/Active |
-| 🆕 | New content |
-| ☠️ | Danger/Classified |
+- Real-world dates or references (use Degenora years: -1 to 15+)
+- URLs to external sites
+- Mentions of "the game" or "players" (in in-universe docs)
+- Copyrighted material from other franchises
+- Personal opinions or modern slang
 
-### Standard Footer
+---
+
+## 📚 Examples
+
+### Good: In-Universe Field Report
 
 ```markdown
 ---
+id: REPORT.WETLANDS.0042
+title: "Wetlands Expedition: Bog-Hopper Sighting"
+truth_level: record
+confidence: known
+status: active
+tags: ["field-report", "wetlands", "bog-hopper", "year-15"]
+---
 
-*Document compiled by Terminal 7-B Archival Division*
-*Last updated: Year 15, Day [XX]*
-*Classification: LEVEL [1-5] — [ACCESS LEVEL]*
+# Wetlands Expedition: Bog-Hopper Sighting
+
+**Observer:** Chen, Dr. E.  
+**Location:** Sector Z03, Wetlands Perimeter  
+**Date:** Year 15, Month 2, Day 14  
+**Conditions:** Overcast, high humidity, 23°C
+
+## Observations
+
+At approximately 1400 hours, a juvenile bog-hopper (SPEC.BOG_HOPPER.0001) was observed approximately 50m from the perimeter fence. Specimen displayed typical hopping locomotion and did not approach the fence line.
+
+## Recommendations
+
+Continue standard observation protocols. No containment action required.
+
+---
+**Observer ID:** CHEN.E.7734  
+**Clearance:** Level 2
+```
+
+### Good: Corrupted Transmission
+
+```markdown
+---
+id: CORRUPTED.LOG.0003
+title: "[DATA CORRUPTED]"
+truth_level: corrupted
+confidence: uncertain
+status: active
+tags: ["corrupted", "transmission", "unknown-origin"]
+---
+
+```
+[INTEGRITY: 38%]
+
+▓▓▓▓▓▓▓▓ RECEIVING ▓▓▓▓▓▓▓▓
+
+Source: [REDACTED]
+Time: Year ▓▓, Month ▓▓
+
+The ▓▓▓▓▓▓▓▓ are not what they seem.
+Do not trust the ▓▓▓▓▓▓▓▓.
+
+[TRANSMISSION ENDS ABRUPTLY]
+```
 ```
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  📡 STYLE GUIDE COMPLETE                                            ║
-║  ⚠️  QUESTIONS? See CONTRIBUTING.md or open an Issue                ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+## 🔄 Version History
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-02-04 | Initial style guide created | Lore Agent |
 
 ---
 
-*Document compiled by Terminal 7-B Archival Division*
-*Last updated: Year 15, Day 34*
-*Classification: LEVEL 1 — PUBLIC ACCESS*
+*[TERMINAL 7-B] > STYLE GUIDE LOADED  
+[TERMINAL 7-B] > COMPLIANCE MANDATORY*

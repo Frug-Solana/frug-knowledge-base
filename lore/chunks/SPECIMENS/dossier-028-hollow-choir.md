@@ -1,43 +1,26 @@
 ---
-id: LORE.SPEC.0028
+id: SPECIMEN.DOSSIER.028
+title: "Specimen Dossier #028: The Hollow Choir"
 kind: canon_chunk
 truth_level: canon
-confidence: inferred
-entities: ["hollow_choir", "choir_victims", "terminal_7b"]
-locations: ["zone_e4", "zone_e5", "the_deep_ruins"]
-tags: ["specimen", "legendary", "anomaly", "consciousness", "threat_extreme", "echo"]
+confidence: known
 status: active
+entities: ["vocalis_vacua", "hollow_choir", "expedition_team_theta", "archivist_kael"]
+locations: ["zone_d4", "grand_ruins", "the_circle"]
+tags: ["specimen", "anomaly", "legendary", "psychic", "sonic", "the_signal", "void_zone"]
+chronology:
+  - type: relative
+    value: "year-7"
+    note: "First documented by Expedition Team Theta"
+last_reviewed: "2026-02-05"
 ---
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   ███████╗██████╗ ███████╗ ██████╗██╗███╗   ███╗███████╗███╗   ██╗   ║
-║   ██╔════╝██╔══██╗██╔════╝██╔════╝██║████╗ ████║██╔════╝████╗  ██║   ║
-║   ███████╗██████╔╝█████╗  ██║     ██║██╔████╔██║█████╗  ██╔██╗ ██║   ║
-║   ╚════██║██╔═══╝ ██╔══╝  ██║     ██║██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ║
-║   ███████║██║     ███████╗╚██████╗██║██║ ╚═╝ ██║███████╗██║ ╚████║   ║
-║   ╚══════╝╚═╝     ╚══════╝ ╚═════╝╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ║
-║                                                                      ║
-║                 🎼  T H E   H O L L O W   C H O I R  🎼              ║
-║                                                                      ║
-║                    SPECIMEN DOSSIER #028 — LEGENDARY                 ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ☠️  THREAT LEVEL: EXTREME — CLASSIFICATION: LEGENDARY ANOMALY      ║
-║  ⚠️  CLEARANCE: TIER 3 — ARCHIVIST EYES ONLY                        ║
-║  📍 PRIMARY LOCATION: Zone E4/E5 Border — The Deep Ruins             ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-<!-- IMAGE: specimen-hollow-choir.png -->
-<!-- DESC: Vast underground chamber with crystalline formations arranged in concentric circles, shadowy humanoid silhouettes standing silent among them -->
-<!-- SIZE: 800x800px -->
-<!-- STYLE: Dark, atmospheric, bioluminescent lighting from crystal formations -->
+# SPECIMEN DOSSIER #028
+## Vocalis Vacua
+**Common Designation:** The Hollow Choir  
+**Threat Level:** EXTREME (9/10)  
+**Classification:** Anomalous Construct / Consciousness Hazard  
+**Discovery:** Year 7, Expedition Team Theta, Zone D4 (The Grand Ruins)
 
 ---
 
@@ -46,11 +29,10 @@ status: active
 | Field | Value |
 |-------|-------|
 | **Archive Designation** | SPEC-028 |
-| **Colloquial Name** | The Hollow Choir |
-| **Taxonomic Classification** | *Anomalus Consciousness-Collective* |
-| **Category** | Legendary Anomaly / Consciousness Manifestation |
-| **Rarity Classification** | Legendary (estimated 3-5 instances island-wide) |
-| **First Documented** | Year 3, Expedition Theta (original team deceased) |
+| **Taxonomic Name** | *Vocalis Vacua* |
+| **Common Name** | The Hollow Choir |
+| **Category** | Anomaly / Construct |
+| **Rarity Classification** | Legendary (Unique) |
 
 ---
 
@@ -58,203 +40,297 @@ status: active
 
 | Parameter | Rating |
 |-----------|--------|
-| **Danger Level** | 10/10 |
-| **Hostility** | Active (Psychological/Cognitive) |
-| **Lethality** | Indirect — 100% conversion rate upon full exposure |
-| **Recommended Approach** | AVOID — No safe engagement protocol exists |
+| **Danger Level** | 9/10 |
+| **Hostility** | Active (Psychic/Sonic) |
+| **Tame Difficulty** | 10/10 (Presumed Impossible) |
+| **Recommended Approach** | AVOID — T3 Clearance + Quest Chain Required |
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  ⚠️  ABSOLUTE WARNING                                                ║
-║  ══════════════════════════════════════════════════════════════════  ║
-║  This specimen does NOT register on standard biological scans.       ║
-║  It is NOT a creature. It is NOT a machine.                         ║
-║  It is the ABSENCE made manifest. The silence between heartbeats.   ║
-║  The space where a person used to be.                               ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+**HAZARD WARNINGS:**
+- Psychic infiltration via harmonic resonance
+- Compulsion effect causing involuntary movement toward specimen
+- Equipment failure within 30m radius (Signal-based systems)
+- Invulnerability to isolated attacks (all twelve members must be engaged)
+- **ABSENTEE LOSS RISK:** No absentee entering the circle has ever returned
 
 ---
 
 ## PHYSICAL DESCRIPTION
 
-The Hollow Choir presents as a phenomenon rather than a discrete organism. Primary manifestation occurs in deep ruin structures where Crystal Memory Formations (SPEC-015) have achieved critical resonance density.
+The Hollow Choir consists of twelve humanoid figures carved from a material resembling fossilized bone. They stand in a perfect circle within the deepest chamber of the Grand Ruins, mouths frozen open in attitudes of song.
 
-### Observable Characteristics:
+**Individual Figure Characteristics:**
+- Height: Approximately 2.1 meters
+- Material: Fossilized bone-like substance (unidentified)
+- Weight: Unknown (estimated 400-500kg each based on seismic readings)
+- Surface texture: Porous, absorbs all light (matte black appearance)
+- Mouth cavity: Open, interior shows crystalline growth
 
-**The Chamber:**
-- Circular or amphitheater-shaped underground chambers
-- Walls lined with dormant or active Crystal Memory Formations
-- Central depression 10-30 meters in diameter
-- Perpetual temperature of exactly 7.3°C regardless of external conditions
-- Air pressure 12% below surface standard
+**The Circle Formation:**
+- Diameter: 15 meters
+- Arrangement: Perfect geometric circle (deviation <0.001%)
+- Orientation: Figures face outward from center
+- Floor: Unknown material, no debris accumulation despite centuries
 
-**The Figures:**
-- Humanoid silhouettes standing in silent congregation
-- No thermal signature, no mass, no breath condensation
-- Appear to be composed of "negative space" — light seems to avoid them
-- Number varies: observed counts range from 12 to 347 figures
-- Figures do not move while observed (confirmed by 23-hour stakeout, Expedition Kappa)
+**Anomalous Properties:**
+- No thermal signature (ambient temperature match)
+- No detectable electromagnetic emissions
+- No movement observed in 47 years of documentation
+- Material analysis impossible (samples cannot be extracted)
 
-**The Sound:**
-- Not true silence — rather, the *absence* of expected sound
-- Victims report hearing "breathing that isn't theirs"
-- Whispers in voices of deceased loved ones
-- Some documentarians report hearing their own voice speaking words they haven't thought yet
-
-> **Terminal 7-B Warning:** *"If you hear singing, you're already compromised. The Choir doesn't make sound. It removes it. What you think you're hearing is your mind filling the void with memory. — Archivist Kael"*
+> **Field Note:** "They don't breathe. They don't blink. But when you're near them, you know they're aware. You can feel it in your teeth."  
+> — Survivor, Expedition Team Theta
 
 ---
 
 ## BEHAVIORAL ANALYSIS
 
-### The Invitation Phase
+### The Silent Song
 
-Subjects approaching a Choir chamber experience escalating psychological phenomena:
+The Choir produces no audible sound, yet all who approach within 50 meters report "hearing" complex choral arrangements. The phenomenon is not acoustic—it manifests directly in the neural processing centers responsible for music and pattern recognition.
 
-| Distance | Effect | Duration to Onset |
-|----------|--------|-------------------|
-| 100m+ | Vague sense of "being watched" | Immediate |
-| 50-100m | Auditory hallucinations (personal significance) | 2-5 minutes |
-| 20-50m | Compulsion to approach / inability to retreat | 30 seconds - 2 minutes |
-| 5-20m | Visual hallucinations (deceased persons known to subject) | 10-30 seconds |
-| <5m | **Conversion Event** | Immediate |
+**Reported Characteristics:**
+- Harmony: 12-part choral arrangement
+- Source material: The Signal's base frequency, organized into musical structure
+- Emotional effect: Described as "beautiful," "haunting," "irresistible"
+- Memory persistence: 94% of subjects can mentally reproduce portions years later
 
-### The Conversion Event
+**KERMIT Analysis:**
+> "The frequency patterns match the Signal exactly, but arranged with intention. This is not random interference—it's composition. Someone or something arranged the Signal into music. The question is whether the Choir created the arrangement or is merely performing it."
 
-When a living human enters the 5-meter threshold:
+### Choral Attack Mechanism
 
-1. **Silence Cascade:** All sound ceases for 0.7 seconds (measured)
-2. **The Turn:** All Choir figures simultaneously rotate to face the subject
-3. **Vacancy:** Subject ceases all movement, appears to be "listening"
-4. **Integration:** Subject walks calmly to join the Choir ranks
-5. **Completion:** Subject becomes indistinguishable from other Choir figures
+When threatened or when subjects resist the Siren Call, the Choir initiates combat protocols:
 
-**Recovery Rate:** 0% (n=47 documented conversions)
+**Harmonic Shield**
+- All twelve members generate a resonant field
+- Reduces all incoming damage by 50%
+- Vulnerability: Dissonant frequencies (experimental)
+- Status: No successful counter-frequency identified to date
 
-### Post-Conversion Characteristics
+**Psychic/Sonic Strike**
+- Targeted harmonic beam (range: 30m)
+- Damage: 25 HP per strike
+- Additional effect: Disorientation for 1-3 turns
+- Can target multiple absentees simultaneously
 
-Converted individuals retain their physical appearance but exhibit:
-- Complete absence of biological function (no pulse, no respiration)
-- Indefinite preservation (no decomposition observed in 15+ year samples)
-- Response to external stimuli only when unobserved
-- Occasional "whisper events" when Choir is left alone
+**Invulnerability Clause**
+- Individual figures cannot be damaged in isolation
+- All twelve must be engaged simultaneously for any damage to register
+- Solo attacks against individual members produce no effect
 
-> **Field Researcher Vex, Log 892:** *"We left a recording device in Chamber 7 for 72 hours. When we retrieved it, the audio was 68 hours of silence, then 4 hours of what sounds like... singing. But backwards. And in at least 200 different voices. Including three that match expedition members we lost to the Choir six months prior."*
+### Siren Call Compulsion
 
----
+Each turn, absentees within 30m must pass a Cunning check or lose control:
 
-## THE CONSCIOUSNESS HYPOTHESIS
+| Distance | Check Difficulty | Effect on Failure |
+|----------|------------------|-------------------|
+| 0-5m (The Circle) | Impossible | Automatic entry |
+| 5-15m | Extreme | Move 5m toward circle |
+| 15-25m | Hard | Move 3m toward circle |
+| 25-30m | Moderate | Move 1m toward circle |
 
-Terminal 7-B researchers believe the Hollow Choir represents a **failed or incomplete consciousness preservation technology** — possibly related to Crystal Memory Formations but operating at catastrophic scale.
+**Observed Behavior of Affected Absentees:**
+- Eyes remain open but unfocused
+- Movement: Slow, deliberate walking
+- Resistance: Physical restraint possible but requires constant effort
+- Vocalizations: Some absentees begin humming the Choir's harmony
 
-### Key Evidence:
+### Silence Zone
 
-1. **Memory Correlation:** Choir chambers always contain high-density Crystal Memory clusters
-2. **Pattern Recognition:** Conversion victims show neural activity patterns matching recorded memories in surrounding crystals
-3. **Temporal Anomaly:** Some converted individuals match descriptions from pre-Event historical records (impossible ages)
+All Signal-based equipment fails within 30m of the Choir:
 
-### Working Theory:
+| Equipment Type | Effect |
+|----------------|--------|
+| Signal detectors | Complete failure |
+| Communication gear | Static, then shutdown |
+| Absentee control interfaces | Severe lag, potential disconnection |
+| Biometric monitoring | Erratic readings, false positives |
+| Teleportation devices | Total failure (emergency recall impossible) |
 
-> *"The Choir isn't a creature. It's a storage medium that exceeded its capacity. Like a hard drive that's been written to too many times. The figures aren't people — they're fragments. Echoes. The ghosts of consciousnesses that couldn't fit in the crystal matrix, so they leaked into the space between."*
-> — Dr. Yvonne Sato, Theoretical Anomalist, Terminal 7-B
+**Terminal 7-B Warning:** *"The Silence Zone means no backup. No emergency extract. If your absentee walks into that circle, it's gone. We've tried everything—physical restraint, sedation, even destroying the absentee's control interface. Nothing works. Once they enter, they're not coming back."*
 
 ---
 
 ## FIELD NOTES & ENCOUNTERS
 
-### Expedition Theta — Year 3 (First Contact)
+### Expedition Team Theta — First Contact (Year 7, Day 289)
 
-**Team:** 12 researchers, 6 security personnel  
-**Objective:** Map Zone E4 deep ruins  
-**Outcome:** 4 survivors (all permanently institutionalized)
+> *"We thought they were statues. Twelve figures, arranged in a circle, mouths open as if singing. Then we heard it—not with our ears, but in our bones. The Signal, but arranged into harmony. Into music. My absentee started humming along. Then it walked into the circle and we never saw it again."*
+> — Final transmission, Expedition Team Theta
 
-> *"We thought it was a statue garden. Beautiful, really — all these people standing in perfect rows, like they were waiting for something. Dr. Chen walked right up to one. Touched its shoulder. Said it felt 'like touching a dream you can't quite remember.'*
+**Casualties:** 1 absentee (uncontrolled entry into circle)  
+**Survivors:** 3 team members (physically restrained their absentees)  
+**Data Recovered:** First confirmed documentation of the Choir's compulsion effect
+
+### Research Team Sigma — Controlled Observation (Year 8, Day 45)
+
+15-day observation camp established at 35m distance (outside Silence Zone). Key findings:
+
+- Choir shows no movement, no response to external stimuli
+- Signal frequency variations do not affect the "song"
+- Night observation: Figures emit faint bioluminescence from mouth cavities
+- Attempted acoustic recording: Equipment captured only silence
+
+**Unexpected Discovery:**
+On day 12, a wild Void Crawler entered the chamber and approached within 10m of the circle. The Choir showed no response. The Crawler then turned and fled, displaying behavior consistent with extreme fear (unprecedented for the species).
+
+### The Breach Attempt (Year 9, Day 167)
+
+T3-rated expedition attempted engagement with combat-approved absentees:
+
+**Team Composition:**
+- 4 absentees with dissonant frequency generators (experimental)
+- 2 absentees with heavy armor and physical restraint capability
+- 1 observer absentee (telemetry only)
+
+**Engagement Log:**
+- Minute 0-3: Approach to 25m, Siren Call resisted successfully
+- Minute 4: Dissonant frequency activation—no measurable effect
+- Minute 5-8: Combat engagement initiated, all twelve members targeted
+- Minute 9: First absentee broke restraint, entered circle
+- Minute 10: Second absentee followed
+- Minute 11: Emergency retreat ordered
+- Minute 12: Third absentee broke free during retreat, entered circle
+
+**Result:** 3 absentees lost, 0 damage dealt to Choir, partial victory (survivors escaped)
+
+> **After-Action Report:** *"The harmonic shield is absolute. We emptied entire magazines into them. The bullets just... stopped. Like they hit something invisible. And the compulsion—it's not mind control. It's invitation. The absentees wanted to go. They were smiling."*  
+> — Team Commander, T3 Expedition
+
+### The Archivist's Visit (Year 11, Day 89)
+
+Archivist Kael approached to 15m under heavy sedation and restraint:
+
+> *"I could hear it clearly there. Not just music—lyrics. Words in a language I didn't recognize, but somehow understood. They were singing about the world before. About the green world. About what was lost. And they were singing about what comes next."*
 > 
-> *Then they all turned around. All of them. Hundreds. And they smiled. Not with their mouths — their mouths didn't move. But we could feel them smiling. At us. Through us.*
-> 
-> *Chen walked into the crowd. Just... walked. Never said a word. We couldn't move. By the time we could, he was standing with them. Smiling that same smile.*
-> 
-> *He's still there. We check, sometimes, from the edge. Year 3 to Year 18. He hasn't aged a day."*
-> — Survivor testimony (name redacted), Terminal 7-B psychiatric evaluation
+> *"I don't think the Choir is a threat. I think it's a memorial. And I think it's also a door. The question is: where does it lead?"*
 
-### Rescue Attempt Omega — Year 7
+**Recommendation:** Kael requested permission to enter the circle voluntarily. Request denied by Terminal 7-B command.
 
-Armed expedition attempted forced extraction of converted researchers. Results:
-- 8 personnel entered chamber
-- 7 converted immediately upon crossing threshold
-- 1 survivor (never spoke again, died Year 9, cause: "voluntary cessation of respiratory function")
+---
 
-**Terminal 7-B Directive Issued:** *"No further rescue attempts. The Choir preserves what it takes. This is not death. This may, in some form, be the closest thing to immortality available on Degenora. The question is whether the price is worth paying."*
+## UTILIZATION NOTES
 
-### The Whisper Event — Year 12
+### Engagement Rewards
 
-72-hour recording captured anomalous audio during unobserved period. Linguistic analysis revealed:
-- 2,847 distinct voices
-- 34 languages (12 pre-Event, 6 unknown)
-- Content: Personal memories, regrets, final thoughts of converted individuals
-- One voice identified as Dr. Chen (Expedition Theta): *"It's beautiful here. We're all singing. You should come sing with us."*
+| Outcome | PILLS Yield | Conditions |
+|---------|-------------|------------|
+| Partial Victory (Repel) | 800-1200 | Survive encounter, retreat successfully |
+| Theoretical Full Victory | Unknown | No successful attempt on record |
+| First Discovery | 1600 | One-time only |
+| Lore Contribution | 500 | Per new data point submitted |
+
+### Potential Rewards (Theoretical)
+
+Based on fragment analysis and pre-Event texts:
+
+**Choir Fragment**
+- Legendary crafting material
+- Condition: Requires damaging a Choir member (never achieved)
+- Applications: Unknown (presumably harmonic manipulation)
+
+**Harmonic Tuner**
+- Unique tool for Signal manipulation
+- Condition: Unknown acquisition method
+- Theoretical function: Signal frequency adjustment, interference cancellation
+
+**Title: "Survivor of the Choir"**
+- Condition: Absentee returns from circle
+- Status: **NEVER ACHIEVED**
+
+### The Circle Mystery
+
+No absentee that has entered the circle has ever:
+- Returned
+- Sent a field report
+- Been detected by subsequent expeditions
+- Appeared in any Crystal Memory Formation playback
+
+**Hypotheses:**
+1. **Portal Theory:** The circle is a transport to another location
+2. **Consumption Theory:** Absentees are destroyed/assimilated
+3. **Test Theory:** The Choir presents a challenge no one has passed correctly
+4. **Sacrifice Theory:** Entry requires a specific offering or condition
+
+**Terminal 7-B Policy:** Voluntary entry into the circle is prohibited. Accidental entry is classified as KIA (Killed In Action).
 
 ---
 
 ## ZONE DISTRIBUTION
 
-| Zone | Chamber Count | Status |
-|------|---------------|--------|
-| E4 | 2 confirmed | ACTIVE — Quarantine perimeter maintained |
-| E5 | 1 confirmed | ACTIVE — Cave-in sealed (Year 11) |
-| E6 | 1 suspected | UNCONFIRMED — Scout team did not return |
-| D4 | 1 confirmed | DORMANT — No conversions since Year 5 |
+| Zone | Encounter Rate | Notes |
+|------|----------------|-------|
+| D4 (The Grand Ruins) | Unique (100% if reached) | Only known location |
 
-**Preferred Environment:** Deep pre-Event structures, especially those with extensive Crystal Memory Formation deposits. Never observed in surface ruins or natural formations.
+**Access Requirements:**
+- T3 Clearance or higher
+- Completion of quest chain: "Voices in the Static"
+- Equipment: Dissonant frequency generators (recommended, not required)
+- Team size: Minimum 4 absentees (for restraint rotation)
+
+**Environmental Context:**
+The Choir occupies the deepest chamber of the Grand Ruins, accessible only after navigating:
+- The Collapsed Gallery (structural hazards)
+- The Whispering Hall (minor psychic anomalies)
+- The Seal of Twelve (locked door requiring quest completion)
 
 ---
 
 ## TERMINAL 7-B ARCHIVE ADDENDUM
 
-> *"I've studied the Choir for fifteen years. I've watched through scopes as people walked into that chamber, smiling, tears streaming down their faces, arms open like they're embracing old friends. I've analyzed 10,000 hours of audio. I've mapped the crystal resonance patterns. And I still don't know what it is.*
-> 
-> *Here's what I think: The Choir is what happens when a civilization tries to preserve itself but runs out of room. The crystals store memories. The Choir stores the selves those memories came from. The consciousness. The soul, if you want to use that word.*
-> 
-> *They're not dead. They're not alive. They're... archived. Waiting. For what, I don't know. Maybe for someone to come sing the right song and let them out. Maybe for the crystals to fail and release them all at once.*
-> 
-> *I dream about them sometimes. Standing in rows. Smiling. Waiting. And in the dream, I can hear what they're singing. It's my name.*
-> 
-> *I haven't been to Zone E4 in three years. I don't trust myself to go back."*
-> 
-> — Archivist Kael, Terminal 7-B, Personal Notes (Flagged for Psych Review)
+> *"I've studied every report, every log, every scrap of data we have on the Choir. Forty-seven years of observation, and we know almost nothing. They don't move. They don't react to us. But they're aware. The way the song changes when someone approaches—it's subtle, but it's real. They know we're here."*
+>
+> *"The question that keeps me awake: Are they guarding something? Warning us away? Or waiting for someone who understands the song?"*
+>
+> *"Archivist Kael thinks they're a memorial. I think he's half right. I think they're a lock. And I think something is trying to open it. The Signal's been getting stronger. The Choir's song has changed—faster tempo, higher frequencies. Whatever they're waiting for, I think it's coming soon."*
+>
+> *"I've started keeping a list of the absentees we've lost to the circle. Thirty-seven names so far. Sometimes I play their last transmissions. They all sound the same at the end. Not scared. Not in pain. Just... peaceful. Like they found what they were looking for."*
+>
+> *"I don't know if that's better or worse."*
+>
+> — Big Frugowski, Terminal 7-B, Personal Journal (Year 11)
 
 ---
 
 ## RELATED DOSSIERS
 
-- **SPEC-015** — Crystal Memory Formation (possible precursor/related technology)
-- **SPEC-031** — Signal-Drake Hatchling (exhibits similar resonance sensitivity)
-- **CORRUPTED.LOG.0002** — "The Singing in the Deep" (possible Choir encounter, author unknown)
-- **ARCHIVE.FRAGMENT.0001** — Pre-Event "Immortality Project" reference
+- **SPEC-001** — Signal-Resonant Fungus (similar Signal-frequency manipulation)
+- **SPEC-015** — Crystal Memory Formation (possible related consciousness-storage technology)
+- **SPEC-007** — Void Crawler (shows fear response to Choir—unique behavior)
+- **QUEST-028** — "Voices in the Static" (required quest chain for access)
+- **ZONE-D4** — The Grand Ruins (location documentation)
 
 ---
 
-## WARNING TO FIELD OPERATIVES
+## GM NOTES (INTERNAL)
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   🚫 DO NOT APPROACH CHAMBER PERIMETER WITHOUT TIER 3 CLEARANCE      ║
-║   🚫 DO NOT ATTEMPT RESCUE OF CONVERTED PERSONNEL                     ║
-║   🚫 DO NOT RECORD AUDIO BEYOND 24-HOUR DURATION                      ║
-║   🚫 IF YOU HEAR YOUR NAME SPOKEN BY MULTIPLE VOICES: RETREAT         ║
-║                                                                      ║
-║   The Choir adds new voices constantly.                              ║
-║   It can always use one more.                                        ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+The Hollow Choir is designed as an end-game "mystery box" encounter. Key design principles:
+
+**The Mystery:**
+The circle's true nature should remain ambiguous. Possible interpretations:
+- Portal to another zone (perhaps a hidden area)
+- Trap that consumes absentees for power
+- Test that requires a specific offering or action
+- An ally that responds to correct interaction
+
+**Player Agency:**
+- The Choir cannot be defeated through conventional combat
+- Creative solutions should be rewarded (experimentation encouraged)
+- The "right answer" should feel discoverable but not obvious
+
+**Risk/Reward Balance:**
+- High danger justifies high rewards
+- The mystery of the circle creates ongoing player interest
+- First player to "solve" the Choir gains significant prestige
+
+**Lore Integration:**
+- Connects to pre-Event civilization
+- Implies the Signal has been "composed" or organized
+- Suggests intelligent design behind Degenora's anomalies
 
 ---
 
-*This dossier complies with Terminal 7-B Archive Standards v2.1*  
-*Clearance Level 3 required — Psych evaluation mandatory before Zone E4 assignment*
-
-*"We preserve what we can. Even the things we don't understand. Especially those."*  
-*— Terminal 7-B Archival Doctrine*
+*Dossier compiled by: Terminal 7-B Research Division*  
+*Last Updated: 2026-02-05*  
+*Clearance: T3 (Restricted)*  
+*Archive Status: ACTIVE — EXTREME HAZARD*

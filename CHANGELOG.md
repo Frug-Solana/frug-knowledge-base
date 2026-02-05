@@ -70,6 +70,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026-02-04] - Knowledge Base Maintenance
+
+### Changed
+- **Root README overhaul** — Replaced Kermit Thought Loop implementation doc with proper knowledge base overview
+- Moved Kermit Thought Loop documentation to `operations/kermit-thought-loop.md`
+- **Glossary expansion** — Added missing entries: H, I, J, N, Q, R, U, V, W, X, Z
+- Improved navigation and cross-linking across all project docs
+
+### Fixed
+- Root README now serves as proper entry point for knowledge base
+- Glossary now has complete A-Z coverage
+
+---
+
 ## [2026-02-02] - Archive Expansion
 
 ### Added
