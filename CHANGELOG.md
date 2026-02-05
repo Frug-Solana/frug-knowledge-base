@@ -38,8 +38,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Complete sector profile with geography, inhabitants, and Terminal 7-B presence
   - Ramirez territory documentation and behavioral notes
   - Cross-references to related lore documents
+- **New time-gated lore drop:** DROP.0005 — Wetlands Perimeter Anomaly
+  - Field log from Observer 472 reporting anomalous signal pattern in Wetlands Sector
+  - References the Signal, Bog-Hopper behavioral changes, and Year 0 Incident
+  - Unlocks: 2026-02-06T14:00:00Z
+- **INDEX update:** Added dedicated "Time-Gated Drops" section to lore INDEX
 
-### Fixed
+### Changed
 - **Character ID conflicts resolved** — Standardized character dossier IDs to `CHAR.*` namespace to prevent conflicts with entity profiles (`ENTITY.*`)
   - `frug.md`: Added missing required fields (`kind`, `truth_level`, `confidence`, `status`, `entities`, `locations`, `tags`, `last_reviewed`)
   - `big-frug.md`: Changed ID from `ENTITY.BIG_FRUG.0001` → `CHAR.BIG_FRUG.0001`

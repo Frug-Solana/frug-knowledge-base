@@ -12,6 +12,7 @@ tags: ["meta", "todo"]
 ## ✅ Recently Completed
 - [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)
 - [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors
+- [x] **Style Guide** — Created `lore/meta/style_guide.md` with complete documentation standards
 
 ## Priority (next)
 - [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
