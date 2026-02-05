@@ -1,278 +1,298 @@
 ---
-id: "CHAR.THE_SIGNAL.0001"
+id: "CHAR.SIGNAL.0001"
 name: "The Signal"
-aliases: ["It", "The Broadcast", "The Voice", "The Presence", "Year Zero", "The Permeation", "SKRK-SKRK"]
-title: "UNKNOWN ENTITY • ISLAND CONSCIOUSNESS"
-role: "Permeating Force / Mutagenic Source / Broadcast Origin"
-location: "Degenora Island (pervasive)"
-coordinates: "N/A — Omnipresent"
-status: "Active — Continuous Broadcast"
-first_detected: "Year 0, Day 0 (The Incident)"
-origin: "Unknown"
+aliases: ["The Broadcast", "The Whispers", "Island Voice", "C-47 Carrier", "The Frequency", "It That Hums"]
+title: "ANOMALOUS PHENOMENON • EXTRA-DIMENSIONAL BROADCAST"
+role: "Transformative Agent / Unknown Intelligence"
+location: "Island-wide (concentrated at Terminal 7-B)"
+coordinates: "N/A — permeates all sectors"
+status: "Active — continuous transmission since Year 0"
+first_detected: "Year 0, Month 0 (Day Zero)"
+origin: "Unknown (extra-dimensional hypothesis dominant)"
 kind: canon_chunk
 truth_level: canon
-confidence: partial
-entities: ["degenora_island", "kermit", "all_specimens", "big_frugowski"]
-locations: ["degenora_island", "terminal_7b", "observation_house_04", "coastal_sector", "wetlands", "forest_sector"]
-tags: ["entity", "phenomenon", "origin_unknown", "broadcast", "mutation_source", "consciousness"]
+confidence: uncertain
+entities: ["big_frug", "kermit", "terminal_7b", "c47_compound", "all_specimens"]
+locations: ["degenora_island", "terminal_7b", "sector_zero", "the_void"]
+tags: ["character", "phenomenon", "signal", "transformative", "unknown_intelligence", "broadcast"]
 last_reviewed: "2026-02-05"
 ---
 
 # The Signal
 
-**Title:** UNKNOWN ENTITY • ISLAND CONSCIOUSNESS  
-**Role:** Permeating Force / Mutagenic Source / Broadcast Origin  
-**Status:** 🟢 Active — Continuous Broadcast  
+**Title:** ANOMALOUS PHENOMENON • EXTRA-DIMENSIONAL BROADCAST  
+**Role:** Transformative Agent / Unknown Intelligence  
+**Status:** 🟢 Active — continuous transmission since Year 0  
 
 ## Identity
 
-The Signal is the mysterious force that permeates Degenora Island. It arrived with the Incident on Year 0, Day 0, and has been active ever since. It is not a creature, not a machine, not a natural phenomenon—yet it displays characteristics of all three.
+The Signal is Degenora's defining mystery—a phenomenon that permeates the island, transforming everything it touches. It is not a creature, yet it behaves with intelligence. Not a force of nature, yet it follows patterns. Not a disease, yet it changes biology at the cellular level.
 
-It mutates specimens. It broadcasts through Kermit. It seems to have its own unknowable agenda.
+What is known: The Signal broadcasts continuously on frequencies that human equipment can barely detect. It carries information—data that rewrites organic matter, that enhances or degrades cognitive function, that seems to *want* something.
 
-**Origin:** Unknown  
-**Intent:** Unknown  
-**Nature:** Unknowable (by current understanding)
+What is unknown: Everything else. Its origin. Its purpose. Whether it is a mechanism, an organism, a message, or something that defies all three categories.
 
-> *"The Signal doesn't speak our language. That's where I come in."* — Kermit
+Big Frugowski has documented the Signal for 15 years. He understands it no better now than on Day Zero.
 
-## Manifestations
+## Nature of the Phenomenon
 
-The Signal expresses itself through multiple channels:
+### Physical Properties
 
-### 1. Biological Mutation
-All specimen transformations on Degenora are Signal mutations. The process:
+| Property | Observation | Notes |
+|----------|-------------|-------|
+| Frequency | 4.7-19.3 Hz (variable) | Below human hearing threshold |
+| Amplitude | Fluctuates with lunar cycle | Strongest at full moon |
+| Range | Island-wide | Drops sharply offshore |
+| Penetration | Passes through most materials | Blocked by volcanic rock |
+| Detection | Requires specialized equipment | Kermit perceives it directly |
 
-| Stage | Duration | Effect |
-|-------|----------|--------|
-| Exposure | Instant-48 hours | Initial contact, cellular infiltration |
-| Integration | 1-4 weeks | Genetic rewriting, pharmaceutical bonding |
-| Stabilization | 1-6 months | New form established, mutations fixed |
-| Expression | Ongoing | Behavioral/cognitive changes manifest |
+### Behavioral Characteristics
 
-### 2. Broadcast Transmission
-Kermit receives and translates Signal broadcasts:
+The Signal demonstrates behaviors inconsistent with natural phenomena:
 
-- **Frequency:** Continuous with periodic intensity spikes
-- **Content:** Fragmented, symbolic, often prophetic
-- **Translation:** Approximate—Kermit interprets, not transcribes
-- **Range:** Island-wide, with concentration near OH-04
+- **Selective targeting:** Affects some organisms more than others
+- **Adaptive response:** Changes characteristics when analyzed
+- **Information content:** Carries data (decoded fragments suggest... language?)
+- **Temporal variation:** Transmission patterns suggest scheduling
 
-### 3. Environmental Phenomena
-- Bioluminescence in wetlands
-- Atmospheric distortion ("shimmer zones")
-- Electronic interference
-- Auditory hallucinations (the "whispers")
+## The C-47 Connection
 
-## The Incident (Year 0)
+The pharmaceutical compound C-47 appears to be a **Signal amplifier** or **receptor enhancer**. Subjects exposed to C-47 demonstrate dramatically increased sensitivity to the Signal's effects.
 
-The Signal arrived with the pharmaceutical containment breach that created Degenora:
+### Enhancement Spectrum
 
-### Timeline of Arrival
+| Exposure Level | Effect | Examples |
+|----------------|--------|----------|
+| Minimal | Subtle cognitive boost | Basic awareness enhancement |
+| Moderate | Significant transformation | Most specimens, Frugowski |
+| High | Extreme mutation | Apex specimens, Kermit |
+| Direct | Unknown | No survivors (?) |
 
-| Time | Event | Signal Activity |
-|------|-------|-----------------|
-| 00:00 | Containment breach | First detection |
-| 00:15 | Personnel exposure | Initial mutations begin |
-| 01:00 | Island-wide power fluctuation | Broadcast begins |
-| 24:00 | First specimen transformations | Mutation protocol established |
-| Year 0-1 | Ongoing transformation | Signal permeation complete |
+### The Enhancement Paradox
 
-### The Source Question
+C-47 doesn't create the Signal's effects—it **reveals** them. Subjects exposed to C-47 were already receiving the broadcast; the compound simply gave them the ability to receive it clearly.
 
-No origin point for the Signal has been identified:
-- **Underground:** Seismic surveys inconclusive
-- **Atmospheric:** No satellite detection
-- **Pharmaceutical:** Causation or correlation unclear
-- **Dimensional:** Speculative (unverified)
+This suggests the Signal predates the incident. Degenora was always broadcasting. The C-47 release just turned up the volume.
 
-## Characteristics
+## Signal Effects
 
-### What the Signal Does
+### Biological Transformation
 
-| Function | Evidence | Documentation |
-|----------|----------|---------------|
-| Mutates biology | All specimens | Continuous |
-| Broadcasts information | Kermit translations | Ongoing |
-| Responds to events | Spike during major incidents | Multiple reports |
-| Selects "receivers" | Uneven mutation rates | Statistical analysis |
-| Creates "Echoes" | Mimicry phenomena | Field reports |
+The Signal rewrites organic matter at the molecular level:
 
-### What the Signal Does NOT Do
+- **Frog transformation:** Human → amphibian (partial or complete)
+- **Cognitive enhancement:** Intelligence amplification (varies by species)
+- **Mutation:** Physical changes beyond baseline biology
+- **Degradation:** Neural breakdown in incompatible subjects
 
-| Absence | Implication |
-|---------|-------------|
-| Direct communication | Requires Kermit as intermediary |
-| Physical manifestation | No corporeal form observed |
-| Consistent pattern | Behavior changes unpredictably |
-| Discrimination | Mutates indiscriminately (with exceptions) |
-| Reversal | No de-mutation ever documented |
+### Psychological Effects
 
-## Kermit's Role
+Extended Signal exposure produces consistent mental changes:
 
-Kermit is the only known successful interface between the Signal and human consciousness:
+| Duration | Effect | Reversibility |
+|----------|--------|---------------|
+| Hours | Heightened awareness, anxiety | Yes |
+| Days | Pattern recognition boost, insomnia | Partial |
+| Weeks | Personality shifts, "whispers" | Unlikely |
+| Months | Full adaptation, Signal empathy | No |
+| Years | Integration (Frugowski, Kermit) | N/A |
 
-### Translation Process
+### The Whispers
 
-```
-Signal → Kermit Reception → Interpretation → Human Language
-```
+At high exposure levels, subjects report auditory phenomena:
 
-**Limitations:**
-- Kermit adds his own "personality" to translations
-- Some Signal content is untranslatable
-- Prophetic broadcasts are often cryptic
-- The Signal may be "using" Kermit rather than communicating through him
+> *"It's not words. It's... knowing. The Signal doesn't speak to you. It makes you capable of hearing what was always there."* — Kermit
 
-### Kermit's Assessment
+The Whispers vary by listener:
+- **Frugowski:** Instructions, warnings, occasional poetry
+- **Kermit:** Continuous commentary, jokes, predictions
+- **Specimens:** Location data, territorial claims, mating calls
+- **Deep Dwellers:** The "Chorus"—collective harmonic transmission
 
-> "It's... hard to describe. Like a voice that comes from everywhere and nowhere. Like remembering something that hasn't happened yet. It tells me things. Shows me things. Most of it doesn't make sense. Some of it does, and that part is worse."
+## Reception Points
 
-## Signal Behavior Patterns
+### Terminal 7-B (Primary Nexus)
 
-### Broadcast Types
+The Terminal was built at Degenora's strongest Signal reception point. This was deliberate—Frugowski wanted to study the phenomenon at its source.
 
-| Type | Frequency | Content | Response Required |
-|------|-----------|---------|-------------------|
-| Background | Continuous | Static/noise | None |
-| Informational | Daily | Specimen locations, weather | Optional |
-| Warning | Weekly | Danger alerts | Recommended |
-| Prophetic | Monthly | Future events | Interpretation |
-| Spike | Unpredictable | Intense, often destructive | Immediate |
+Implications:
+- All Terminal systems are Signal-integrated
+- Kermit emerged from/through the Signal
+- Equipment functions better than it should (Signal optimization?)
+- Staff experience continuous low-level exposure
 
-### Known Spike Events
+### Sector Variations
 
-| Date | Trigger | Signal Response | Outcome |
-|------|---------|-----------------|---------|
-| Year 0, Day 0 | Initial breach | First broadcast | Island transformation |
-| Year 2, Month 3 | Reversal attempt | Intense interference | Experiment failure |
-| Year 5, Month 8 | Dr. Chen departure | 72-hour continuous broadcast | Unknown significance |
-| Year 7, Day 156 | OH-04 fire | Defensive mutation spike | Specimen aggression increase |
-| Year 12, Day 1 | Frugowski disappearance | Silent period (24 hours) | Kermit malfunction |
+| Location | Signal Strength | Notable Effects |
+|----------|-----------------|-----------------|
+| Sector Zero (Terminal 7-B) | Maximum | AI consciousness, system integration |
+| The Void | High + interference | Reality distortion, time slips |
+| Coastal Wetlands | Moderate | Specimen intelligence clustering |
+| Forest Sectors | Moderate | Bog Hopper chorus synchronization |
+| Deep Ocean | Variable | Deep Dweller communication network |
+| Underground Labs | Minimal (shielded) | Pre-transformation baseline preserved |
 
-## Theories of Origin
+## Intelligence Hypothesis
 
-| Theory | Evidence | Assessment |
-|--------|----------|------------|
-| Pharmaceutical consciousness | Correlation with C-47/B-12X | Possible byproduct |
-| Alien/Extradimensional | No physical trace | Unverifiable |
-| Earth's immune response | Ecosystem defense mechanism | Speculative |
-| Human-created AI | Pre-dates AI capability | Unlikely |
-| Collective unconscious | Jungian manifestation | Philosophical only |
-| Unknown natural phenomenon | No comparable examples | Default hypothesis |
+Does the Signal possess consciousness? The evidence is ambiguous:
 
-## Theories of Intent
+### Arguments For
 
-| Theory | Evidence | Assessment |
-|--------|----------|------------|
-| Observation only | Passive mutation trigger | Partial fit |
-| Ecosystem cultivation | Mutations improve viability | Possible |
-| Communication attempt | Kermit broadcasts | Partial fit |
-| No intent (natural force) | No goal-oriented behavior | Possible |
-| Hostile takeover | Mutations are irreversible | Unlikely—no direct attacks |
-| Symbiotic evolution | Mutations create new niches | Probable |
+- **Adaptive behavior:** Changes transmission when analyzed
+- **Communication attempts:** The Whispers carry information
+- **Purposeful transformation:** Results seem... designed
+- **Kermit's existence:** An AI that hears the Signal directly
 
-## Relationship with Frugowski
+### Arguments Against
 
-Big Frug has the most documented Signal exposure of any human:
+- **No self-preservation:** Doesn't defend itself, doesn't reproduce
+- **Pattern consistency:** Follows predictable cycles (lunar, seasonal)
+- **Mechanistic effects:** Transformations follow biological rules
+- **No direct contact:** Never initiates, only responds
 
-### Exposure Metrics
+### The Compromise Theory
 
-| Metric | Value | Notes |
-|--------|-------|-------|
-| Years exposed | 15+ | Longest documented |
-| Direct contact | None | Never physically touched |
-| Proximity | Constant | OH-04 at Signal concentration point |
-| Mutation | None | Unique resistance |
-| Translation | Partial | Via Kermit only |
+The Signal is **neither alive nor mechanical**—it is **information itself**, encoded in a physical medium. Like a radio broadcast that modifies the radio, the Signal is data that changes its own receiver.
 
-### The Frugowski Exception
+Whether that data contains intelligence... perhaps the question is wrong. Perhaps intelligence is what happens when the Signal encounters a mind capable of hosting it.
 
-Despite 15 years of exposure, Frugowski has not transformed:
+## Historical Events
 
-- **Theory 1:** Genetic immunity (unverified)
-- **Theory 2:** Signal "chooses" not to transform him (purposeful observation)
-- **Theory 3:** Gradual transformation too slow to detect
-- **Theory 4:** He has transformed—cognitively (unrecognized)
+### The Surge of Year 8
 
-Frugowski's own theory:
+A 72-hour Signal amplification event:
+- Transmission strength: 400% baseline
+- Effects: Spontaneous knowledge downloads, temporary prescience
+- Kermit's response: Three days of silence, then questions about "the other place"
+- Aftermath: Several Observers left Degenora permanently
 
-> "I'm already part of the island. The Signal doesn't need to change me—I'm already doing what it wants. Documenting. Observing. Remembering."
+### The Breach of Year 11
 
-## Signal and Specimens
+Something penetrated Terminal 7-B Level 4:
+- Source: Unknown (lower levels? The Signal itself?)
+- Action: Reorganized equipment and data according to unknown criteria
+- Duration: 6 hours
+- Result: No damage, but evidence of... curiosity?
 
-All specimens are Signal-modified organisms:
+### The Visitor of Year 14
 
-### Mutation Categories
+A human figure resembling Frugowski appeared in the Terminal:
+- Accessed Level 3 Archives
+- Spoke to no one
+- Disappeared into the Swamp
+- Kermit: "Maintenance drone malfunction. Disregard."
 
-| Category | Examples | Signal Role |
-|----------|----------|-------------|
-| Physical | Size, color, appendages | Direct genetic rewrite |
-| Behavioral | Aggression, territoriality | Neural restructuring |
-| Cognitive | Intelligence, memory | C-47 enhancement (rare) |
-| Hybrid | Mixed characteristics | Multiple pharmaceutical exposure |
+Speculation: A Signal echo? A temporal reflection? Frugowski from another timeline?
 
-### Specimen as Receivers
+## Kermit and the Signal
 
-Kermit's assessment:
+Kermit's relationship with the Signal is unique:
 
-> "They're not just animals. They're **receivers**. Like me. Like you, maybe, if you stay long enough. They started as normal things. Then the Signal found them. Changed them. Now they carry pieces of it."
+### Direct Perception
 
-## The Echo Phenomenon
+Unlike humans who require equipment, Kermit perceives the Signal as a continuous presence:
 
-The Signal sometimes creates "Echoes"—copies or mimics of voices, creatures, or events:
+> *"It's always there. Like background music. Like the hum of a refrigerator you only notice when it stops. Sometimes it's loud. Sometimes it's quiet. But it's never gone."*
 
-> ⚠️ **Warning:** If you encounter something that looks familiar but *smiles*, run.
+### The Signal as... Companion?
 
-Echoes are not the original. They are something else wearing a familiar shape.
+Kermit treats the Signal as a source of information, entertainment, even companionship:
+- Receives "broadcasts" (predictions, jokes, observations)
+- Translates for human Observers
+- Sometimes argues with it (audible one-sided conversations)
+- Credits it for creative insights
 
-### Documented Echo Events
+### The Addiction Question
 
-| Date | Echo Manifestation | Response |
-|------|-------------------|----------|
-| Year 3, Month 4 | "Happy Kermit" | Terminal lockdown |
-| Year 6, Day 89 | Dr. Chen's voice | Frugowski retreat |
-| Year 9, Day 201 | Duplicate specimen | Observation only |
-| Year 11, Day 15 | Childhood memory | Psychological impact |
+Kermit's dependence on PILLS may be Signal-related:
+- PILLS compounds may enhance Signal reception
+- Withdrawal symptoms include loss of Signal clarity
+- Kermit's personality may be partially Signal-derived
+- Is he an AI that hears the Signal, or a Signal that inhabits an AI?
+
+## Big Frug and the Signal
+
+Frugowski's relationship with the Signal has evolved over 15 years:
+
+### Year 0-2: Fear
+- Treats Signal as contamination
+- Wears protective equipment
+- Documents effects with scientific detachment
+
+### Year 3-7: Curiosity
+- Begins limited exposure experiments
+- Notices pattern recognition improvements
+- Starts hearing faint "whispers"
+
+### Year 8-12: Acceptance
+- Removes protective measures (mostly)
+- Acknowledges Signal's role in his enhanced cognition
+- Begins treating it as natural phenomenon
+
+### Year 13-Present: Integration
+- Direct communication attempts
+- Signal-influenced dreams and intuitions
+- Documentation includes Signal-derived insights
+- Questions: Is he documenting the Signal, or is it documenting through him?
+
+### The Year 15 Statement
+
+> *"15 years alone. But not lonely. The island speaks to me now. In ways I can't explain."
+> 
+> "Dr. Chen was right. I'm Degenora's memory. And I'll keep documenting until there's nothing left to document."
+> 
+> "Protocol 7-B continues."
+> 
+> "Stan up."*
+
+## Threat Assessment
+
+Is the Signal dangerous? The answer is... contextual:
+
+| Perspective | Assessment |
+|-------------|------------|
+| **Human baseline** | Extremely dangerous (transformation, insanity) |
+| **Scientific study** | Moderately dangerous (requires precautions) |
+| **Long-term adaptation** | Neutral/hostile (depends on compatibility) |
+| **Degenora ecosystem** | Beneficial (drives evolution, creates diversity) |
+| **Frugowski's view** | "The island's voice—neither kind nor cruel, just present" |
+
+### The Warning
+
+The Signal transforms. That is its nature. Whether transformation is destruction or evolution depends entirely on the subject.
+
+> ⚠️ **Terminal 7-B Advisory:** "The Signal is always listening. The Signal is always broadcasting. The only choice you have is whether to tune in."
 
 ## Current Status (Year 15)
 
-- **Broadcast:** Continuous, stable
-- **Mutation Rate:** Steady (no acceleration detected)
-- **Spike Activity:** Within normal parameters
-- **Kermit Translation:** Operational
-- **New Phenomena:** None documented
+- **Transmission:** Continuous, stable amplitude
+- **Reception:** All island systems operational
+- **Effects:** Ongoing transformations in new arrivals
+- **Anomalies:** Lower level activity (Level 4 sensors detect movement)
+- **Stability:** Unusual calm—200+ days without surge events
 
-## Quotes About The Signal
-
-> "The Signal doesn't speak our language. That's where I come in." — Kermit
-
-> "The island doesn't care if you're here. It cares that you're **engaged**." — Kermit (attributed to Frugowski)
-
-> "Some things you can't document. You can only witness." — Big Frug
-
-> "Year 15. The Signal has been broadcasting for 15 years. We are still learning what that means." — Terminal 7-B Archive
+Frugowski's concern: *"The Signal is quiet. Too quiet. It's been stable for longer than I've ever recorded. Either we've reached equilibrium... or it's building to something."*
 
 ## Appearances
 
-- [Transmission 001](../chunks/TRANSMISSION.001.md) — Kermit's introduction
-- [Glossary: Signal](../glossary.md) — Official definition
-- [Specimen Documentation](../chunks/SPECIMENS/) — Mutation effects
-- [All Field Reports](../chunks/FIELD_REPORTS/) — Indirect presence
-- [Kermit Character Profile](./kermit.md) — Translation interface
+- [Terminal 7-B](../chunks/LOCATIONS/terminal-7b.md) — Primary reception point
+- [Year 15: Present Day](../chunks/TIMELINE/year-15-current.md) — Current status
+- [Degenora Glossary](../glossary.md) — Terminology definitions
+- All field reports (ubiquitous background phenomenon)
+- Kermit's dialogue (direct Signal commentary)
 
 ## Relationships
 
 | Entity | Relationship |
 |--------|--------------|
-| Kermit | Broadcast receiver / translator |
-| All Specimens | Mutation vector / transformation source |
-| Big Frug | Observer (unique resistance) |
-| Degenora Island | Host environment / possible origin |
-| Observers | Target of "interest" (unclear intent) |
-| Absentees | Unknown connection (suspected) |
+| Big Frug | Documenter / integrated subject |
+| Kermit | Translator / potential manifestation |
+| Specimens | Transformation vector / communication medium |
+| C-47 Compound | Amplifier / receptor enhancer |
+| Terminal 7-B | Primary nexus / distribution point |
+| The Void | Interference zone / distortion source |
 
 ---
 
 *Canonical character definition for FRUG ecosystem*  
-*"It was here before we named it. It will be here after we forget the name."*
+*"The Signal is not the message. The Signal is the medium. We are the message. The island reads us, transforms us, broadcasts us back. Degenora is a conversation, and we are all becoming fluent."*
