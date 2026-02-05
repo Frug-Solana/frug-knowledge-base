@@ -32,7 +32,7 @@ last_reviewed: "2026-02-05"
 
 ```
 [TERMINAL 7-B] > INDEXING ARCHIVE...
-[TERMINAL 7-B] > 53 DOCUMENTS FOUND
+[TERMINAL 7-B] > 55 DOCUMENTS FOUND
 [TERMINAL 7-B] > READY FOR BROWSING
 ```
 
@@ -111,6 +111,18 @@ Chronological record of events from Year 0 to present (Year 15).
 - [Year 5: Reversal Fails](chunks/TIMELINE/year-5-reversal-fails.md) — Record
 - [Year 15: Current](chunks/TIMELINE/year-15-current.md) — Record
 - ⚠️ [Corrupted Fragment](chunks/TIMELINE/year-corrupted-fragment.md) — Corrupted (unverified)
+
+```
+──────────────────────────────────────────────────────────────────────
+```
+
+### Section B.5: Major Historical Events
+Deep-dive documentation of pivotal moments in Degenora's history.
+
+| Document | Description | Year |
+|----------|-------------|------|
+| [The Rug — FLOG to FRUG](chunks/HISTORY/the-rug-origin.md) | Token transformation and community rebirth | Year -1 |
+| [Terminal 7-B Establishment](chunks/HISTORY/terminal-7b-establishment.md) 🆕 | Construction of the observation station | Year 1 |
 
 ```
 ──────────────────────────────────────────────────────────────────────
