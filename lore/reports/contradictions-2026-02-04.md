@@ -1,18 +1,18 @@
 # Contradiction Scan Report
 
-**Generated:** 2026-02-04T16:33:40.701Z  
-**Total Chunks:** 63  
-**Entities:** 37  
-**Locations:** 23  
+**Generated:** 2026-02-04T20:03:32.022Z  
+**Total Chunks:** 65  
+**Entities:** 40  
+**Locations:** 26  
 
 ## Summary
 
 | Category | Count |
 |----------|-------|
 | Temporal Conflicts | 1 |
-| Entity Conflicts | 7 |
+| Entity Conflicts | 9 |
 | Naming Inconsistencies | 0 |
-| Orphan References | 22 |
+| Orphan References | 24 |
 | Missing Metadata | 1 |
 | **Total Resolutions Proposed** | **2** |
 
@@ -60,6 +60,14 @@
   - Same entity documented with different truth levels
   - Truth levels: record, canon
 
+- **ramirez** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
 - **deep_dweller** (truth_level_mismatch)
   - Same entity documented with different truth levels
   - Truth levels: record, canon
@@ -78,12 +86,12 @@
 - **frug_token** → LORE.HIST.0001
 - **flog** → LORE.HIST.0001
 - **airdrop** → LORE.HIST.0001
+- **deep_dwellers** → LORE.LOC.0006
+- **tide_walkers** → LORE.LOC.0006
+- **swamp_specimens** → LORE.LOC.0005
 - **absentee_protocol** → LORE.PROTOCOL.0001
-- **frugowski** → LORE.PROTOCOL.0001
 - **bog_hopper** → ORIGIN.SPEC.001
-- **the_swamp** → ORIGIN.SPEC.003
-- **ancient** → ORIGIN.SPEC.003
-- *... and 7 more*
+- *... and 9 more*
 
 ## Missing Metadata
 

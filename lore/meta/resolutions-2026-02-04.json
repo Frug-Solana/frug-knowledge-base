@@ -1,6 +1,6 @@
 [
   {
-    "id": "RES-1770222820702-it8b",
+    "id": "RES-1770235412023-5vy7",
     "priority": "high",
     "type": "temporal_conflict",
     "issue": "Temporal conflict on 2024-08",
@@ -27,16 +27,18 @@
     "kermit_note": "[KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities."
   },
   {
-    "id": "RES-1770222820702-rnxg",
+    "id": "RES-1770235412023-dmkm",
     "priority": "low",
     "type": "orphan_entities",
-    "issue": "22 entities mentioned only once",
+    "issue": "24 entities mentioned only once",
     "affected_chunks": [
       "SPECIMEN.001",
       "CHAR.FRUG.0001",
       "LORE.DROP.0002",
       "LORE.DROP.0004",
       "LORE.HIST.0001",
+      "LORE.LOC.0006",
+      "LORE.LOC.0005",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
       "ORIGIN.SPEC.003",
@@ -55,8 +57,10 @@
       "frug_token",
       "flog",
       "airdrop",
+      "deep_dwellers",
+      "tide_walkers",
+      "swamp_specimens",
       "absentee_protocol",
-      "frugowski",
       "bog_hopper",
       "the_swamp",
       "ancient",
@@ -83,6 +87,6 @@
         "description": "If variant spelling, merge with existing entity"
       }
     ],
-    "kermit_note": "[KERMIT // UNPROMPTED] 22 unlinked entities detected in archive. Recommend profile creation."
+    "kermit_note": "[KERMIT // UNPROMPTED] 24 unlinked entities detected in archive. Recommend profile creation."
   }
 ]

@@ -117,6 +117,7 @@
         "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
         "ENTITY.TERMINAL_7B.0001",
         "LORE.LOC.0005",
@@ -244,6 +245,7 @@
       "chunks": [
         "LORE.REPT.0004",
         "LORE.REPT.0002",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.TIME.ERA.0001",
@@ -287,6 +289,35 @@
         "LORE.HIST.0001"
       ]
     },
+    "deep_dwellers": {
+      "canonical_name": "deep_dwellers",
+      "variants": [
+        "deep_dwellers"
+      ],
+      "chunks": [
+        "LORE.LOC.0006"
+      ]
+    },
+    "tide_walkers": {
+      "canonical_name": "tide_walkers",
+      "variants": [
+        "tide_walkers"
+      ],
+      "chunks": [
+        "LORE.LOC.0006"
+      ]
+    },
+    "frugowski": {
+      "canonical_name": "frugowski",
+      "variants": [
+        "frugowski"
+      ],
+      "chunks": [
+        "LORE.LOC.0006",
+        "LORE.LOC.0005",
+        "LORE.PROTOCOL.0001"
+      ]
+    },
     "unknown_founders": {
       "canonical_name": "unknown_founders",
       "variants": [
@@ -304,16 +335,6 @@
       ],
       "chunks": [
         "LORE.LOC.0005"
-      ]
-    },
-    "frugowski": {
-      "canonical_name": "frugowski",
-      "variants": [
-        "frugowski"
-      ],
-      "chunks": [
-        "LORE.LOC.0005",
-        "LORE.PROTOCOL.0001"
       ]
     },
     "absentee_protocol": {
@@ -453,6 +474,7 @@
         "CHAR.TOADDY.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
         "ENTITY.KERMIT.0001",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "ENTITY.TERMINAL_7B.0001",
@@ -598,6 +620,35 @@
         "LORE.SPEC.0004"
       ]
     },
+    "coastal_sector": {
+      "canonical_name": "coastal_sector",
+      "variants": [
+        "coastal_sector"
+      ],
+      "chunks": [
+        "LORE.LOC.0006",
+        "LORE.LOC.0003",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "eastern_shore": {
+      "canonical_name": "eastern_shore",
+      "variants": [
+        "eastern_shore"
+      ],
+      "chunks": [
+        "LORE.LOC.0006"
+      ]
+    },
+    "northern_cliffs": {
+      "canonical_name": "northern_cliffs",
+      "variants": [
+        "northern_cliffs"
+      ],
+      "chunks": [
+        "LORE.LOC.0006"
+      ]
+    },
     "wetlands": {
       "canonical_name": "wetlands",
       "variants": [
@@ -606,16 +657,6 @@
       "chunks": [
         "LORE.LOC.0003",
         "LORE.LOC.0005",
-        "LORE.SPEC.0002"
-      ]
-    },
-    "coastal_sector": {
-      "canonical_name": "coastal_sector",
-      "variants": [
-        "coastal_sector"
-      ],
-      "chunks": [
-        "LORE.LOC.0003",
         "LORE.SPEC.0002"
       ]
     },

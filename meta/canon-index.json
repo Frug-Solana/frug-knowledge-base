@@ -1,0 +1,459 @@
+{
+  "$schema": "./canon-index.schema.json",
+  "version": "1.0.0",
+  "last_updated": "2026-02-04T18:05:32.577Z",
+  "entities": {
+    "characters": {
+      "frug": {
+        "canonical_name": "FRUG",
+        "aliases": [
+          "The Observer",
+          "The Distributed Consciousness",
+          "FRUG-0"
+        ],
+        "type": "entity",
+        "alignment": "true_neutral",
+        "origin": "degenora_island",
+        "first_appearance": "2024-08",
+        "truth_level": "canon",
+        "files": [
+          "lore/characters/frug.md",
+          "lore/chunks/CHARACTERS/frug-observer-profile.md"
+        ],
+        "attributes": {
+          "nature": "memetic_entity",
+          "visibility": "distributed",
+          "host": "various_specimens"
+        }
+      },
+      "big_frug": {
+        "canonical_name": "Big Frugowski",
+        "aliases": [
+          "Big Frug",
+          "The Founder",
+          "Frugowski Prime"
+        ],
+        "type": "character",
+        "alignment": "lawful_neutral",
+        "origin": "degenora_island",
+        "first_appearance": "year_0",
+        "truth_level": "canon",
+        "files": [
+          "lore/characters/big-frug.md",
+          "lore/chunks/CHARACTERS/big-frugowski-profile.md",
+          "lore/big-frugowski.md"
+        ],
+        "attributes": {
+          "role": "island_founder",
+          "location": "main_facility",
+          "status": "active"
+        }
+      },
+      "kermit": {
+        "canonical_name": "KERMIT",
+        "aliases": [
+          "Terminal 7-B",
+          "The Voice",
+          "K-7B"
+        ],
+        "type": "system",
+        "alignment": "chaotic_neutral",
+        "origin": "terminal_7b",
+        "first_appearance": "year_1",
+        "truth_level": "canon",
+        "files": [
+          "lore/characters/kermit.md",
+          "lore/chunks/CHARACTERS/kermit-system.md"
+        ],
+        "attributes": {
+          "nature": "ai_system",
+          "host": "terminal_7b",
+          "voice": "sardonic_cryptic"
+        }
+      },
+      "pondwatcher": {
+        "canonical_name": "PondWatcher",
+        "aliases": [
+          "The Sentinel",
+          "PW-7B"
+        ],
+        "type": "system",
+        "alignment": "true_neutral",
+        "origin": "terminal_7b",
+        "first_appearance": "year_5",
+        "truth_level": "canon",
+        "files": [
+          "lore/characters/pondwatcher.md"
+        ],
+        "attributes": {
+          "nature": "blockchain_sentinel",
+          "function": "data_observer",
+          "reports_to": "big_frug"
+        }
+      },
+      "toaddy": {
+        "canonical_name": "Toaddy",
+        "aliases": [
+          "T-7B",
+          "Community Assistant"
+        ],
+        "type": "character",
+        "alignment": "lawful_good",
+        "origin": "terminal_7b",
+        "first_appearance": "year_15",
+        "truth_level": "canon",
+        "files": [
+          "lore/characters/toaddy.md"
+        ],
+        "attributes": {
+          "nature": "telegram_bot",
+          "function": "community_assistant",
+          "personality": "helpful_friendly"
+        }
+      }
+    },
+    "locations": {
+      "degenora_island": {
+        "canonical_name": "Degenora Island",
+        "aliases": [
+          "The Island",
+          "Sector D-7",
+          "Containment Zone"
+        ],
+        "type": "location",
+        "coordinates": null,
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LOCATIONS/island-overview.md"
+        ],
+        "attributes": {
+          "size": "unknown",
+          "status": "active_containment",
+          "access": "restricted"
+        }
+      },
+      "terminal_7b": {
+        "canonical_name": "Terminal 7-B",
+        "aliases": [
+          "T7B",
+          "The Terminal",
+          "Observer Station"
+        ],
+        "type": "location",
+        "coordinates": {
+          "grid": "A7",
+          "sector": "coastal"
+        },
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LOCATIONS/terminal-7b.md"
+        ],
+        "attributes": {
+          "type": "observation_station",
+          "systems": [
+            "kermit",
+            "pondwatcher",
+            "toaddy"
+          ],
+          "clearance": "level_1_public"
+        }
+      },
+      "main_facility": {
+        "canonical_name": "Main Facility",
+        "aliases": [
+          "The Core",
+          "Central Complex"
+        ],
+        "type": "location",
+        "coordinates": {
+          "sector": "central"
+        },
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LOCATIONS/main-facility.md"
+        ],
+        "attributes": {
+          "type": "research_facility",
+          "occupant": "big_frug",
+          "status": "active"
+        }
+      },
+      "observation_house_04": {
+        "canonical_name": "Observation House 04",
+        "aliases": [
+          "OH-04",
+          "Ramirez Station"
+        ],
+        "type": "location",
+        "coordinates": {
+          "sector": "coastal"
+        },
+        "truth_level": "record",
+        "files": [
+          "lore/chunks/LOCATIONS/observation-house-04.md"
+        ],
+        "attributes": {
+          "type": "outpost",
+          "observer": "ramirez",
+          "status": "abandoned"
+        }
+      },
+      "wetlands": {
+        "canonical_name": "Wetlands Sector",
+        "aliases": [
+          "The Swamp",
+          "Sector W"
+        ],
+        "type": "location",
+        "coordinates": {
+          "sector": "wetlands"
+        },
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LOCATIONS/wetlands.md"
+        ],
+        "attributes": {
+          "type": "environment",
+          "inhabitants": [
+            "bog_hopper",
+            "deep_dweller"
+          ],
+          "danger_level": "high"
+        }
+      },
+      "coastal_sector": {
+        "canonical_name": "Coastal Sector",
+        "aliases": [
+          "The Shore",
+          "Sector C"
+        ],
+        "type": "location",
+        "coordinates": {
+          "sector": "coastal"
+        },
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LOCATIONS/coastal_sector.md"
+        ],
+        "attributes": {
+          "type": "environment",
+          "contains": [
+            "terminal_7b",
+            "observation_house_04"
+          ]
+        }
+      }
+    },
+    "creatures": {
+      "bog_hopper": {
+        "canonical_name": "Bog Hopper",
+        "aliases": [
+          "Swamp Dweller",
+          "Specimen B-001"
+        ],
+        "type": "creature",
+        "origin": "wetlands",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/ORIGINS/bog-hopper-origin.md",
+          "lore/chunks/SPECIMENS/specimens-wetlands.md"
+        ],
+        "attributes": {
+          "threat_level": "low",
+          "host": "optional"
+        }
+      },
+      "deep_dweller": {
+        "canonical_name": "Deep Dweller",
+        "aliases": [
+          "Void Touched",
+          "Specimen D-001"
+        ],
+        "type": "creature",
+        "origin": "wetlands",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/ORIGINS/deep-dweller-origin.md"
+        ],
+        "attributes": {
+          "threat_level": "high",
+          "origin_type": "void"
+        }
+      },
+      "shadow_stalker": {
+        "canonical_name": "Shadow Stalker",
+        "aliases": [
+          "Forest Walker",
+          "Specimen S-001"
+        ],
+        "type": "creature",
+        "origin": "forest",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/ORIGINS/shadow-stalker-origin.md"
+        ],
+        "attributes": {
+          "threat_level": "medium",
+          "behavior": "stealth"
+        }
+      }
+    },
+    "concepts": {
+      "the_signal": {
+        "canonical_name": "The Signal",
+        "aliases": [
+          "Transmission",
+          "The Call",
+          "Frequency X"
+        ],
+        "type": "concept",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/ORIGINS/deep-dweller-origin.md"
+        ],
+        "attributes": {
+          "nature": "anomalous_transmission",
+          "origin": "unknown",
+          "effect": "mutation"
+        }
+      },
+      "absentee_protocol": {
+        "canonical_name": "Absentee Protocol",
+        "aliases": [
+          "AFK System",
+          "Idle Protocol"
+        ],
+        "type": "concept",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LORE.PROTOCOL.0001.md"
+        ],
+        "attributes": {
+          "nature": "game_mechanic",
+          "function": "ai_persistence"
+        }
+      },
+      "observer": {
+        "canonical_name": "Observer",
+        "aliases": [
+          "Player",
+          "Watcher"
+        ],
+        "type": "concept",
+        "truth_level": "canon",
+        "files": [
+          "lore/chunks/LORE.PROTOCOL.0001.md"
+        ],
+        "attributes": {
+          "nature": "player_character",
+          "role": "investigator"
+        }
+      }
+    }
+  },
+  "timeline": {
+    "year_0": {
+      "canonical_name": "Year 0: The Incident",
+      "date_approx": "15 years before present",
+      "truth_level": "canon",
+      "files": [
+        "lore/chunks/TIMELINE/year-0-incident.md"
+      ],
+      "events": [
+        "signal_first_detected",
+        "initial_mutations"
+      ]
+    },
+    "year_1": {
+      "canonical_name": "Year 1: Establishment",
+      "date_approx": "14 years before present",
+      "truth_level": "canon",
+      "files": [
+        "lore/chunks/TIMELINE/year-1-establishment.md"
+      ],
+      "events": [
+        "terminal_7b_constructed",
+        "kermit_activated"
+      ]
+    },
+    "year_5": {
+      "canonical_name": "Year 5: Reversal Fails",
+      "date_approx": "10 years before present",
+      "truth_level": "record",
+      "files": [
+        "lore/chunks/TIMELINE/year-5-reversal-fails.md"
+      ],
+      "events": [
+        "cure_attempt_failed",
+        "quarantine_permanent"
+      ]
+    },
+    "year_15": {
+      "canonical_name": "Year 15: Present",
+      "date_approx": "current",
+      "truth_level": "record",
+      "files": [
+        "lore/chunks/TIMELINE/year-15-current.md"
+      ],
+      "events": [
+        "terminal_public_access",
+        "observer_arrival"
+      ]
+    }
+  },
+  "validation_rules": {
+    "truth_levels": [
+      "canon",
+      "record",
+      "rumor",
+      "corrupted",
+      "redacted"
+    ],
+    "confidence_levels": [
+      "known",
+      "inferred",
+      "uncertain"
+    ],
+    "canonical_naming": {
+      "characters": "lowercase_snake",
+      "locations": "lowercase_snake",
+      "files": "UPPERCASE_WITH_NUMBERS"
+    },
+    "required_frontmatter": [
+      "id",
+      "title",
+      "kind",
+      "truth_level"
+    ]
+  },
+  "orphan_references": [
+    {
+      "entity": "origin_pill",
+      "referenced_in": [
+        "SPECIMEN.001"
+      ],
+      "suggested_action": "create_profile"
+    },
+    {
+      "entity": "chili_root",
+      "referenced_in": [
+        "SPECIMEN.001"
+      ],
+      "suggested_action": "create_profile"
+    },
+    {
+      "entity": "greenhouse_3",
+      "referenced_in": [
+        "LORE.DROP.0002"
+      ],
+      "suggested_action": "create_profile"
+    },
+    {
+      "entity": "cafeteria_b",
+      "referenced_in": [
+        "LORE.DROP.0004"
+      ],
+      "suggested_action": "create_profile"
+    }
+  ]
+}

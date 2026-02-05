@@ -1,8 +1,8 @@
 {
-  "scanned_at": "2026-02-04T16:33:40.701Z",
-  "total_chunks": 63,
-  "total_entities": 37,
-  "total_locations": 23,
+  "scanned_at": "2026-02-04T20:03:32.022Z",
+  "total_chunks": 65,
+  "total_entities": 40,
+  "total_locations": 26,
   "findings": {
     "temporal_conflicts": [
       {
@@ -114,8 +114,10 @@
           "ENTITY.KERMIT.0001",
           "LORE.DROP.0001",
           "LORE.DROP.0003",
+          "LORE.LOC.0006",
           "LORE.LOC.0003",
           "ENTITY.TERMINAL_7B.0001",
+          "LORE.LOC.0005",
           "LORE.PROTOCOL.0001",
           "TRANSMISSION.001",
           "SYS.TERMINAL_7B.0001"
@@ -150,6 +152,39 @@
           "LORE.DROP.0001",
           "LORE.DROP.0003",
           "LORE.DROP.0004"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "ramirez",
+        "chunks": [
+          "LORE.REPT.0004",
+          "LORE.REPT.0002",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0004"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "frugowski",
+        "chunks": [
+          "LORE.LOC.0006",
+          "LORE.LOC.0005",
+          "LORE.PROTOCOL.0001"
         ],
         "truth_levels": [
           "record",
@@ -235,13 +270,25 @@
       },
       {
         "type": "entity",
-        "ref": "absentee_protocol",
-        "source": "LORE.PROTOCOL.0001",
-        "file": "chunks/LORE.PROTOCOL.0001.md"
+        "ref": "deep_dwellers",
+        "source": "LORE.LOC.0006",
+        "file": "chunks/LOCATIONS/coastal_sector.md"
       },
       {
         "type": "entity",
-        "ref": "frugowski",
+        "ref": "tide_walkers",
+        "source": "LORE.LOC.0006",
+        "file": "chunks/LOCATIONS/coastal_sector.md"
+      },
+      {
+        "type": "entity",
+        "ref": "swamp_specimens",
+        "source": "LORE.LOC.0005",
+        "file": "chunks/LOCATIONS/wetlands.md"
+      },
+      {
+        "type": "entity",
+        "ref": "absentee_protocol",
         "source": "LORE.PROTOCOL.0001",
         "file": "chunks/LORE.PROTOCOL.0001.md"
       },
@@ -435,8 +482,10 @@
           "ENTITY.KERMIT.0001",
           "LORE.DROP.0001",
           "LORE.DROP.0003",
+          "LORE.LOC.0006",
           "LORE.LOC.0003",
           "ENTITY.TERMINAL_7B.0001",
+          "LORE.LOC.0005",
           "LORE.PROTOCOL.0001",
           "TRANSMISSION.001",
           "SYS.TERMINAL_7B.0001"
@@ -561,6 +610,7 @@
         "chunks": [
           "LORE.REPT.0004",
           "LORE.REPT.0002",
+          "LORE.LOC.0006",
           "LORE.LOC.0003",
           "LORE.LOC.0004",
           "LORE.TIME.ERA.0001",
@@ -604,6 +654,35 @@
           "LORE.HIST.0001"
         ]
       },
+      "deep_dwellers": {
+        "canonical_name": "deep_dwellers",
+        "variants": [
+          "deep_dwellers"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "tide_walkers": {
+        "canonical_name": "tide_walkers",
+        "variants": [
+          "tide_walkers"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "frugowski": {
+        "canonical_name": "frugowski",
+        "variants": [
+          "frugowski"
+        ],
+        "chunks": [
+          "LORE.LOC.0006",
+          "LORE.LOC.0005",
+          "LORE.PROTOCOL.0001"
+        ]
+      },
       "unknown_founders": {
         "canonical_name": "unknown_founders",
         "variants": [
@@ -614,19 +693,19 @@
           "LORE.TIME.ERA.0001"
         ]
       },
+      "swamp_specimens": {
+        "canonical_name": "swamp_specimens",
+        "variants": [
+          "swamp_specimens"
+        ],
+        "chunks": [
+          "LORE.LOC.0005"
+        ]
+      },
       "absentee_protocol": {
         "canonical_name": "absentee_protocol",
         "variants": [
           "absentee_protocol"
-        ],
-        "chunks": [
-          "LORE.PROTOCOL.0001"
-        ]
-      },
-      "frugowski": {
-        "canonical_name": "frugowski",
-        "variants": [
-          "frugowski"
         ],
         "chunks": [
           "LORE.PROTOCOL.0001"
@@ -760,9 +839,11 @@
           "CHAR.TOADDY.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
           "ENTITY.KERMIT.0001",
+          "LORE.LOC.0006",
           "LORE.LOC.0003",
           "LORE.LOC.0004",
           "ENTITY.TERMINAL_7B.0001",
+          "LORE.LOC.0005",
           "LORE.SPEC.0001",
           "LORE.SPEC.0003",
           "LORE.SPEC.0004",
@@ -814,6 +895,7 @@
           "LORE.LOC.0003",
           "LORE.LOC.0004",
           "ENTITY.TERMINAL_7B.0001",
+          "LORE.LOC.0005",
           "LORE.TIME.ERA.0001",
           "LORE.TIME.0002",
           "LORE.TIME.0004",
@@ -903,6 +985,35 @@
           "LORE.SPEC.0004"
         ]
       },
+      "coastal_sector": {
+        "canonical_name": "coastal_sector",
+        "variants": [
+          "coastal_sector"
+        ],
+        "chunks": [
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "eastern_shore": {
+        "canonical_name": "eastern_shore",
+        "variants": [
+          "eastern_shore"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "northern_cliffs": {
+        "canonical_name": "northern_cliffs",
+        "variants": [
+          "northern_cliffs"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
       "wetlands": {
         "canonical_name": "wetlands",
         "variants": [
@@ -910,16 +1021,7 @@
         ],
         "chunks": [
           "LORE.LOC.0003",
-          "LORE.SPEC.0002"
-        ]
-      },
-      "coastal_sector": {
-        "canonical_name": "coastal_sector",
-        "variants": [
-          "coastal_sector"
-        ],
-        "chunks": [
-          "LORE.LOC.0003",
+          "LORE.LOC.0005",
           "LORE.SPEC.0002"
         ]
       },
@@ -950,6 +1052,15 @@
         ],
         "chunks": [
           "ENTITY.TERMINAL_7B.0001"
+        ]
+      },
+      "swamp_sector": {
+        "canonical_name": "swamp_sector",
+        "variants": [
+          "swamp_sector"
+        ],
+        "chunks": [
+          "LORE.LOC.0005"
         ]
       },
       "forest": {
@@ -1051,9 +1162,9 @@
   },
   "summary": {
     "temporal_conflicts": 1,
-    "entity_conflicts": 7,
+    "entity_conflicts": 9,
     "location_conflicts": 0,
-    "orphan_refs": 22,
+    "orphan_refs": 24,
     "missing_metadata": 1,
     "cross_ref_issues": 0,
     "naming_inconsistencies": 0,
