@@ -8,7 +8,7 @@ status: active
 entities: []
 locations: ["degenora_island", "terminal_7b"]
 tags: ["index", "navigation", "archive"]
-last_reviewed: "2026-02-02"
+last_reviewed: "2026-02-04"
 ---
 
 ```
@@ -90,6 +90,7 @@ The foundation of the Degenora setting.
 | 🌍 [Core Premise](world/core_premise.md) | The fundamental setup and elevator pitch | ✅ Active |
 | 🎭 [Tone & Style](world/tone_and_style.md) | Writing guidelines and aesthetic pillars | ✅ Active |
 | 🔍 [Truth Model](world/truth_model.md) | Canon vs record vs corrupted documentation | ✅ Active |
+| 📝 [Style Guide](pages/style_guide.md) | Terminal 7-B writing standards | ✅ Active |
 
 ```
 ──────────────────────────────────────────────────────────────────────
@@ -123,8 +124,11 @@ Geographic documentation of Degenora Island.
 
 **Key Locations:**
 - [Island Overview](chunks/LOCATIONS/island-overview.md)
-- [Terminal 7-B](chunks/LOCATIONS/terminal-7b.md)
+- [Main Facility](chunks/LOCATIONS/main-facility.md)
 - [Observation House 04](chunks/LOCATIONS/observation-house-04.md)
+- [Terminal 7-B](chunks/LOCATIONS/terminal-7b.md)
+- [Wetlands Sector](chunks/LOCATIONS/wetlands.md) 🆕
+- [Coastal Sector](chunks/LOCATIONS/coastal_sector.md) 🆕
 
 <!-- IMAGE: degenora-island-map-overview.png -->
 <!-- DESC: Topographic map of Degenora Island with labeled sectors -->

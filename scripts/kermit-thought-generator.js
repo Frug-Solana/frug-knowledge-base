@@ -1,16 +1,3 @@
-#!/usr/bin/env node
-/**
- * Kermit Thought Generator
- * 
- * Generates AI-powered in-universe transmissions for Terminal 7-B.
- * Run via cron every 30-60 minutes.
- * 
- * Environment variables required:
- *   - SUPABASE_URL
- *   - SUPABASE_SERVICE_ROLE_KEY
- *   - OPENAI_API_KEY (or similar AI service)
- */
-
 import { createClient } from '@supabase/supabase-js';
 
 const SUPABASE_URL = process.env.SUPABASE_URL;
@@ -61,11 +48,13 @@ AVOID:
 
 /**
  * Fetch recent transmissions for context
+ * Uses simplified schema: source, category, text, meta
  */
 async function getRecentTransmissions(limit = 10) {
   const { data, error } = await supabase
     .from('terminal_transmissions')
     .select('*')
+    .eq('visibility', 'public')
     .order('created_at', { ascending: false })
     .limit(limit);
 
@@ -78,11 +67,11 @@ async function getRecentTransmissions(limit = 10) {
 }
 
 /**
- * Generate a Kermit thought using AI
+ * Generate a Kermit thought using AI (Gemini API via OpenRouter fallback)
  */
 async function generateKermitThought(recentTransmissions) {
   const recentContext = recentTransmissions
-    .map(t => `[${t.kind}] ${t.content.slice(0, 100)}...`)
+    .map(t => `[${t.category || t.source}] ${(t.text || '').slice(0, 100)}...`)
     .join('\n');
 
   const prompt = `${CANON_CONTEXT}
@@ -97,64 +86,55 @@ Keep it atmospheric and in-character. 1-2 sentences maximum.
 Respond with ONLY the transmission text, no quotes or formatting.`;
 
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    // Try Gemini API first
+    const geminiResponse = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=${AI_API_KEY}`, {
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${AI_API_KEY}`,
-        'Content-Type': 'application/json'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gpt-4o-mini',
-        messages: [
-          { role: 'system', content: 'You are KERMIT, the AI monitoring Degenora Island.' },
-          { role: 'user', content: prompt }
-        ],
-        temperature: 0.8,
-        max_tokens: 150
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.8, maxOutputTokens: 150 }
       })
     });
 
-    if (!response.ok) {
-      throw new Error(`AI API error: ${response.status}`);
+    if (geminiResponse.ok) {
+      const data = await geminiResponse.json();
+      return data.candidates[0]?.content?.parts[0]?.text?.trim();
     }
-
-    const data = await response.json();
-    return data.choices[0]?.message?.content?.trim();
+    
+    throw new Error('Gemini API failed');
   } catch (error) {
-    console.error('Error generating thought:', error);
+    console.error('AI generation failed:', error.message);
     return null;
   }
 }
 
 /**
- * Submit transmission to database via edge function
+ * Submit transmission to database directly
+ * Uses simplified schema: source, category, text, meta, visibility
  */
 async function submitTransmission(content, generationPrompt) {
   try {
-    const response = await fetch(`${SUPABASE_URL}/functions/v1/terminal-transmit`, {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${SERVICE_ROLE_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        kind: 'kermit_thought',
-        content,
+    const { data, error } = await supabase
+      .from('terminal_transmissions')
+      .insert({
         source: 'kermit',
-        priority: 'normal',
-        clearance_level: 1,
-        canon_refs: ['LORE.SEED.0001'],
-        generation_prompt: generationPrompt,
-        generated_at: new Date().toISOString()
+        category: 'KERMIT',
+        text: content,
+        visibility: 'public',
+        meta: {
+          thought_type: 'ai_generated',
+          generation_prompt: generationPrompt.slice(0, 500),
+          generated_at: new Date().toISOString()
+        }
       })
-    });
+      .select()
+      .single();
 
-    if (!response.ok) {
-      const error = await response.text();
-      throw new Error(`Edge function error: ${error}`);
+    if (error) {
+      throw error;
     }
 
-    return await response.json();
+    return { success: true, transmission: data };
   } catch (error) {
     console.error('Error submitting transmission:', error);
     return null;
@@ -175,6 +155,8 @@ async function main() {
   const numThoughts = Math.floor(Math.random() * 3) + 1;
   console.log(`Generating ${numThoughts} thought(s)...`);
 
+  const transmissionIds = [];
+
   for (let i = 0; i < numThoughts; i++) {
     const thought = await generateKermitThought(recentTransmissions);
     
@@ -185,6 +167,7 @@ async function main() {
       
       if (result?.success) {
         console.log(`✓ Submitted transmission: ${result.transmission.id}`);
+        transmissionIds.push(result.transmission.id);
       } else {
         console.error(`✗ Failed to submit thought ${i + 1}`);
       }
@@ -199,10 +182,19 @@ async function main() {
   }
 
   console.log(`[${new Date().toISOString()}] Kermit Thought Generator complete`);
+  return transmissionIds;
 }
 
 // Run
-main().catch(err => {
-  console.error('Fatal error:', err);
-  process.exit(1);
-});
+main()
+  .then(ids => {
+    console.log(`\n✅ SUCCESS: Generated ${ids.length} transmission(s)`);
+    if (ids.length > 0) {
+      console.log(`Transmission IDs: ${ids.join(', ')}`);
+    }
+    process.exit(ids.length > 0 ? 0 : 1);
+  })
+  .catch(err => {
+    console.error('Fatal error:', err);
+    process.exit(1);
+  });

@@ -1,6 +1,6 @@
 [
   {
-    "id": "RES-1770199052677-1qdj",
+    "id": "RES-1770235412023-5vy7",
     "priority": "high",
     "type": "temporal_conflict",
     "issue": "Temporal conflict on 2024-08",
@@ -27,24 +27,29 @@
     "kermit_note": "[KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities."
   },
   {
-    "id": "RES-1770199052678-j55r",
+    "id": "RES-1770235412023-dmkm",
     "priority": "low",
     "type": "orphan_entities",
-    "issue": "17 entities mentioned only once",
+    "issue": "24 entities mentioned only once",
     "affected_chunks": [
       "SPECIMEN.001",
+      "CHAR.FRUG.0001",
       "LORE.DROP.0002",
       "LORE.DROP.0004",
       "LORE.HIST.0001",
+      "LORE.LOC.0006",
+      "LORE.LOC.0005",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
       "ORIGIN.SPEC.003",
       "ORIGIN.SPEC.002",
-      "LORE.SPEC.0001"
+      "LORE.SPEC.0001",
+      "LORE.TIME.CORR.0001"
     ],
     "entities": [
       "origin_pill",
       "chili_root",
+      "the_observer",
       "greenhouse_3",
       "specimen",
       "cafeteria_b",
@@ -52,6 +57,9 @@
       "frug_token",
       "flog",
       "airdrop",
+      "deep_dwellers",
+      "tide_walkers",
+      "swamp_specimens",
       "absentee_protocol",
       "bog_hopper",
       "the_swamp",
@@ -59,7 +67,10 @@
       "shadow_stalker",
       "the_void",
       "apex_predator",
-      "apex_glimmer"
+      "apex_glimmer",
+      "unknown_signal",
+      "???",
+      "fragment"
     ],
     "suggested_action": "create_entity_profiles",
     "options": [
@@ -76,6 +87,6 @@
         "description": "If variant spelling, merge with existing entity"
       }
     ],
-    "kermit_note": "[KERMIT // UNPROMPTED] 17 unlinked entities detected in archive. Recommend profile creation."
+    "kermit_note": "[KERMIT // UNPROMPTED] 24 unlinked entities detected in archive. Recommend profile creation."
   }
 ]

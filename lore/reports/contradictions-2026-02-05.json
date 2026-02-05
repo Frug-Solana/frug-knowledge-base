@@ -1,8 +1,8 @@
 {
-  "scanned_at": "2026-02-04T20:03:32.022Z",
-  "total_chunks": 65,
-  "total_entities": 40,
-  "total_locations": 26,
+  "scanned_at": "2026-02-05T06:56:42.114Z",
+  "total_chunks": 70,
+  "total_entities": 48,
+  "total_locations": 28,
   "findings": {
     "temporal_conflicts": [
       {
@@ -42,6 +42,7 @@
           "LORE.TIME.0004",
           "LORE.TIME.0003",
           "LOC.DEGENORA.0001",
+          "LORE.LOC.0007",
           "SYS.TERMINAL_7B.0001"
         ],
         "truth_levels": [
@@ -49,6 +50,14 @@
           "canon"
         ],
         "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "big_frug",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
       },
       {
         "type": "truth_level_mismatch",
@@ -80,9 +89,11 @@
         "chunks": [
           "ENTITY.BIG_FRUG.0001",
           "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
           "ENTITY.FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "ENTITY.BIG_FRUG.0001",
           "CHAR.FRUG.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
@@ -100,6 +111,14 @@
         "description": "Same entity documented with different truth levels"
       },
       {
+        "type": "canon_uncertain",
+        "entity": "terminal_7b",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
         "type": "truth_level_mismatch",
         "entity": "kermit",
         "chunks": [
@@ -108,6 +127,7 @@
           "CHAR.BIG_FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.TOADDY.0001",
           "ENTITY.BIG_FRUG.0001",
           "CHAR.FRUG.0001",
@@ -129,6 +149,14 @@
         "description": "Same entity documented with different truth levels"
       },
       {
+        "type": "canon_uncertain",
+        "entity": "kermit",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
         "type": "truth_level_mismatch",
         "entity": "the_signal",
         "chunks": [
@@ -138,6 +166,49 @@
           "ORIGIN.SPEC.001",
           "TRANSMISSION.001",
           "ENTITY.FRUG.0001"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "c47_compound",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "dr_chen",
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LORE.LOC.0007"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "deep_dwellers",
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006"
         ],
         "truth_levels": [
           "canon",
@@ -189,6 +260,20 @@
         "truth_levels": [
           "record",
           "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "unknown_founders",
+        "chunks": [
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.LOC.0007"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
         ],
         "description": "Same entity documented with different truth levels"
       },
@@ -270,12 +355,6 @@
       },
       {
         "type": "entity",
-        "ref": "deep_dwellers",
-        "source": "LORE.LOC.0006",
-        "file": "chunks/LOCATIONS/coastal_sector.md"
-      },
-      {
-        "type": "entity",
         "ref": "tide_walkers",
         "source": "LORE.LOC.0006",
         "file": "chunks/LOCATIONS/coastal_sector.md"
@@ -351,6 +430,12 @@
         "ref": "fragment",
         "source": "LORE.TIME.CORR.0001",
         "file": "chunks/TIMELINE/year-corrupted-fragment.md"
+      },
+      {
+        "type": "entity",
+        "ref": "sealed_specimens",
+        "source": "LORE.LOC.0007",
+        "file": "pages/locations/underground_labs.md"
       }
     ],
     "missing_metadata": [
@@ -397,6 +482,7 @@
           "LORE.TIME.0004",
           "LORE.TIME.0003",
           "LOC.DEGENORA.0001",
+          "LORE.LOC.0007",
           "SYS.TERMINAL_7B.0001"
         ]
       },
@@ -418,9 +504,13 @@
           "ENTITY.BIG_FRUG.0001",
           "INDEX.CHARACTERS.0001",
           "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
           "ENTITY.FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.TOADDY.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
           "ENTITY.KERMIT.0001",
@@ -454,9 +544,11 @@
         "chunks": [
           "ENTITY.BIG_FRUG.0001",
           "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
           "ENTITY.FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.FRUG.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
           "ENTITY.KERMIT.0001",
@@ -477,6 +569,7 @@
           "CHAR.BIG_FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.TOADDY.0001",
           "CHAR.FRUG.0001",
           "ENTITY.KERMIT.0001",
@@ -513,6 +606,25 @@
           "CHAR.TOADDY.0001"
         ]
       },
+      "main_facility": {
+        "canonical_name": "main_facility",
+        "variants": [
+          "main_facility"
+        ],
+        "chunks": [
+          "CHAR.DR_CHEN.0001"
+        ]
+      },
+      "reversal_project": {
+        "canonical_name": "reversal_project",
+        "variants": [
+          "reversal_project"
+        ],
+        "chunks": [
+          "CHAR.DR_CHEN.0001",
+          "CHAR.RAMIREZ.0001"
+        ]
+      },
       "the_signal": {
         "canonical_name": "the_signal",
         "variants": [
@@ -524,6 +636,82 @@
           "LORE.PROTOCOL.0001",
           "ORIGIN.SPEC.001",
           "TRANSMISSION.001"
+        ]
+      },
+      "observation_house_04": {
+        "canonical_name": "observation_house_04",
+        "variants": [
+          "observation_house_04"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001"
+        ]
+      },
+      "coastal_sector": {
+        "canonical_name": "coastal_sector",
+        "variants": [
+          "coastal_sector"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001"
+        ]
+      },
+      "wetlands": {
+        "canonical_name": "wetlands",
+        "variants": [
+          "wetlands"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001"
+        ]
+      },
+      "c47_compound": {
+        "canonical_name": "c47_compound",
+        "variants": [
+          "c47_compound"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.SIGNAL.0001"
+        ]
+      },
+      "dr_chen": {
+        "canonical_name": "dr_chen",
+        "variants": [
+          "dr_chen"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LORE.LOC.0007"
+        ]
+      },
+      "deep_dwellers": {
+        "canonical_name": "deep_dwellers",
+        "variants": [
+          "deep_dwellers"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006"
+        ]
+      },
+      "all_specimens": {
+        "canonical_name": "all_specimens",
+        "variants": [
+          "all_specimens"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001"
         ]
       },
       "the_observer": {
@@ -571,23 +759,6 @@
         ],
         "chunks": [
           "LORE.DROP.0004"
-        ]
-      },
-      "dr_chen": {
-        "canonical_name": "dr_chen",
-        "variants": [
-          "dr_chen"
-        ],
-        "chunks": [
-          "LORE.REPT.0003",
-          "LORE.REPT.0004",
-          "LORE.LOC.0003",
-          "LORE.LOC.0004",
-          "LORE.TIME.ERA.0001",
-          "LORE.TIME.0001",
-          "LORE.TIME.0002",
-          "LORE.TIME.0004",
-          "LORE.TIME.0003"
         ]
       },
       "queen_of_shadows": {
@@ -654,15 +825,6 @@
           "LORE.HIST.0001"
         ]
       },
-      "deep_dwellers": {
-        "canonical_name": "deep_dwellers",
-        "variants": [
-          "deep_dwellers"
-        ],
-        "chunks": [
-          "LORE.LOC.0006"
-        ]
-      },
       "tide_walkers": {
         "canonical_name": "tide_walkers",
         "variants": [
@@ -690,7 +852,8 @@
         ],
         "chunks": [
           "LORE.LOC.0004",
-          "LORE.TIME.ERA.0001"
+          "LORE.TIME.ERA.0001",
+          "LORE.LOC.0007"
         ]
       },
       "swamp_specimens": {
@@ -820,6 +983,15 @@
         "chunks": [
           "LORE.TIME.CORR.0001"
         ]
+      },
+      "sealed_specimens": {
+        "canonical_name": "sealed_specimens",
+        "variants": [
+          "sealed_specimens"
+        ],
+        "chunks": [
+          "LORE.LOC.0007"
+        ]
       }
     },
     "locations": {
@@ -833,9 +1005,11 @@
           "INDEX.LORE.0001",
           "ENTITY.BIG_FRUG.0001",
           "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
           "ENTITY.FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.TOADDY.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
           "ENTITY.KERMIT.0001",
@@ -852,6 +1026,7 @@
           "LOC.DEGENORA.0001",
           "GLOSSARY.0001",
           "LORE.LOCATIONS.INDEX.0001",
+          "LORE.LOC.0007",
           "SYS.TERMINAL_7B.0001"
         ]
       },
@@ -887,6 +1062,7 @@
           "ENTITY.FRUG.0001",
           "CHAR.KERMIT.0001",
           "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
           "CHAR.TOADDY.0001",
           "ENTITY.KERMIT.0001",
           "LORE.DROP.0001",
@@ -911,6 +1087,8 @@
         "chunks": [
           "ENTITY.BIG_FRUG.0001",
           "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.QUEEN.0001",
           "ENTITY.BIG_FRUG.0001.HISTORICAL",
           "LORE.REPT.0003",
           "LORE.REPT.0004",
@@ -931,11 +1109,81 @@
           "main_facility"
         ],
         "chunks": [
+          "CHAR.DR_CHEN.0001",
+          "CHAR.RAMIREZ.0001",
           "ENTITY.KERMIT.0001",
           "LORE.LOC.0003",
           "LORE.LOC.0004",
           "LORE.TIME.ERA.0001",
-          "LORE.TIME.0001"
+          "LORE.TIME.0001",
+          "LORE.LOC.0007"
+        ]
+      },
+      "coastal_sector": {
+        "canonical_name": "coastal_sector",
+        "variants": [
+          "coastal_sector"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "wetlands": {
+        "canonical_name": "wetlands",
+        "variants": [
+          "wetlands"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "LORE.LOC.0003",
+          "LORE.LOC.0005",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "sector_7": {
+        "canonical_name": "sector_7",
+        "variants": [
+          "sector_7"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "LORE.DROP.0002"
+        ]
+      },
+      "underground_labs": {
+        "canonical_name": "underground_labs",
+        "variants": [
+          "underground_labs"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.SPEC.0004",
+          "LORE.LOC.0007"
+        ]
+      },
+      "sector_zero": {
+        "canonical_name": "sector_zero",
+        "variants": [
+          "sector_zero"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001",
+          "ENTITY.TERMINAL_7B.0001"
+        ]
+      },
+      "the_void": {
+        "canonical_name": "the_void",
+        "variants": [
+          "the_void"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001"
         ]
       },
       "degenora": {
@@ -951,15 +1199,6 @@
         "canonical_name": "greenhouse_3",
         "variants": [
           "greenhouse_3"
-        ],
-        "chunks": [
-          "LORE.DROP.0002"
-        ]
-      },
-      "sector_7": {
-        "canonical_name": "sector_7",
-        "variants": [
-          "sector_7"
         ],
         "chunks": [
           "LORE.DROP.0002"
@@ -985,17 +1224,6 @@
           "LORE.SPEC.0004"
         ]
       },
-      "coastal_sector": {
-        "canonical_name": "coastal_sector",
-        "variants": [
-          "coastal_sector"
-        ],
-        "chunks": [
-          "LORE.LOC.0006",
-          "LORE.LOC.0003",
-          "LORE.SPEC.0002"
-        ]
-      },
       "eastern_shore": {
         "canonical_name": "eastern_shore",
         "variants": [
@@ -1014,17 +1242,6 @@
           "LORE.LOC.0006"
         ]
       },
-      "wetlands": {
-        "canonical_name": "wetlands",
-        "variants": [
-          "wetlands"
-        ],
-        "chunks": [
-          "LORE.LOC.0003",
-          "LORE.LOC.0005",
-          "LORE.SPEC.0002"
-        ]
-      },
       "northern_sector": {
         "canonical_name": "northern_sector",
         "variants": [
@@ -1032,26 +1249,6 @@
         ],
         "chunks": [
           "LORE.LOC.0003"
-        ]
-      },
-      "underground_labs": {
-        "canonical_name": "underground_labs",
-        "variants": [
-          "underground_labs"
-        ],
-        "chunks": [
-          "LORE.LOC.0003",
-          "LORE.LOC.0004",
-          "LORE.SPEC.0004"
-        ]
-      },
-      "sector_zero": {
-        "canonical_name": "sector_zero",
-        "variants": [
-          "sector_zero"
-        ],
-        "chunks": [
-          "ENTITY.TERMINAL_7B.0001"
         ]
       },
       "swamp_sector": {
@@ -1125,6 +1322,15 @@
         "chunks": [
           "LOC.DEGENORA.0001"
         ]
+      },
+      "tank_chamber": {
+        "canonical_name": "tank_chamber",
+        "variants": [
+          "tank_chamber"
+        ],
+        "chunks": [
+          "LORE.LOC.0007"
+        ]
       }
     },
     "dates": [
@@ -1162,7 +1368,7 @@
   },
   "summary": {
     "temporal_conflicts": 1,
-    "entity_conflicts": 9,
+    "entity_conflicts": 16,
     "location_conflicts": 0,
     "orphan_refs": 24,
     "missing_metadata": 1,

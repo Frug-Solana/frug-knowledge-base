@@ -15,14 +15,17 @@ tags: ["meta", "todo"]
 
 ## Priority (next)
 - [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)
-  - ✅ wetlands.md — COMPLETE (Year 15, Month 1)
+  - [x] wetlands.md — Created with full location documentation
+  - [x] coastal_sector.md — Created with marine specimen habitat details  
+  - [x] underground_labs.md — Created with sealed facility documentation
 - [x] Add a `lore/pages/style_guide.md` (how to write pages consistently) — COMPLETE (2026-02-04)
 - [x] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
-  - ✅ dr-chen-profile.md — COMPLETE (2026-02-05)
-  - ✅ ramirez-profile.md — COMPLETE (2026-02-05)
-  - ✅ queen-of-shadows-profile.md — COMPLETE (2026-02-05)
-  - ✅ the-signal-profile.md — COMPLETE (2026-02-05)
+  - [x] dr-chen.md — Senior researcher, Reversal Project lead, mentor to Big Frug (departed Year 5)
+  - [x] ramirez.md — Patient Zero, first transformed, Year 2 sighting documented in FR-012
+  - [x] queen-of-shadows.md — C-47 enhanced sable fox, apex predator, maintains 40-foot observation boundary
+  - [x] the-signal.md — Anomalous broadcast phenomenon, transformative agent, island-wide intelligence
 
 ## Backlog
 - [ ] Add a light "index generator" (optional) that validates frontmatter and lists chunks by tags
 - [ ] Convert/ingest degenora-codex entries into chunked canon pages with explicit truth levels
+

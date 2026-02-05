@@ -1,0 +1,177 @@
+[
+  {
+    "id": "RES-1770274602115-zohy",
+    "priority": "high",
+    "type": "temporal_conflict",
+    "issue": "Temporal conflict on 2024-08",
+    "affected_chunks": [
+      "SPECIMEN.001",
+      "LOC.DEGENORA.0001",
+      "ENTITY.FRUG.0001"
+    ],
+    "suggested_action": "review_temporal_consistency",
+    "options": [
+      {
+        "action": "merge_narratives",
+        "description": "If same event, merge into single canonical account"
+      },
+      {
+        "action": "add_intentional_flag",
+        "description": "If intentional contradiction, add intentional_contradiction: true to metadata"
+      },
+      {
+        "action": "clarify_distinction",
+        "description": "If different events, add distinguishing context"
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities."
+  },
+  {
+    "id": "RES-1770274602115-0f6p",
+    "priority": "medium",
+    "type": "confidence_mismatch",
+    "issue": "Canon chunk with uncertain confidence",
+    "affected_chunks": [
+      "CHAR.SIGNAL.0001"
+    ],
+    "suggested_action": "update_metadata",
+    "options": [
+      {
+        "action": "elevate_confidence",
+        "description": "Update confidence to \"known\" with supporting sources"
+      },
+      {
+        "action": "demote_truth_level",
+        "description": "Change truth_level to \"record\" or \"rumor\""
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence."
+  },
+  {
+    "id": "RES-1770274602115-v8th",
+    "priority": "medium",
+    "type": "confidence_mismatch",
+    "issue": "Canon chunk with uncertain confidence",
+    "affected_chunks": [
+      "CHAR.SIGNAL.0001"
+    ],
+    "suggested_action": "update_metadata",
+    "options": [
+      {
+        "action": "elevate_confidence",
+        "description": "Update confidence to \"known\" with supporting sources"
+      },
+      {
+        "action": "demote_truth_level",
+        "description": "Change truth_level to \"record\" or \"rumor\""
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence."
+  },
+  {
+    "id": "RES-1770274602115-zg6c",
+    "priority": "medium",
+    "type": "confidence_mismatch",
+    "issue": "Canon chunk with uncertain confidence",
+    "affected_chunks": [
+      "CHAR.SIGNAL.0001"
+    ],
+    "suggested_action": "update_metadata",
+    "options": [
+      {
+        "action": "elevate_confidence",
+        "description": "Update confidence to \"known\" with supporting sources"
+      },
+      {
+        "action": "demote_truth_level",
+        "description": "Change truth_level to \"record\" or \"rumor\""
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence."
+  },
+  {
+    "id": "RES-1770274602115-0158",
+    "priority": "medium",
+    "type": "confidence_mismatch",
+    "issue": "Canon chunk with uncertain confidence",
+    "affected_chunks": [
+      "CHAR.SIGNAL.0001"
+    ],
+    "suggested_action": "update_metadata",
+    "options": [
+      {
+        "action": "elevate_confidence",
+        "description": "Update confidence to \"known\" with supporting sources"
+      },
+      {
+        "action": "demote_truth_level",
+        "description": "Change truth_level to \"record\" or \"rumor\""
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence."
+  },
+  {
+    "id": "RES-1770274602115-sgo9",
+    "priority": "low",
+    "type": "orphan_entities",
+    "issue": "24 entities mentioned only once",
+    "affected_chunks": [
+      "SPECIMEN.001",
+      "CHAR.FRUG.0001",
+      "LORE.DROP.0002",
+      "LORE.DROP.0004",
+      "LORE.HIST.0001",
+      "LORE.LOC.0006",
+      "LORE.LOC.0005",
+      "LORE.PROTOCOL.0001",
+      "ORIGIN.SPEC.001",
+      "ORIGIN.SPEC.003",
+      "ORIGIN.SPEC.002",
+      "LORE.SPEC.0001",
+      "LORE.TIME.CORR.0001",
+      "LORE.LOC.0007"
+    ],
+    "entities": [
+      "origin_pill",
+      "chili_root",
+      "the_observer",
+      "greenhouse_3",
+      "specimen",
+      "cafeteria_b",
+      "frog_coin",
+      "frug_token",
+      "flog",
+      "airdrop",
+      "tide_walkers",
+      "swamp_specimens",
+      "absentee_protocol",
+      "bog_hopper",
+      "the_swamp",
+      "ancient",
+      "shadow_stalker",
+      "the_void",
+      "apex_predator",
+      "apex_glimmer",
+      "unknown_signal",
+      "???",
+      "fragment",
+      "sealed_specimens"
+    ],
+    "suggested_action": "create_entity_profiles",
+    "options": [
+      {
+        "action": "create_profiles",
+        "description": "Create canonical entity definitions in lore/characters/ or lore/chunks/ENTITIES/"
+      },
+      {
+        "action": "cross_reference",
+        "description": "Add references to existing entity files"
+      },
+      {
+        "action": "consolidate",
+        "description": "If variant spelling, merge with existing entity"
+      }
+    ],
+    "kermit_note": "[KERMIT // UNPROMPTED] 24 unlinked entities detected in archive. Recommend profile creation."
+  }
+]

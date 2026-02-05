@@ -16,23 +16,23 @@
       ],
       "chunks": [
         "SPECIMEN.001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.REPT.0002",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
         "LORE.LOC.0002",
         "LORE.SPEC.0003",
         "LORE.SPEC.0002",
         "LORE.SPEC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LORE.TIME.0003",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
+        "LORE.LOC.0007",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -45,16 +45,44 @@
         "SPECIMEN.001"
       ]
     },
+    "big_frug": {
+      "canonical_name": "big_frug",
+      "variants": [
+        "big_frug"
+      ],
+      "chunks": [
+        "ENTITY.BIG_FRUG.0001",
+        "INDEX.CHARACTERS.0001",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.DR_CHEN.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.QUEEN.0001",
+        "CHAR.RAMIREZ.0001",
+        "CHAR.SIGNAL.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
+        "ENTITY.TERMINAL_7B.0001"
+      ]
+    },
     "frug": {
       "canonical_name": "frug",
       "variants": [
         "frug"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.DROP.0002",
-        "LOC.DEGENORA.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "INDEX.CHARACTERS.0001",
+        "CHAR.BIG_FRUG.0001",
         "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "LORE.DROP.0002",
+        "ENTITY.TERMINAL_7B.0001",
+        "LOC.DEGENORA.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -64,20 +92,20 @@
         "terminal_7b"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.DR_CHEN.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.SIGNAL.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
-        "LORE.LOC.0001",
+        "ENTITY.TERMINAL_7B.0001",
         "TRANSMISSION.001"
-      ]
-    },
-    "big_frug": {
-      "canonical_name": "big_frug",
-      "variants": [
-        "big_frug"
-      ],
-      "chunks": [
-        "INDEX.CHARACTERS.0001"
       ]
     },
     "kermit": {
@@ -86,11 +114,21 @@
         "kermit"
       ],
       "chunks": [
+        "ENTITY.BIG_FRUG.0001",
         "INDEX.CHARACTERS.0001",
-        "LORE.CHAR.0002",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.SIGNAL.0001",
+        "CHAR.TOADDY.0001",
+        "CHAR.FRUG.0001",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
+        "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.PROTOCOL.0001",
         "TRANSMISSION.001",
         "SYS.TERMINAL_7B.0001"
@@ -102,7 +140,9 @@
         "pondwatcher"
       ],
       "chunks": [
-        "INDEX.CHARACTERS.0001"
+        "INDEX.CHARACTERS.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001"
       ]
     },
     "toaddy": {
@@ -111,17 +151,126 @@
         "toaddy"
       ],
       "chunks": [
-        "INDEX.CHARACTERS.0001"
+        "INDEX.CHARACTERS.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.TOADDY.0001"
       ]
     },
-    "frugowski": {
-      "canonical_name": "frugowski",
+    "main_facility": {
+      "canonical_name": "main_facility",
       "variants": [
-        "frugowski"
+        "main_facility"
       ],
       "chunks": [
-        "LORE.CHAR.0001",
-        "LORE.PROTOCOL.0001"
+        "CHAR.DR_CHEN.0001"
+      ]
+    },
+    "reversal_project": {
+      "canonical_name": "reversal_project",
+      "variants": [
+        "reversal_project"
+      ],
+      "chunks": [
+        "CHAR.DR_CHEN.0001",
+        "CHAR.RAMIREZ.0001"
+      ]
+    },
+    "the_signal": {
+      "canonical_name": "the_signal",
+      "variants": [
+        "the_signal"
+      ],
+      "chunks": [
+        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
+        "LORE.PROTOCOL.0001",
+        "ORIGIN.SPEC.001",
+        "TRANSMISSION.001"
+      ]
+    },
+    "observation_house_04": {
+      "canonical_name": "observation_house_04",
+      "variants": [
+        "observation_house_04"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001"
+      ]
+    },
+    "coastal_sector": {
+      "canonical_name": "coastal_sector",
+      "variants": [
+        "coastal_sector"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001",
+        "CHAR.RAMIREZ.0001"
+      ]
+    },
+    "wetlands": {
+      "canonical_name": "wetlands",
+      "variants": [
+        "wetlands"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001"
+      ]
+    },
+    "c47_compound": {
+      "canonical_name": "c47_compound",
+      "variants": [
+        "c47_compound"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001",
+        "CHAR.SIGNAL.0001"
+      ]
+    },
+    "dr_chen": {
+      "canonical_name": "dr_chen",
+      "variants": [
+        "dr_chen"
+      ],
+      "chunks": [
+        "CHAR.RAMIREZ.0001",
+        "LORE.REPT.0003",
+        "LORE.REPT.0004",
+        "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
+        "LORE.TIME.0001",
+        "LORE.TIME.0002",
+        "LORE.TIME.0004",
+        "LORE.TIME.0003",
+        "LORE.LOC.0007"
+      ]
+    },
+    "deep_dwellers": {
+      "canonical_name": "deep_dwellers",
+      "variants": [
+        "deep_dwellers"
+      ],
+      "chunks": [
+        "CHAR.RAMIREZ.0001",
+        "LORE.LOC.0006"
+      ]
+    },
+    "all_specimens": {
+      "canonical_name": "all_specimens",
+      "variants": [
+        "all_specimens"
+      ],
+      "chunks": [
+        "CHAR.SIGNAL.0001"
+      ]
+    },
+    "the_observer": {
+      "canonical_name": "the_observer",
+      "variants": [
+        "the_observer"
+      ],
+      "chunks": [
+        "CHAR.FRUG.0001"
       ]
     },
     "observer": {
@@ -162,21 +311,6 @@
         "LORE.DROP.0004"
       ]
     },
-    "dr_chen": {
-      "canonical_name": "dr_chen",
-      "variants": [
-        "dr_chen"
-      ],
-      "chunks": [
-        "LORE.REPT.0003",
-        "LORE.REPT.0004",
-        "LORE.LOC.0003",
-        "LORE.TIME.0001",
-        "LORE.TIME.0002",
-        "LORE.TIME.0004",
-        "LORE.TIME.0003"
-      ]
-    },
     "queen_of_shadows": {
       "canonical_name": "queen_of_shadows",
       "variants": [
@@ -197,7 +331,10 @@
       "chunks": [
         "LORE.REPT.0004",
         "LORE.REPT.0002",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LORE.TIME.0004"
       ]
@@ -238,6 +375,46 @@
         "LORE.HIST.0001"
       ]
     },
+    "tide_walkers": {
+      "canonical_name": "tide_walkers",
+      "variants": [
+        "tide_walkers"
+      ],
+      "chunks": [
+        "LORE.LOC.0006"
+      ]
+    },
+    "frugowski": {
+      "canonical_name": "frugowski",
+      "variants": [
+        "frugowski"
+      ],
+      "chunks": [
+        "LORE.LOC.0006",
+        "LORE.LOC.0005",
+        "LORE.PROTOCOL.0001"
+      ]
+    },
+    "unknown_founders": {
+      "canonical_name": "unknown_founders",
+      "variants": [
+        "unknown_founders"
+      ],
+      "chunks": [
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
+        "LORE.LOC.0007"
+      ]
+    },
+    "swamp_specimens": {
+      "canonical_name": "swamp_specimens",
+      "variants": [
+        "swamp_specimens"
+      ],
+      "chunks": [
+        "LORE.LOC.0005"
+      ]
+    },
     "absentee_protocol": {
       "canonical_name": "absentee_protocol",
       "variants": [
@@ -245,17 +422,6 @@
       ],
       "chunks": [
         "LORE.PROTOCOL.0001"
-      ]
-    },
-    "the_signal": {
-      "canonical_name": "the_signal",
-      "variants": [
-        "the_signal"
-      ],
-      "chunks": [
-        "LORE.PROTOCOL.0001",
-        "ORIGIN.SPEC.001",
-        "TRANSMISSION.001"
       ]
     },
     "bog_hopper": {
@@ -340,6 +506,42 @@
       "chunks": [
         "LORE.SPEC.0001"
       ]
+    },
+    "unknown_signal": {
+      "canonical_name": "unknown_signal",
+      "variants": [
+        "unknown_signal"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
+    },
+    "": {
+      "canonical_name": "",
+      "variants": [
+        "???"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
+    },
+    "fragment": {
+      "canonical_name": "fragment",
+      "variants": [
+        "fragment"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
+      ]
+    },
+    "sealed_specimens": {
+      "canonical_name": "sealed_specimens",
+      "variants": [
+        "sealed_specimens"
+      ],
+      "chunks": [
+        "LORE.LOC.0007"
+      ]
     }
   },
   "locations": {
@@ -351,15 +553,30 @@
       "chunks": [
         "SPECIMEN.001",
         "INDEX.LORE.0001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.DR_CHEN.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.SIGNAL.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
+        "ENTITY.KERMIT.0001",
+        "LORE.LOC.0006",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
         "LORE.SPEC.0001",
         "LORE.SPEC.0003",
         "LORE.SPEC.0004",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
+        "GLOSSARY.0001",
+        "LORE.LOCATIONS.INDEX.0001",
+        "LORE.LOC.0007",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -390,17 +607,25 @@
       ],
       "chunks": [
         "INDEX.LORE.0001",
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0002",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "ENTITY.FRUG.0001",
+        "CHAR.KERMIT.0001",
+        "CHAR.PONDWATCHER.0001",
+        "CHAR.SIGNAL.0001",
+        "CHAR.TOADDY.0001",
+        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
         "LORE.DROP.0004",
         "LORE.LOC.0003",
-        "LORE.LOC.0001",
+        "LORE.LOC.0004",
+        "ENTITY.TERMINAL_7B.0001",
+        "LORE.LOC.0005",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LOC.DEGENORA.0001",
-        "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -410,14 +635,19 @@
         "observation_house_04"
       ],
       "chunks": [
-        "CHAR.BIG_FRUGOWSKI.0001",
-        "LORE.CHAR.0001",
+        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
+        "CHAR.DR_CHEN.0001",
+        "CHAR.QUEEN.0001",
+        "ENTITY.BIG_FRUG.0001.HISTORICAL",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.LOC.0003",
+        "LORE.LOC.0004",
         "LORE.LOC.0002",
         "LORE.SPEC.0003",
+        "LORE.TIME.ERA.0001",
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LORE.TIME.0003"
@@ -429,9 +659,81 @@
         "main_facility"
       ],
       "chunks": [
-        "LORE.CHAR.0002",
+        "CHAR.DR_CHEN.0001",
+        "CHAR.RAMIREZ.0001",
+        "ENTITY.KERMIT.0001",
         "LORE.LOC.0003",
-        "LORE.TIME.0001"
+        "LORE.LOC.0004",
+        "LORE.TIME.ERA.0001",
+        "LORE.TIME.0001",
+        "LORE.LOC.0007"
+      ]
+    },
+    "coastal_sector": {
+      "canonical_name": "coastal_sector",
+      "variants": [
+        "coastal_sector"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001",
+        "CHAR.RAMIREZ.0001",
+        "LORE.LOC.0006",
+        "LORE.LOC.0003",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "wetlands": {
+      "canonical_name": "wetlands",
+      "variants": [
+        "wetlands"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001",
+        "LORE.LOC.0003",
+        "LORE.LOC.0005",
+        "LORE.SPEC.0002"
+      ]
+    },
+    "sector_7": {
+      "canonical_name": "sector_7",
+      "variants": [
+        "sector_7"
+      ],
+      "chunks": [
+        "CHAR.QUEEN.0001",
+        "LORE.DROP.0002"
+      ]
+    },
+    "underground_labs": {
+      "canonical_name": "underground_labs",
+      "variants": [
+        "underground_labs"
+      ],
+      "chunks": [
+        "CHAR.RAMIREZ.0001",
+        "LORE.LOC.0003",
+        "LORE.LOC.0004",
+        "LORE.SPEC.0004",
+        "LORE.LOC.0007"
+      ]
+    },
+    "sector_zero": {
+      "canonical_name": "sector_zero",
+      "variants": [
+        "sector_zero"
+      ],
+      "chunks": [
+        "CHAR.SIGNAL.0001",
+        "ENTITY.TERMINAL_7B.0001"
+      ]
+    },
+    "the_void": {
+      "canonical_name": "the_void",
+      "variants": [
+        "the_void"
+      ],
+      "chunks": [
+        "CHAR.SIGNAL.0001"
       ]
     },
     "degenora": {
@@ -447,15 +749,6 @@
       "canonical_name": "greenhouse_3",
       "variants": [
         "greenhouse_3"
-      ],
-      "chunks": [
-        "LORE.DROP.0002"
-      ]
-    },
-    "sector_7": {
-      "canonical_name": "sector_7",
-      "variants": [
-        "sector_7"
       ],
       "chunks": [
         "LORE.DROP.0002"
@@ -481,24 +774,22 @@
         "LORE.SPEC.0004"
       ]
     },
-    "wetlands": {
-      "canonical_name": "wetlands",
+    "eastern_shore": {
+      "canonical_name": "eastern_shore",
       "variants": [
-        "wetlands"
+        "eastern_shore"
       ],
       "chunks": [
-        "LORE.LOC.0003",
-        "LORE.SPEC.0002"
+        "LORE.LOC.0006"
       ]
     },
-    "coastal_sector": {
-      "canonical_name": "coastal_sector",
+    "northern_cliffs": {
+      "canonical_name": "northern_cliffs",
       "variants": [
-        "coastal_sector"
+        "northern_cliffs"
       ],
       "chunks": [
-        "LORE.LOC.0003",
-        "LORE.SPEC.0002"
+        "LORE.LOC.0006"
       ]
     },
     "northern_sector": {
@@ -510,14 +801,13 @@
         "LORE.LOC.0003"
       ]
     },
-    "underground_labs": {
-      "canonical_name": "underground_labs",
+    "swamp_sector": {
+      "canonical_name": "swamp_sector",
       "variants": [
-        "underground_labs"
+        "swamp_sector"
       ],
       "chunks": [
-        "LORE.LOC.0003",
-        "LORE.SPEC.0004"
+        "LORE.LOC.0005"
       ]
     },
     "forest": {
@@ -536,6 +826,15 @@
       ],
       "chunks": [
         "LORE.SPEC.0002"
+      ]
+    },
+    "signal_origin_unknown": {
+      "canonical_name": "signal_origin_unknown",
+      "variants": [
+        "signal_origin_unknown"
+      ],
+      "chunks": [
+        "LORE.TIME.CORR.0001"
       ]
     },
     "the_rise": {
@@ -572,6 +871,15 @@
       ],
       "chunks": [
         "LOC.DEGENORA.0001"
+      ]
+    },
+    "tank_chamber": {
+      "canonical_name": "tank_chamber",
+      "variants": [
+        "tank_chamber"
+      ],
+      "chunks": [
+        "LORE.LOC.0007"
       ]
     }
   },
