@@ -19,8 +19,13 @@ tags: ["meta", "todo"]
   - [x] coastal_sector.md — Created with marine specimen habitat details
   - [x] underground_labs.md — Created with sealed facility documentation
 - [ ] Section D: Characters/Factions — Create profiles for Dr. Chen, Ramirez, Queen of Shadows, The Signal
+  - [x] dr-chen.md — Senior researcher, Reversal Project lead, mentor to Big Frug (departed Year 5)
+  - [ ] ramirez.md — Pending
+  - [ ] queen-of-shadows.md — Pending
+  - [ ] the-signal.md — Pending
 - [ ] Add a `lore/pages/style_guide.md` (how to write pages consistently)
 
 ## Backlog
 - [ ] Add a light "index generator" (optional) that validates frontmatter and lists chunks by tags
 - [ ] Convert/ingest degenora-codex entries into chunked canon pages with explicit truth levels
+
