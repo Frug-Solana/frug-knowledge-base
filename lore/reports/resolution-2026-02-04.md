@@ -1,7 +1,7 @@
 # Lore Reconciliation Resolution
 
 **Generated:** 2026-02-04T16:15:00+02:00  
-**Agent:** lore  
+**Author:** Lore Team  
 **Report Basis:** contradictions-2026-02-04.md
 
 ---

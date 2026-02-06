@@ -1,7 +1,7 @@
 # Canon Reconciliation Report
 
 **Date:** 2026-02-04  
-**Agent:** lore  
+**Author:** Lore Team  
 **Resolution ID:** RECON-2026-02-04-001
 
 ---
