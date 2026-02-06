@@ -4,8 +4,6 @@
  * 
  * Detects lore conflicts and generates resolution patches.
  * Run: node scripts/scan-contradictions.js
- * 
- * Issue #31: Lore consistency - contradiction scanner + canon reconciler
  */
 
 import fs from 'fs';

@@ -1,7 +1,7 @@
 {
   "name": "frug-knowledge-base",
   "version": "1.1.0",
-  "description": "Canonical lore and documentation archive for Degenora Island - Issue #31: Contradiction scanner + canon reconciler",
+  "description": "Canonical lore and documentation archive for Degenora Island with contradiction scanner and canon reconciler",
   "scripts": {
     "sync": "node scripts/sync-canon.js",
     "scan": "node scripts/scan-contradictions.js",
