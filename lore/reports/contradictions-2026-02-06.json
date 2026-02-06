@@ -1,0 +1,2201 @@
+{
+  "scanned_at": "2026-02-06T11:25:58.460Z",
+  "total_chunks": 92,
+  "total_entities": 77,
+  "total_locations": 58,
+  "findings": {
+    "temporal_conflicts": [
+      {
+        "date": "2024-08",
+        "date_type": "absolute",
+        "chunks": [
+          "SPECIMEN.001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001"
+        ],
+        "shared_entities": [
+          "big_frugowski",
+          "frug"
+        ],
+        "description": "Same date reference with shared entities - potential narrative conflict"
+      }
+    ],
+    "entity_conflicts": [
+      {
+        "type": "truth_level_mismatch",
+        "entity": "big_frugowski",
+        "chunks": [
+          "SPECIMEN.001",
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.REPT.0001",
+          "LORE.REPT.0002",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.LOC.0002",
+          "LORE.LOC.0005",
+          "SPECIMEN.DOSSIER.002",
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003",
+          "LORE.SPEC.0002",
+          "LORE.SPEC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LOC.DEGENORA.0001",
+          "LORE.LOC.0007",
+          "SYS.TERMINAL_7B.0001"
+        ],
+        "truth_levels": [
+          "record",
+          "rumor",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "big_frug",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "frug",
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "INDEX.CHARACTERS.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "CHAR.KERMIT.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0002",
+          "ENTITY.TERMINAL_7B.0001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001",
+          "SYS.TERMINAL_7B.0001"
+        ],
+        "truth_levels": [
+          "canon",
+          "rumor"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "terminal_7b",
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "CHAR.KERMIT.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.HIST.0002",
+          "ENTITY.TERMINAL_7B.0001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002",
+          "ENTITY.FRUG.0001"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "terminal_7b",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "kermit",
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "INDEX.CHARACTERS.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.TOADDY.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "ENTITY.TERMINAL_7B.0001",
+          "LORE.PROTOCOL.0001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002",
+          "SYS.TERMINAL_7B.0001"
+        ],
+        "truth_levels": [
+          "canon",
+          "rumor",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "kermit",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "the_signal",
+        "chunks": [
+          "CHAR.FRUG.0001",
+          "CHAR.FRUG.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0005",
+          "LORE.HIST.0002",
+          "LORE.PROTOCOL.0001",
+          "ORIGIN.SPEC.001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002"
+        ],
+        "truth_levels": [
+          "canon",
+          "rumor",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "canon_uncertain",
+        "entity": "c47_compound",
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ],
+        "description": "Canon truth level but confidence is not \"known\""
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "dr_chen",
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "ENTITY.DR_CHEN.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LORE.LOC.0007"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "deep_dwellers",
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.LOC.0005"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "frugowski",
+        "chunks": [
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "ENTITY.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.PROTOCOL.0001",
+          "TRANSMISSION.002"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "queen_of_shadows",
+        "chunks": [
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "LORE.REPT.0004",
+          "LORE.REPT.0001",
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003",
+          "LORE.TIME.0004"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "ramirez",
+        "chunks": [
+          "ENTITY.RAMIREZ.0001",
+          "LORE.REPT.0004",
+          "LORE.REPT.0002",
+          "LORE.HIST.0002",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0004"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "observer",
+        "chunks": [
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "bog_hopper",
+        "chunks": [
+          "LORE.DROP.0005",
+          "ORIGIN.SPEC.001",
+          "SPECIMEN.DOSSIER.002"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "unknown_founders",
+        "chunks": [
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.LOC.0007"
+        ],
+        "truth_levels": [
+          "canon",
+          "record"
+        ],
+        "description": "Same entity documented with different truth levels"
+      },
+      {
+        "type": "truth_level_mismatch",
+        "entity": "deep_dweller",
+        "chunks": [
+          "ORIGIN.SPEC.003",
+          "LORE.SPEC.0002"
+        ],
+        "truth_levels": [
+          "record",
+          "canon"
+        ],
+        "description": "Same entity documented with different truth levels"
+      }
+    ],
+    "location_conflicts": [],
+    "orphan_refs": [
+      {
+        "type": "entity",
+        "ref": "origin_pill",
+        "source": "SPECIMEN.001",
+        "file": "001-origin-pill.md"
+      },
+      {
+        "type": "entity",
+        "ref": "chili_root",
+        "source": "SPECIMEN.001",
+        "file": "001-origin-pill.md"
+      },
+      {
+        "type": "entity",
+        "ref": "the_observer",
+        "source": "CHAR.FRUG.0001",
+        "file": "chunks/CHARACTERS/frug-observer-profile.md"
+      },
+      {
+        "type": "entity",
+        "ref": "greenhouse_3",
+        "source": "LORE.DROP.0002",
+        "file": "chunks/DROPS/drop-0002-greenhouse.md"
+      },
+      {
+        "type": "entity",
+        "ref": "specimen",
+        "source": "LORE.DROP.0002",
+        "file": "chunks/DROPS/drop-0002-greenhouse.md"
+      },
+      {
+        "type": "entity",
+        "ref": "cafeteria_b",
+        "source": "LORE.DROP.0004",
+        "file": "chunks/DROPS/drop-0004-cafeteria-menu.md"
+      },
+      {
+        "type": "entity",
+        "ref": "observer_472",
+        "source": "LORE.DROP.0005",
+        "file": "chunks/DROPS/drop-0005-wetlands-anomaly.md"
+      },
+      {
+        "type": "entity",
+        "ref": "wetlands_sector",
+        "source": "LORE.DROP.0005",
+        "file": "chunks/DROPS/drop-0005-wetlands-anomaly.md"
+      },
+      {
+        "type": "entity",
+        "ref": "frog_coin",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "frug_token",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "flog",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "airdrop",
+        "source": "LORE.HIST.0001",
+        "file": "chunks/HISTORY/the-rug-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "tide_walkers",
+        "source": "LORE.LOC.0006",
+        "file": "chunks/LOCATIONS/coastal_sector.md"
+      },
+      {
+        "type": "entity",
+        "ref": "bog_hoppers",
+        "source": "LORE.LOC.0005",
+        "file": "chunks/LOCATIONS/wetlands.md"
+      },
+      {
+        "type": "entity",
+        "ref": "sludge_crawlers",
+        "source": "LORE.LOC.0005",
+        "file": "chunks/LOCATIONS/wetlands.md"
+      },
+      {
+        "type": "entity",
+        "ref": "absentee_protocol",
+        "source": "LORE.PROTOCOL.0001",
+        "file": "chunks/LORE.PROTOCOL.0001.md"
+      },
+      {
+        "type": "entity",
+        "ref": "the_swamp",
+        "source": "ORIGIN.SPEC.003",
+        "file": "chunks/ORIGINS/deep-dweller-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "ancient",
+        "source": "ORIGIN.SPEC.003",
+        "file": "chunks/ORIGINS/deep-dweller-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "shadow_stalker",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "the_void",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "apex_predator",
+        "source": "ORIGIN.SPEC.002",
+        "file": "chunks/ORIGINS/shadow-stalker-origin.md"
+      },
+      {
+        "type": "entity",
+        "ref": "mycelia_synchronis",
+        "source": "SPECIMEN.DOSSIER.001",
+        "file": "chunks/SPECIMENS/dossier-001-signal-fungus.md"
+      },
+      {
+        "type": "entity",
+        "ref": "signal_resonant_fungus",
+        "source": "SPECIMEN.DOSSIER.001",
+        "file": "chunks/SPECIMENS/dossier-001-signal-fungus.md"
+      },
+      {
+        "type": "entity",
+        "ref": "field_researcher_vex",
+        "source": "SPECIMEN.DOSSIER.001",
+        "file": "chunks/SPECIMENS/dossier-001-signal-fungus.md"
+      },
+      {
+        "type": "entity",
+        "ref": "ranidae_saltator",
+        "source": "SPECIMEN.DOSSIER.002",
+        "file": "chunks/SPECIMENS/dossier-002-bog-hopper.md"
+      },
+      {
+        "type": "entity",
+        "ref": "vulpes_sapiens",
+        "source": "SPECIMEN.DOSSIER.003",
+        "file": "chunks/SPECIMENS/dossier-003-queen-of-shadows.md"
+      },
+      {
+        "type": "entity",
+        "ref": "sable_fox",
+        "source": "SPECIMEN.DOSSIER.003",
+        "file": "chunks/SPECIMENS/dossier-003-queen-of-shadows.md"
+      },
+      {
+        "type": "entity",
+        "ref": "larva_bioluminis",
+        "source": "SPECIMEN.DOSSIER.004",
+        "file": "chunks/SPECIMENS/dossier-004-luminescent-larvae.md"
+      },
+      {
+        "type": "entity",
+        "ref": "luminescent_larvae",
+        "source": "SPECIMEN.DOSSIER.004",
+        "file": "chunks/SPECIMENS/dossier-004-luminescent-larvae.md"
+      },
+      {
+        "type": "entity",
+        "ref": "field_researcher_chen",
+        "source": "SPECIMEN.DOSSIER.004",
+        "file": "chunks/SPECIMENS/dossier-004-luminescent-larvae.md"
+      },
+      {
+        "type": "entity",
+        "ref": "vipera_insulae",
+        "source": "SPECIMEN.DOSSIER.005",
+        "file": "chunks/SPECIMENS/dossier-005-island-serpent.md"
+      },
+      {
+        "type": "entity",
+        "ref": "island_serpent",
+        "source": "SPECIMEN.DOSSIER.005",
+        "file": "chunks/SPECIMENS/dossier-005-island-serpent.md"
+      },
+      {
+        "type": "entity",
+        "ref": "medical_officer_reyes",
+        "source": "SPECIMEN.DOSSIER.005",
+        "file": "chunks/SPECIMENS/dossier-005-island-serpent.md"
+      },
+      {
+        "type": "entity",
+        "ref": "ambulatores_aestus",
+        "source": "SPECIMEN.DOSSIER.006",
+        "file": "chunks/SPECIMENS/dossier-006-tide-walker.md"
+      },
+      {
+        "type": "entity",
+        "ref": "tide_walker",
+        "source": "SPECIMEN.DOSSIER.006",
+        "file": "chunks/SPECIMENS/dossier-006-tide-walker.md"
+      },
+      {
+        "type": "entity",
+        "ref": "coastal_survivor_logs",
+        "source": "SPECIMEN.DOSSIER.006",
+        "file": "chunks/SPECIMENS/dossier-006-tide-walker.md"
+      },
+      {
+        "type": "entity",
+        "ref": "umbrascens_reptilia",
+        "source": "SPECIMEN.DOSSIER.007",
+        "file": "chunks/SPECIMENS/dossier-007-void-crawler.md"
+      },
+      {
+        "type": "entity",
+        "ref": "void_crawler",
+        "source": "SPECIMEN.DOSSIER.007",
+        "file": "chunks/SPECIMENS/dossier-007-void-crawler.md"
+      },
+      {
+        "type": "entity",
+        "ref": "survivor_journal_author",
+        "source": "SPECIMEN.DOSSIER.007",
+        "file": "chunks/SPECIMENS/dossier-007-void-crawler.md"
+      },
+      {
+        "type": "entity",
+        "ref": "vocalis_vacua",
+        "source": "SPECIMEN.DOSSIER.028",
+        "file": "chunks/SPECIMENS/dossier-028-hollow-choir.md"
+      },
+      {
+        "type": "entity",
+        "ref": "hollow_choir",
+        "source": "SPECIMEN.DOSSIER.028",
+        "file": "chunks/SPECIMENS/dossier-028-hollow-choir.md"
+      },
+      {
+        "type": "entity",
+        "ref": "expedition_team_theta",
+        "source": "SPECIMEN.DOSSIER.028",
+        "file": "chunks/SPECIMENS/dossier-028-hollow-choir.md"
+      },
+      {
+        "type": "entity",
+        "ref": "archivist_kael",
+        "source": "SPECIMEN.DOSSIER.028",
+        "file": "chunks/SPECIMENS/dossier-028-hollow-choir.md"
+      },
+      {
+        "type": "entity",
+        "ref": "signal_drake",
+        "source": "SPECIMEN.DOSSIER.031",
+        "file": "chunks/SPECIMENS/dossier-031-signal-drake-hatchling.md"
+      },
+      {
+        "type": "entity",
+        "ref": "draco_telemetrica",
+        "source": "SPECIMEN.DOSSIER.031",
+        "file": "chunks/SPECIMENS/dossier-031-signal-drake-hatchling.md"
+      },
+      {
+        "type": "entity",
+        "ref": "ruin_scavengers",
+        "source": "SPECIMEN.DOSSIER.031",
+        "file": "chunks/SPECIMENS/dossier-031-signal-drake-hatchling.md"
+      },
+      {
+        "type": "entity",
+        "ref": "bioengineer_voss",
+        "source": "SPECIMEN.DOSSIER.031",
+        "file": "chunks/SPECIMENS/dossier-031-signal-drake-hatchling.md"
+      },
+      {
+        "type": "entity",
+        "ref": "apex_glimmer",
+        "source": "LORE.SPEC.0001",
+        "file": "chunks/SPECIMENS/specimens-apex.md"
+      },
+      {
+        "type": "entity",
+        "ref": "unknown_signal",
+        "source": "LORE.TIME.CORR.0001",
+        "file": "chunks/TIMELINE/year-corrupted-fragment.md"
+      },
+      {
+        "type": "entity",
+        "ref": "???",
+        "source": "LORE.TIME.CORR.0001",
+        "file": "chunks/TIMELINE/year-corrupted-fragment.md"
+      },
+      {
+        "type": "entity",
+        "ref": "fragment",
+        "source": "LORE.TIME.CORR.0001",
+        "file": "chunks/TIMELINE/year-corrupted-fragment.md"
+      },
+      {
+        "type": "entity",
+        "ref": "sealed_specimens",
+        "source": "LORE.LOC.0007",
+        "file": "pages/locations/underground_labs.md"
+      }
+    ],
+    "missing_metadata": [
+      {
+        "file": "README.md",
+        "issue": "No frontmatter found"
+      },
+      {
+        "file": "chunks/SPECIMENS/dossier-015-crystal-memory.md",
+        "issue": "No frontmatter found"
+      }
+    ],
+    "cross_ref_issues": [],
+    "naming_inconsistencies": [
+      {
+        "entity_base": "observer",
+        "variants": [
+          "observer",
+          "observer_472"
+        ],
+        "affected_chunks": [
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004",
+          "LORE.DROP.0005"
+        ]
+      }
+    ],
+    "timeline_gaps": []
+  },
+  "canon_index": {
+    "entities": {
+      "origin_pill": {
+        "canonical_name": "origin_pill",
+        "variants": [
+          "origin_pill"
+        ],
+        "chunks": [
+          "SPECIMEN.001"
+        ]
+      },
+      "big_frugowski": {
+        "canonical_name": "big_frugowski",
+        "variants": [
+          "big_frugowski"
+        ],
+        "chunks": [
+          "SPECIMEN.001",
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.REPT.0001",
+          "LORE.REPT.0002",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.LOC.0002",
+          "LORE.LOC.0005",
+          "SPECIMEN.DOSSIER.002",
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003",
+          "LORE.SPEC.0002",
+          "LORE.SPEC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LOC.DEGENORA.0001",
+          "LORE.LOC.0007",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "chili_root": {
+        "canonical_name": "chili_root",
+        "variants": [
+          "chili_root"
+        ],
+        "chunks": [
+          "SPECIMEN.001"
+        ]
+      },
+      "big_frug": {
+        "canonical_name": "big_frug",
+        "variants": [
+          "big_frug"
+        ],
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "INDEX.CHARACTERS.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.TOADDY.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "ENTITY.TERMINAL_7B.0001",
+          "ENTITY.FRUG.0001"
+        ]
+      },
+      "frug": {
+        "canonical_name": "frug",
+        "variants": [
+          "frug"
+        ],
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "INDEX.CHARACTERS.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0002",
+          "ENTITY.TERMINAL_7B.0001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "terminal_7b": {
+        "canonical_name": "terminal_7b",
+        "variants": [
+          "terminal_7b"
+        ],
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.HIST.0002",
+          "ENTITY.TERMINAL_7B.0001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002",
+          "ENTITY.FRUG.0001"
+        ]
+      },
+      "kermit": {
+        "canonical_name": "kermit",
+        "variants": [
+          "kermit"
+        ],
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "INDEX.CHARACTERS.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.TOADDY.0001",
+          "CHAR.FRUG.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "ENTITY.TERMINAL_7B.0001",
+          "LORE.PROTOCOL.0001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "pondwatcher": {
+        "canonical_name": "pondwatcher",
+        "variants": [
+          "pondwatcher"
+        ],
+        "chunks": [
+          "INDEX.CHARACTERS.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.TOADDY.0001"
+        ]
+      },
+      "toaddy": {
+        "canonical_name": "toaddy",
+        "variants": [
+          "toaddy"
+        ],
+        "chunks": [
+          "INDEX.CHARACTERS.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.TOADDY.0001"
+        ]
+      },
+      "main_facility": {
+        "canonical_name": "main_facility",
+        "variants": [
+          "main_facility"
+        ],
+        "chunks": [
+          "CHAR.DR_CHEN.0001"
+        ]
+      },
+      "reversal_project": {
+        "canonical_name": "reversal_project",
+        "variants": [
+          "reversal_project"
+        ],
+        "chunks": [
+          "CHAR.DR_CHEN.0001",
+          "CHAR.RAMIREZ.0001"
+        ]
+      },
+      "the_signal": {
+        "canonical_name": "the_signal",
+        "variants": [
+          "the_signal"
+        ],
+        "chunks": [
+          "CHAR.FRUG.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0005",
+          "LORE.HIST.0002",
+          "LORE.PROTOCOL.0001",
+          "ORIGIN.SPEC.001",
+          "TRANSMISSION.001",
+          "TRANSMISSION.002"
+        ]
+      },
+      "observation_house_04": {
+        "canonical_name": "observation_house_04",
+        "variants": [
+          "observation_house_04"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001"
+        ]
+      },
+      "coastal_sector": {
+        "canonical_name": "coastal_sector",
+        "variants": [
+          "coastal_sector"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001"
+        ]
+      },
+      "wetlands": {
+        "canonical_name": "wetlands",
+        "variants": [
+          "wetlands"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001"
+        ]
+      },
+      "c47_compound": {
+        "canonical_name": "c47_compound",
+        "variants": [
+          "c47_compound"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.SIGNAL.0001"
+        ]
+      },
+      "dr_chen": {
+        "canonical_name": "dr_chen",
+        "variants": [
+          "dr_chen"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "ENTITY.DR_CHEN.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003",
+          "LORE.LOC.0007"
+        ]
+      },
+      "deep_dwellers": {
+        "canonical_name": "deep_dwellers",
+        "variants": [
+          "deep_dwellers"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.LOC.0005"
+        ]
+      },
+      "all_specimens": {
+        "canonical_name": "all_specimens",
+        "variants": [
+          "all_specimens"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ]
+      },
+      "frugowski": {
+        "canonical_name": "frugowski",
+        "variants": [
+          "frugowski"
+        ],
+        "chunks": [
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "ENTITY.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.PROTOCOL.0001",
+          "TRANSMISSION.002"
+        ]
+      },
+      "the_observer": {
+        "canonical_name": "the_observer",
+        "variants": [
+          "the_observer"
+        ],
+        "chunks": [
+          "CHAR.FRUG.0001"
+        ]
+      },
+      "queen_of_shadows": {
+        "canonical_name": "queen_of_shadows",
+        "variants": [
+          "queen_of_shadows"
+        ],
+        "chunks": [
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "LORE.REPT.0004",
+          "LORE.REPT.0001",
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003",
+          "LORE.TIME.0004"
+        ]
+      },
+      "ramirez": {
+        "canonical_name": "ramirez",
+        "variants": [
+          "ramirez"
+        ],
+        "chunks": [
+          "ENTITY.RAMIREZ.0001",
+          "LORE.REPT.0004",
+          "LORE.REPT.0002",
+          "LORE.HIST.0002",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.TIME.0004"
+        ]
+      },
+      "observer": {
+        "canonical_name": "observer",
+        "variants": [
+          "observer"
+        ],
+        "chunks": [
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004"
+        ]
+      },
+      "greenhouse_3": {
+        "canonical_name": "greenhouse_3",
+        "variants": [
+          "greenhouse_3"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "specimen": {
+        "canonical_name": "specimen",
+        "variants": [
+          "specimen"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "cafeteria_b": {
+        "canonical_name": "cafeteria_b",
+        "variants": [
+          "cafeteria_b"
+        ],
+        "chunks": [
+          "LORE.DROP.0004"
+        ]
+      },
+      "observer_472": {
+        "canonical_name": "observer_472",
+        "variants": [
+          "observer_472"
+        ],
+        "chunks": [
+          "LORE.DROP.0005"
+        ]
+      },
+      "wetlands_sector": {
+        "canonical_name": "wetlands_sector",
+        "variants": [
+          "wetlands_sector"
+        ],
+        "chunks": [
+          "LORE.DROP.0005"
+        ]
+      },
+      "bog_hopper": {
+        "canonical_name": "bog_hopper",
+        "variants": [
+          "bog_hopper"
+        ],
+        "chunks": [
+          "LORE.DROP.0005",
+          "ORIGIN.SPEC.001",
+          "SPECIMEN.DOSSIER.002"
+        ]
+      },
+      "frog_coin": {
+        "canonical_name": "frog_coin",
+        "variants": [
+          "frog_coin"
+        ],
+        "chunks": [
+          "LORE.HIST.0001"
+        ]
+      },
+      "frug_token": {
+        "canonical_name": "frug_token",
+        "variants": [
+          "frug_token"
+        ],
+        "chunks": [
+          "LORE.HIST.0001"
+        ]
+      },
+      "flog": {
+        "canonical_name": "flog",
+        "variants": [
+          "flog"
+        ],
+        "chunks": [
+          "LORE.HIST.0001"
+        ]
+      },
+      "airdrop": {
+        "canonical_name": "airdrop",
+        "variants": [
+          "airdrop"
+        ],
+        "chunks": [
+          "LORE.HIST.0001"
+        ]
+      },
+      "tide_walkers": {
+        "canonical_name": "tide_walkers",
+        "variants": [
+          "tide_walkers"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "unknown_founders": {
+        "canonical_name": "unknown_founders",
+        "variants": [
+          "unknown_founders"
+        ],
+        "chunks": [
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.LOC.0007"
+        ]
+      },
+      "bog_hoppers": {
+        "canonical_name": "bog_hoppers",
+        "variants": [
+          "bog_hoppers"
+        ],
+        "chunks": [
+          "LORE.LOC.0005"
+        ]
+      },
+      "sludge_crawlers": {
+        "canonical_name": "sludge_crawlers",
+        "variants": [
+          "sludge_crawlers"
+        ],
+        "chunks": [
+          "LORE.LOC.0005"
+        ]
+      },
+      "absentee_protocol": {
+        "canonical_name": "absentee_protocol",
+        "variants": [
+          "absentee_protocol"
+        ],
+        "chunks": [
+          "LORE.PROTOCOL.0001"
+        ]
+      },
+      "green_pond": {
+        "canonical_name": "green_pond",
+        "variants": [
+          "green_pond"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.001",
+          "ORIGIN.SPEC.003"
+        ]
+      },
+      "deep_dweller": {
+        "canonical_name": "deep_dweller",
+        "variants": [
+          "deep_dweller"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.003",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "the_swamp": {
+        "canonical_name": "the_swamp",
+        "variants": [
+          "the_swamp"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.003"
+        ]
+      },
+      "ancient": {
+        "canonical_name": "ancient",
+        "variants": [
+          "ancient"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.003"
+        ]
+      },
+      "shadow_stalker": {
+        "canonical_name": "shadow_stalker",
+        "variants": [
+          "shadow_stalker"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.002"
+        ]
+      },
+      "the_void": {
+        "canonical_name": "the_void",
+        "variants": [
+          "the_void"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.002"
+        ]
+      },
+      "apex_predator": {
+        "canonical_name": "apex_predator",
+        "variants": [
+          "apex_predator"
+        ],
+        "chunks": [
+          "ORIGIN.SPEC.002"
+        ]
+      },
+      "mycelia_synchronis": {
+        "canonical_name": "mycelia_synchronis",
+        "variants": [
+          "mycelia_synchronis"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "signal_resonant_fungus": {
+        "canonical_name": "signal_resonant_fungus",
+        "variants": [
+          "signal_resonant_fungus"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "field_researcher_vex": {
+        "canonical_name": "field_researcher_vex",
+        "variants": [
+          "field_researcher_vex"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "ranidae_saltator": {
+        "canonical_name": "ranidae_saltator",
+        "variants": [
+          "ranidae_saltator"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.002"
+        ]
+      },
+      "vulpes_sapiens": {
+        "canonical_name": "vulpes_sapiens",
+        "variants": [
+          "vulpes_sapiens"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.003"
+        ]
+      },
+      "sable_fox": {
+        "canonical_name": "sable_fox",
+        "variants": [
+          "sable_fox"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.003"
+        ]
+      },
+      "larva_bioluminis": {
+        "canonical_name": "larva_bioluminis",
+        "variants": [
+          "larva_bioluminis"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.004"
+        ]
+      },
+      "luminescent_larvae": {
+        "canonical_name": "luminescent_larvae",
+        "variants": [
+          "luminescent_larvae"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.004"
+        ]
+      },
+      "field_researcher_chen": {
+        "canonical_name": "field_researcher_chen",
+        "variants": [
+          "field_researcher_chen"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.004"
+        ]
+      },
+      "vipera_insulae": {
+        "canonical_name": "vipera_insulae",
+        "variants": [
+          "vipera_insulae"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "island_serpent": {
+        "canonical_name": "island_serpent",
+        "variants": [
+          "island_serpent"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "medical_officer_reyes": {
+        "canonical_name": "medical_officer_reyes",
+        "variants": [
+          "medical_officer_reyes"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "ambulatores_aestus": {
+        "canonical_name": "ambulatores_aestus",
+        "variants": [
+          "ambulatores_aestus"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "tide_walker": {
+        "canonical_name": "tide_walker",
+        "variants": [
+          "tide_walker"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "coastal_survivor_logs": {
+        "canonical_name": "coastal_survivor_logs",
+        "variants": [
+          "coastal_survivor_logs"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "umbrascens_reptilia": {
+        "canonical_name": "umbrascens_reptilia",
+        "variants": [
+          "umbrascens_reptilia"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "void_crawler": {
+        "canonical_name": "void_crawler",
+        "variants": [
+          "void_crawler"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "survivor_journal_author": {
+        "canonical_name": "survivor_journal_author",
+        "variants": [
+          "survivor_journal_author"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "vocalis_vacua": {
+        "canonical_name": "vocalis_vacua",
+        "variants": [
+          "vocalis_vacua"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "hollow_choir": {
+        "canonical_name": "hollow_choir",
+        "variants": [
+          "hollow_choir"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "expedition_team_theta": {
+        "canonical_name": "expedition_team_theta",
+        "variants": [
+          "expedition_team_theta"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "archivist_kael": {
+        "canonical_name": "archivist_kael",
+        "variants": [
+          "archivist_kael"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "signal_drake": {
+        "canonical_name": "signal_drake",
+        "variants": [
+          "signal_drake"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "draco_telemetrica": {
+        "canonical_name": "draco_telemetrica",
+        "variants": [
+          "draco_telemetrica"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "ruin_scavengers": {
+        "canonical_name": "ruin_scavengers",
+        "variants": [
+          "ruin_scavengers"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "bioengineer_voss": {
+        "canonical_name": "bioengineer_voss",
+        "variants": [
+          "bioengineer_voss"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "apex_glimmer": {
+        "canonical_name": "apex_glimmer",
+        "variants": [
+          "apex_glimmer"
+        ],
+        "chunks": [
+          "LORE.SPEC.0001"
+        ]
+      },
+      "unknown_signal": {
+        "canonical_name": "unknown_signal",
+        "variants": [
+          "unknown_signal"
+        ],
+        "chunks": [
+          "LORE.TIME.CORR.0001"
+        ]
+      },
+      "": {
+        "canonical_name": "",
+        "variants": [
+          "???"
+        ],
+        "chunks": [
+          "LORE.TIME.CORR.0001"
+        ]
+      },
+      "fragment": {
+        "canonical_name": "fragment",
+        "variants": [
+          "fragment"
+        ],
+        "chunks": [
+          "LORE.TIME.CORR.0001"
+        ]
+      },
+      "sealed_specimens": {
+        "canonical_name": "sealed_specimens",
+        "variants": [
+          "sealed_specimens"
+        ],
+        "chunks": [
+          "LORE.LOC.0007"
+        ]
+      }
+    },
+    "locations": {
+      "degenora_island": {
+        "canonical_name": "degenora_island",
+        "variants": [
+          "degenora_island"
+        ],
+        "chunks": [
+          "SPECIMEN.001",
+          "INDEX.LORE.0001",
+          "ENTITY.BIG_FRUG.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.TOADDY.0001",
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "ENTITY.RAMIREZ.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.HIST.0002",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "ENTITY.TERMINAL_7B.0001",
+          "LORE.LOC.0005",
+          "LORE.SPEC.0001",
+          "LORE.SPEC.0003",
+          "LORE.SPEC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001",
+          "GLOSSARY.0001",
+          "LORE.LOCATIONS.INDEX.0001",
+          "LORE.LOC.0007",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "verdant_expanse": {
+        "canonical_name": "verdant_expanse",
+        "variants": [
+          "verdant_expanse"
+        ],
+        "chunks": [
+          "SPECIMEN.001"
+        ]
+      },
+      "the_swamp": {
+        "canonical_name": "the_swamp",
+        "variants": [
+          "the_swamp"
+        ],
+        "chunks": [
+          "SPECIMEN.001",
+          "LOC.DEGENORA.0001",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "terminal_7b": {
+        "canonical_name": "terminal_7b",
+        "variants": [
+          "terminal_7b"
+        ],
+        "chunks": [
+          "INDEX.LORE.0001",
+          "ENTITY.BIG_FRUG.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.FRUG.0001",
+          "CHAR.KERMIT.0001",
+          "CHAR.PONDWATCHER.0001",
+          "CHAR.SIGNAL.0001",
+          "CHAR.TOADDY.0001",
+          "ENTITY.THE_SIGNAL.0001",
+          "LORE.DROP.0001",
+          "LORE.DROP.0003",
+          "LORE.DROP.0004",
+          "LORE.DROP.0005",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "ENTITY.TERMINAL_7B.0001",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001",
+          "SYS.TERMINAL_7B.0001"
+        ]
+      },
+      "observation_house_04": {
+        "canonical_name": "observation_house_04",
+        "variants": [
+          "observation_house_04"
+        ],
+        "chunks": [
+          "ENTITY.BIG_FRUG.0001",
+          "CHAR.BIG_FRUG.0001",
+          "CHAR.DR_CHEN.0001",
+          "CHAR.QUEEN.0001",
+          "ENTITY.DR_CHEN.0001",
+          "ENTITY.BIG_FRUG.0001.HISTORICAL",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "LORE.REPT.0003",
+          "LORE.REPT.0004",
+          "LORE.REPT.0001",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.LOC.0002",
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0002",
+          "LORE.TIME.0004",
+          "LORE.TIME.0003"
+        ]
+      },
+      "main_facility": {
+        "canonical_name": "main_facility",
+        "variants": [
+          "main_facility"
+        ],
+        "chunks": [
+          "CHAR.DR_CHEN.0001",
+          "CHAR.RAMIREZ.0001",
+          "ENTITY.DR_CHEN.0001",
+          "CHAR.KERMIT.0001",
+          "LORE.HIST.0002",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.TIME.ERA.0001",
+          "LORE.TIME.0001",
+          "LORE.LOC.0007"
+        ]
+      },
+      "coastal_sector": {
+        "canonical_name": "coastal_sector",
+        "variants": [
+          "coastal_sector"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0006",
+          "LORE.LOC.0003",
+          "LORE.LOC.0005",
+          "SPECIMEN.DOSSIER.006",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "wetlands": {
+        "canonical_name": "wetlands",
+        "variants": [
+          "wetlands"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "LORE.LOC.0003",
+          "LORE.LOC.0005",
+          "SPECIMEN.DOSSIER.002",
+          "SPECIMEN.DOSSIER.004",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "sector_7": {
+        "canonical_name": "sector_7",
+        "variants": [
+          "sector_7"
+        ],
+        "chunks": [
+          "CHAR.QUEEN.0001",
+          "ENTITY.QUEEN_OF_SHADOWS.0001",
+          "ENTITY.RAMIREZ.0001",
+          "LORE.DROP.0002"
+        ]
+      },
+      "underground_labs": {
+        "canonical_name": "underground_labs",
+        "variants": [
+          "underground_labs"
+        ],
+        "chunks": [
+          "CHAR.RAMIREZ.0001",
+          "LORE.LOC.0003",
+          "LORE.LOC.0004",
+          "LORE.SPEC.0004",
+          "LORE.LOC.0007"
+        ]
+      },
+      "sector_zero": {
+        "canonical_name": "sector_zero",
+        "variants": [
+          "sector_zero"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001",
+          "ENTITY.TERMINAL_7B.0001"
+        ]
+      },
+      "the_void": {
+        "canonical_name": "the_void",
+        "variants": [
+          "the_void"
+        ],
+        "chunks": [
+          "CHAR.SIGNAL.0001"
+        ]
+      },
+      "forest_sector": {
+        "canonical_name": "forest_sector",
+        "variants": [
+          "forest_sector"
+        ],
+        "chunks": [
+          "ENTITY.QUEEN_OF_SHADOWS.0001"
+        ]
+      },
+      "unknown_origin": {
+        "canonical_name": "unknown_origin",
+        "variants": [
+          "unknown_origin"
+        ],
+        "chunks": [
+          "ENTITY.THE_SIGNAL.0001"
+        ]
+      },
+      "degenora": {
+        "canonical_name": "degenora",
+        "variants": [
+          "degenora"
+        ],
+        "chunks": [
+          "LORE.DROP.0001"
+        ]
+      },
+      "greenhouse_3": {
+        "canonical_name": "greenhouse_3",
+        "variants": [
+          "greenhouse_3"
+        ],
+        "chunks": [
+          "LORE.DROP.0002"
+        ]
+      },
+      "cafeteria_b": {
+        "canonical_name": "cafeteria_b",
+        "variants": [
+          "cafeteria_b"
+        ],
+        "chunks": [
+          "LORE.DROP.0004"
+        ]
+      },
+      "wetlands_sector": {
+        "canonical_name": "wetlands_sector",
+        "variants": [
+          "wetlands_sector"
+        ],
+        "chunks": [
+          "LORE.DROP.0005"
+        ]
+      },
+      "observation_perimeter_7": {
+        "canonical_name": "observation_perimeter_7",
+        "variants": [
+          "observation_perimeter_7"
+        ],
+        "chunks": [
+          "LORE.DROP.0005"
+        ]
+      },
+      "residential_zone": {
+        "canonical_name": "residential_zone",
+        "variants": [
+          "residential_zone"
+        ],
+        "chunks": [
+          "LORE.REPT.0002",
+          "LORE.LOC.0003",
+          "LORE.SPEC.0004"
+        ]
+      },
+      "eastern_shore": {
+        "canonical_name": "eastern_shore",
+        "variants": [
+          "eastern_shore"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "northern_cliffs": {
+        "canonical_name": "northern_cliffs",
+        "variants": [
+          "northern_cliffs"
+        ],
+        "chunks": [
+          "LORE.LOC.0006"
+        ]
+      },
+      "northern_sector": {
+        "canonical_name": "northern_sector",
+        "variants": [
+          "northern_sector"
+        ],
+        "chunks": [
+          "LORE.LOC.0003"
+        ]
+      },
+      "green_pond": {
+        "canonical_name": "green_pond",
+        "variants": [
+          "green_pond"
+        ],
+        "chunks": [
+          "LORE.LOC.0005",
+          "SPECIMEN.DOSSIER.002",
+          "SPECIMEN.DOSSIER.004",
+          "LORE.SPEC.0002"
+        ]
+      },
+      "zone_a1": {
+        "canonical_name": "zone_a1",
+        "variants": [
+          "zone_a1"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "zone_a2": {
+        "canonical_name": "zone_a2",
+        "variants": [
+          "zone_a2"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "zone_b2": {
+        "canonical_name": "zone_b2",
+        "variants": [
+          "zone_b2"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001",
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "signal_emitter_adjacent": {
+        "canonical_name": "signal_emitter_adjacent",
+        "variants": [
+          "signal_emitter_adjacent"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.001"
+        ]
+      },
+      "zone_a3": {
+        "canonical_name": "zone_a3",
+        "variants": [
+          "zone_a3"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.002",
+          "SPECIMEN.DOSSIER.004"
+        ]
+      },
+      "zone_b1": {
+        "canonical_name": "zone_b1",
+        "variants": [
+          "zone_b1"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.002"
+        ]
+      },
+      "forest": {
+        "canonical_name": "forest",
+        "variants": [
+          "forest"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.003",
+          "LORE.SPEC.0003"
+        ]
+      },
+      "zone_c2": {
+        "canonical_name": "zone_c2",
+        "variants": [
+          "zone_c2"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.003"
+        ]
+      },
+      "standing_water": {
+        "canonical_name": "standing_water",
+        "variants": [
+          "standing_water"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.004"
+        ]
+      },
+      "tall_grass_zones": {
+        "canonical_name": "tall_grass_zones",
+        "variants": [
+          "tall_grass_zones"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "zone_c1": {
+        "canonical_name": "zone_c1",
+        "variants": [
+          "zone_c1"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "agricultural_sector": {
+        "canonical_name": "agricultural_sector",
+        "variants": [
+          "agricultural_sector"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.005"
+        ]
+      },
+      "tidal_zones": {
+        "canonical_name": "tidal_zones",
+        "variants": [
+          "tidal_zones"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "zone_d1": {
+        "canonical_name": "zone_d1",
+        "variants": [
+          "zone_d1"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "zone_d2": {
+        "canonical_name": "zone_d2",
+        "variants": [
+          "zone_d2"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "beaches": {
+        "canonical_name": "beaches",
+        "variants": [
+          "beaches"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.006"
+        ]
+      },
+      "zone_b3": {
+        "canonical_name": "zone_b3",
+        "variants": [
+          "zone_b3"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "zone_b4": {
+        "canonical_name": "zone_b4",
+        "variants": [
+          "zone_b4"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "zone_c3": {
+        "canonical_name": "zone_c3",
+        "variants": [
+          "zone_c3"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "zone_c4": {
+        "canonical_name": "zone_c4",
+        "variants": [
+          "zone_c4"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "signal_borderlands": {
+        "canonical_name": "signal_borderlands",
+        "variants": [
+          "signal_borderlands"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.007"
+        ]
+      },
+      "zone_d4": {
+        "canonical_name": "zone_d4",
+        "variants": [
+          "zone_d4"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "grand_ruins": {
+        "canonical_name": "grand_ruins",
+        "variants": [
+          "grand_ruins"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "the_circle": {
+        "canonical_name": "the_circle",
+        "variants": [
+          "the_circle"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.028"
+        ]
+      },
+      "zone_b7": {
+        "canonical_name": "zone_b7",
+        "variants": [
+          "zone_b7"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "deep_ruins": {
+        "canonical_name": "deep_ruins",
+        "variants": [
+          "deep_ruins"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "old_comms_arrays": {
+        "canonical_name": "old_comms_arrays",
+        "variants": [
+          "old_comms_arrays"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "relay_station_4": {
+        "canonical_name": "relay_station_4",
+        "variants": [
+          "relay_station_4"
+        ],
+        "chunks": [
+          "SPECIMEN.DOSSIER.031"
+        ]
+      },
+      "signal_origin_unknown": {
+        "canonical_name": "signal_origin_unknown",
+        "variants": [
+          "signal_origin_unknown"
+        ],
+        "chunks": [
+          "LORE.TIME.CORR.0001"
+        ]
+      },
+      "the_rise": {
+        "canonical_name": "the_rise",
+        "variants": [
+          "the_rise"
+        ],
+        "chunks": [
+          "LOC.DEGENORA.0001"
+        ]
+      },
+      "the_shore": {
+        "canonical_name": "the_shore",
+        "variants": [
+          "the_shore"
+        ],
+        "chunks": [
+          "LOC.DEGENORA.0001"
+        ]
+      },
+      "the_depths": {
+        "canonical_name": "the_depths",
+        "variants": [
+          "the_depths"
+        ],
+        "chunks": [
+          "LOC.DEGENORA.0001"
+        ]
+      },
+      "signal_tower": {
+        "canonical_name": "signal_tower",
+        "variants": [
+          "signal_tower"
+        ],
+        "chunks": [
+          "LOC.DEGENORA.0001"
+        ]
+      },
+      "tank_chamber": {
+        "canonical_name": "tank_chamber",
+        "variants": [
+          "tank_chamber"
+        ],
+        "chunks": [
+          "LORE.LOC.0007"
+        ]
+      }
+    },
+    "dates": [
+      {
+        "type": "absolute",
+        "value": "2024-08",
+        "chunks": [
+          "SPECIMEN.001",
+          "LOC.DEGENORA.0001",
+          "ENTITY.FRUG.0001"
+        ]
+      }
+    ],
+    "rules": {
+      "naming_conventions": "lower_snake_case",
+      "required_fields": [
+        "id",
+        "kind",
+        "truth_level",
+        "confidence"
+      ],
+      "truth_hierarchy": [
+        "canon",
+        "record",
+        "rumor",
+        "corrupted",
+        "redacted"
+      ],
+      "confidence_levels": [
+        "known",
+        "inferred",
+        "uncertain"
+      ]
+    }
+  },
+  "summary": {
+    "temporal_conflicts": 1,
+    "entity_conflicts": 18,
+    "location_conflicts": 0,
+    "orphan_refs": 52,
+    "missing_metadata": 2,
+    "cross_ref_issues": 0,
+    "naming_inconsistencies": 1,
+    "timeline_gaps": 0
+  }
+}

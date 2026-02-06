@@ -1,0 +1,169 @@
+# Contradiction Scan Report
+
+**Generated:** 2026-02-06T11:25:58.460Z  
+**Total Chunks:** 92  
+**Entities:** 77  
+**Locations:** 58  
+
+## Summary
+
+| Category | Count |
+|----------|-------|
+| Temporal Conflicts | 1 |
+| Entity Conflicts | 18 |
+| Naming Inconsistencies | 1 |
+| Orphan References | 52 |
+| Missing Metadata | 2 |
+| **Total Resolutions Proposed** | **7** |
+
+---
+
+## [KERMIT // UNPROMPTED] Canon Integrity Analysis
+
+> *"The archive speaks, but sometimes it stutters. I've flagged 7 items for review."*
+
+### Priority Breakdown
+
+🔴 **1** critical contradictions require immediate attention
+🟡 **5** confidence/truth level mismatches to review
+🟢 **1** orphan references for profile creation
+
+## Temporal Conflicts
+
+- **2024-08** (absolute)
+  - Chunks: SPECIMEN.001, LOC.DEGENORA.0001, ENTITY.FRUG.0001
+  - Shared entities: big_frugowski, frug
+  - Same date reference with shared entities - potential narrative conflict
+
+## Entity Conflicts
+
+- **big_frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, rumor, canon
+
+- **big_frug** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
+- **frug** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, rumor
+
+- **terminal_7b** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **terminal_7b** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
+- **kermit** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, rumor, record
+
+- **kermit** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
+- **the_signal** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, rumor, record
+
+- **c47_compound** (canon_uncertain)
+  - Canon truth level but confidence is not "known"
+
+- **dr_chen** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **deep_dwellers** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **frugowski** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **queen_of_shadows** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **ramirez** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **observer** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **bog_hopper** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+- **unknown_founders** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: canon, record
+
+- **deep_dweller** (truth_level_mismatch)
+  - Same entity documented with different truth levels
+  - Truth levels: record, canon
+
+## Naming Inconsistencies
+
+> *These variants may refer to the same entity:*
+
+- **observer**: observer, observer_472
+  - Affected: LORE.DROP.0001, LORE.DROP.0003, LORE.DROP.0004, LORE.DROP.0005
+
+## Orphan References
+
+> *Entities mentioned only once (may need profiles):*
+
+- **origin_pill** → SPECIMEN.001
+- **chili_root** → SPECIMEN.001
+- **the_observer** → CHAR.FRUG.0001
+- **greenhouse_3** → LORE.DROP.0002
+- **specimen** → LORE.DROP.0002
+- **cafeteria_b** → LORE.DROP.0004
+- **observer_472** → LORE.DROP.0005
+- **wetlands_sector** → LORE.DROP.0005
+- **frog_coin** → LORE.HIST.0001
+- **frug_token** → LORE.HIST.0001
+- **flog** → LORE.HIST.0001
+- **airdrop** → LORE.HIST.0001
+- **tide_walkers** → LORE.LOC.0006
+- **bog_hoppers** → LORE.LOC.0005
+- **sludge_crawlers** → LORE.LOC.0005
+- *... and 37 more*
+
+## Missing Metadata
+
+- **README.md**: No frontmatter found
+- **chunks/SPECIMENS/dossier-015-crystal-memory.md**: No frontmatter found
+
+---
+
+## Proposed Resolutions
+
+*See `meta/reconciliation-patch.md` for detailed patch instructions.*
+
+### 🔴 High Priority
+
+- **Temporal conflict on 2024-08**
+  - Action: review_temporal_consistency
+  - [KERMIT // UNPROMPTED] Temporal anomaly detected: 2024-08 appears in multiple narratives with shared entities.
+
+### 🟡 Medium Priority
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+- **Canon chunk with uncertain confidence**
+  - [KERMIT // UNPROMPTED] Canon integrity check: CHAR.SIGNAL.0001 claims canon status without known confidence.
+
+*... and 2 more*
+
+---
+
+*Report generated by Canon Reconciler v2.0*  
+*Manual review required before applying patches*

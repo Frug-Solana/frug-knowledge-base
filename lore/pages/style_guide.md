@@ -12,7 +12,7 @@ last_reviewed: "2026-02-04"
 # Lore Style Guide
 
 > **Purpose:** Ensure consistency across all Degenora lore documents  
-> **Audience:** All lore contributors, writers, and AI agents  
+> **Audience:** All lore contributors and writers  
 > **Classification:** CANON — Follow strictly
 
 ---
@@ -269,7 +269,7 @@ Do not trust the ▓▓▓▓▓▓▓▓.
 
 | Date | Change | Author |
 |------|--------|--------|
-| 2026-02-04 | Initial style guide created | Lore Agent |
+| 2026-02-04 | Initial style guide created | FRUG Team |
 
 ---
 

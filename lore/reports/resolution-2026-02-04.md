@@ -1,7 +1,6 @@
 # Lore Reconciliation Resolution
 
 **Generated:** 2026-02-04T16:15:00+02:00  
-**Agent:** lore  
 **Report Basis:** contradictions-2026-02-04.md
 
 ---
@@ -121,5 +120,5 @@ Frontmatter is for lore chunks in `lore/chunks/` and canonical pages in `lore/pa
 
 ---
 
-*Resolution compiled by Lore Agent*  
+*Resolution compiled by Canon Reconciler*  
 *Canonical Status: Authoritative*

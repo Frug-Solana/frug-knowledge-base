@@ -23,6 +23,7 @@
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.REPT.0002",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.LOC.0002",
@@ -61,7 +62,7 @@
         "INDEX.CHARACTERS.0001",
         "CHAR.BIG_FRUG.0001",
         "CHAR.DR_CHEN.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
         "CHAR.PONDWATCHER.0001",
         "CHAR.QUEEN.0001",
@@ -69,8 +70,8 @@
         "CHAR.SIGNAL.0001",
         "CHAR.TOADDY.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
-        "ENTITY.KERMIT.0001",
-        "ENTITY.TERMINAL_7B.0001"
+        "ENTITY.TERMINAL_7B.0001",
+        "ENTITY.FRUG.0001"
       ]
     },
     "frug": {
@@ -82,14 +83,14 @@
         "ENTITY.BIG_FRUG.0001",
         "INDEX.CHARACTERS.0001",
         "CHAR.BIG_FRUG.0001",
-        "ENTITY.FRUG.0001",
-        "CHAR.KERMIT.0001",
         "CHAR.FRUG.0001",
+        "CHAR.KERMIT.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
         "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0002",
         "ENTITY.TERMINAL_7B.0001",
         "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -102,18 +103,18 @@
         "ENTITY.BIG_FRUG.0001",
         "CHAR.BIG_FRUG.0001",
         "CHAR.DR_CHEN.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
         "CHAR.PONDWATCHER.0001",
         "CHAR.SIGNAL.0001",
-        "CHAR.FRUG.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
-        "ENTITY.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
+        "LORE.HIST.0002",
         "ENTITY.TERMINAL_7B.0001",
         "TRANSMISSION.001",
-        "TRANSMISSION.002"
+        "TRANSMISSION.002",
+        "ENTITY.FRUG.0001"
       ]
     },
     "kermit": {
@@ -130,7 +131,6 @@
         "CHAR.SIGNAL.0001",
         "CHAR.TOADDY.0001",
         "CHAR.FRUG.0001",
-        "ENTITY.KERMIT.0001",
         "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
@@ -190,9 +190,10 @@
         "the_signal"
       ],
       "chunks": [
-        "ENTITY.FRUG.0001",
         "CHAR.FRUG.0001",
         "ENTITY.THE_SIGNAL.0001",
+        "LORE.DROP.0005",
+        "LORE.HIST.0002",
         "LORE.PROTOCOL.0001",
         "ORIGIN.SPEC.001",
         "TRANSMISSION.001",
@@ -247,6 +248,7 @@
         "ENTITY.DR_CHEN.0001",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.TIME.ERA.0001",
@@ -323,6 +325,7 @@
         "ENTITY.RAMIREZ.0001",
         "LORE.REPT.0004",
         "LORE.REPT.0002",
+        "LORE.HIST.0002",
         "LORE.LOC.0006",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
@@ -367,6 +370,35 @@
       ],
       "chunks": [
         "LORE.DROP.0004"
+      ]
+    },
+    "observer_472": {
+      "canonical_name": "observer_472",
+      "variants": [
+        "observer_472"
+      ],
+      "chunks": [
+        "LORE.DROP.0005"
+      ]
+    },
+    "wetlands_sector": {
+      "canonical_name": "wetlands_sector",
+      "variants": [
+        "wetlands_sector"
+      ],
+      "chunks": [
+        "LORE.DROP.0005"
+      ]
+    },
+    "bog_hopper": {
+      "canonical_name": "bog_hopper",
+      "variants": [
+        "bog_hopper"
+      ],
+      "chunks": [
+        "LORE.DROP.0005",
+        "ORIGIN.SPEC.001",
+        "SPECIMEN.DOSSIER.002"
       ]
     },
     "frog_coin": {
@@ -450,16 +482,6 @@
       ],
       "chunks": [
         "LORE.PROTOCOL.0001"
-      ]
-    },
-    "bog_hopper": {
-      "canonical_name": "bog_hopper",
-      "variants": [
-        "bog_hopper"
-      ],
-      "chunks": [
-        "ORIGIN.SPEC.001",
-        "SPECIMEN.DOSSIER.002"
       ]
     },
     "green_pond": {
@@ -819,16 +841,16 @@
         "ENTITY.BIG_FRUG.0001",
         "CHAR.BIG_FRUG.0001",
         "CHAR.DR_CHEN.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
         "CHAR.PONDWATCHER.0001",
         "CHAR.SIGNAL.0001",
         "CHAR.TOADDY.0001",
         "ENTITY.DR_CHEN.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
-        "ENTITY.KERMIT.0001",
         "ENTITY.RAMIREZ.0001",
         "ENTITY.THE_SIGNAL.0001",
+        "LORE.HIST.0002",
         "LORE.LOC.0006",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
@@ -840,6 +862,7 @@
         "LORE.TIME.ERA.0001",
         "LORE.TIME.0001",
         "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
         "GLOSSARY.0001",
         "LORE.LOCATIONS.INDEX.0001",
         "LORE.LOC.0007",
@@ -875,16 +898,16 @@
         "INDEX.LORE.0001",
         "ENTITY.BIG_FRUG.0001",
         "CHAR.BIG_FRUG.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
         "CHAR.PONDWATCHER.0001",
         "CHAR.SIGNAL.0001",
         "CHAR.TOADDY.0001",
-        "ENTITY.KERMIT.0001",
         "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
         "LORE.DROP.0004",
+        "LORE.DROP.0005",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "ENTITY.TERMINAL_7B.0001",
@@ -892,6 +915,7 @@
         "LORE.TIME.0002",
         "LORE.TIME.0004",
         "LOC.DEGENORA.0001",
+        "ENTITY.FRUG.0001",
         "SYS.TERMINAL_7B.0001"
       ]
     },
@@ -911,6 +935,7 @@
         "LORE.REPT.0003",
         "LORE.REPT.0004",
         "LORE.REPT.0001",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.LOC.0002",
@@ -931,7 +956,8 @@
         "CHAR.DR_CHEN.0001",
         "CHAR.RAMIREZ.0001",
         "ENTITY.DR_CHEN.0001",
-        "ENTITY.KERMIT.0001",
+        "CHAR.KERMIT.0001",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.TIME.ERA.0001",
@@ -1055,6 +1081,24 @@
       ],
       "chunks": [
         "LORE.DROP.0004"
+      ]
+    },
+    "wetlands_sector": {
+      "canonical_name": "wetlands_sector",
+      "variants": [
+        "wetlands_sector"
+      ],
+      "chunks": [
+        "LORE.DROP.0005"
+      ]
+    },
+    "observation_perimeter_7": {
+      "canonical_name": "observation_perimeter_7",
+      "variants": [
+        "observation_perimeter_7"
+      ],
+      "chunks": [
+        "LORE.DROP.0005"
       ]
     },
     "residential_zone": {

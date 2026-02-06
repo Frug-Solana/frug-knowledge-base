@@ -196,11 +196,11 @@ Downstream consumers should check `generated_at` to detect stale data.
 
 ---
 
-## Related Issues
+## Development Notes
 
-- #32 — This implementation (canon repo + sync pipeline)
-- #31 — Contradiction scanner (implemented via `npm run scan`)
-- #33 — Lore unlock system (consumes this canon index)
+- **Canon Repo + Sync Pipeline** — Core infrastructure for lore management
+- **Contradiction Scanner** — Implemented via `npm run scan`
+- **Lore Unlock System** — Consumes this canon index for progressive reveals
 
 ---
 

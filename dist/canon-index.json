@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-05T19:03:54.470Z",
-  "total_chunks": 89,
+  "generated_at": "2026-02-06T11:25:57.907Z",
+  "total_chunks": 96,
   "chunks": [
     {
       "id": "SPECIMEN.001",
@@ -49,7 +49,7 @@
         "navigation",
         "archive"
       ],
-      "last_reviewed": "2026-02-04",
+      "last_reviewed": "2026-02-05",
       "unlock": null,
       "visibility": "public",
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║     ██╗      ██████╗ ██████╗ ███████╗    ██╗███╗   ██╗██████╗ ███████╗██╗  ██╗    ║\n║     ██║     ██╔═══██╗██╔══██╗██╔════╝    ██║████╗  ██║██╔══██╗██╔════╝██║ ██╔╝    ║\n║     ██║     ██║   ██║██████╔╝█████╗      ██║██╔██╗ ██║██║  ██║█████╗  █████╔╝     ║\n║     ██║     ██║   ██║██╔══██╗██╔══╝      ██║██║╚██╗██║██║  ██║██╔══╝  ██╔═██╗     ║\n║"
@@ -172,7 +172,7 @@
       "content_preview": "# Dr. Elena Chen\n\n**Title:** SENIOR RESEARCHER • REVERSAL PROJECT LEAD  \n**Role:** Senior Field Researcher  \n**Status:** ⚪ Departed / Status Unknown  \n\n## Identity\n\nDr. Elena Chen was the senior-most researcher assigned to Degenora Island during the initial incident and the lead scientist of the **Reversal Project**—the ill-fated attempt to undo the transformation effects observed in specimens and personnel.\n\nShe recruited and mentored Big Frugowski during his first years on the island, traini"
     },
     {
-      "id": "ENTITY.FRUG.0001",
+      "id": "CHAR.FRUG.0001",
       "path": "characters/frug.md",
       "kind": "canon_chunk",
       "truth_level": "canon",
@@ -447,7 +447,7 @@
       "content_preview": "# ARCHIVE FRAGMENT 0003: Redacted Memo\n\n> _Document is visibly retyped. Original ink impressions missing._\n\n**TO:** Operations\n\n**SUBJECT:** \"Do not acknowledge the second prompt\"\n\n**BODY:**\n- █████████████████████████████\n- \"If it asks twice, end the session.\"\n- ███████████████████ \"…and do not log the reason.\"\n\n**STAMP:** VOID"
     },
     {
-      "id": "ENTITY.BIG_FRUG.0001",
+      "id": "CHAR.BIG_FRUG.0001",
       "path": "chunks/CHARACTERS/big-frugowski-profile.md",
       "kind": "canon_chunk",
       "truth_level": "canon",
@@ -561,7 +561,7 @@
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║    ██████╗ ███████╗██████╗ ███████╗ ██████╗ ███╗   ██╗ █████╗ ██╗    ║\n║    ██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗  ██║██╔══██╗██║    ║\n║    ██████╔╝█████╗  ██████╔╝███████╗██║   ██║██╔██╗ ██║███████║██║    ║\n║    ██╔══██╗██╔══╝  ██╔══██╗╚════██║██║   ██║██║╚██╗██║██╔══██║██║    ║\n║    ██║  ██║██║     ██║  ██║███████║╚██████╔╝██║ ╚████║"
     },
     {
-      "id": "ENTITY.KERMIT.0001",
+      "id": "CHAR.KERMIT.0001",
       "path": "chunks/CHARACTERS/kermit-system.md",
       "kind": "canon_chunk",
       "truth_level": "canon",
@@ -838,6 +838,128 @@
       "content_preview": "# CAFETERIA B // Weekly Menu\n\n**NOTICE:** All food is synthesized. All complaints are logged and ignored.\n\n---\n\n## MONDAY\n- Breakfast: Nutrient Paste (Standard)\n- Lunch: Nutrient Paste (Flavor: \"Approximate Chicken\")\n- Dinner: Surprise (!)\n\n## TUESDAY\n- Breakfast: Nutrient Paste (Flavor: \"Theoretical Beef\")\n- Lunch: Reconstituted Protein Shapes\n- Dinner: Emergency Rations (expired, but *vintage*)\n\n## WEDNESDAY\n- Breakfast: Nothing (intermittent fasting encouraged)\n- Lunch: Surprise (!)\n- Dinne"
     },
     {
+      "id": "LORE.DROP.0005",
+      "path": "chunks/DROPS/drop-0005-wetlands-anomaly.md",
+      "kind": "field_report",
+      "truth_level": "record",
+      "confidence": "inferred",
+      "status": "active",
+      "title": "FIELD LOG // Wetlands Perimeter Anomaly",
+      "entities": [
+        "observer_472",
+        "wetlands_sector",
+        "bog_hopper",
+        "the_signal"
+      ],
+      "locations": [
+        "wetlands_sector",
+        "observation_perimeter_7",
+        "terminal_7b"
+      ],
+      "tags": [
+        "field_report",
+        "wetlands",
+        "anomaly",
+        "the_signal",
+        "observation"
+      ],
+      "last_reviewed": "2026-02-05",
+      "unlock": {
+        "kind": "time",
+        "value": "2026-02-06T14:00:00Z"
+      },
+      "visibility": "time_gated",
+      "content_preview": "# FIELD LOG // Cycle 8473\n\n**Observer:** 472-Wetlands-Rotation  \n**Location:** Perimeter Station 7, Wetlands Sector  \n**Date:** Year 15, Day 284  \n**Time:** 0347 local (pre-dawn)  \n**Weather:** Fog density: 94%. Visibility: 12 meters.  \n\n---\n\n## INCIDENT SUMMARY\n\nRoutine perimeter sweep detected anomalous signal pattern at grid reference W-74-Q. Pattern does not match any catalogued specimen vocalization, machinery signature, or known atmospheric phenomenon.\n\n**Duration of event:** 4 minutes,"
+    },
+    {
+      "id": "DROP.006",
+      "path": "chunks/DROPS/drop-0006-void-silk.md",
+      "kind": "canon_chunk",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "drop-0006-void-silk",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "material",
+        "silk",
+        "void",
+        "crafting",
+        "stealth"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "## Acquisition Rates\n\n| Source | Drop Rate | Quantity |\n|--------|-----------|----------|\n| Void Crawler (adult kill) | 35% | 2-4 silk |\n| Void Crawler (nest harvest) | 100% | 5-10 silk |\n| Queen of Shadows (kill) | 20% | 3-6 silk |\n| Shadow Stalker (kill) | 25% | 2-4 silk |\n| Abandoned nest (loot) | 100% | 3-8 silk |\n\n## Market Data\n\n**PILLS Economy Value:**\n- Base Value: 35 PILLS\n- Crafting Demand: VERY HIGH (stealth gear essential)\n- Market Trend: Rising (PvP demand increasing)\n- Suggested"
+    },
+    {
+      "id": "DROP.007",
+      "path": "chunks/DROPS/drop-0007-hollow-echo.md",
+      "kind": "canon_chunk",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "drop-0007-hollow-echo",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "essence",
+        "legendary",
+        "hollow-choir",
+        "consumable",
+        "void"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "## Acquisition Rates\n\n| Source | Drop Rate | Quantity |\n|--------|-----------|----------|\n| Hollow Choir (manifestation end) | 8% | 1 echo |\n| Zone D4 anomaly event | 3% | 1 echo |\n| Resonance Cascade (critical failure) | 15% | 1 echo |\n| Quest: \"The Song Unheard\" | 100% | 1 echo |\n\n## Market Data\n\n**PILLS Economy Value:**\n- Base Value: 150 PILLS\n- Crafting Demand: EXTREME (endgame gear component)\n- Market Trend: Volatile (supply extremely limited)\n- Suggested Strategy: Hoard unless specific r"
+    },
+    {
+      "id": "DROP.008",
+      "path": "chunks/DROPS/drop-0008-fungus-spores.md",
+      "kind": "canon_chunk",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "drop-0008-fungus-spores",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "consumable",
+        "common",
+        "fungus",
+        "healing",
+        "buff"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "## Acquisition Rates\n\n| Source | Drop Rate | Quantity |\n|--------|-----------|----------|\n| Signal Fungus (harvest) | 100% | 3-8 clusters |\n| Wetlands foraging | 40% | 1-3 clusters |\n| Spore Cloud (survive) | 100% | 5-15 clusters |\n| Observation House 04 | 80% | 2-5 clusters |\n\n## Market Data\n\n**PILLS Economy Value:**\n- Base Value: 3 PILLS\n- Crafting Demand: MODERATE (low-tier recipes)\n- Market Trend: Stable (high supply, steady demand)\n- Suggested Strategy: Bulk sell or craft into higher-valu"
+    },
+    {
+      "id": "DROP.009",
+      "path": "chunks/DROPS/drop-0009-resonance-crystal.md",
+      "kind": "canon_chunk",
+      "truth_level": "unknown",
+      "confidence": "unknown",
+      "status": "active",
+      "title": "drop-0009-resonance-crystal",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "material",
+        "crystal",
+        "resonance",
+        "crafting",
+        "signal"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "## Acquisition Rates\n\n| Source | Drop Rate | Quantity |\n|--------|-----------|----------|\n| Crystal Memory Formation (harvest) | 100% | 2-5 shards |\n| Void Crawler (kill) | 15% | 1-2 shards |\n| Signal-Drake Hatchling (kill) | 25% | 1-3 shards |\n| Zone C2 Mining Nodes | 60% | 1-2 shards |\n| Zone D2 Mining Nodes | 80% | 2-4 shards |\n\n## Market Data\n\n**PILLS Economy Value:**\n- Base Value: 15 PILLS\n- Crafting Demand: HIGH (3 major recipes)\n- Market Trend: Stable\n- Suggested Hoard Threshold: 20+ fo"
+    },
+    {
       "id": "LORE.REPT.0003",
       "path": "chunks/FIELD_REPORTS/report-chen-final-visit.md",
       "kind": "canon_chunk",
@@ -946,6 +1068,38 @@
       "unlock": null,
       "visibility": "public",
       "content_preview": "```\n╔══════════════════════════════════════════════════════════════════════╗\n║                                                                      ║\n║   ███████╗██╗███████╗██╗     ██████╗    ██████╗ ███████╗██████╗     ║\n║   ██╔════╝██║██╔════╝██║     ██╔══██╗   ██╔══██╗██╔════╝██╔══██╗    ║\n║   █████╗  ██║█████╗  ██║     ██║  ██║   ██████╔╝█████╗  ██████╔╝    ║\n║   ██╔══╝  ██║██╔══╝  ██║     ██║  ██║   ██╔══██╗██╔══╝  ██╔══██╗    ║\n║   ██║     ██║██║     ███████╗██████╔╝   ██║  ██║███████╗██"
+    },
+    {
+      "id": "LORE.HIST.0002",
+      "path": "chunks/HISTORY/terminal-7b-establishment.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "terminal-7b-establishment",
+      "entities": [
+        "big_frugowski",
+        "terminal_7b",
+        "dr_chen",
+        "ramirez",
+        "the_signal"
+      ],
+      "locations": [
+        "degenora_island",
+        "main_facility",
+        "observation_house_04"
+      ],
+      "tags": [
+        "history",
+        "establishment",
+        "year-1",
+        "terminal-7b",
+        "infrastructure"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# The Establishment of Terminal 7-B\n\n**Date:** Year 1 (Post-Incident Reconstruction)  \n**Event:** Construction and activation of Terminal 7-B observation station  \n**Classification:** Infrastructure milestone  \n**Status:** Historical record - Verified\n\n## The Problem\n\nAfter Year 0's catastrophic Incident, Degenora Island faced an unprecedented challenge: **how to study a population that could no longer be approached safely.**\n\nThe 15,000+ transformed specimens—once colleagues, friends, employe"
     },
     {
       "id": "LORE.HIST.0001",
@@ -2055,7 +2209,28 @@
       "last_reviewed": null,
       "unlock": null,
       "visibility": "public",
-      "content_preview": "# TODO (lore encyclopedia)\n\n## ✅ Recently Completed\n- [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)\n- [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors\n\n## Priority (next)\n- [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_sector, underground_labs)\n  - [x] wetlands.md — Created with full location documentation\n  - [x] coast"
+      "content_preview": "# TODO (lore encyclopedia)\n\n## ✅ Recently Completed\n- [x] Section B: Timeline — Era scaffolding complete; truth levels applied (canon/record/corrupted)\n- [x] Section C: Locations — Created main-facility.md; updated locations index with 4 documented locations + 8 referenced sectors\n- [x] **Style Guide** — Created `lore/meta/style_guide.md` with complete documentation standards\n\n## Priority (next)\n- [x] Section C: Locations/Sectors — Create pages for undocumented sectors (wetlands, coastal_secto"
+    },
+    {
+      "id": "LORE.META.STYLE.0001",
+      "path": "meta/style_guide.md",
+      "kind": "canon_chunk",
+      "truth_level": "canon",
+      "confidence": "known",
+      "status": "active",
+      "title": "style_guide",
+      "entities": [],
+      "locations": [],
+      "tags": [
+        "meta",
+        "style-guide",
+        "documentation",
+        "standards"
+      ],
+      "last_reviewed": null,
+      "unlock": null,
+      "visibility": "public",
+      "content_preview": "# Lore Page Style Guide\n\n*How to write consistent, canonical lore pages for the Degenora universe.*\n\n---\n\n## 1. File Structure\n\n### Location\n```\nlore/\n├── chunks/\n│   ├── CHARACTERS/     # Character profiles\n│   ├── LOCATIONS/      # Locations, sectors, facilities\n│   ├── SPECIMENS/      # Specimen dossiers\n│   ├── EVENTS/         # Timeline events, incidents\n│   ├── FACTIONS/       # Groups, organizations\n│   └── ORIGINS/        # Origin stories, background\n└── meta/\n    ├── style-guide.md  #"
     },
     {
       "id": "LORE.ARCHIVE_FRAGMENTS.INDEX.0001",
@@ -2190,7 +2365,7 @@
       "last_reviewed": "2026-02-04",
       "unlock": null,
       "visibility": "public",
-      "content_preview": "# Lore Style Guide\n\n> **Purpose:** Ensure consistency across all Degenora lore documents  \n> **Audience:** All lore contributors, writers, and AI agents  \n> **Classification:** CANON — Follow strictly\n\n---\n\n## 🎯 Core Principles\n\n### 1. In-Universe Voice\nMost lore documents are written **from within the Degenora universe**, not as external game documentation.\n\n| Approach | Use When | Example |\n|----------|----------|---------|\n| **In-universe** | Default for lore chunks, transmissions, field r"
+      "content_preview": "# Lore Style Guide\n\n> **Purpose:** Ensure consistency across all Degenora lore documents  \n> **Audience:** All lore contributors and writers  \n> **Classification:** CANON — Follow strictly\n\n---\n\n## 🎯 Core Principles\n\n### 1. In-Universe Voice\nMost lore documents are written **from within the Degenora universe**, not as external game documentation.\n\n| Approach | Use When | Example |\n|----------|----------|---------|\n| **In-universe** | Default for lore chunks, transmissions, field reports | \"Th"
     },
     {
       "id": "LORE.SYSTEM.TERMINAL.0001",
@@ -2408,6 +2583,7 @@
       "LORE.REPT.0004",
       "LORE.REPT.0001",
       "LORE.REPT.0002",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.LOC.0002",
@@ -2434,16 +2610,16 @@
       "INDEX.CHARACTERS.0001",
       "CHAR.BIG_FRUG.0001",
       "CHAR.DR_CHEN.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
       "CHAR.PONDWATCHER.0001",
       "CHAR.QUEEN.0001",
       "CHAR.RAMIREZ.0001",
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
-      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "ENTITY.TERMINAL_7B.0001",
       "ENTITY.FRUG.0001"
     ],
@@ -2451,9 +2627,9 @@
       "ENTITY.BIG_FRUG.0001",
       "INDEX.CHARACTERS.0001",
       "CHAR.BIG_FRUG.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
-      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
       "CHAR.FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
       "ENTITY.THE_SIGNAL.0001",
@@ -2467,15 +2643,16 @@
       "ENTITY.BIG_FRUG.0001",
       "CHAR.BIG_FRUG.0001",
       "CHAR.DR_CHEN.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
       "CHAR.PONDWATCHER.0001",
       "CHAR.SIGNAL.0001",
       "CHAR.FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
+      "LORE.HIST.0002",
       "ENTITY.TERMINAL_7B.0001",
       "TRANSMISSION.001",
       "TRANSMISSION.002",
@@ -2490,7 +2667,7 @@
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
       "CHAR.FRUG.0001",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
@@ -2520,9 +2697,11 @@
       "CHAR.RAMIREZ.0001"
     ],
     "the_signal": [
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.FRUG.0001",
       "ENTITY.THE_SIGNAL.0001",
+      "LORE.DROP.0005",
+      "LORE.HIST.0002",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
       "TRANSMISSION.001",
@@ -2547,6 +2726,7 @@
       "ENTITY.DR_CHEN.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.TIME.ERA.0001",
@@ -2587,6 +2767,7 @@
       "ENTITY.RAMIREZ.0001",
       "LORE.REPT.0004",
       "LORE.REPT.0002",
+      "LORE.HIST.0002",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
@@ -2607,6 +2788,17 @@
     ],
     "cafeteria_b": [
       "LORE.DROP.0004"
+    ],
+    "observer_472": [
+      "LORE.DROP.0005"
+    ],
+    "wetlands_sector": [
+      "LORE.DROP.0005"
+    ],
+    "bog_hopper": [
+      "LORE.DROP.0005",
+      "ORIGIN.SPEC.001",
+      "SPECIMEN.DOSSIER.002"
     ],
     "frog_coin": [
       "LORE.HIST.0001"
@@ -2636,10 +2828,6 @@
     ],
     "absentee_protocol": [
       "LORE.PROTOCOL.0001"
-    ],
-    "bog_hopper": [
-      "ORIGIN.SPEC.001",
-      "SPECIMEN.DOSSIER.002"
     ],
     "green_pond": [
       "ORIGIN.SPEC.001",
@@ -2765,17 +2953,18 @@
       "ENTITY.BIG_FRUG.0001",
       "CHAR.BIG_FRUG.0001",
       "CHAR.DR_CHEN.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
       "CHAR.PONDWATCHER.0001",
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
-      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
       "ENTITY.DR_CHEN.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "ENTITY.RAMIREZ.0001",
       "ENTITY.THE_SIGNAL.0001",
+      "LORE.HIST.0002",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
@@ -2805,17 +2994,18 @@
       "INDEX.LORE.0001",
       "ENTITY.BIG_FRUG.0001",
       "CHAR.BIG_FRUG.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
       "CHAR.PONDWATCHER.0001",
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
-      "ENTITY.BIG_FRUG.0001",
-      "ENTITY.KERMIT.0001",
+      "CHAR.BIG_FRUG.0001",
+      "CHAR.KERMIT.0001",
       "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
       "LORE.DROP.0004",
+      "LORE.DROP.0005",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "ENTITY.TERMINAL_7B.0001",
@@ -2831,13 +3021,14 @@
       "CHAR.BIG_FRUG.0001",
       "CHAR.DR_CHEN.0001",
       "CHAR.QUEEN.0001",
-      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
       "ENTITY.DR_CHEN.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
       "ENTITY.QUEEN_OF_SHADOWS.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
       "LORE.REPT.0001",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.LOC.0002",
@@ -2852,7 +3043,8 @@
       "CHAR.DR_CHEN.0001",
       "CHAR.RAMIREZ.0001",
       "ENTITY.DR_CHEN.0001",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.TIME.ERA.0001",
@@ -2910,6 +3102,12 @@
     ],
     "cafeteria_b": [
       "LORE.DROP.0004"
+    ],
+    "wetlands_sector": [
+      "LORE.DROP.0005"
+    ],
+    "observation_perimeter_7": [
+      "LORE.DROP.0005"
     ],
     "residential_zone": [
       "LORE.REPT.0002",
@@ -3050,6 +3248,7 @@
         "LORE.REPT.0004",
         "LORE.REPT.0001",
         "LORE.REPT.0002",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.LOC.0002",
@@ -3081,9 +3280,9 @@
         "ENTITY.BIG_FRUG.0001",
         "INDEX.CHARACTERS.0001",
         "CHAR.BIG_FRUG.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
-        "ENTITY.BIG_FRUG.0001",
+        "CHAR.BIG_FRUG.0001",
         "CHAR.FRUG.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
         "ENTITY.THE_SIGNAL.0001",
@@ -3105,15 +3304,16 @@
         "ENTITY.BIG_FRUG.0001",
         "CHAR.BIG_FRUG.0001",
         "CHAR.DR_CHEN.0001",
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.KERMIT.0001",
         "CHAR.PONDWATCHER.0001",
         "CHAR.SIGNAL.0001",
         "CHAR.FRUG.0001",
         "ENTITY.BIG_FRUG.0001.HISTORICAL",
-        "ENTITY.KERMIT.0001",
+        "CHAR.KERMIT.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
+        "LORE.HIST.0002",
         "ENTITY.TERMINAL_7B.0001",
         "TRANSMISSION.001",
         "TRANSMISSION.002",
@@ -3136,7 +3336,7 @@
         "CHAR.SIGNAL.0001",
         "CHAR.TOADDY.0001",
         "CHAR.FRUG.0001",
-        "ENTITY.KERMIT.0001",
+        "CHAR.KERMIT.0001",
         "ENTITY.THE_SIGNAL.0001",
         "LORE.DROP.0001",
         "LORE.DROP.0003",
@@ -3158,9 +3358,11 @@
       "type": "entity_truth_conflict",
       "entity": "the_signal",
       "chunks": [
-        "ENTITY.FRUG.0001",
+        "CHAR.FRUG.0001",
         "CHAR.FRUG.0001",
         "ENTITY.THE_SIGNAL.0001",
+        "LORE.DROP.0005",
+        "LORE.HIST.0002",
         "LORE.PROTOCOL.0001",
         "ORIGIN.SPEC.001",
         "TRANSMISSION.001",
@@ -3180,6 +3382,7 @@
         "ENTITY.DR_CHEN.0001",
         "LORE.REPT.0003",
         "LORE.REPT.0004",
+        "LORE.HIST.0002",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
         "LORE.TIME.ERA.0001",
@@ -3246,6 +3449,7 @@
         "ENTITY.RAMIREZ.0001",
         "LORE.REPT.0004",
         "LORE.REPT.0002",
+        "LORE.HIST.0002",
         "LORE.LOC.0006",
         "LORE.LOC.0003",
         "LORE.LOC.0004",
@@ -3273,6 +3477,19 @@
     },
     {
       "type": "entity_truth_conflict",
+      "entity": "bog_hopper",
+      "chunks": [
+        "LORE.DROP.0005",
+        "ORIGIN.SPEC.001",
+        "SPECIMEN.DOSSIER.002"
+      ],
+      "truth_levels": [
+        "record",
+        "canon"
+      ]
+    },
+    {
+      "type": "entity_truth_conflict",
       "entity": "unknown_founders",
       "chunks": [
         "LORE.LOC.0004",
@@ -3282,18 +3499,6 @@
       "truth_levels": [
         "canon",
         "record"
-      ]
-    },
-    {
-      "type": "entity_truth_conflict",
-      "entity": "bog_hopper",
-      "chunks": [
-        "ORIGIN.SPEC.001",
-        "SPECIMEN.DOSSIER.002"
-      ],
-      "truth_levels": [
-        "record",
-        "canon"
       ]
     },
     {

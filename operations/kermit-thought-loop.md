@@ -85,7 +85,7 @@ OPENAI_API_KEY=
 
 ## Deployment
 
-Deployed to Supabase production. Cron job runs via OpenClaw scheduler.
+Deployed to Supabase production. Cron job runs every 30-60 minutes.
 
 ## Integration with Website
 

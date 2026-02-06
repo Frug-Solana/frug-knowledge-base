@@ -11,6 +11,7 @@
       "LORE.REPT.0004",
       "LORE.REPT.0001",
       "LORE.REPT.0002",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.LOC.0002",
@@ -42,9 +43,9 @@
       "ENTITY.BIG_FRUG.0001",
       "INDEX.CHARACTERS.0001",
       "CHAR.BIG_FRUG.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
-      "ENTITY.BIG_FRUG.0001",
+      "CHAR.BIG_FRUG.0001",
       "CHAR.FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
       "ENTITY.THE_SIGNAL.0001",
@@ -66,15 +67,16 @@
       "ENTITY.BIG_FRUG.0001",
       "CHAR.BIG_FRUG.0001",
       "CHAR.DR_CHEN.0001",
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.KERMIT.0001",
       "CHAR.PONDWATCHER.0001",
       "CHAR.SIGNAL.0001",
       "CHAR.FRUG.0001",
       "ENTITY.BIG_FRUG.0001.HISTORICAL",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
+      "LORE.HIST.0002",
       "ENTITY.TERMINAL_7B.0001",
       "TRANSMISSION.001",
       "TRANSMISSION.002",
@@ -97,7 +99,7 @@
       "CHAR.SIGNAL.0001",
       "CHAR.TOADDY.0001",
       "CHAR.FRUG.0001",
-      "ENTITY.KERMIT.0001",
+      "CHAR.KERMIT.0001",
       "ENTITY.THE_SIGNAL.0001",
       "LORE.DROP.0001",
       "LORE.DROP.0003",
@@ -119,9 +121,11 @@
     "type": "entity_truth_conflict",
     "entity": "the_signal",
     "chunks": [
-      "ENTITY.FRUG.0001",
+      "CHAR.FRUG.0001",
       "CHAR.FRUG.0001",
       "ENTITY.THE_SIGNAL.0001",
+      "LORE.DROP.0005",
+      "LORE.HIST.0002",
       "LORE.PROTOCOL.0001",
       "ORIGIN.SPEC.001",
       "TRANSMISSION.001",
@@ -141,6 +145,7 @@
       "ENTITY.DR_CHEN.0001",
       "LORE.REPT.0003",
       "LORE.REPT.0004",
+      "LORE.HIST.0002",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
       "LORE.TIME.ERA.0001",
@@ -207,6 +212,7 @@
       "ENTITY.RAMIREZ.0001",
       "LORE.REPT.0004",
       "LORE.REPT.0002",
+      "LORE.HIST.0002",
       "LORE.LOC.0006",
       "LORE.LOC.0003",
       "LORE.LOC.0004",
@@ -234,6 +240,19 @@
   },
   {
     "type": "entity_truth_conflict",
+    "entity": "bog_hopper",
+    "chunks": [
+      "LORE.DROP.0005",
+      "ORIGIN.SPEC.001",
+      "SPECIMEN.DOSSIER.002"
+    ],
+    "truth_levels": [
+      "record",
+      "canon"
+    ]
+  },
+  {
+    "type": "entity_truth_conflict",
     "entity": "unknown_founders",
     "chunks": [
       "LORE.LOC.0004",
@@ -243,18 +262,6 @@
     "truth_levels": [
       "canon",
       "record"
-    ]
-  },
-  {
-    "type": "entity_truth_conflict",
-    "entity": "bog_hopper",
-    "chunks": [
-      "ORIGIN.SPEC.001",
-      "SPECIMEN.DOSSIER.002"
-    ],
-    "truth_levels": [
-      "record",
-      "canon"
     ]
   },
   {
